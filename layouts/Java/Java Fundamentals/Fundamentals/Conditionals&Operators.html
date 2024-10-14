@@ -1,0 +1,855 @@
+<!doctype html>
+<html lang="en" data-bs-theme="light">
+
+<head>
+    <!-- <script src="/assets/js/color-modes.js"></script> -->
+
+    <meta charset="utf-8">
+    <link rel="icon" type="image/png" href="../../../../assets/icons/circle-logo.png">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.118.2">
+    <title>Digital-Academy</title>
+
+    <!-- Custom style -->
+    <link href="/assets/styles/sidebar.css" rel="stylesheet">
+    <link rel="stylesheet" href="/assets/styles/styles.css">
+    <link rel="stylesheet" href="/assets/styles/styles2.css">
+    <!-- bootstrap style -->
+
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous"> -->
+
+
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/prismjs@1.28.0/themes/prism.min.css"> -->
+
+
+
+    <!-- Include the Prism.js library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.25.0/themes/prism.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.25.0/prism.min.js"></script>
+
+    <!-- Include the Okaidia theme -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.25.0/themes/prism-okaidia.min.css">
+
+
+</head>
+
+<body class="single home " data-bs-spy="scroll" data-bs-target="#TableOfContents" data-bs-root-margin="0px 0px -60%"
+    data-bs-smooth-scroll="true" tabindex="0" cz-shortcut-listen="true">
+    <div class="sticky-top">
+        <header class="navbar navbar-expand-lg g-nav">
+            <div class="container-lg"><a class="navbar-brand me-auto me-lg-3" href="#"> <img
+                        src="/assets/icons/logo.png" alt="logo" style="width: 70px; height: 50px;">
+                </a>
+                <a id="home" href="/home.html">HOME</a>
+                <button class="btn btn-link d-lg-none" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasNavSection" aria-controls="offcanvasNavSection"
+                    aria-label="Open section navigation menu"><svg xmlns="http://www.w3.org/2000/svg"
+                        class="icon icon-tabler icon-tabler-dots-vertical" width="24" height="24" viewBox="0 0 24 24"
+                        stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                        <path d="M12 12m-1 0a1 1 0 102 0 1 1 0 10-2 0"></path>
+                        <path d="M12 19m-1 0a1 1 0 102 0 1 1 0 10-2 0"></path>
+                        <path d="M12 5m-1 0a1 1 0 102 0 1 1 0 10-2 0"></path>
+                    </svg></button>
+                <div class="offcanvas offcanvas-start d-lg-none" tabindex="-1" id="offcanvasNavSection"
+                    aria-labelledby="offcanvasNavSectionLabel">
+                    <div class="offcanvas-header">
+                        <img src="/assets/icons/logo.png" alt="logo" style="width: 70px; height: 50px;">
+                        <button type="button" class="btn btn-link nav-link p-0" data-bs-dismiss="offcanvas"
+                            aria-label="Close"><svg xmlns="http://www.w3.org/2000/svg"
+                                class="icon icon-tabler icon-tabler-x" width="24" height="24" viewBox="0 0 24 24"
+                                stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round"
+                                stroke-linejoin="round">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                <path d="M18 6 6 18"></path>
+                                <path d="M6 6l12 12"></path>
+                            </svg></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <aside class="doks-sidebar mt-n3">
+                            <nav id="doks-docs-nav" aria-label="Tertiary navigation">
+                                <div class="module pb-2 pt-4">
+                                    <h2 class="mod-title">Java</h2>
+                                    <div class="module pb-2">
+                                        <a href="#" class="previous"></a>
+                                        <img src="/assets/icons/html.png" alt="" class="chapter-icon" />
+                                        <span class="mod-title">Java Fundamentals</span>
+                                        <a href="../../../Java/Java OOP/Java OOP/Overview.html" class="next p-0">&#8250;</a>
+                                    </div>
+                                </div>
+                                <ul class="list-unstyled collapsible-sidebar ">
+                                    <li class="mb-1  ">
+                                        <button id="sidebtn"
+                                            class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed"
+                                            data-bs-toggle="collapse" data-bs-target="#Setup-collapse"
+                                            aria-expanded="false">
+                                            Setup
+                                        </button>
+                                        <div class="collapse" id="Setup-collapse">
+                                            <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                                                <li><a href="../Setup/CourseOverview.html" class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />Course Overview</a>
+                                                </li>
+                                                <li><a href="../Setup/JDKInstallation.html" class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />JDK Installation</a>
+                                                </li>
+
+                                                <li><a href="../Setup/JavaVersioning.html" class="docs-link rounded">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />Java Versioning</a>
+                                                </li>
+                                                <li><a href="../Setup/JavaStudyStrategies.html"
+                                                        class="docs-link rounded">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />Java Study Strategies</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li class="mb-1">
+                                        <button id="sidebtn"
+                                            class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed"
+                                            data-bs-toggle="collapse" data-bs-target="#Fundamentals-collapse"
+                                            aria-expanded="true">
+                                            Fundamentals
+                                        </button>
+                                        <div class="collapse show" id="Fundamentals-collapse">
+                                            <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                                                <li><a href="../Fundamentals/WhyJava.html" class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />Why Java</a>
+                                                </li>
+
+                                                <li><a href="../Fundamentals/HowDoesJavaWork.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />How Does Java Work?</a>
+                                                </li>
+                                                <li><a href="../Fundamentals/HelloWorld.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />Hello World</a>
+                                                </li>
+                                                <li><a href="../Fundamentals/JavaFirstStepsReview.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/quiz.png" alt=""
+                                                            class="module-icon" />Java First Steps Review</a>
+                                                </li>
+                                                <li><a href="../Fundamentals/FirstJavaprogram.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/practice.png" alt=""
+                                                            class="module-icon" />First Java program</a>
+                                                </li>
+                                                <li><a href="../Fundamentals/Variables.html"
+                                                        class="docs-link rounded  ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />Variables</a>
+                                                </li>
+                                                <li><a href="../Fundamentals/ToolTip.html" class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />Tool Tip: Playgrounds</a>
+                                                </li>
+                                                <li><a href="../Fundamentals/Conditionals&Operators.html"
+                                                        class="docs-link rounded active">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />Conditionals &
+                                                        Operators</a>
+                                                </li>
+                                                <li><a href="../Fundamentals/SwitchStatements.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />Switch Statements and
+                                                        Ternary
+                                                        Operators</a>
+                                                </li>
+                                                <li><a href="../Fundamentals/LanguageBasicsReview.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/quiz.png" alt=""
+                                                            class="module-icon" />Language Basics Review</a>
+                                                </li>
+
+                                                <li><a href="../Fundamentals/CafeJava.html" class="docs-link rounded ">
+                                                        <img src="/assets/icons/practice.png" alt=""
+                                                            class="module-icon" />Cafe Java</a>
+                                                </li>
+                                                <li><a href="../Fundamentals/Strings.html" class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />Strings</a>
+                                                </li>
+                                                <li><a href="../Fundamentals/Methods.html" class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />Methods</a>
+                                                </li>
+                                                <li><a href="../Fundamentals/Modularization.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />Modularization</a>
+                                                </li>
+                                                <li><a href="../Fundamentals/MethodsReview.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/quiz.png" alt=""
+                                                            class="module-icon" />Methods Review</a>
+                                                </li>
+                                                <li><a href="../Fundamentals/AlfredBot.html" class="docs-link rounded ">
+                                                        <img src="/assets/icons/practice.png" alt=""
+                                                            class="module-icon" />Alfred Bot</a>
+                                                </li>
+                                                <li><a href="../Fundamentals/TypeCasting.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />Type Casting</a>
+                                                </li>
+                                                <li><a href="../Fundamentals/FixedArrays.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />Fixed Arrays</a>
+                                                </li>
+                                                <li><a href="../Fundamentals/ArrayLists.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />ArrayLists (Dynamic
+                                                        Arrays)</a>
+                                                </li>
+                                                <li><a href="../Fundamentals/Loops.html" class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />Loops</a>
+                                                </li>
+
+
+                                                <li><a href="../Fundamentals/Arrays&LoopsReview.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/quiz.png" alt=""
+                                                            class="module-icon" />Arrays & Loops Review</a>
+                                                </li>
+                                                <li><a href="../Fundamentals/CafeBusinessLogic.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/core.png" alt=""
+                                                            class="module-icon" />Cafe Business Logic</a>
+                                                </li>
+                                                <li><a href="../Fundamentals/Puzzling.html" class="docs-link rounded ">
+                                                        <img src="/assets/icons/practice.png" alt=""
+                                                            class="module-icon" />Puzzling</a>
+                                                </li>
+                                                <li><a href="../Fundamentals/Maps.html" class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />Maps</a>
+                                                </li>
+                                                <li><a href="../Fundamentals/MapHashmatique.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/practice.png" alt=""
+                                                            class="module-icon" />Map of the
+                                                        Hashmatique</a>
+                                                </li>
+                                                <li><a href="../Fundamentals/Exceptions.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />Exceptions</a>
+                                                </li>
+                                                <li><a href="../Fundamentals/ListsExceptions.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/option.png" alt=""
+                                                            class="module-icon" />Lists of Exceptions</a>
+                                                </li>
+                                                <li><a href="../Fundamentals/DebugginginJava.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />Debugging in Java</a>
+                                                </li>
+                                                <li><a href="../Fundamentals/NumbersGame.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/option.png" alt=""
+                                                            class="module-icon" />Numbers Game</a>
+                                                </li>
+
+                                            </ul>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </aside>
+                    </div>
+                </div><button class="btn btn-link nav-link mx-2 order-3 d-lg-none" type="button"
+                    data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavMain" aria-controls="offcanvasNavMain"
+                    aria-label="Open main navigation menu"><svg xmlns="http://www.w3.org/2000/svg"
+                        class="icon icon-tabler icon-tabler-menu" width="24" height="24" viewBox="0 0 24 24"
+                        stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                        <line x1="4" y1="8" x2="20" y2="8"></line>
+                        <line x1="4" y1="16" x2="20" y2="16"></line>
+                    </svg></button>
+                <div class="offcanvas offcanvas-end h-auto" tabindex="-1" id="offcanvasNavMain"
+                    aria-labelledby="offcanvasNavMainLabel">
+                    <div class="offcanvas-header">
+                        <img src="/assets/icons/logo.png" alt="logo" style="width: 70px; height: 50px;">
+                        <button type="button" class="btn btn-link nav-link p-0" data-bs-dismiss="offcanvas"
+                            aria-label="Close"><svg xmlns="http://www.w3.org/2000/svg"
+                                class="icon icon-tabler icon-tabler-x" width="24" height="24" viewBox="0 0 24 24"
+                                stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round"
+                                stroke-linejoin="round">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                <path d="M18 6 6 18"></path>
+                                <path d="M6 6l12 12"></path>
+                            </svg></button>
+                    </div>
+                    <div class="offcanvas-body d-flex flex-column flex-lg-row justify-content-between">
+                        <!-- <ul class="navbar-nav flex-grow-1">
+              <li class="nav-item"><a class="nav-link active" href="index.html" aria-current="true">Docs</a></li>
+              <li class="nav-item"><a class="nav-link" href="/blog/">Blog</a></li>
+            </ul> -->
+
+                        <!-- this section is for the search bar and results -->
+                        <form class="navbar-form my-auto flex-grow-1 ">
+                            <input id="searchInput" class="form-control is-search ms-auto me-5" type="search"
+                                placeholder="Search ." aria-label="Search docs." autocomplete="off">
+                            <div id="suggestions" class="shadow rounded position-absolute d-none">
+                                <ul id="searchResults" class="list-unstyled m-auto"></ul>
+                            </div>
+                        </form>
+
+
+                        <button id="buttonColorMode" class="btn btn-link mx-auto nav-link p-0 ms-lg-2 me-lg-1"
+                            type="button" aria-label="Toggle theme"><svg data-bs-theme-value="dark"
+                                xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-moon" width="24"
+                                height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentcolor" fill="none"
+                                stroke-linecap="round" stroke-linejoin="round">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                <path d="M12 3c.132.0.263.0.393.0a7.5 7.5.0 007.92 12.446A9 9 0 1112 2.992z"></path>
+                            </svg><svg data-bs-theme-value="light" xmlns="http://www.w3.org/2000/svg"
+                                class="icon icon-tabler icon-tabler-sun" width="24" height="24" viewBox="0 0 24 24"
+                                stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round"
+                                stroke-linejoin="round">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                <path
+                                    d="M12 12m-4 0a4 4 0 108 0 4 4 0 10-8 0m-5 0h1m8-9v1m8 8h1m-9 8v1M5.6 5.6l.7.7m12.1-.7-.7.7m0 11.4.7.7m-12.1-.7-.7.7">
+                                </path>
+                            </svg></button>
+                        <ul id="socialMenu" class="nav mx-auto flex-row order-lg-4">
+
+
+                            <li class="nav-item"><a class="nav-link social-link"
+                                    href="https://github.com/DigitalAcademyTn"><svg xmlns="http://www.w3.org/2000/svg"
+                                        class="icon icon-tabler icon-tabler-brand-github" width="24" height="24"
+                                        viewBox="0 0 24 24" stroke-width="2" stroke="currentcolor" fill="none"
+                                        stroke-linecap="round" stroke-linejoin="round">
+                                        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                        <path
+                                            d="M9 19c-4.3 1.4-4.3-2.5-6-3m12 5v-3.5c0-1 .1-1.4-.5-2 2.8-.3 5.5-1.4 5.5-6a4.6 4.6.0 00-1.3-3.2 4.2 4.2.0 00-.1-3.2s-1.1-.3-3.5 1.3a12.3 12.3.0 00-6.2.0C6.5 2.8 5.4 3.1 5.4 3.1a4.2 4.2.0 00-.1 3.2A4.6 4.6.0 004 9.5c0 4.6 2.7 5.7 5.5 6-.6.6-.6 1.2-.5 2V21">
+                                        </path>
+                                                  </svg><small class="ms-2 visually-hidden">GitHub</small></a></li>
+                  <a id="upgrade" href="../../../upgrade.html">UPGRADE</a>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </header>
+    </div>
+
+
+
+
+    <div class="wrap container-fluid " role="document">
+        <div class="content">
+            <div class="row  d-flex justify-content-center">
+                <div class=" docs-sidebar d-none d-lg-block   ">
+                    <main class="">
+                        <div class="flex-shrink-0 pt-4 ">
+
+                            <div class="module pb-2">
+                                <h2 class="mod-title">Java</h2>
+                            </div>
+                            <div class="module pb-2">
+                                <a href="#" class="previous"></a>
+                                <img src="/assets/icons/html.png" alt="" class="chapter-icon" />
+                                <span class="mod-title">Java Fundamentals</span>
+                                <a href="../../../Java/Java OOP/Java OOP/Overview.html" class="next p-0">&#8250;</a>
+                            </div>
+
+
+
+
+
+                            <ul class=" list-unstyled px-3 overflow-scroll">
+                                <li class="mb-1  ">
+                                    <button id="sidebtn"
+                                        class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed"
+                                        data-bs-toggle="collapse" data-bs-target="#Setup-collapse"
+                                        aria-expanded="false">
+                                        Setup
+                                    </button>
+                                    <div class="collapse" id="Setup-collapse">
+                                        <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                                            <li><a href="../Setup/CourseOverview.html" class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />Course Overview</a>
+                                            </li>
+                                            <li><a href="../Setup/JDKInstallation.html" class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt="" class="module-icon" />JDK
+                                                    Installation</a>
+                                            </li>
+
+                                            <li><a href="../Setup/JavaVersioning.html" class="docs-link rounded">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />Java Versioning</a>
+                                            </li>
+                                            <li><a href="../Setup/JavaStudyStrategies.html" class="docs-link rounded">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />Java Study Strategies</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li class="mb-1">
+                                    <button id="sidebtn"
+                                        class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed"
+                                        data-bs-toggle="collapse" data-bs-target="#Fundamentals-collapse"
+                                        aria-expanded="true">
+                                        Fundamentals
+                                    </button>
+                                    <div class="collapse show" id="Fundamentals-collapse">
+                                        <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                                            <li><a href="../Fundamentals/WhyJava.html" class="docs-link rounded  ">
+                                                    <img src="/assets/icons/module.png" alt="" class="module-icon" />Why
+                                                    Java</a>
+                                            </li>
+
+                                            <li><a href="../Fundamentals/HowDoesJavaWork.html"
+                                                    class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt="" class="module-icon" />How
+                                                    Does Java Work?</a>
+                                            </li>
+                                            <li><a href="../Fundamentals/HelloWorld.html" class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />Hello World</a>
+                                            </li>
+                                            <li><a href="../Fundamentals/JavaFirstStepsReview.html"
+                                                    class="docs-link rounded ">
+                                                    <img src="/assets/icons/quiz.png" alt="" class="module-icon" />Java
+                                                    First Steps Review</a>
+                                            </li>
+                                            <li><a href="../Fundamentals/FirstJavaprogram.html"
+                                                    class="docs-link rounded ">
+                                                    <img src="/assets/icons/practice.png" alt=""
+                                                        class="module-icon" />First Java program</a>
+                                            </li>
+                                            <li><a href="../Fundamentals/Variables.html" class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />Variables</a>
+                                            </li>
+                                            <li><a href="../Fundamentals/ToolTip.html" class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />Tool Tip: Playgrounds</a>
+                                            </li>
+                                            <li><a href="../Fundamentals/Conditionals&Operators.html"
+                                                    class="docs-link rounded active">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />Conditionals & Operators</a>
+                                            </li>
+                                            <li><a href="../Fundamentals/SwitchStatements.html"
+                                                    class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />Switch Statements and Ternary
+                                                    Operators</a>
+                                            </li>
+                                            <li><a href="../Fundamentals/LanguageBasicsReview.html"
+                                                    class="docs-link rounded ">
+                                                    <img src="/assets/icons/quiz.png" alt=""
+                                                        class="module-icon" />Language Basics Review</a>
+                                            </li>
+
+                                            <li><a href="../Fundamentals/CafeJava.html" class="docs-link rounded ">
+                                                    <img src="/assets/icons/practice.png" alt=""
+                                                        class="module-icon" />Cafe Java</a>
+                                            </li>
+                                            <li><a href="../Fundamentals/Strings.html" class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />Strings</a>
+                                            </li>
+                                            <li><a href="../Fundamentals/Methods.html" class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />Methods</a>
+                                            </li>
+                                            <li><a href="../Fundamentals/Modularization.html"
+                                                    class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />Modularization</a>
+                                            </li>
+                                            <li><a href="../Fundamentals/MethodsReview.html" class="docs-link rounded ">
+                                                    <img src="/assets/icons/quiz.png" alt=""
+                                                        class="module-icon" />Methods Review</a>
+                                            </li>
+                                            <li><a href="../Fundamentals/AlfredBot.html" class="docs-link rounded ">
+                                                    <img src="/assets/icons/practice.png" alt=""
+                                                        class="module-icon" />Alfred Bot</a>
+                                            </li>
+                                            <li><a href="../Fundamentals/TypeCasting.html" class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />Type Casting</a>
+                                            </li>
+                                            <li><a href="../Fundamentals/FixedArrays.html" class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />Fixed Arrays</a>
+                                            </li>
+                                            <li><a href="../Fundamentals/ArrayLists.html" class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />ArrayLists (Dynamic
+                                                    Arrays)</a>
+                                            </li>
+                                            <li><a href="../Fundamentals/Loops.html" class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />Loops</a>
+                                            </li>
+
+
+                                            <li><a href="../Fundamentals/Arrays&LoopsReview.html"
+                                                    class="docs-link rounded ">
+                                                    <img src="/assets/icons/quiz.png" alt=""
+                                                        class="module-icon" />Arrays & Loops Review</a>
+                                            </li>
+                                            <li><a href="../Fundamentals/CafeBusinessLogic.html"
+                                                    class="docs-link rounded ">
+                                                    <img src="/assets/icons/core.png" alt="" class="module-icon" />Cafe
+                                                    Business Logic</a>
+                                            </li>
+                                            <li><a href="../Fundamentals/Puzzling.html" class="docs-link rounded ">
+                                                    <img src="/assets/icons/practice.png" alt=""
+                                                        class="module-icon" />Puzzling</a>
+                                            </li>
+                                            <li><a href="../Fundamentals/Maps.html" class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />Maps</a>
+                                            </li>
+                                            <li><a href="../Fundamentals/MapHashmatique.html"
+                                                    class="docs-link rounded ">
+                                                    <img src="/assets/icons/practice.png" alt=""
+                                                        class="module-icon" />Map of the Hashmatique</a>
+                                            </li>
+                                            <li><a href="../Fundamentals/Exceptions.html" class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />Exceptions</a>
+                                            </li>
+                                            <li><a href="../Fundamentals/ListsExceptions.html"
+                                                    class="docs-link rounded ">
+                                                    <img src="/assets/icons/option.png" alt=""
+                                                        class="module-icon" />Lists of Exceptions</a>
+                                            </li>
+                                            <li><a href="../Fundamentals/DebugginginJava.html"
+                                                    class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />Debugging in Java</a>
+                                            </li>
+                                            <li><a href="../Fundamentals/NumbersGame.html" class="docs-link rounded ">
+                                                    <img src="/assets/icons/option.png" alt=""
+                                                        class="module-icon" />Numbers Game</a>
+                                            </li>
+
+                                        </ul>
+                                    </div>
+                                </li>
+
+                            </ul>
+                        </div>
+
+                    </main>
+
+                </div>
+                <div class="docs-content col-lg-11 col-xl-9 " id="lesson_content">
+
+                    <main data-bs-spy="scroll" data-bs-target="#TableOfContents" data-bs-offset="0" tabindex="0"
+                        id="lesson_content">
+                        <div id="lesson_content">
+                            <h1 class="centered">Conditionals &amp; Operators</h1>
+                            <h3><img src="/assets/icons/General visual.png"
+                                    style="width: 80px; height: 80px;" width="80" height="80" alt="''"
+                                    title="''">Learning Objective:</h3>
+                            <ul>
+                                <li>Learn control flow in Java</li>
+                            </ul>
+                            <hr>
+                            <p>Java uses conditionals like if-else statements and switch statements in conjunction with
+                                comparison operators and logical operators to control the flow of the program, in the
+                                same way all formal programming languages like JavaScript or Python do.</p>
+                            <h2>If Statements</h2>
+                            <p>What if we have some code that we only want to execute under certain conditions? In
+                                computer programming, this is called a <em><strong>conditional statement</strong></em>.
+                                The syntax in Java looks like this:</p>
+                                <div class="highlight">
+                                    <div class="clipboard"><button class="btn btn-clipboard"
+                                            aria-label="Clipboard button"></button></div>
+<pre
+    data-language="java"><span class="keyword">if</span> (condition) {
+    <span class="comment">// what to do if condition is true</span>
+}
+<span class="comment">// continue with program</span></pre>
+                                </div>
+                                <div class="highlight">
+                                    <div class="clipboard"><button class="btn btn-clipboard"
+                                            aria-label="Clipboard button"></button></div>
+<pre data-language="java"><span class="keyword">boolean</span> isRaining <span class="operator">=</span> <span class="constant">true</span>;
+    
+<span class="entity function">if</span>(isRaining) {
+    <span class="entity class">System</span>.out.<span class="entity function">println</span>(<span class="string">"Bring an umbrella."</span>);
+}</pre>
+                                </div>
+                            <h3>If-Else Chains</h3>
+                            <div>Likewise, we can chain multiple conditions in an if-else chain:
+                                <div class="highlight">
+                                    <div class="clipboard"><button class="btn btn-clipboard"
+                                            aria-label="Clipboard button"></button></div>
+    <pre
+        data-language="java"><span class="entity function">if</span>(condition) {
+    <span class="comment">// what to do if condition is true</span>
+}
+<span class="keyword">else</span> <span class="entity function">if</span>(2nd condition) {        
+    <span class="comment">// what to do if 2nd condition is true</span>
+}
+<span class="comment">// ... can have 0 to many else-if statements ...</span>
+<span class="keyword">else</span> {                           
+    <span class="comment">// what to do if none of the previous conditions are met</span>
+} <span class="comment">// can have 1 or no else statement</span></pre>
+                                </div>
+                                <h4>If / Else Statements</h4>
+                                <div class="highlight">
+                                    <div class="clipboard"><button class="btn btn-clipboard"
+                                            aria-label="Clipboard button"></button></div>
+    <pre data-language="java"><span class="keyword">boolean</span> isRaining <span class="operator">=</span> <span class="constant">true</span>;
+    
+<span class="entity function">if</span>(isRaining) {
+    <span class="entity class">System</span>.out.<span class="entity function">println</span>(<span class="string">"Bring an umbrella."</span>);
+}
+<span class="keyword">else</span> {
+    <span class="entity class">System</span>.out.<span class="entity function">println</span>(<span class="string">"Have fun!"</span>);
+}
+</pre>
+                                </div>
+                                <h4>If /Else If / Else Statements</h4>
+                                <div class="highlight">
+                                    <div class="clipboard"><button class="btn btn-clipboard"
+                                            aria-label="Clipboard button"></button></div>
+    <pre data-language="java"><span class="keyword">boolean</span> isRaining <span class="operator">=</span> <span class="constant">true</span>;
+<span class="keyword">boolean</span> isCold <span class="operator">=</span> <span class="constant">true</span>;
+    
+<span class="entity function">if</span>(isRaining) {
+    <span class="entity class">System</span>.out.<span class="entity function">println</span>(<span class="string">"Bring an umbrella."</span>);
+}
+<span class="keyword">else</span> <span class="entity function">if</span>(isCold) {
+    <span class="entity class">System</span>.out.<span class="entity function">println</span>(<span class="string">"Wear a coat."</span>);
+}
+<span class="keyword">else</span> {
+    <span class="entity class">System</span>.out.<span class="entity function">println</span>(<span class="string">"Have fun!"</span>);
+}</pre>
+                                </div>
+                                <h3>A few things to remember:</h3>
+                                <ul>
+                                    <li>A condition must always evaluate to a <code>boolean</code> value,
+                                        <code>true</code> or <code>false</code> </li>
+                                    <li>If the condition is true, it will execute the block of code between the curly
+                                        braces <code>{ ... }</code> , then skip any other <code>else if</code> or
+                                        <code>else</code> statements in that chain and keep going.</li>
+                                    <li>If the condition is false, it will skip that block of code <code>{ ... }</code>
+                                        but continue to the code immediately following that block which may be another
+                                        <code>else if</code> or <code>else</code> statement.</li>
+                                </ul>
+                                <h2>Assignment Operator vs Comparison Operators</h2>
+                                <p>As a programmer, you will often mistakenly type a <code>=</code> where you meant to
+                                    type a <code>==</code> , but don't feel bad, seasoned developers do this from time
+                                    to time, they just get faster and faster at catching it when things break. Let's
+                                    review the assignment operator, <code>=</code> or what you might call the
+                                    <code>SET AS</code> operator vs. all the comparison operators.</p>
+                                <table>
+                                    <thead>
+                                        <tr>
+                                            <th>Operator</th>
+                                            <th>Description</th>
+                                            <th>Example</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>=</td>
+                                            <td>assignment operator</td>
+                                            <td><code>int count = 1; // assigns a value</code></td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                                <h3>Comparison Operators</h3>
+                                <p>Remember, conditional statements evaluate to <strong>boolean </strong>values (true or
+                                    false). Here is a table of the comparison operators you can use.</p>
+                                <table class="src">
+                                    <thead>
+                                        <tr>
+                                            <th>Operator</th>
+                                            <th>Description</th>
+                                            <th>Examples</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>==</td>
+                                            <td>equal</td>
+                                            <td><code>int count = 1; // assigns a value<br>count == 1; // evaluates to true <br>count == 2; // evaluates to false</code>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>!=</td>
+                                            <td>not equal</td>
+                                            <td><code>count != 2; // true<br>count != 1; // false</code></td>
+                                        </tr>
+                                        <tr>
+                                            <td>&gt;</td>
+                                            <td>greater than</td>
+                                            <td><code>count &gt; 2; // false<br>count &gt; 0; //  true</code></td>
+                                        </tr>
+                                        <tr>
+                                            <td>&lt;</td>
+                                            <td>less than</td>
+                                            <td><code>count &lt; 2;  // true<br>count &lt; 1;  // false</code></td>
+                                        </tr>
+                                        <tr>
+                                            <td>&gt;=</td>
+                                            <td>greater than or equal to</td>
+                                            <td><code>count &gt;= 2; // false; <br>count &gt;= 1; // true</code></td>
+                                        </tr>
+                                        <tr>
+                                            <td>&lt;=</td>
+                                            <td>less than or equal to</td>
+                                            <td><code>count &lt;= 2; // true; <br>count &lt;= 1; // true</code></td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                                <h2>Logical Operators</h2>
+                                <table>
+                                    <tbody>
+                                        <tr>
+                                            <td>Operator</td>
+                                            <td>Description</td>
+                                            <td>Example</td>
+                                        </tr>
+                                        <tr>
+                                            <td>&amp;&amp;</td>
+                                            <td>AND - Both conditions must be true to be true</td>
+                                            <td>
+                                                <div class="highlight">
+                                                    <div class="clipboard"><button class="btn btn-clipboard"
+                                                            aria-label="Clipboard button"></button></div>
+                    <pre
+                        data-language="java"><span class="keyword">int</span> age <span class="operator">=</span> <span class="integer">45</span>;
+    
+age <span class="operator">&lt;</span> <span class="integer">65</span> <span class="operator">&amp;&amp;</span> age <span class="operator">&gt;</span> <span class="integer">17</span>; 
+<span class="comment">// evaluates to true</span>
+<span class="comment">//(Would pay adult price)</span>
+    
+age <span class="operator">&lt;</span> <span class="integer">110</span> <span class="operator">&amp;&amp;</span> age <span class="operator">&gt;</span> <span class="integer">65</span>; 
+<span class="comment">// false</span>
+<span class="comment">// (Is not a senior, nor immortal)</span></pre>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>||</td>
+                                            <td>OR - One of the conditions must be true</td>
+                                            <td>
+                                                <div class="highlight">
+                                                    <div class="clipboard"><button class="btn btn-clipboard"
+                                                            aria-label="Clipboard button"></button></div>
+                    <pre
+                        data-language="java"><span class="keyword">int</span> age <span class="operator">=</span> <span class="integer">77</span>;
+age <span class="operator">&lt;</span> <span class="integer">10</span> <span class="operator">||</span> age <span class="operator">&gt;</span> <span class="integer">65</span>;
+<span class="comment">// true</span>
+<span class="comment">// (Doesn't care what people think!)</span></pre>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>!</td>
+                                            <td>NOT</td>
+                                            <td>
+                                                <div class="highlight">
+                                                    <div class="clipboard"><button class="btn btn-clipboard"
+                                                            aria-label="Clipboard button"></button></div>
+                    <pre
+                        data-language="java"><span class="keyword">int</span> age <span class="operator">=</span> <span class="integer">16</span>;
+<span class="entity function">!</span>(age <span class="operator">&lt;</span> <span class="integer">16</span>)
+<span class="comment">// true</span>
+<span class="comment">// (May obtain a drivers license)</span></pre>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                            <h3>Try it out for yourself!</h3>
+                            <div>
+                                <ul>
+                                    <li>Use this playground to run the code and experiment! </li>
+                                    <li>You can also always run the code locally in VS Code! </li>
+                                    <li>Review the objectives listed at the top and try out those skills, but don't
+                                        spend more than 5 minutes.</li>
+                                </ul>
+                                <iframe
+                                    src="https://www.learnwithtrace.com/playground/code?organization=codingdojo&amp;hideReadonlyFiles=true&amp;files=eyJ2ZXJzaW9uIjowLCJmaWxlcyI6W3sidmVyc2lvbiI6MCwiZmlsZW5hbWUiOiJNYWluLmphdmEiLCJkaXJlY3RvcnkiOiJzcmMvbWFpbi9qYXZhL3RyYWNlIiwiY29udGVudHMiOiJwYWNrYWdlIHRyYWNlO1xuXG5wdWJsaWMgZmluYWwgY2xhc3MgTWFpbiB7XG4gICAgXG4gICAgcHVibGljIHN0YXRpYyB2b2lkIG1haW4oU3RyaW5nW10gYXJncykgeyAgICBcbiAgICAgIC8vIFByZWRpY3QgdGhlIG91dHB1dCBhbmQgcnVuIHRoZSBjb2RlIHRvIGNoZWNrIHlvdXIgcHJlZGljdGlvblxuXG4gICAgICBpbnQgdGVtcGVyYXR1cmUgPSA4NTtcbiAgICAgIGJvb2xlYW4gaXNDbG91ZHkgPSB0cnVlO1xuXG4gICAgICBpZih0ZW1wZXJhdHVyZSA8IDQwICYmIGlzQ2xvdWR5KXtcbiAgICAgICAgU3lzdGVtLm91dC5wcmludGxuKFwiSXQgbWlnaHQgc25vdy5cIik7XG4gICAgICB9ZWxzZSBpZihpc0Nsb3VkeSl7XG4gICAgICAgIFN5c3RlbS5vdXQucHJpbnRsbihcIkl0IG1pZ2h0IHJhaW4uXCIpO1xuICAgICAgfWVsc2V7XG4gICAgICAgIFN5c3RlbS5vdXQucHJpbnRsbihcIldlIHNob3VsZCBoYXZlIG5pY2Ugd2VhdGhlciB0b2RheS5cIik7XG4gICAgICB9XG5cbiAgICB9XG5cbn1cbiIsImVkaXRhYmxlIjp0cnVlfV19&amp;language=JAVA&amp;embed=true"
+                                    width="100%" height="600px" style="border: none;" allow="clipboard-write"><span
+                                        id="selection-marker-1" class="redactor-selection-marker"></span></iframe>
+                            </div>
+                        </div>
+
+                        <br><br><br>
+
+
+
+                        <div class="d-flex justify-content-between " id="navigation">
+                            <a href="../Fundamentals/ToolTip.html" class="previous_page">&laquo; Previous</a>
+                            <a href="../Fundamentals/SwitchStatements.html" class="next_page">Next &raquo;</a>
+
+                        </div>
+
+
+
+
+
+
+
+
+
+
+
+                    </main>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <!-- Include jQuery and Bootstrap JS (CDN) -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script src="/assets/js/color-modes.js"></script>
+    <script src="/assets/js/search.js"></script>
+    <script src="/assets/js/main.js"></script>
+
+
+    <!-- <script src="https://cdn.jsdelivr.net/npm/prismjs@1.28.0/prism.min.js"></script>
+  <script>
+    Prism.highlightAll();
+  </script> -->
+
+
+
+    <script>
+        // Initialize Prism.js
+        Prism.highlightAll();
+    </script>
+
+</body>
+
+</html>

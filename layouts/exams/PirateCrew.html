@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table Master Exam</title>
+    <link rel="stylesheet" href="../../assets/styles/exams.css">
+</head>
+
+<body >
+    <div class="container">
+        <header>
+            <div class="exam-info">
+                <div id="start-time"></div>
+                <div id="countdown-timer"></div>
+            </div>
+            <div class="github-link">
+                <label for="github-url">GitHub Link:</label>
+                <p>Please provide the link to your GitHub repository for the exam before the time expires.</p>
+                <input type="url" id="github-url" name="github-url" placeholder="Enter your GitHub repository link" required>
+                <button id="submit-github" type="button">Submit GitHub Link</button>
+            </div>
+            <h1>Pirate Crew Exam</h1>
+            <p>Create a pirate management app where users can create, read, update, and delete pirates.
+            </header>
+
+        <section class="wireframes">
+            <div class="wireframe">
+                <img src="../../assets/img/exams/PirateCrew.png" alt="Wireframe for Table Master Exam">
+            </div>
+        </section>
+
+        <section class="requirements">
+            <h2>For a Red Belt:</h2>
+            <ul>
+                <li>Dashboard: Display all pirates</li>
+                <li>Users can create new pirates</li>
+                <li>Users can remove pirates</li>
+                <li>validations:</li>
+                <ul>
+                    <li>All fields are required</li>
+                    <li>Display  errors</li>
+                </ul>
+            </ul>   
+            <h2>For a Black Belt:</h2>
+            <ul>
+                <li>Login and Registration - the user must login or register to use the rest of the app</li>
+                <li>Only one pirate is permitted to be captain (at a time)</li>
+                <li>Buttons that allow for editing: eye-patch, peg-leg, and hook-hand</li>
+                <li>Use front-end validations in addition to the back-end validations</li>
+                <li>Pirates on the dashboard should be sorted by name alphabetically</li>
+            </ul>
+        </section>
+
+        <section class="guidelines">
+            <h2>General Guidelines</h2>
+            <ul>
+                <li>Do everything the prompts ask for. Ask your instructor if you are not sure.</li>
+                <li>Download the wireframe here: <a href="../../assets/img/exams/PirateCrew.png" download>Pirate Crew Wireframe</a></li>
+            </ul>
+            <p>Best of luck with your exam!</p>
+        </section>
+    </div>
+    <script src="../../assets/js/examJava.js" defer></script>
+    <script src="../../assets/js/githubJava.js" defer></script>
+</body>
+
+</html>

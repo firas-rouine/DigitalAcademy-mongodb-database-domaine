@@ -1,0 +1,630 @@
+<!doctype html>
+<html lang="en" data-bs-theme="light">
+
+<head>
+    <!-- <script src="/assets/js/color-modes.js"></script> -->
+
+    <meta charset="utf-8">
+    <link rel="icon" type="image/png" href="../../../../assets/icons/circle-logo.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.118.2">
+    <title>Digital-Academy</title>
+
+    <!-- Custom style -->
+    <link href="/assets/styles/sidebar.css" rel="stylesheet">
+    <link rel="stylesheet" href="/assets/styles/styles.css">
+    <link rel="stylesheet" href="/assets/styles/styles2.css">
+    <link rel="stylesheet" href="/assets/styles/quizs-style.css">
+    <!-- bootstrap style -->
+
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous"> -->
+
+
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/prismjs@1.28.0/themes/prism.min.css"> -->
+
+
+
+    <!-- Include the Prism.js library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.25.0/themes/prism.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.25.0/prism.min.js"></script>
+
+    <!-- Include the Okaidia theme -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.25.0/themes/prism-okaidia.min.css">
+
+
+</head>
+
+<body class="single home " data-bs-spy="scroll" data-bs-target="#TableOfContents" data-bs-root-margin="0px 0px -60%"
+    data-bs-smooth-scroll="true" tabindex="0" cz-shortcut-listen="true">
+    <div class="sticky-top">
+        <header class="navbar navbar-expand-lg g-nav">
+            <div class="container-lg"><a class="navbar-brand me-auto me-lg-3" href="#"> <img
+                        src="/assets/icons/logo.png" alt="logo" style="width: 70px; height: 50px;">
+                </a>  <a id="home" href="/home.html">HOME</a> 
+                <button class="btn btn-link d-lg-none" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasNavSection" aria-controls="offcanvasNavSection"
+                    aria-label="Open section navigation menu"><svg xmlns="http://www.w3.org/2000/svg"
+                        class="icon icon-tabler icon-tabler-dots-vertical" width="24" height="24" viewBox="0 0 24 24"
+                        stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                        <path d="M12 12m-1 0a1 1 0 102 0 1 1 0 10-2 0"></path>
+                        <path d="M12 19m-1 0a1 1 0 102 0 1 1 0 10-2 0"></path>
+                        <path d="M12 5m-1 0a1 1 0 102 0 1 1 0 10-2 0"></path>
+                    </svg></button>
+                <div class="offcanvas offcanvas-start d-lg-none" tabindex="-1" id="offcanvasNavSection"
+                    aria-labelledby="offcanvasNavSectionLabel">
+                    <div class="offcanvas-header">
+                        <img src="/assets/icons/logo.png" alt="logo" style="width: 70px; height: 50px;">
+                        <button type="button" class="btn btn-link nav-link p-0" data-bs-dismiss="offcanvas"
+                            aria-label="Close"><svg xmlns="http://www.w3.org/2000/svg"
+                                class="icon icon-tabler icon-tabler-x" width="24" height="24" viewBox="0 0 24 24"
+                                stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round"
+                                stroke-linejoin="round">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                <path d="M18 6 6 18"></path>
+                                <path d="M6 6l12 12"></path>
+                            </svg></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <aside class="doks-sidebar mt-n3">
+                            <nav id="doks-docs-nav" aria-label="Tertiary navigation">
+                                <div class="module pb-2 pt-4">
+                                    <h2 class="mod-title">WEB FUNDAMENTALS</h2>
+                                    <div class="module pb-2">
+                                        <a href="#" class="previous"></a>
+                                        <img src="/assets/icons/html.png" alt="" class="chapter-icon" />
+                                        <span class="mod-title">HTML</span>
+                                        <a href="../../../WEB FUNDAMENTALS/Web Development - CSS/Selectors/SettingUpProjects.html"
+                                            class="next">&#8250;</a>
+                                    </div>
+                                </div>
+                                <ul class="list-unstyled collapsible-sidebar">
+                                    <li class="mb-1">
+                                        <button id="sidebtn"
+                                            class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed"
+                                            data-bs-toggle="collapse" data-bs-target="#HowToCode-collapse"
+                                            aria-expanded="false">
+                                            How To Code
+                                        </button>
+                                        <div class="collapse " id="HowToCode-collapse">
+                                            <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                                                <li><a href="../HowToCode/introduction.html" class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />Introduction</a>
+                                                </li>
+                                                <li><a href="../HowToCode/SettingUpOurEditor.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />Setting Up Our Editor</a>
+                                                </li>
+                                                <li><a href="../HowToCode/FilesAndFolders.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />Files and Folders</a>
+                                                </li>
+                                                <li><a href="../HowToCode/Git.html" class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />Git</a>
+                                                </li>
+                                                <li><a href="../HowToCode/PushToGitHub.html" class="docs-link rounded ">
+                                                        <img src="/assets/icons/practice.png" alt=""
+                                                            class="module-icon" />Push to GitHub</a>
+
+                                                </li>
+
+
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li class="mb-1">
+                                        <button id="sidebtn"
+                                            class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed"
+                                            data-bs-toggle="collapse" data-bs-target="#HTML-collapse"
+                                            aria-expanded="true">
+                                            HTML
+                                        </button>
+                                        <div class="collapse show" id="HTML-collapse">
+                                            <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                                                <li><a href="../HTML/HowTheWebWorks.html" class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />How the Web Works</a>
+                                                </li>
+                                                <li><a href="../HTML/IntroToHTML.html" class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />Intro to HTML</a>
+                                                </li>
+                                                <li><a href="../HTML/TextElements.html" class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />Text Elements</a>
+                                                </li>
+                                                <li><a href="../HTML/ListsAndTables.html" class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />Lists and Tables</a>
+                                                </li>
+                                                <li><a href="../HTML/ImagesAndVideos.html" class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />Images and Videos</a>
+                                                </li>
+                                                <li><a href="../HTML/Element-aryQuiz.html"
+                                                        class="docs-link rounded active">
+                                                        <img src="/assets/icons/quiz.png" alt=""
+                                                            class="module-icon" />Element-ary Quiz</a>
+                                                </li>
+                                                <li><a href="../HTML/DictionaryEntry.html" class="docs-link rounded">
+                                                        <img src="/assets/icons/practice.png" alt=""
+                                                            class="module-icon" />Dictionary Entry</a>
+                                                </li>
+                                                <li><a href="../HTML/WhyIndentation.html" class="docs-link rounded">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />Why Indentation?</a>
+                                                </li>
+                                                <li><a href="../HTML/FixIndentation.html" class="docs-link rounded">
+                                                        <img src="/assets/icons/practice.png" alt=""
+                                                            class="module-icon" />Fix Indentation</a>
+                                                </li>
+                                                <li><a href="../HTML/Forms.html" class="docs-link rounded">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />Forms</a>
+                                                </li>
+                                                <li><a href="../HTML/AboutDivs.html" class="docs-link rounded">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />About Divs</a>
+                                                </li>
+                                                <li><a href="../HTML/RegistrationForm.html" class="docs-link rounded">
+                                                        <img src="/assets/icons/core.png" alt=""
+                                                            class="module-icon" />Registration Form</a>
+                                                </li>
+                                                <li><a href="../HTML/ValidatingOurHTML.html" class="docs-link rounded">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />Validating Our HTML</a>
+                                                </li>
+                                                <li><a href="../HTML/PortfolioContent.html" class="docs-link rounded">
+                                                        <img src="/assets/icons/practice.png" alt=""
+                                                            class="module-icon" />Portfolio Content</a>
+                                                </li>
+
+                                            </ul>
+                            </nav>
+                        </aside>
+                    </div>
+                </div><button class="btn btn-link nav-link mx-2 order-3 d-lg-none" type="button"
+                    data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavMain" aria-controls="offcanvasNavMain"
+                    aria-label="Open main navigation menu"><svg xmlns="http://www.w3.org/2000/svg"
+                        class="icon icon-tabler icon-tabler-menu" width="24" height="24" viewBox="0 0 24 24"
+                        stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                        <line x1="4" y1="8" x2="20" y2="8"></line>
+                        <line x1="4" y1="16" x2="20" y2="16"></line>
+                    </svg></button>
+                <div class="offcanvas offcanvas-end h-auto" tabindex="-1" id="offcanvasNavMain"
+                    aria-labelledby="offcanvasNavMainLabel">
+                    <div class="offcanvas-header">
+                        <img src="/assets/icons/logo.png" alt="logo" style="width: 70px; height: 50px;">
+                        <button type="button" class="btn btn-link nav-link p-0" data-bs-dismiss="offcanvas"
+                            aria-label="Close"><svg xmlns="http://www.w3.org/2000/svg"
+                                class="icon icon-tabler icon-tabler-x" width="24" height="24" viewBox="0 0 24 24"
+                                stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round"
+                                stroke-linejoin="round">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                <path d="M18 6 6 18"></path>
+                                <path d="M6 6l12 12"></path>
+                            </svg></button>
+                    </div>
+                    <div class="offcanvas-body d-flex flex-column flex-lg-row justify-content-between">
+                        <!-- <ul class="navbar-nav flex-grow-1">
+              <li class="nav-item"><a class="nav-link active" href="index.html" aria-current="true">Docs</a></li>
+              <li class="nav-item"><a class="nav-link" href="/blog/">Blog</a></li>
+            </ul> -->
+
+                        <!-- this section is for the search bar and results -->
+                        <form class="navbar-form my-auto flex-grow-1 ">
+                            <input id="searchInput" class="form-control is-search ms-auto me-5" type="search"
+                                placeholder="Search ..." aria-label="Search docs." autocomplete="off">
+                            <div id="suggestions" class="shadow rounded position-absolute d-none">
+                                <ul id="searchResults" class="list-unstyled m-auto"></ul>
+                            </div>
+                        </form>
+
+
+                        <button id="buttonColorMode" class="btn btn-link mx-auto nav-link p-0 ms-lg-2 me-lg-1"
+                            type="button" aria-label="Toggle theme"><svg data-bs-theme-value="dark"
+                                xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-moon" width="24"
+                                height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentcolor" fill="none"
+                                stroke-linecap="round" stroke-linejoin="round">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                <path d="M12 3c.132.0.263.0.393.0a7.5 7.5.0 007.92 12.446A9 9 0 1112 2.992z"></path>
+                            </svg><svg data-bs-theme-value="light" xmlns="http://www.w3.org/2000/svg"
+                                class="icon icon-tabler icon-tabler-sun" width="24" height="24" viewBox="0 0 24 24"
+                                stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round"
+                                stroke-linejoin="round">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                <path
+                                    d="M12 12m-4 0a4 4 0 108 0 4 4 0 10-8 0m-5 0h1m8-9v1m8 8h1m-9 8v1M5.6 5.6l.7.7m12.1-.7-.7.7m0 11.4.7.7m-12.1-.7-.7.7">
+                                </path>
+                            </svg></button>
+                        <ul id="socialMenu" class="nav mx-auto flex-row order-lg-4">
+
+
+                            <li class="nav-item"><a class="nav-link social-link"  href="https://github.com/DigitalAcademyTn"><svg
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        class="icon icon-tabler icon-tabler-brand-github" width="24" height="24"
+                                        viewBox="0 0 24 24" stroke-width="2" stroke="currentcolor" fill="none"
+                                        stroke-linecap="round" stroke-linejoin="round">
+                                        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                        <path
+                                            d="M9 19c-4.3 1.4-4.3-2.5-6-3m12 5v-3.5c0-1 .1-1.4-.5-2 2.8-.3 5.5-1.4 5.5-6a4.6 4.6.0 00-1.3-3.2 4.2 4.2.0 00-.1-3.2s-1.1-.3-3.5 1.3a12.3 12.3.0 00-6.2.0C6.5 2.8 5.4 3.1 5.4 3.1a4.2 4.2.0 00-.1 3.2A4.6 4.6.0 004 9.5c0 4.6 2.7 5.7 5.5 6-.6.6-.6 1.2-.5 2V21">
+                                        </path>
+                                                  </svg><small class="ms-2 visually-hidden">GitHub</small></a></li>
+                  <a id="upgrade" href="../../../upgrade.html">UPGRADE</a>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </header>
+    </div>
+
+
+
+
+    <div class="wrap container-fluid " role="document">
+        <div class="content">
+            <div class="row  d-flex justify-content-center">
+                <div class=" docs-sidebar d-none d-lg-block   ">
+                    <main class="">
+                        <div class="flex-shrink-0 pt-4 ">
+
+                            <div class="module pb-2">
+                                <h2 class="mod-title">WEB FUNDAMENTALS</h2>
+                            </div>
+                            <div class="module pb-2">
+                                <a href="#" class="previous"></a>
+                                <img src="/assets/icons/html.png" alt="" class="chapter-icon" />
+                                <span class="mod-title">HTML</span>
+                                <a href="../../../WEB FUNDAMENTALS/Web Development - CSS/Selectors/SettingUpProjects.html"
+                                    class="next">&#8250;</a>
+                            </div>
+
+
+
+
+
+                            <ul class=" list-unstyled px-3 overflow-scroll">
+                                <li class="mb-1  ">
+                                    <button id="sidebtn"
+                                        class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed"
+                                        data-bs-toggle="collapse" data-bs-target="#HowToCode-collapse"
+                                        aria-expanded="false">
+                                        How To Code
+                                    </button>
+                                    <div class="collapse" id="HowToCode-collapse">
+                                        <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                                            <li><a href="../HowToCode/introduction.html" class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />Introduction</a>
+                                            </li>
+                                            <li><a href="../HowToCode/SettingUpOurEditor.html"
+                                                    class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />Setting Up Our Editor</a>
+                                            </li>
+                                            <li><a href="../HowToCode/FilesAndFolders.html" class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />Files and Folders</a>
+                                            </li>
+                                            <li><a href="../HowToCode/Git.html" class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />Git</a>
+                                            </li>
+                                            <li><a href="../HowToCode/PushToGitHub.html" class="docs-link rounded ">
+                                                    <img src="/assets/icons/practice.png" alt=""
+                                                        class="module-icon" />Push to GitHub</a>
+
+                                            </li>
+
+
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li class="mb-1">
+                                    <button id="sidebtn"
+                                        class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed"
+                                        data-bs-toggle="collapse" data-bs-target="#HTML-collapse" aria-expanded="true">
+                                        HTML
+                                    </button>
+                                    <div id="HTML-collapse">
+                                        <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                                            <li><a href="../HTML/HowTheWebWorks.html" class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt="" class="module-icon" />How
+                                                    the Web Works</a>
+                                            </li>
+                                            <li><a href="../HTML/IntroToHTML.html" class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />Intro to HTML</a>
+                                            </li>
+                                            <li><a href="../HTML/TextElements.html" class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />Text Elements</a>
+                                            </li>
+                                            <li><a href="../HTML/ListsAndTables.html" class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />Lists and Tables</a>
+                                            </li>
+                                            <li><a href="../HTML/ImagesAndVideos.html" class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />Images and Videos</a>
+                                            </li>
+                                            <li><a href="../HTML/Element-aryQuiz.html" class="docs-link rounded active">
+                                                    <img src="/assets/icons/quiz.png" alt=""
+                                                        class="module-icon" />Element-ary Quiz</a>
+                                            </li>
+                                            <li><a href="../HTML/DictionaryEntry.html" class="docs-link rounded">
+                                                    <img src="/assets/icons/practice.png" alt=""
+                                                        class="module-icon" />Dictionary Entry</a>
+                                            </li>
+                                            <li><a href="../HTML/WhyIndentation.html" class="docs-link rounded">
+                                                    <img src="/assets/icons/module.png" alt="" class="module-icon" />Why
+                                                    Indentation?</a>
+                                            </li>
+                                            <li><a href="../HTML/FixIndentation.html" class="docs-link rounded">
+                                                    <img src="/assets/icons/practice.png" alt=""
+                                                        class="module-icon" />Fix Indentation</a>
+                                            </li>
+                                            <li><a href="../HTML/Forms.html" class="docs-link rounded">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />Forms</a>
+                                            </li>
+                                            <li><a href="../HTML/AboutDivs.html" class="docs-link rounded">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />About Divs</a>
+                                            </li>
+                                            <li><a href="../HTML/RegistrationForm.html" class="docs-link rounded">
+                                                    <img src="/assets/icons/core.png" alt=""
+                                                        class="module-icon" />Registration Form</a>
+                                            </li>
+                                            <li><a href="../HTML/ValidatingOurHTML.html" class="docs-link rounded">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />Validating Our HTML</a>
+                                            </li>
+                                            <li><a href="../HTML/PortfolioContent.html" class="docs-link rounded">
+                                                    <img src="/assets/icons/practice.png" alt=""
+                                                        class="module-icon" />Portfolio Content</a>
+                                            </li>
+
+
+                                        </ul>
+                                    </div>
+                                </li>
+
+                            </ul>
+                        </div>
+
+                    </main>
+
+                </div>
+                <div class="docs-content col-lg-11 col-xl-9 " id="lesson_content">
+
+                    <main data-bs-spy="scroll" data-bs-target="#TableOfContents" data-bs-offset="0" tabindex="0"
+                        id="lesson_content">
+                        <div id="quiz_description">
+                            <h1>Element-ary Results </h1>
+                            <hr>
+                            <p>The following HTML code example may be needed by the questions of the quiz.</p>
+                            <div class="highlight">
+                                <div class="clipboard"><button class="btn btn-clipboard blankkk"
+                                        aria-label="Clipboard button"></button></div>
+<pre data-language="html"><span class="support tag"><span class="support tag">&lt;</span><span class="support tag special">!</span><span class="support tag-name">DOCTYPE</span></span> html<span class="support tag close">&gt;</span>  
+<span class="support tag"><span class="support tag">&lt;</span><span class="support tag-name">html</span></span> <span class="support attribute">lang</span><span class="support operator">=</span><span class="string quote">"</span><span class="string value">en</span><span class="string quote">"</span><span class="support tag close">&gt;</span>
+<span class="support tag"><span class="support tag">&lt;</span><span class="support tag-name">head</span></span><span class="support tag close">&gt;</span>
+    <span class="support tag"><span class="support tag">&lt;</span><span class="support tag-name">meta</span></span> <span class="support attribute">charset</span><span class="support operator">=</span><span class="string quote">"</span><span class="string value">UTF-8</span><span class="string quote">"</span><span class="support tag close">&gt;</span>
+    <span class="support tag"><span class="support tag">&lt;</span><span class="support tag-name">title</span></span><span class="support tag close">&gt;</span>Ninja<span class="support tag"><span class="support tag">&lt;</span><span class="support tag special">/</span><span class="support tag-name">title</span></span><span class="support tag close">&gt;</span>
+<span class="support tag"><span class="support tag">&lt;</span><span class="support tag special">/</span><span class="support tag-name">head</span></span><span class="support tag close">&gt;</span>
+<span class="support tag"><span class="support tag">&lt;</span><span class="support tag-name">body</span></span><span class="support tag close">&gt;</span>
+    <span class="support tag"><span class="support tag">&lt;</span><span class="support tag-name">h1</span></span><span class="support tag close">&gt;</span>Ninja<span class="support tag"><span class="support tag">&lt;</span><span class="support tag special">/</span><span class="support tag-name">h1</span></span><span class="support tag close">&gt;</span>
+    <span class="support tag"><span class="support tag">&lt;</span><span class="support tag-name">p</span></span><span class="support tag close">&gt;</span>
+        Ninja are practitioners of the Japanese art of 
+        <span class="support tag"><span class="support tag">&lt;</span><span class="support tag-name">a</span></span> <span class="support attribute">href</span><span class="support operator">=</span><span class="string quote">"</span><span class="string value">https://en.wikipedia.org/wiki/Ninjutsu</span><span class="string quote">"</span><span class="support tag close">&gt;</span>ninjutsu.<span class="support tag"><span class="support tag">&lt;</span><span class="support tag special">/</span><span class="support tag-name">a</span></span><span class="support tag close">&gt;</span>
+    <span class="support tag"><span class="support tag">&lt;</span><span class="support tag special">/</span><span class="support tag-name">p</span></span><span class="support tag close">&gt;</span>
+    <span class="support tag"><span class="support tag">&lt;</span><span class="support tag-name">p</span></span><span class="support tag close">&gt;</span>Some common techniques are:<span class="support tag"><span class="support tag">&lt;</span><span class="support tag special">/</span><span class="support tag-name">p</span></span><span class="support tag close">&gt;</span>
+    <span class="support tag"><span class="support tag">&lt;</span><span class="support tag-name">ul</span></span><span class="support tag close">&gt;</span>
+        <span class="support tag"><span class="support tag">&lt;</span><span class="support tag-name">li</span></span><span class="support tag close">&gt;</span>Stealth<span class="support tag"><span class="support tag">&lt;</span><span class="support tag special">/</span><span class="support tag-name">li</span></span><span class="support tag close">&gt;</span>
+        <span class="support tag"><span class="support tag">&lt;</span><span class="support tag-name">li</span></span><span class="support tag close">&gt;</span>Disguise<span class="support tag"><span class="support tag">&lt;</span><span class="support tag special">/</span><span class="support tag-name">li</span></span><span class="support tag close">&gt;</span>
+        <span class="support tag"><span class="support tag">&lt;</span><span class="support tag-name">li</span></span><span class="support tag close">&gt;</span>Kenjutsu<span class="support tag"><span class="support tag">&lt;</span><span class="support tag special">/</span><span class="support tag-name">li</span></span><span class="support tag close">&gt;</span>
+    <span class="support tag"><span class="support tag">&lt;</span><span class="support tag special">/</span><span class="support tag-name">ul</span></span><span class="support tag close">&gt;</span>
+<span class="support tag"><span class="support tag">&lt;</span><span class="support tag special">/</span><span class="support tag-name">body</span></span><span class="support tag close">&gt;</span>
+<span class="support tag"><span class="support tag">&lt;</span><span class="support tag special">/</span><span class="support tag-name">html</span></span><span class="support tag close">&gt;</span>
+</pre>
+
+                            </div>
+                            <div id="result-container">
+                                
+                                <form id="quiz-form">
+                                  <div class="question">
+                                    <p>1. What is the main markup language for creating web pages and other information that can be displayed in a web browser ?</p>
+                                    <ul class="options">
+                                      <li class="option">
+                                        <div class="custom-radio">
+                                          <p id="q1"></p>
+                                        </div>
+                                      </li>
+                                    </ul>
+                                  </div>
+                            
+                                  <div class="question">
+                                    <p>2. The text between &lt;body&gt; and &lt;/body&gt; describes the visible portion of the web page. True or False ?</p>
+                                    <ul class="options">
+                                      <li class="option">
+                                        <div class="custom-radio">
+                                          <p id="q2"></p>
+                                        </div>
+                                      </li>
+                                    </ul>
+                                  </div>
+                                  <div class="question">
+                                    <p>3. In the above code example, what tag is the parent to the List Items &lt;li&gt; ?</p>
+                                    <ul class="options">
+                                      <li class="option">
+                                        <div class="custom-radio">
+                                          <p id="q3"></p>
+                                        </div>
+                                      </li>
+                                    </ul>
+                                  </div>
+                                  <div class="question">
+                                    <p>4. In the above code example, what tag is the parent to the Anchor tag &lt;a&gt; ?</p>
+                                    <ul class="options">
+                                      <li class="option">
+                                        <div class="custom-radio">
+                                          <p id="q4"></p>
+                                        </div>
+                                      </li>
+                                    </ul>
+                                  </div>
+                                  <div class="question">
+                                    <p>5. What is the role of the Anchor tag &lt;a&gt; in the above example ?</p>
+                                    <ul class="options">
+                                      <li class="option">
+                                        <div class="custom-radio">
+                                          <p id="q5"></p>
+                                        </div>
+                                      </li>
+                                    </ul>
+                                  </div>
+                                  <button type="button" onclick="retakeQuiz()">Retake Quiz</button>
+                                
+                                </form>
+                              </div>
+  
+
+                            
+                        
+                    </div>
+                      
+
+
+                        <br><br><br>
+
+
+                        <div class="d-flex justify-content-between  " id="navigation">
+                            <a href="../HTML/ImagesAndVideos.html" class="previous_page">&laquo; Previous</a>
+                            <a href="../HTML/DictionaryEntry.html" class="next_page">Next &raquo;</a>
+
+                        </div>
+
+
+
+
+
+
+
+
+
+
+
+                    </main>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <!-- Include jQuery and Bootstrap JS (CDN) -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script src="/assets/js/color-modes.js"></script>
+    <script src="/assets/js/search.js"></script>
+    <script src="/assets/js/main.js"></script>
+
+
+    <!-- <script src="https://cdn.jsdelivr.net/npm/prismjs@1.28.0/prism.min.js"></script>
+  <script>
+    Prism.highlightAll();
+  </script> -->
+
+
+  <script>
+    // Function to handle GET request and display results
+    function fetchResults(quizId) {
+      fetch(`/get-results/${quizId}`)
+        .then(response => response.json())
+        .then(results => {
+          if (!results.success) {
+            // Assuming you have correct answers available (fetch or include in the page)
+            const correctAnswers = {
+              q1: 'HTML',
+              q2: 'True',
+              q3: 'ul',
+              q4: 'p',
+              q5: 'To provide a hyperlink to the URL defined in the href attribute.',
+              
+              // Add more correct answers as needed
+            };
+
+            // Display individual answers dynamically
+            const quizForm = document.getElementById('quiz-form');
+            Object.entries(results.answers).forEach(([question, userAnswer]) => {
+
+
+
+              const userAnswerText = document.getElementById(question);
+              userAnswerText.textContent = `${userAnswer}`;
+
+              // Compare with correct answer and apply appropriate class
+              if (userAnswer === correctAnswers[question]) {
+                userAnswerText.classList.add('correct');
+              } else {
+                userAnswerText.classList.add('incorrect');
+              }
+
+            });
+          } else {
+            console.error('Error retrieving results:', results.message);
+          }
+        })
+        .catch(error => {
+          console.error('Error retrieving results:', error);
+        });
+    }
+
+    // Call fetchResults with the appropriate quizId
+    const quizId = 'Element-aryQuiz';
+    fetchResults(quizId);
+
+    function retakeQuiz() {
+        // Delete user's answers for the specific quiz
+        fetch(`/delete-results/${quizId}`, {
+          method: 'DELETE',
+        })
+          .then(response => response.json())
+          .then(data => {
+            if (data.success) {
+              console.log('User answers deleted:', data.message);
+              // Redirect to the quiz page for retaking
+              window.location.href = 'Element-aryQuiz.html';
+            } else {
+              console.error('Error deleting user answers:', data.message);
+            }
+          })
+          .catch(error => {
+            console.error('Error deleting user answers:', error);
+          });
+
+      // Redirect to the quiz page for retaking
+      // window.location.href = 'index.html';
+    }
+  </script>
+    <script>
+        // Initialize Prism.js
+        Prism.highlightAll();
+    </script>
+
+</body>
+
+</html>

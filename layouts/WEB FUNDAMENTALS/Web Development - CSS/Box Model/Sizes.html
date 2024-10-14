@@ -1,0 +1,893 @@
+<!doctype html>
+<html lang="en" data-bs-theme="light">
+
+<head>
+    <!-- <script src="/assets/js/color-modes.js"></script> -->
+
+    <meta charset="utf-8">
+    <link rel="icon" type="image/png" href="../../../../assets/icons/circle-logo.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.118.2">
+    <title>Digital-Academy</title>
+
+    <!-- Custom style -->
+    <link href="/assets/styles/sidebar.css" rel="stylesheet">
+    <link rel="stylesheet" href="/assets/styles/styles.css">
+    <link rel="stylesheet" href="/assets/styles/styles2.css">
+    <!-- bootstrap style -->
+
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous"> -->
+
+
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/prismjs@1.28.0/themes/prism.min.css"> -->
+
+
+
+    <!-- Include the Prism.js library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.25.0/themes/prism.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.25.0/prism.min.js"></script>
+
+    <!-- Include the Okaidia theme -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.25.0/themes/prism-okaidia.min.css">
+
+
+</head>
+
+<body class="single home " data-bs-spy="scroll" data-bs-target="#TableOfContents" data-bs-root-margin="0px 0px -60%"
+    data-bs-smooth-scroll="true" tabindex="0" cz-shortcut-listen="true">
+    <div class="sticky-top">
+        <header class="navbar navbar-expand-lg g-nav">
+            <div class="container-lg"><a class="navbar-brand me-auto me-lg-3" href="#"> <img
+                        src="/assets/icons/logo.png" alt="logo" style="width: 70px; height: 50px;">
+                </a>
+                <a id="home" href="/home.html">HOME</a>
+                <button class="btn btn-link d-lg-none" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasNavSection" aria-controls="offcanvasNavSection"
+                    aria-label="Open section navigation menu"><svg xmlns="http://www.w3.org/2000/svg"
+                        class="icon icon-tabler icon-tabler-dots-vertical" width="24" height="24" viewBox="0 0 24 24"
+                        stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                        <path d="M12 12m-1 0a1 1 0 102 0 1 1 0 10-2 0"></path>
+                        <path d="M12 19m-1 0a1 1 0 102 0 1 1 0 10-2 0"></path>
+                        <path d="M12 5m-1 0a1 1 0 102 0 1 1 0 10-2 0"></path>
+                    </svg></button>
+                <div class="offcanvas offcanvas-start d-lg-none" tabindex="-1" id="offcanvasNavSection"
+                    aria-labelledby="offcanvasNavSectionLabel">
+                    <div class="offcanvas-header">
+                        <img src="/assets/icons/logo.png" alt="logo" style="width: 70px; height: 50px;">
+                        <button type="button" class="btn btn-link nav-link p-0" data-bs-dismiss="offcanvas"
+                            aria-label="Close"><svg xmlns="http://www.w3.org/2000/svg"
+                                class="icon icon-tabler icon-tabler-x" width="24" height="24" viewBox="0 0 24 24"
+                                stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round"
+                                stroke-linejoin="round">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                <path d="M18 6 6 18"></path>
+                                <path d="M6 6l12 12"></path>
+                            </svg></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <aside class="doks-sidebar mt-n3">
+                            <nav id="doks-docs-nav" aria-label="Tertiary navigation">
+                                <div class="module pb-2 pt-4">
+                                    <h2 class="mod-title">WEB FUNDAMENTALS</h2>
+                                    <div class="module pb-2">
+                                        <a href="../../../WEB FUNDAMENTALS/HTML/HTML/PortfolioContent.html"
+                                            style="margin: 0!important;" class="previous">&#8249;</a>
+                                        <img src="/assets/icons/css.png" alt="" class="chapter-icon" />
+                                        <span class="mod-title">Web Dev/CSS
+                                        </span>
+                                        <a href="../../../WEB FUNDAMENTALS/JS/Language Fundamentals/Introduction.html"
+                                            style="margin: 0!important;" class="next">&#8250;</a>
+                                    </div>
+                                </div>
+                                <ul class="list-unstyled collapsible-sidebar">
+
+                                    <li class="mb-1  ">
+                                        <button id="sidebtn"
+                                            class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed"
+                                            data-bs-toggle="collapse" data-bs-target="#Selectors-collapse"
+                                            aria-expanded="false">
+                                            Selectors
+                                        </button>
+                                        <div class="collapse" id="Selectors-collapse">
+                                            <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                                                <li><a href="../../../WEB FUNDAMENTALS/Web Development - CSS/Selectors/SettingUpProjects.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />Setting up Projects</a>
+                                                </li>
+                                                <li><a href="../../../WEB FUNDAMENTALS/Web Development - CSS/Selectors/SelectorBasics.html"
+                                                        class="docs-link rounded  ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />Selector Basics</a>
+                                                </li>
+
+                                                <li><a href="../../../WEB FUNDAMENTALS/Web Development - CSS/Selectors/SelectTheSelectorI.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/quiz.png" alt=""
+                                                            class="module-icon" />Select the Selector I</a>
+                                                </li>
+                                                <li><a href="../../../WEB FUNDAMENTALS/Web Development - CSS/Selectors/SelectorsAdvanced.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />Selectors Advanced</a>
+                                                </li>
+                                                <li><a href="../../../WEB FUNDAMENTALS/Web Development - CSS/Selectors/SelectTheSelectorII.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/quiz.png" alt=""
+                                                            class="module-icon" />Select the Selector II</a>
+                                                </li>
+                                                <li><a href="../../../WEB FUNDAMENTALS/Web Development - CSS/Selectors/SelectorsGame.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />Selectors Game </a>
+
+
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li class="mb-1">
+                                        <button id="sidebtn"
+                                            class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed"
+                                            data-bs-toggle="collapse" data-bs-target="#BoxModel-collapse"
+                                            aria-expanded="true">
+                                            Box Model
+                                        </button>
+                                        <div class="collapse show" id="BoxModel-collapse">
+                                            <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                                                <li><a href="../../../WEB FUNDAMENTALS/Web Development - CSS/Box Model/CSSPropertiesColor.html"
+                                                        class="docs-link rounded  ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />CSS
+                                                        Properties - Color</a>
+                                                </li>
+                                                <li><a href="../../../WEB FUNDAMENTALS/Web Development - CSS/Box Model/CSSPropertiesText.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />CSS
+                                                        Properties - Text</a>
+                                                </li>
+                                                <li><a href="../../../WEB FUNDAMENTALS/Web Development - CSS/Box Model/Styling.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/practice.png" alt=""
+                                                            class="module-icon" />Styling</a>
+                                                </li>
+                                                <li><a href="../../../WEB FUNDAMENTALS/Web Development - CSS/Box Model/Sizes.html"
+                                                        class="docs-link rounded active">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />Sizes</a>
+                                                </li>
+                                                <li><a href="../../../WEB FUNDAMENTALS/Web Development - CSS/Box Model/BoxModel.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />Box
+                                                        Model</a>
+                                                </li>
+                                                <li><a href="../../../WEB FUNDAMENTALS/Web Development - CSS/Box Model/ButtonUp.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/practice.png" alt=""
+                                                            class="module-icon" />Button Up</a>
+                                                </li>
+                                                <li><a href="../../../WEB FUNDAMENTALS/Web Development - CSS/Box Model/InlineAndBlock.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />Inline and Block</a>
+                                                </li>
+                                                <li><a href="../../../WEB FUNDAMENTALS/Web Development - CSS/Box Model/PlottingOurBlocks.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/core.png" alt=""
+                                                            class="module-icon" />Plotting Our Blocks</a>
+                                                </li>
+
+
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li class="mb-1">
+                                        <button id="sidebtn"
+                                            class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed"
+                                            data-bs-toggle="collapse" data-bs-target="#DisplayProperty-collapse"
+                                            aria-expanded="false">
+                                            Display Property
+                                        </button>
+                                        <div class="collapse" id="DisplayProperty-collapse">
+                                            <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                                                <li><a href="../../../WEB FUNDAMENTALS/Web Development - CSS/Display Property/TheFlexAdvantage.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />The
+                                                        Flex Advantage</a>
+                                                </li>
+                                                <li><a href="../../../WEB FUNDAMENTALS/Web Development - CSS/Display Property/FlexOurBlocks.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/practice.png" alt=""
+                                                            class="module-icon" />Flex our Blocks</a>
+                                                </li>
+                                                <li><a href="../../../WEB FUNDAMENTALS/Web Development - CSS/Display Property/JustifyTheContent.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />
+                                                        Justify the Content</a>
+                                                </li>
+                                                <li><a href="../../../WEB FUNDAMENTALS/Web Development - CSS/Display Property/GitHubBlocks.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/core.png" alt=""
+                                                            class="module-icon" />GitHub Blocks</a>
+                                                </li>
+                                                <li><a href="../../../WEB FUNDAMENTALS/Web Development - CSS/Display Property/FlexNavbar.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/practice.png" alt=""
+                                                            class="module-icon" />Flex Navbar</a>
+                                                </li>
+                                                <li><a href="../../../WEB FUNDAMENTALS/Web Development - CSS/Display Property/BeingFlex-ible.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />Being Flex-ible</a>
+                                                </li>
+                                                <li><a href="../../../WEB FUNDAMENTALS/Web Development - CSS/Display Property/FLEX-ibleColumns.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/core.png" alt=""
+                                                            class="module-icon" />FLEX-ible Columns</a>
+                                                </li>
+                                                <li><a href="../../../WEB FUNDAMENTALS/Web Development - CSS/Display Property/FlexGame.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />Flex Game </a>
+                                                </li>
+
+
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li class="mb-1">
+                                        <button id="sidebtn"
+                                            class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed"
+                                            data-bs-toggle="collapse" data-bs-target="#Position-collapse"
+                                            aria-expanded="false">
+                                            Position
+                                        </button>
+                                        <div class="collapse" id="Position-collapse">
+                                            <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                                                <li><a href="../../../WEB FUNDAMENTALS/Web Development - CSS/Position/CSSResets.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />CSS
+                                                        Resets </a>
+                                                </li>
+                                                <li><a href="../../../WEB FUNDAMENTALS/Web Development - CSS/Position/PositionBasics.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />Position Basics </a>
+                                                </li>
+                                                <li><a href="../../../WEB FUNDAMENTALS/Web Development - CSS/Position/UserCard.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/practice.png" alt=""
+                                                            class="module-icon" />User Card</a>
+                                                </li>
+                                                <li><a href="../../../WEB FUNDAMENTALS/Web Development - CSS/Position/LayoutConcerns.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />Layout Concerns</a>
+                                                </li>
+                                                <li><a href="../../../WEB FUNDAMENTALS/Web Development - CSS/Position/ProfilePage.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/core.png" alt=""
+                                                            class="module-icon" />Profile Page</a>
+                                                </li>
+
+
+
+
+
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li class="mb-1">
+                                        <button id="sidebtn"
+                                            class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed"
+                                            data-bs-toggle="collapse" data-bs-target="#CSSExtras-collapse"
+                                            aria-expanded="false">
+                                            CSS Extras
+                                        </button>
+                                        <div class="collapse" id="CSSExtras-collapse">
+                                            <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                                                <li><a href="../../../WEB FUNDAMENTALS/Web Development - CSS/CSS Extras/AboutGitHubPages.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />About GitHub Pages </a>
+                                                </li>
+                                                <li><a href="../../../WEB FUNDAMENTALS/Web Development - CSS/CSS Extras/Overflow.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />Overflow </a>
+                                                </li>
+                                                <li><a href="../../../WEB FUNDAMENTALS/Web Development - CSS/CSS Extras/GridGame.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />Grid Game </a>
+                                                </li>
+                                                <li><a href="../../../WEB FUNDAMENTALS/Web Development - CSS/CSS Extras/CSSLibrary.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/option.png" alt=""
+                                                            class="module-icon" />CSS Library</a>
+                                                </li>
+
+                                            </ul>
+                                        </div>
+                                    </li>
+
+                                </ul>
+                            </nav>
+                        </aside>
+                    </div>
+                </div><button class="btn btn-link nav-link mx-2 order-3 d-lg-none" type="button"
+                    data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavMain" aria-controls="offcanvasNavMain"
+                    aria-label="Open main navigation menu"><svg xmlns="http://www.w3.org/2000/svg"
+                        class="icon icon-tabler icon-tabler-menu" width="24" height="24" viewBox="0 0 24 24"
+                        stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                        <line x1="4" y1="8" x2="20" y2="8"></line>
+                        <line x1="4" y1="16" x2="20" y2="16"></line>
+                    </svg></button>
+                <div class="offcanvas offcanvas-end h-auto" tabindex="-1" id="offcanvasNavMain"
+                    aria-labelledby="offcanvasNavMainLabel">
+                    <div class="offcanvas-header">
+                        <img src="/assets/icons/logo.png" alt="logo" style="width: 70px; height: 50px;">
+                        <button type="button" class="btn btn-link nav-link p-0" data-bs-dismiss="offcanvas"
+                            aria-label="Close"><svg xmlns="http://www.w3.org/2000/svg"
+                                class="icon icon-tabler icon-tabler-x" width="24" height="24" viewBox="0 0 24 24"
+                                stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round"
+                                stroke-linejoin="round">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                <path d="M18 6 6 18"></path>
+                                <path d="M6 6l12 12"></path>
+                            </svg></button>
+                    </div>
+                    <div class="offcanvas-body d-flex flex-column flex-lg-row justify-content-between">
+                        <!-- <ul class="navbar-nav flex-grow-1">
+              <li class="nav-item"><a class="nav-link active" href="index.html" aria-current="true">Docs</a></li>
+              <li class="nav-item"><a class="nav-link" href="/blog/">Blog</a></li>
+            </ul> -->
+
+                        <!-- this section is for the search bar and results -->
+                        <form class="navbar-form my-auto flex-grow-1 ">
+                            <input id="searchInput" class="form-control is-search ms-auto me-5" type="search"
+                                placeholder="Search ..." aria-label="Search docs." autocomplete="off">
+                            <div id="suggestions" class="shadow rounded position-absolute d-none">
+                                <ul id="searchResults" class="list-unstyled m-auto"></ul>
+                            </div>
+                        </form>
+
+
+                        <button id="buttonColorMode" class="btn btn-link mx-auto nav-link p-0 ms-lg-2 me-lg-1"
+                            type="button" aria-label="Toggle theme"><svg data-bs-theme-value="dark"
+                                xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-moon" width="24"
+                                height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentcolor" fill="none"
+                                stroke-linecap="round" stroke-linejoin="round">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                <path d="M12 3c.132.0.263.0.393.0a7.5 7.5.0 007.92 12.446A9 9 0 1112 2.992z"></path>
+                            </svg><svg data-bs-theme-value="light" xmlns="http://www.w3.org/2000/svg"
+                                class="icon icon-tabler icon-tabler-sun" width="24" height="24" viewBox="0 0 24 24"
+                                stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round"
+                                stroke-linejoin="round">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                <path
+                                    d="M12 12m-4 0a4 4 0 108 0 4 4 0 10-8 0m-5 0h1m8-9v1m8 8h1m-9 8v1M5.6 5.6l.7.7m12.1-.7-.7.7m0 11.4.7.7m-12.1-.7-.7.7">
+                                </path>
+                            </svg></button>
+                        <ul id="socialMenu" class="nav mx-auto flex-row order-lg-4">
+
+
+                            <li class="nav-item"><a class="nav-link social-link" href="https://github.com/DigitalAcademyTn"><svg
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        class="icon icon-tabler icon-tabler-brand-github" width="24" height="24"
+                                        viewBox="0 0 24 24" stroke-width="2" stroke="currentcolor" fill="none"
+                                        stroke-linecap="round" stroke-linejoin="round">
+                                        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                        <path
+                                            d="M9 19c-4.3 1.4-4.3-2.5-6-3m12 5v-3.5c0-1 .1-1.4-.5-2 2.8-.3 5.5-1.4 5.5-6a4.6 4.6.0 00-1.3-3.2 4.2 4.2.0 00-.1-3.2s-1.1-.3-3.5 1.3a12.3 12.3.0 00-6.2.0C6.5 2.8 5.4 3.1 5.4 3.1a4.2 4.2.0 00-.1 3.2A4.6 4.6.0 004 9.5c0 4.6 2.7 5.7 5.5 6-.6.6-.6 1.2-.5 2V21">
+                                        </path>
+                                    </svg><small class="ms-2 visually-hidden">GitHub</small></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </header>
+    </div>
+
+
+
+
+    <div class="wrap container-fluid " role="document">
+        <div class="content">
+            <div class="row  d-flex justify-content-center">
+                <div class=" docs-sidebar d-none d-lg-block   ">
+                    <main class="">
+                        <div class="flex-shrink-0 pt-4 ">
+
+                            <div class="module pb-2">
+                                <h2 class="mod-title">WEB FUNDAMENTALS</h2>
+                            </div>
+                            <div class="module pb-2">
+                                <a href="../../../WEB FUNDAMENTALS/HTML/HTML/PortfolioContent.html" class="previous "
+                                    style="margin: 0!important;">&#8249;</a>
+                                <img src="/assets/icons/css.png" alt="" class="chapter-icon" />
+                                <span class="mod-title">Web Dev/CSS
+                                </span>
+                                <a href="../../../WEB FUNDAMENTALS/JS/Language Fundamentals/Introduction.html"
+                                    style="margin: 0!important;" class="next">&#8250;</a>
+                            </div>
+
+
+
+
+
+                            <ul class=" list-unstyled px-3 overflow-scroll">
+                                <li class="mb-1  ">
+                                    <button id="sidebtn"
+                                        class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed"
+                                        data-bs-toggle="collapse" data-bs-target="#Selectors-collapse"
+                                        aria-expanded="false">
+                                        Selectors
+                                    </button>
+                                    <div class="collapse" id="Selectors-collapse">
+                                        <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                                            <li><a href="../../../WEB FUNDAMENTALS/Web Development - CSS/Selectors/SettingUpProjects.html"
+                                                    class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />Setting up Projects</a>
+                                            </li>
+                                            <li><a href="../../../WEB FUNDAMENTALS/Web Development - CSS/Selectors/SelectorBasics.html"
+                                                    class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />Selector Basics</a>
+                                            </li>
+
+                                            <li><a href="../../../WEB FUNDAMENTALS/Web Development - CSS/Selectors/SelectTheSelectorI.html"
+                                                    class="docs-link rounded">
+                                                    <img src="/assets/icons/quiz.png" alt=""
+                                                        class="module-icon" />Select the Selector I</a>
+                                            </li>
+                                            <li><a href="../../../WEB FUNDAMENTALS/Web Development - CSS/Selectors/SelectorsAdvanced.html"
+                                                    class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />Selectors Advanced</a>
+                                            </li>
+                                            <li><a href="../../../WEB FUNDAMENTALS/Web Development - CSS/Selectors/SelectTheSelectorII.html"
+                                                    class="docs-link rounded ">
+                                                    <img src="/assets/icons/quiz.png" alt=""
+                                                        class="module-icon" />Select the Selector II</a>
+                                            </li>
+                                            <li><a href="../../../WEB FUNDAMENTALS/Web Development - CSS/Selectors/SelectorsGame.html"
+                                                    class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />Selectors Game </a>
+
+
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li class="mb-1">
+                                    <button id="sidebtn"
+                                        class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed"
+                                        data-bs-toggle="collapse" data-bs-target="#BoxModel-collapse"
+                                        aria-expanded="true">
+                                        Box Model
+                                    </button>
+                                    <div class="collapse show" id="BoxModel-collapse">
+                                        <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                                            <li><a href="../../../WEB FUNDAMENTALS/Web Development - CSS/Box Model/CSSPropertiesColor.html"
+                                                    class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt="" class="module-icon" />CSS
+                                                    Properties - Color</a>
+                                            </li>
+                                            <li><a href="../../../WEB FUNDAMENTALS/Web Development - CSS/Box Model/CSSPropertiesText.html"
+                                                    class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt="" class="module-icon" />CSS
+                                                    Properties - Text</a>
+                                            </li>
+                                            <li><a href="../../../WEB FUNDAMENTALS/Web Development - CSS/Box Model/Styling.html"
+                                                    class="docs-link rounded ">
+                                                    <img src="/assets/icons/practice.png" alt=""
+                                                        class="module-icon" />Styling</a>
+                                            </li>
+                                            <li><a href="../../../WEB FUNDAMENTALS/Web Development - CSS/Box Model/Sizes.html"
+                                                    class="docs-link rounded active">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />Sizes</a>
+                                            </li>
+                                            <li><a href="../../../WEB FUNDAMENTALS/Web Development - CSS/Box Model/BoxModel.html"
+                                                    class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt="" class="module-icon" />Box
+                                                    Model</a>
+                                            </li>
+                                            <li><a href="../../../WEB FUNDAMENTALS/Web Development - CSS/Box Model/ButtonUp.html"
+                                                    class="docs-link rounded ">
+                                                    <img src="/assets/icons/practice.png" alt=""
+                                                        class="module-icon" />Button Up</a>
+                                            </li>
+                                            <li><a href="../../../WEB FUNDAMENTALS/Web Development - CSS/Box Model/InlineAndBlock.html"
+                                                    class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />Inline and Block</a>
+                                            </li>
+                                            <li><a href="../../../WEB FUNDAMENTALS/Web Development - CSS/Box Model/PlottingOurBlocks.html"
+                                                    class="docs-link rounded ">
+                                                    <img src="/assets/icons/core.png" alt=""
+                                                        class="module-icon" />Plotting Our Blocks</a>
+                                            </li>
+
+
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li class="mb-1">
+                                    <button id="sidebtn"
+                                        class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed"
+                                        data-bs-toggle="collapse" data-bs-target="#DisplayProperty-collapse"
+                                        aria-expanded="false">
+                                        Display Property
+                                    </button>
+                                    <div class="collapse" id="DisplayProperty-collapse">
+                                        <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                                            <li><a href="../../../WEB FUNDAMENTALS/Web Development - CSS/Display Property/TheFlexAdvantage.html"
+                                                    class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt="" class="module-icon" />The
+                                                    Flex Advantage</a>
+                                            </li>
+                                            <li><a href="../../../WEB FUNDAMENTALS/Web Development - CSS/Display Property/FlexOurBlocks.html"
+                                                    class="docs-link rounded ">
+                                                    <img src="/assets/icons/practice.png" alt=""
+                                                        class="module-icon" />Flex our Blocks</a>
+                                            </li>
+                                            <li><a href="../../../WEB FUNDAMENTALS/Web Development - CSS/Display Property/JustifyTheContent.html"
+                                                    class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt="" class="module-icon" />
+                                                    Justify the Content</a>
+                                            </li>
+                                            <li><a href="../../../WEB FUNDAMENTALS/Web Development - CSS/Display Property/GitHubBlocks.html"
+                                                    class="docs-link rounded ">
+                                                    <img src="/assets/icons/core.png" alt=""
+                                                        class="module-icon" />GitHub Blocks</a>
+                                            </li>
+                                            <li><a href="../../../WEB FUNDAMENTALS/Web Development - CSS/Display Property/FlexNavbar.html"
+                                                    class="docs-link rounded ">
+                                                    <img src="/assets/icons/practice.png" alt=""
+                                                        class="module-icon" />Flex Navbar</a>
+                                            </li>
+                                            <li><a href="../../../WEB FUNDAMENTALS/Web Development - CSS/Display Property/BeingFlex-ible.html"
+                                                    class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />Being Flex-ible</a>
+                                            </li>
+                                            <li><a href="../../../WEB FUNDAMENTALS/Web Development - CSS/Display Property/FLEX-ibleColumns.html"
+                                                    class="docs-link rounded ">
+                                                    <img src="/assets/icons/core.png" alt=""
+                                                        class="module-icon" />FLEX-ible Columns</a>
+                                            </li>
+                                            <li><a href="../../../WEB FUNDAMENTALS/Web Development - CSS/Display Property/FlexGame.html"
+                                                    class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />Flex Game </a>
+                                            </li>
+
+
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li class="mb-1">
+                                    <button id="sidebtn"
+                                        class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed"
+                                        data-bs-toggle="collapse" data-bs-target="#Position-collapse"
+                                        aria-expanded="false">
+                                        Position
+                                    </button>
+                                    <div class="collapse" id="Position-collapse">
+                                        <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                                            <li><a href="../../../WEB FUNDAMENTALS/Web Development - CSS/Position/CSSResets.html"
+                                                    class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt="" class="module-icon" />CSS
+                                                    Resets </a>
+                                            </li>
+                                            <li><a href="../../../WEB FUNDAMENTALS/Web Development - CSS/Position/PositionBasics.html"
+                                                    class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />Position Basics </a>
+                                            </li>
+                                            <li><a href="../../../WEB FUNDAMENTALS/Web Development - CSS/Position/UserCard.html"
+                                                    class="docs-link rounded ">
+                                                    <img src="/assets/icons/practice.png" alt=""
+                                                        class="module-icon" />User Card</a>
+                                            </li>
+                                            <li><a href="../../../WEB FUNDAMENTALS/Web Development - CSS/Position/LayoutConcerns.html"
+                                                    class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />Layout Concerns</a>
+                                            </li>
+                                            <li><a href="../../../WEB FUNDAMENTALS/Web Development - CSS/Position/ProfilePage.html"
+                                                    class="docs-link rounded ">
+                                                    <img src="/assets/icons/core.png" alt=""
+                                                        class="module-icon" />Profile Page</a>
+                                            </li>
+
+
+
+
+
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li class="mb-1">
+                                    <button id="sidebtn"
+                                        class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed"
+                                        data-bs-toggle="collapse" data-bs-target="#CSSExtras-collapse"
+                                        aria-expanded="false">
+                                        CSS Extras
+                                    </button>
+                                    <div class="collapse" id="CSSExtras-collapse">
+                                        <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                                            <li><a href="../../../WEB FUNDAMENTALS/Web Development - CSS/CSS Extras/AboutGitHubPages.html"
+                                                    class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />About GitHub Pages </a>
+                                            </li>
+                                            <li><a href="../../../WEB FUNDAMENTALS/Web Development - CSS/CSS Extras/Overflow.html"
+                                                    class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />Overflow </a>
+                                            </li>
+                                            <li><a href="../../../WEB FUNDAMENTALS/Web Development - CSS/CSS Extras/GridGame.html"
+                                                    class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />Grid Game </a>
+                                            </li>
+                                            <li><a href="../../../WEB FUNDAMENTALS/Web Development - CSS/CSS Extras/CSSLibrary.html"
+                                                    class="docs-link rounded ">
+                                                    <img src="/assets/icons/option.png" alt="" class="module-icon" />CSS
+                                                    Library</a>
+                                            </li>
+
+                                        </ul>
+                                    </div>
+                                </li>
+
+                            </ul>
+                        </div>
+
+                    </main>
+
+                </div>
+                <div class="docs-content col-lg-11 col-xl-9 " id="lesson_content">
+
+                    <main data-bs-spy="scroll" data-bs-target="#TableOfContents" data-bs-offset="0" tabindex="0">
+
+
+                        <div id="lesson_content">
+                            <h1>Sizes</h1>
+                            <hr>
+                            <p>Below are some of the most common styling properties that will affect all elements. This
+                                is not a definitive list and you should try doing a search for other properties that can
+                                help you to add style to your documents.</p>
+                            <h3>width | height:</h3>
+                            <p>The width and height properties are used to determine the size of your elements. The
+                                values can be expressed in pixels (px) and percentage (%). When working with static
+                                content using px is suitable as you will be defining your page to not change. If you are
+                                working with responsive design, you will want to use %.</p>
+                            <p>Be careful when setting your height property as this will determine how much content the
+                                element can hold. If you leave it unset, your element will expand to fit the content it
+                                holds. If you set it and you have more content than&nbsp;can be displayed then you will
+                                need to either manually adjust the height each time you change the content&nbsp;or
+                                utilize the overflow property.</p>
+                            <p>When you want your element to resize ie: images, you can size just one property (width or
+                                height) and the other will adjust appropriately to keep the relative dimensions of the
+                                image.</p>
+                            <div class="highlight">
+                                <div class="clipboard"><button class="btn btn-clipboard"
+                                        aria-label="Clipboard button"></button></div>
+                                    <pre data-language="css">    <span class="entity name tag">a</span> {
+        <span class="support css-property">width</span>: <span class="constant numeric">25</span><span class="keyword unit">px</span>;
+    }
+    <span class="entity name tag">div</span> {
+        <span class="support css-property">width</span>: <span class="constant numeric">100</span><span class="keyword unit">%</span>;
+        <span class="support css-property">height</span>: <span class="constant numeric">200</span><span class="keyword unit">px</span>;
+    }
+    <span class="entity name tag">img</span> {
+        <span class="support css-property">width</span>: <span class="constant numeric">250</span><span class="keyword unit">px</span>;
+    }
+                            </pre>
+                            </div>
+                            <h3>font-size:</h3>
+                            <p>The font-size property values can be expressed in four different units pt, px, em, %. pt
+                                and px (point and pixel) are considered static size values and will not adjust properly
+                                when resizing your page. em and % (responsive measure and percent) however will resize
+                                and are what most developers recommend using. Below is a drop-down chart showing the
+                                approximate equivalents between the four units.(**Note** not intended to update code)
+                            </p>
+                            <select>
+                                <option>Point | Pixel | Em | Percent</option>
+                                <option>6pt | 8px | 0.5em | 50%</option>
+                                <option>7pt | 9px | 0.55em | 55%</option>
+                                <option>7.5pt | 10px | 0.625em | 62.5%</option>
+                                <option>8pt | 11px | 0.7em | 70%</option>
+                                <option>9pt | 12px | 0.75em | 75%</option>
+                                <option>10pt | 13px | 0.8em | 80%</option>
+                                <option>10.5pt | 14px | 0.875em | 87.5%</option>
+                                <option>11pt | 15px | 0.95em | 95%</option>
+                                <option>12pt | 16px | 1em | 100%</option>
+                                <option>13pt | 17px | 1.05em | 105%</option>
+                                <option>13.5pt | 18px | 1.125em | 112.5%</option>
+                                <option>14pt | 19px | 1.2em | 120%</option>
+                                <option>14.5pt | 20px | 1.25em | 125%</option>
+                                <option>15pt | 21px | 1.3em | 130%</option>
+                                <option>16pt | 22px | 1.4em | 140%</option>
+                                <option>17pt | 23px | 1.45em | 145%</option>
+                                <option>18pt | 24px | 1.5em | 150%</option>
+                                <option>20pt | 26px | 1.6em | 160%</option>
+                                <option>22pt | 29px | 1.8em | 180%</option>
+                                <option>24pt | 32px | 2em | 200%</option>
+                                <option>26pt | 35px | 2.2em | 220%</option>
+                                <option>27pt | 36px | 2.25em | 225%</option>
+                                <option>28pt | 37px | 2.3em | 230%</option>
+                                <option>29pt | 38px | 2.35em | 235%</option>
+                                <option>30pt | 40px | 2.45em | 245%</option>
+                                <option>32pt | 42px | 2.55em | 255%</option>
+                                <option>34pt | 45px | 2.75em | 275%</option>
+                                <option>36pt | 48px | 3em | 300%</option>
+                            </select>
+                            <div class="highlight">
+                                <div class="clipboard"><button class="btn btn-clipboard"
+                                        aria-label="Clipboard button"></button></div>
+<pre data-language="css">    <span class="entity name tag">h3</span> {
+    <span class="support css-property">font-size</span>:<span class="constant numeric">10</span>pt;
+    }
+    <span class="entity name tag">p</span> {
+        <span class="support css-property">font-size</span>: <span class="constant numeric">14</span><span class="keyword unit">px</span>;
+    }
+    <span class="entity name tag">a</span> {
+        <span class="support css-property">font-size</span>: <span class="constant numeric">1</span>.<span class="constant numeric">2</span><span class="keyword unit">em</span>;
+    }
+    <span class="entity name tag">span</span> {
+        <span class="support css-property">font-size</span>: <span class="constant numeric">80</span><span class="keyword unit">%</span>;
+    }
+    </pre>
+                            </div>
+                            <h3>overflow:</h3>
+                            <p>This property determines what should happen when the content inside of a container is too
+                                much for the container size. You can set the container to hide the additional
+                                information that does not fit, show the information no matter what, or have a scroll bar
+                                added to the element so the content is contained but still viewable.</p>
+                            <div class="highlight">
+                                <div class="clipboard"><button class="btn btn-clipboard"
+                                        aria-label="Clipboard button"></button></div>
+                                <pre data-language="css">  <span class="entity name tag">div</span> {
+    <span class="support css-property">overflow</span>: <span class="support css-value">scroll</span>;
+    }
+</pre>
+                            </div>
+                            <h3>background:</h3>
+                            <p>The background property can modify the background of an element all in one line. This is
+                                a shorter version than splitting each property on its own line of code. The color can be
+                                defined using hex, rgb or semantic code.</p>
+                            <div class="highlight">
+                                <div class="clipboard"><button class="btn btn-clipboard"
+                                        aria-label="Clipboard button"></button></div>
+                                <pre data-language="css">  <span class="entity name tag">p</span> {
+    <span class="support css-property">background</span>: <span class="constant hex-color">#ffffff</span> url(<span class="string">"cherries.png"</span>) no-repeat fixed center;
+    }
+</pre>
+                            </div>
+                            <h3>background-color | background-image | background-position | background-size |
+                                background-repeat:</h3>
+                            <p>These background properties adjust the background by property type. Like background,
+                                background-color can be defined using hex, rgb or semantic code.</p>
+                            <div class="highlight">
+                                <div class="clipboard"><button class="btn btn-clipboard"
+                                        aria-label="Clipboard button"></button></div>
+                                <pre data-language="css">  <span class="entity name tag">p</span> {
+    <span class="support css-property">background-color</span>: <span class="support css-value">blue</span>;
+  }
+  <span class="entity name tag">div</span> {
+    <span class="support css-property">background-image</span>: <span class="support css-value">url</span>(<span class="string">"cherries.png"</span>);
+    <span class="support css-property">background-position</span>: <span class="support css-value">center</span>;
+    <span class="support css-property">background-size</span>: <span class="support css-value">auto</span>;
+    <span class="support css-property">background-repeat</span>: <span class="support css-value">no-repeat</span>;
+  }
+</pre>
+                            </div>
+                            <h3>border:</h3>
+                            <p>This property adjusts all border elements in one line. The first value is the border
+                                thickness. The second value is the border type. The third value is the border color. The
+                                color can be hex, rgb or semantic code.</p>
+                            <p>The border property can also be broken down into separate lines using border-width,
+                                border-style and border color. Additionally, you can select very specifically which
+                                border you want to style by using border-top, border-bottom, border-right, border-left.
+                            </p>
+                            <div class="highlight">
+                                <div class="clipboard"><button class="btn btn-clipboard"
+                                        aria-label="Clipboard button"></button></div>
+                                <pre data-language="css"><span class="entity name tag">button</span> {
+    <span class="support css-property">border</span>: <span class="constant numeric">2</span><span class="keyword unit">px</span> dotted green;
+}
+<span class="entity name tag">div</span> {
+    <span class="support css-property">border</span>: <span class="constant numeric">1</span><span class="keyword unit">px</span> solid <span class="constant hex-color">#000000</span>;
+}
+<span class="entity name tag">p</span> {
+    <span class="support css-property">border-right</span>: <span class="constant numeric">1</span><span class="keyword unit">px</span> groove rgb(<span class="constant numeric">100</span>,<span class="constant numeric">100</span>,<span class="constant numeric">100</span>);
+    <span class="support css-property">border-left</span>: <span class="constant numeric">1</span><span class="keyword unit">px</span> groove rgb(<span class="constant numeric">200</span>,<span class="constant numeric">200</span>,<span class="constant numeric">200</span>);
+}
+</pre>
+                            </div>
+                            <h3>border-radius</h3>
+                            <p>This property allows the corners of your border to be given a rounded appearance. The
+                                values can be set using px or %.</p>
+                            <div class="highlight">
+                                <div class="clipboard"><button class="btn btn-clipboard"
+                                        aria-label="Clipboard button"></button></div>
+                                <pre data-language="css"><span class="entity name tag">button</span> {
+    <span class="support css-property">border-radius</span>: <span class="constant numeric">5</span><span class="keyword unit">px</span>;
+}
+</pre>
+                            </div>
+
+
+                        </div>
+
+                        <br><br><br>
+
+
+                        <div class="d-flex justify-content-between  " id="navigation">
+                            <a href="../../../WEB FUNDAMENTALS/Web Development - CSS/Box Model/Styling.html"
+                                class="previous_page">&laquo; Previous</a>
+                            <a href="../../../WEB FUNDAMENTALS/Web Development - CSS/Box Model/BoxModel.html"
+                                class="next_page">Next &raquo;</a>
+
+                        </div>
+
+
+
+
+
+
+
+
+
+
+
+                    </main>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <!-- Include jQuery and Bootstrap JS (CDN) -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script src="/assets/js/color-modes.js"></script>
+    <script src="/assets/js/search.js"></script>
+    <script src="/assets/js/main.js"></script>
+
+
+    <!-- <script src="https://cdn.jsdelivr.net/npm/prismjs@1.28.0/prism.min.js"></script>
+  <script>
+    Prism.highlightAll();
+  </script> -->
+
+
+
+    <script>
+        // Initialize Prism.js
+        Prism.highlightAll();
+    </script>
+
+</body>
+
+</html>

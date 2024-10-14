@@ -1,0 +1,578 @@
+<!doctype html>
+<html lang="en" data-bs-theme="light">
+
+<head>
+    <!-- <script src="/assets/js/color-modes.js"></script> -->
+
+    <meta charset="utf-8">
+    <link rel="icon" type="image/png" href="../../../../assets/icons/circle-logo.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.118.2">
+    <title>Digital-Academy</title>
+
+    <!-- Custom style -->
+    <link href="/assets/styles/sidebar.css" rel="stylesheet">
+    <link rel="stylesheet" href="/assets/styles/styles.css">
+    <link rel="stylesheet" href="/assets/styles/styles2.css">
+    <!-- bootstrap style -->
+
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous"> -->
+
+
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/prismjs@1.28.0/themes/prism.min.css"> -->
+
+
+
+    <!-- Include the Prism.js library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.25.0/themes/prism.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.25.0/prism.min.js"></script>
+
+    <!-- Include the Okaidia theme -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.25.0/themes/prism-okaidia.min.css">
+
+
+</head>
+
+<body class="single home " data-bs-spy="scroll" data-bs-target="#TableOfContents" data-bs-root-margin="0px 0px -60%"
+    data-bs-smooth-scroll="true" tabindex="0" cz-shortcut-listen="true">
+    <div class="sticky-top">
+        <header class="navbar navbar-expand-lg g-nav">
+            <div class="container-lg"><a class="navbar-brand me-auto me-lg-3" href="#"> <img
+                        src="/assets/icons/logo.png" alt="logo" style="width: 70px; height: 50px;">
+                </a>
+                <a id="home" href="/home.html">HOME</a> 
+                <button class="btn btn-link d-lg-none" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasNavSection" aria-controls="offcanvasNavSection"
+                    aria-label="Open section navigation menu"><svg xmlns="http://www.w3.org/2000/svg"
+                        class="icon icon-tabler icon-tabler-dots-vertical" width="24" height="24" viewBox="0 0 24 24"
+                        stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                        <path d="M12 12m-1 0a1 1 0 102 0 1 1 0 10-2 0"></path>
+                        <path d="M12 19m-1 0a1 1 0 102 0 1 1 0 10-2 0"></path>
+                        <path d="M12 5m-1 0a1 1 0 102 0 1 1 0 10-2 0"></path>
+                    </svg></button>
+                <div class="offcanvas offcanvas-start d-lg-none" tabindex="-1" id="offcanvasNavSection"
+                    aria-labelledby="offcanvasNavSectionLabel">
+                    <div class="offcanvas-header">
+                        <img src="/assets/icons/logo.png" alt="logo" style="width: 70px; height: 50px;">
+                        <button type="button" class="btn btn-link nav-link p-0" data-bs-dismiss="offcanvas"
+                            aria-label="Close"><svg xmlns="http://www.w3.org/2000/svg"
+                                class="icon icon-tabler icon-tabler-x" width="24" height="24" viewBox="0 0 24 24"
+                                stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round"
+                                stroke-linejoin="round">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                <path d="M18 6 6 18"></path>
+                                <path d="M6 6l12 12"></path>
+                            </svg></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <aside class="doks-sidebar mt-n3">
+                            <nav id="doks-docs-nav" aria-label="Tertiary navigation">
+                                <div class="module pb-2 pt-4">
+                                    <h2 class="mod-title">WEB FUNDAMENTALS</h2>
+                                    <div class="module pb-2">
+                                        <a href="#" class="previous"></a>
+                                        <img src="/assets/icons/html.png" alt="" class="chapter-icon" />
+                                        <span class="mod-title">HTML</span>
+                                        <a href="../../../WEB FUNDAMENTALS/Web Development - CSS/Selectors/SettingUpProjects.html" class="next">&#8250;</a>
+                                    </div>
+                                </div>
+                                <ul class="list-unstyled collapsible-sidebar">
+                                    <li class="mb-1">
+                                        <button id="sidebtn"
+                                            class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed"
+                                            data-bs-toggle="collapse" data-bs-target="#HowToCode-collapse"
+                                            aria-expanded="false">
+                                            How To Code
+                                        </button>
+                                        <div class="collapse " id="HowToCode-collapse">
+                                            <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                                                <li><a href="../HowToCode/introduction.html" class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />Introduction</a>
+                                                </li>
+                                                <li><a href="../HowToCode/SettingUpOurEditor.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />Setting Up Our Editor</a>
+                                                </li>
+                                                <li><a href="../HowToCode/FilesAndFolders.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />Files and Folders</a>
+                                                </li>
+                                                <li><a href="../HowToCode/Git.html" class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />Git</a>
+                                                </li>
+                                                <li><a href="../HowToCode/PushToGitHub.html" class="docs-link rounded ">
+                                                        <img src="/assets/icons/practice.png" alt=""
+                                                            class="module-icon" />Push to GitHub</a>
+
+                                                </li>
+
+
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li class="mb-1">
+                                        <button id="sidebtn"
+                                            class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed"
+                                            data-bs-toggle="collapse" data-bs-target="#HTML-collapse"
+                                            aria-expanded="true">
+                                            HTML
+                                        </button>
+                                        <div class="collapse show" id="HTML-collapse">
+                                            <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                                                <li><a href="../HTML/HowTheWebWorks.html" class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />How the Web Works</a>
+                                                </li>
+                                                <li><a href="../HTML/IntroToHTML.html" class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />Intro to HTML</a>
+                                                </li>
+                                                <li><a href="../HTML/TextElements.html" class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />Text Elements</a>
+                                                </li>
+                                                <li><a href="../HTML/ListsAndTables.html" class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />Lists and Tables</a>
+                                                </li>
+                                                <li><a href="../HTML/ImagesAndVideos.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />Images and Videos</a>
+                                                </li>
+                                                <li><a href="../HTML/Element-aryQuiz.html" class="docs-link rounded">
+                                                        <img src="/assets/icons/quiz.png" alt=""
+                                                            class="module-icon" />Element-ary Quiz</a>
+                                                </li>
+                                                <li><a href="../HTML/DictionaryEntry.html" class="docs-link rounded">
+                                                        <img src="/assets/icons/practice.png" alt=""
+                                                            class="module-icon" />Dictionary Entry</a>
+                                                </li>
+                                                <li><a href="../HTML/WhyIndentation.html" class="docs-link rounded active">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />Why Indentation?</a>
+                                                </li>
+                                                <li><a href="../HTML/FixIndentation.html" class="docs-link rounded">
+                                                        <img src="/assets/icons/practice.png" alt=""
+                                                            class="module-icon" />Fix Indentation</a>
+                                                </li>
+                                                <li><a href="../HTML/Forms.html" class="docs-link rounded">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />Forms</a>
+                                                </li>
+                                                <li><a href="../HTML/AboutDivs.html" class="docs-link rounded">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />About Divs</a>
+                                                </li>
+                                                <li><a href="../HTML/RegistrationForm.html" class="docs-link rounded">
+                                                        <img src="/assets/icons/core.png" alt=""
+                                                            class="module-icon" />Registration Form</a>
+                                                </li>
+                                                <li><a href="../HTML/ValidatingOurHTML.html" class="docs-link rounded">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />Validating Our HTML</a>
+                                                </li>
+                                                <li><a href="../HTML/PortfolioContent.html" class="docs-link rounded">
+                                                        <img src="/assets/icons/practice.png" alt=""
+                                                            class="module-icon" />Portfolio Content</a>
+                                                </li>
+
+                                            </ul>
+                            </nav>
+                        </aside>
+                    </div>
+                </div><button class="btn btn-link nav-link mx-2 order-3 d-lg-none" type="button"
+                    data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavMain" aria-controls="offcanvasNavMain"
+                    aria-label="Open main navigation menu"><svg xmlns="http://www.w3.org/2000/svg"
+                        class="icon icon-tabler icon-tabler-menu" width="24" height="24" viewBox="0 0 24 24"
+                        stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                        <line x1="4" y1="8" x2="20" y2="8"></line>
+                        <line x1="4" y1="16" x2="20" y2="16"></line>
+                    </svg></button>
+                   
+                <div class="offcanvas offcanvas-end h-auto" tabindex="-1" id="offcanvasNavMain"
+                    aria-labelledby="offcanvasNavMainLabel">
+                    <div class="offcanvas-header">
+                        <img src="/assets/icons/logo.png" alt="logo" style="width: 70px; height: 50px;">
+                        <button type="button" class="btn btn-link nav-link p-0" data-bs-dismiss="offcanvas"
+                            aria-label="Close"><svg xmlns="http://www.w3.org/2000/svg"
+                                class="icon icon-tabler icon-tabler-x" width="24" height="24" viewBox="0 0 24 24"
+                                stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round"
+                                stroke-linejoin="round">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                <path d="M18 6 6 18"></path>
+                                <path d="M6 6l12 12"></path>
+                            </svg></button>
+                    </div>
+                    <div class="offcanvas-body d-flex flex-column flex-lg-row justify-content-between">
+                        <!-- <ul class="navbar-nav flex-grow-1">
+              <li class="nav-item"><a class="nav-link active" href="index.html" aria-current="true">Docs</a></li>
+              <li class="nav-item"><a class="nav-link" href="/blog/">Blog</a></li>
+            </ul> -->
+
+                        <!-- this section is for the search bar and results -->
+                        <form class="navbar-form my-auto flex-grow-1 ">
+                            <input id="searchInput" class="form-control is-search ms-auto me-5" type="search"
+                                placeholder="Search ..." aria-label="Search docs." autocomplete="off">
+                            <div id="suggestions" class="shadow rounded position-absolute d-none">
+                                <ul id="searchResults" class="list-unstyled m-auto"></ul>
+                            </div>
+                        </form>
+
+
+                        <button id="buttonColorMode" class="btn btn-link mx-auto nav-link p-0 ms-lg-2 me-lg-1"
+                            type="button" aria-label="Toggle theme"><svg data-bs-theme-value="dark"
+                                xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-moon" width="24"
+                                height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentcolor" fill="none"
+                                stroke-linecap="round" stroke-linejoin="round">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                <path d="M12 3c.132.0.263.0.393.0a7.5 7.5.0 007.92 12.446A9 9 0 1112 2.992z"></path>
+                            </svg><svg data-bs-theme-value="light" xmlns="http://www.w3.org/2000/svg"
+                                class="icon icon-tabler icon-tabler-sun" width="24" height="24" viewBox="0 0 24 24"
+                                stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round"
+                                stroke-linejoin="round">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                <path
+                                    d="M12 12m-4 0a4 4 0 108 0 4 4 0 10-8 0m-5 0h1m8-9v1m8 8h1m-9 8v1M5.6 5.6l.7.7m12.1-.7-.7.7m0 11.4.7.7m-12.1-.7-.7.7">
+                                </path>
+                            </svg></button>
+                        <ul id="socialMenu" class="nav mx-auto flex-row order-lg-4">
+
+
+                            <li class="nav-item"><a class="nav-link social-link"  href="https://github.com/DigitalAcademyTn"><svg
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        class="icon icon-tabler icon-tabler-brand-github" width="24" height="24"
+                                        viewBox="0 0 24 24" stroke-width="2" stroke="currentcolor" fill="none"
+                                        stroke-linecap="round" stroke-linejoin="round">
+                                        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                        <path
+                                            d="M9 19c-4.3 1.4-4.3-2.5-6-3m12 5v-3.5c0-1 .1-1.4-.5-2 2.8-.3 5.5-1.4 5.5-6a4.6 4.6.0 00-1.3-3.2 4.2 4.2.0 00-.1-3.2s-1.1-.3-3.5 1.3a12.3 12.3.0 00-6.2.0C6.5 2.8 5.4 3.1 5.4 3.1a4.2 4.2.0 00-.1 3.2A4.6 4.6.0 004 9.5c0 4.6 2.7 5.7 5.5 6-.6.6-.6 1.2-.5 2V21">
+                                        </path>
+                                                  </svg><small class="ms-2 visually-hidden">GitHub</small></a></li>
+                  <a id="upgrade" href="../../../upgrade.html">UPGRADE</a>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </header>
+    </div>
+
+
+
+
+    <div class="wrap container-fluid " role="document">
+        <div class="content">
+            <div class="row  d-flex justify-content-center">
+                <div class=" docs-sidebar d-none d-lg-block   ">
+                    <main class="">
+                        <div class="flex-shrink-0 pt-4 ">
+
+                            <div class="module pb-2">
+                                <h2 class="mod-title">WEB FUNDAMENTALS</h2>
+                            </div>
+                            <div class="module pb-2">
+                                <a href="#" class="previous"></a>
+                                <img src="/assets/icons/html.png" alt="" class="chapter-icon" />
+                                <span class="mod-title">HTML</span>
+                                <a href="../../../WEB FUNDAMENTALS/Web Development - CSS/Selectors/SettingUpProjects.html" class="next">&#8250;</a>
+                            </div>
+
+
+
+
+
+                            <ul class=" list-unstyled px-3 overflow-scroll">
+                                <li class="mb-1  ">
+                                    <button id="sidebtn"
+                                        class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed"
+                                        data-bs-toggle="collapse" data-bs-target="#HowToCode-collapse"
+                                        aria-expanded="false">
+                                        How To Code
+                                    </button>
+                                    <div class="collapse" id="HowToCode-collapse">
+                                        <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                                            <li><a href="../HowToCode/introduction.html" class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />Introduction</a>
+                                            </li>
+                                            <li><a href="../HowToCode/SettingUpOurEditor.html"
+                                                    class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />Setting Up Our Editor</a>
+                                            </li>
+                                            <li><a href="../HowToCode/FilesAndFolders.html" class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />Files and Folders</a>
+                                            </li>
+                                            <li><a href="../HowToCode/Git.html" class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />Git</a>
+                                            </li>
+                                            <li><a href="../HowToCode/PushToGitHub.html" class="docs-link rounded ">
+                                                    <img src="/assets/icons/practice.png" alt=""
+                                                        class="module-icon" />Push to GitHub</a>
+
+                                            </li>
+
+
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li class="mb-1">
+                                    <button id="sidebtn"
+                                        class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed"
+                                        data-bs-toggle="collapse" data-bs-target="#HTML-collapse" aria-expanded="true">
+                                        HTML
+                                    </button>
+                                    <div id="HTML-collapse">
+                                        <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                                            <li><a href="../HTML/HowTheWebWorks.html" class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt="" class="module-icon" />How
+                                                    the Web Works</a>
+                                            </li>
+                                            <li><a href="../HTML/IntroToHTML.html" class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />Intro to HTML</a>
+                                            </li>
+                                            <li><a href="../HTML/TextElements.html" class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />Text Elements</a>
+                                            </li>
+                                            <li><a href="../HTML/ListsAndTables.html" class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />Lists and Tables</a>
+                                            </li>
+                                            <li><a href="../HTML/ImagesAndVideos.html" class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />Images and Videos</a>
+                                            </li>
+                                            <li><a href="../HTML/Element-aryQuiz.html" class="docs-link rounded">
+                                                    <img src="/assets/icons/quiz.png" alt=""
+                                                        class="module-icon" />Element-ary Quiz</a>
+                                            </li>
+                                            <li><a href="../HTML/DictionaryEntry.html" class="docs-link rounded">
+                                                    <img src="/assets/icons/practice.png" alt=""
+                                                        class="module-icon" />Dictionary Entry</a>
+                                            </li>
+                                            <li><a href="../HTML/WhyIndentation.html" class="docs-link rounded active">
+                                                    <img src="/assets/icons/module.png" alt="" class="module-icon" />Why
+                                                    Indentation?</a>
+                                            </li>
+                                            <li><a href="../HTML/FixIndentation.html" class="docs-link rounded">
+                                                    <img src="/assets/icons/practice.png" alt=""
+                                                        class="module-icon" />Fix Indentation</a>
+                                            </li>
+                                            <li><a href="../HTML/Forms.html" class="docs-link rounded">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />Forms</a>
+                                            </li>
+                                            <li><a href="../HTML/AboutDivs.html" class="docs-link rounded">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />About Divs</a>
+                                            </li>
+                                            <li><a href="../HTML/RegistrationForm.html" class="docs-link rounded">
+                                                    <img src="/assets/icons/core.png" alt=""
+                                                        class="module-icon" />Registration Form</a>
+                                            </li>
+                                            <li><a href="../HTML/ValidatingOurHTML.html" class="docs-link rounded">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />Validating Our HTML</a>
+                                            </li>
+                                            <li><a href="../HTML/PortfolioContent.html" class="docs-link rounded">
+                                                    <img src="/assets/icons/practice.png" alt=""
+                                                        class="module-icon" />Portfolio Content</a>
+                                            </li>
+
+
+                                        </ul>
+                                    </div>
+                                </li>
+
+                            </ul>
+                        </div>
+
+                    </main>
+
+                </div>
+                <div class="docs-content col-lg-11 col-xl-9 " id="lesson_content">
+
+                    <main data-bs-spy="scroll" data-bs-target="#TableOfContents" data-bs-offset="0" tabindex="0"
+                        id="lesson_content">
+
+                            <h1>Why Indentation?</h1>
+                            <hr>
+                            <br>
+                            <h1><img src="/assets/img/alligatormom.png" style="background-color: initial; font-size: 12px; text-align: center; font-weight: normal;"></h1>
+                            <p class="p1">
+                             In this chapter, we will be covering 2 very important concepts: proper <b>Indentation</b> and the<b> Parent, Child, Sibling Relationship</b>.</p>
+                            <p class="p1">
+                             Consider the following example:</p>
+                            <blockquote>
+                             
+                              <strong><em>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;Lorem Ipsum Dolor Sit?</em></strong>&nbsp;
+                             <br>
+                             &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, ipsam placeat earum fugit sapiente unde blanditiis porro recusandae dolor! Dolorem quisquam deleniti earum aspernatur voluptas fugit dignissimos doloremque pariatur ipsum! Animi quo molestiae omnis iure suscipit cum, autem, illum debitis voluptates dicta alias mollitia provident est perspiciatis minima aspernatur ratione tenetur, neque ab accusamus quis.
+                             </blockquote>
+                            <p class="p1">
+                             Notice how the header is centered in the middle of the page. Also notice that the first word at the beginning of the paragraph is indented a few spaces over.<br></p>
+                             <div class="highlight">
+                                <div class="clipboard"><button class="btn btn-clipboard"
+                                        aria-label="Clipboard button"></button></div>
+<pre data-language="html"><span class="support tag"><span class="support tag">&lt;</span><span class="support tag special">!</span><span class="support tag-name">DOCTYPE</span></span> html<span class="support tag close">&gt;</span>
+<span class="support tag"><span class="support tag">&lt;</span><span class="support tag-name">html</span></span> <span class="support attribute">lang</span><span class="support operator">=</span><span class="string quote">"</span><span class="string value">en</span><span class="string quote">"</span><span class="support tag close">&gt;</span>
+    <span class="support tag"><span class="support tag">&lt;</span><span class="support tag-name">head</span></span><span class="support tag close">&gt;</span>
+        <span class="support tag"><span class="support tag">&lt;</span><span class="support tag-name">meta</span></span> <span class="support attribute">charset</span><span class="support operator">=</span><span class="string quote">"</span><span class="string value">UTF-8</span><span class="string quote">"</span><span class="support tag close">&gt;</span>
+        <span class="support tag"><span class="support tag">&lt;</span><span class="support tag-name">title</span></span><span class="support tag close">&gt;</span>Document<span class="support tag"><span class="support tag">&lt;</span><span class="support tag special">/</span><span class="support tag-name">title</span></span><span class="support tag close">&gt;</span>
+    <span class="support tag"><span class="support tag">&lt;</span><span class="support tag special">/</span><span class="support tag-name">head</span></span><span class="support tag close">&gt;</span>
+    <span class="support tag"><span class="support tag">&lt;</span><span class="support tag-name">body</span></span><span class="support tag close">&gt;</span>
+        <span class="support tag"><span class="support tag">&lt;</span><span class="support tag-name">h3</span></span><span class="support tag close">&gt;</span>Lorem Ipsum Dolor Sit?<span class="support tag"><span class="support tag">&lt;</span><span class="support tag special">/</span><span class="support tag-name">h3</span></span><span class="support tag close">&gt;</span>
+        <span class="support tag"><span class="support tag">&lt;</span><span class="support tag-name">p</span></span><span class="support tag close">&gt;</span> Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, ipsam placeat earum fugit sapiente unde blanditiis porro recusandae dolor! Dolorem quisquam deleniti earum aspernatur voluptas fugit dignissimos doloremque pariatur ipsum! Animi quo molestiae omnis iure suscipit cum, autem, illum debitis voluptates dicta alias mollitia provident est perspiciatis minima aspernatur ratione tenetur, neque ab accusamus quis.<span class="support tag"><span class="support tag">&lt;</span><span class="support tag special">/</span><span class="support tag-name">p</span></span><span class="support tag close">&gt;</span>
+    <span class="support tag"><span class="support tag">&lt;</span><span class="support tag special">/</span><span class="support tag-name">body</span></span><span class="support tag close">&gt;</span>
+<span class="support tag"><span class="support tag">&lt;</span><span class="support tag special">/</span><span class="support tag-name">html</span></span><span class="support tag close">&gt;</span>
+</pre>
+                        </div>
+                            <p class="p1">
+                             Wait. Isn’t it supposed to be indented like below?</p>
+                            <p class="p2">
+                            </p>
+                            <div class="highlight">
+                                <div class="clipboard"><button class="btn btn-clipboard"
+                                        aria-label="Clipboard button"></button></div>
+<pre data-language="html"><span class="support tag"><span class="support tag">&lt;</span><span class="support tag special">!</span><span class="support tag-name">DOCTYPE</span></span> html<span class="support tag close">&gt;</span>
+<span class="support tag"><span class="support tag">&lt;</span><span class="support tag-name">html</span></span> <span class="support attribute">lang</span><span class="support operator">=</span><span class="string quote">"</span><span class="string value">en</span><span class="string quote">"</span><span class="support tag close">&gt;</span>
+    <span class="support tag"><span class="support tag">&lt;</span><span class="support tag-name">head</span></span><span class="support tag close">&gt;</span>
+        <span class="support tag"><span class="support tag">&lt;</span><span class="support tag-name">meta</span></span> <span class="support attribute">charset</span><span class="support operator">=</span><span class="string quote">"</span><span class="string value">UTF-8</span><span class="string quote">"</span><span class="support tag close">&gt;</span>
+        <span class="support tag"><span class="support tag">&lt;</span><span class="support tag-name">title</span></span><span class="support tag close">&gt;</span>Document<span class="support tag"><span class="support tag">&lt;</span><span class="support tag special">/</span><span class="support tag-name">title</span></span><span class="support tag close">&gt;</span>
+    <span class="support tag"><span class="support tag">&lt;</span><span class="support tag special">/</span><span class="support tag-name">head</span></span><span class="support tag close">&gt;</span>
+    <span class="support tag"><span class="support tag">&lt;</span><span class="support tag-name">body</span></span><span class="support tag close">&gt;</span>
+        <span class="support tag"><span class="support tag">&lt;</span><span class="support tag-name">h3</span></span><span class="support tag close">&gt;</span>Lorem Ipsum Dolor Sit?<span class="support tag"><span class="support tag">&lt;</span><span class="support tag special">/</span><span class="support tag-name">h3</span></span><span class="support tag close">&gt;</span>
+        <span class="support tag"><span class="support tag">&lt;</span><span class="support tag-name">p</span></span><span class="support tag close">&gt;</span> Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, ipsam placeat 
+earum fugit sapiente unde blanditiis porro recusandae dolor! Dolorem quisquam deleniti earum
+aspernatur voluptas fugit dignissimos doloremque pariatur ipsum! Animi quo molestiae omnis iure
+suscipit cum, autem, illum debitis voluptates dicta alias mollitia provident est perspiciatis 
+minima aspernatur ratione tenetur, neque ab accusamus quis.<span class="support tag"><span class="support tag">&lt;</span><span class="support tag special">/</span><span class="support tag-name">p</span></span><span class="support tag close">&gt;</span>
+    <span class="support tag"><span class="support tag">&lt;</span><span class="support tag special">/</span><span class="support tag-name">body</span></span><span class="support tag close">&gt;</span>
+<span class="support tag"><span class="support tag">&lt;</span><span class="support tag special">/</span><span class="support tag-name">html</span></span><span class="support tag close">&gt;</span>
+</pre>
+                        </div>
+                            <p class="p2"></p>
+                            <p class="p1">
+                             Simple answer, 
+                             <strong>NO.</strong>&nbsp;</p>
+                            <p>
+                             <img style="width: 300px; vertical-align: top;" src="/assets/img/what.jpeg"></p>
+                            <div>
+                             <p>
+                              Remember, we don't indent our code by our website's&nbsp;
+                              <em>content,</em> we indent them via the HTML tag's <strong>parent, child, sibling relationship</strong>. So how did we get the title centered? Good question! That'll require some CSS and we'll be learning all about positioning tomorrow. For now, just understand that indentation is determined by the PCS relationship, <em>not </em>by how we want the HTML to be visually rendered on the browser.
+                             </p>
+                            </div>
+                            <div>
+                             <p>
+                             </p>
+                            </div>
+                            <h4></h4>
+                            <h2>What is the HTML PCS Relationship?</h2>
+                            <p>
+                             The PCS relationship is just a term&nbsp;to describe the relationship between tags/elements inside an HTML document.&nbsp;To know the relationship between tags, we must first determine the parents, children, and siblings within our HTML document.</p>
+                            <p>
+                             Example:</p>
+                             <div class="highlight">
+                                <div class="clipboard"><button class="btn btn-clipboard"
+                                        aria-label="Clipboard button"></button></div>
+<pre data-language="html"><span class="support tag"><span class="support tag">&lt;</span><span class="support tag special">!</span><span class="support tag-name">DOCTYPE</span></span> html<span class="support tag close">&gt;</span>
+<span class="support tag"><span class="support tag">&lt;</span><span class="support tag-name">html</span></span><span class="support tag close">&gt;</span>
+    <span class="support tag"><span class="support tag">&lt;</span><span class="support tag-name">head</span></span><span class="support tag close">&gt;</span>
+        <span class="support tag"><span class="support tag">&lt;</span><span class="support tag-name">title</span></span><span class="support tag close">&gt;</span> Hello World! <span class="support tag"><span class="support tag">&lt;</span><span class="support tag special">/</span><span class="support tag-name">title</span></span><span class="support tag close">&gt;</span>
+    <span class="support tag"><span class="support tag">&lt;</span><span class="support tag special">/</span><span class="support tag-name">head</span></span><span class="support tag close">&gt;</span>
+    <span class="support tag"><span class="support tag">&lt;</span><span class="support tag-name">body</span></span><span class="support tag close">&gt;</span>
+        <span class="support tag"><span class="support tag">&lt;</span><span class="support tag-name">h1</span></span><span class="support tag close">&gt;</span> Here is a heading tag <span class="support tag"><span class="support tag">&lt;</span><span class="support tag special">/</span><span class="support tag-name">h1</span></span><span class="support tag close">&gt;</span>
+        <span class="support tag"><span class="support tag">&lt;</span><span class="support tag-name">p</span></span><span class="support tag close">&gt;</span> Now a paragraph tag <span class="support tag"><span class="support tag">&lt;</span><span class="support tag special">/</span><span class="support tag-name">p</span></span><span class="support tag close">&gt;</span>
+    <span class="support tag"><span class="support tag">&lt;</span><span class="support tag special">/</span><span class="support tag-name">body</span></span><span class="support tag close">&gt;</span>
+<span class="support tag"><span class="support tag">&lt;</span><span class="support tag special">/</span><span class="support tag-name">html</span></span><span class="support tag close">&gt;</span>
+</pre>
+                        </div>
+                            <p>
+                             From the HTML above you can read:</p>
+                            <ul>
+                             <li>&lt;html&gt; is the root element<img src="/assets/img/batman.jpg" style="width: 57px; float: right;"></li> <li>&lt;html&gt; has no parents</li> <li>&lt;html&gt; is the parent of &lt;head&gt; and &lt;body&gt;</li> <li>&lt;head&gt; is the first child of &lt;html&gt;</li> <li>&lt;body&gt; is the last child of &lt;html&gt;</li></ul>
+                            <p>
+                             and:</p>
+                            <ul>
+                             <li>&lt;head&gt; has one child: &lt;title&gt;</li> <li>&lt;title&gt; has one content&nbsp;(text): "Hello World!"</li> <li>&lt;body&gt; has two children: &lt;h1&gt; and &lt;p&gt;</li> <li>&lt;h1&gt; has one content&nbsp;(text): "Here is a heading tag"</li> <li>&lt;p&gt; has one content&nbsp;(text): "Now a paragraph tag"</li> <li>&lt;h1&gt; and &lt;p&gt; are siblings</li> <li>&lt;head&gt; and &lt;body&gt; are siblings</li></ul>
+                            <h2>Is it really required to indent HTML code?</h2>
+                            <p>
+                             It's not required, but it is 
+                             <em>highly recommended</em>, and here are the reasons why:</p>
+                            <ul>
+                             <li>Beautiful-looking code can make you happy, and one way to make them look beautiful is to properly indent them.</li> <li>Properly indented code leads to less time spent on troubleshooting. Imagine being stuck with a problem, and you curse the inventor of HTML (damn you, Tim Berners-Lee!) -- only to find out that you just missed a closing tag. You were not able to quickly see it&nbsp;because you did not properly indent!&nbsp;</li> <li>It's easy to browse through your own code. With a glance, you know right away which part is the header part, and which part is the footer.</li> <li>It's a good coding habit. Popular programming languages such as PHP, Java, or Ruby recommend proper code indentation. Python even enforces it.</li></ul>
+                            <h3>
+                            <strong>How to Indent</strong></h3>
+                            <ul>
+                             <li>Just tap the TAB key. 1 TAB is equal to 4 spaces.&nbsp;</li> <li>For a quick demo, please watch the video below:</li></ul>
+                             <iframe width="100%" height="500" src="https://www.youtube.com/embed/xkp87QPS_p4?si=HQEhV1OD-SV2Qzdu" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>                            <p>At this point, you may not appreciate the significance of HTML&nbsp;PCS<strong>&nbsp;</strong>relationship&nbsp;--&nbsp;and that's okay. Just know that as early as the HTML course, you will be dealing with them (through properly indenting your code), but will not be directly working on them (target, and manipulate related elements via CSS and or JS).</p>
+                               
+
+                        <br><br><br>
+
+
+                        <div class="d-flex justify-content-between  " id="navigation">
+                            <a href="../HTML/DictionaryEntry.html" class="previous_page">&laquo; Previous</a>
+                            <a href="../HTML/FixIndentation.html" class="next_page">Next &raquo;</a>
+
+                        </div>
+
+
+
+
+
+
+
+
+
+
+
+                    </main>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <!-- Include jQuery and Bootstrap JS (CDN) -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script src="/assets/js/color-modes.js"></script>
+    <script src="/assets/js/search.js"></script>
+    <script src="/assets/js/main.js"></script>
+
+
+    <!-- <script src="https://cdn.jsdelivr.net/npm/prismjs@1.28.0/prism.min.js"></script>
+  <script>
+    Prism.highlightAll();
+  </script> -->
+
+
+
+    <script>
+        // Initialize Prism.js
+        Prism.highlightAll();
+    </script>
+
+</body>
+
+</html>

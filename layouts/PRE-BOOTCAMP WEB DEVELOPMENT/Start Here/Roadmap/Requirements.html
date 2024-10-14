@@ -1,0 +1,712 @@
+<!doctype html>
+<html lang="en" data-bs-theme="light">
+
+<head>
+    <!-- <script src="/assets/js/color-modes.js"></script> -->
+
+    <meta charset="utf-8">
+    <link rel="icon" type="image/png" href="../../../../assets/icons/circle-logo.png">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.118.2">
+    <title>Digital-Academy</title>
+
+    <!-- Custom style -->
+    <link href="/assets/styles/sidebar.css" rel="stylesheet">
+    <link rel="stylesheet" href="/assets/styles/styles.css">
+    <link rel="stylesheet" href="/assets/styles/styles2.css">
+    <!-- bootstrap style -->
+
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous"> -->
+
+
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/prismjs@1.28.0/themes/prism.min.css"> -->
+
+
+
+    <!-- Include the Prism.js library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.25.0/themes/prism.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.25.0/prism.min.js"></script>
+
+    <!-- Include the Okaidia theme -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.25.0/themes/prism-okaidia.min.css">
+
+
+</head>
+
+<body class="single home " data-bs-spy="scroll" data-bs-target="#TableOfContents" data-bs-root-margin="0px 0px -60%"
+    data-bs-smooth-scroll="true" tabindex="0" cz-shortcut-listen="true">
+    <div class="sticky-top">
+        <header class="navbar navbar-expand-lg g-nav">
+            <div class="container-lg"><a class="navbar-brand me-auto me-lg-3" href="#"> <img
+                        src="/assets/icons/logo.png" alt="logo" style="width: 70px; height: 50px;">
+                </a>
+                <a id="home" href="/home.html">HOME</a>
+                <button class="btn btn-link d-lg-none" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasNavSection" aria-controls="offcanvasNavSection"
+                    aria-label="Open section navigation menu"><svg xmlns="http://www.w3.org/2000/svg"
+                        class="icon icon-tabler icon-tabler-dots-vertical" width="24" height="24" viewBox="0 0 24 24"
+                        stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                        <path d="M12 12m-1 0a1 1 0 102 0 1 1 0 10-2 0"></path>
+                        <path d="M12 19m-1 0a1 1 0 102 0 1 1 0 10-2 0"></path>
+                        <path d="M12 5m-1 0a1 1 0 102 0 1 1 0 10-2 0"></path>
+                    </svg></button>
+                <div class="offcanvas offcanvas-start d-lg-none" tabindex="-1" id="offcanvasNavSection"
+                    aria-labelledby="offcanvasNavSectionLabel">
+                    <div class="offcanvas-header">
+                        <img src="/assets/icons/logo.png" alt="logo" style="width: 70px; height: 50px;">
+                        <button type="button" class="btn btn-link nav-link p-0" data-bs-dismiss="offcanvas"
+                            aria-label="Close"><svg xmlns="http://www.w3.org/2000/svg"
+                                class="icon icon-tabler icon-tabler-x" width="24" height="24" viewBox="0 0 24 24"
+                                stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round"
+                                stroke-linejoin="round">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                <path d="M18 6 6 18"></path>
+                                <path d="M6 6l12 12"></path>
+                            </svg></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <aside class="doks-sidebar mt-n3">
+                            <nav id="doks-docs-nav" aria-label="Tertiary navigation">
+                                <div class="module pb-2 pt-4">
+                                    <h2 class="mod-title">PRE-BOOTCAMP WEB DEVELOPMENT</h2>
+                                    <div class="module pb-2">
+                                        <a href="#" class="previous"></a>
+                                        <img src="/assets/icons/trial.png" alt="" class="chapter-icon" />
+                                        <span class="mod-title">Start Here!</span>
+                                        <a href="../../../PRE-BOOTCAMP WEB DEVELOPMENT/Intro to Programming/Intro to HTML/PartsofanApp.html"
+                                            class="next">&#8250;</a>
+                                    </div>
+                                </div>
+                                <ul class="list-unstyled collapsible-sidebar ">
+                                    <li class="mb-1  ">
+                                        <button id="sidebtn"
+                                            class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed"
+                                            data-bs-toggle="collapse" data-bs-target="#LetGetStarted-collapse"
+                                            aria-expanded="false">
+                                            Let's Get Started
+                                        </button>
+                                        <div class="collapse" id="LetGetStarted-collapse">
+                                            <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                                                <li><a href="../Let's Get Started/Welcome.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />Welcome!</a>
+                                                </li>
+                                                <li><a href="../Let's Get Started/Checklist.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/core.png" alt=""
+                                                            class="module-icon" />Checklist</a>
+                                                </li>
+                                                <li><a href="../Let's Get Started/HowWeTeach.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />How We Teach</a>
+                                                </li>
+                                                <li><a href="../Let's Get Started/ExpectationsOfUs.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />Expectations Of Us</a>
+                                                </li>
+                                                <li><a href="../Let's Get Started/ExpectationsOfYou.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />Expectations Of You</a>
+                                                </li>
+                                                <li><a href="../Let's Get Started/CalendarandLinks.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />Calendar and Links</a>
+                                                </li>
+                                                <li><a href="../Let's Get Started/DojoIntegrity.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />Dojo Integrity</a>
+                                                </li>
+
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li class="mb-1">
+                                        <button id="sidebtn"
+                                            class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed"
+                                            data-bs-toggle="collapse" data-bs-target="#Roadmap-collapse"
+                                            aria-expanded="true">
+                                            Roadmap
+                                        </button>
+                                        <div class="collapse show" id="Roadmap-collapse">
+                                            <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+
+                                                <li><a href="../Roadmap/TheProgram.html" class="docs-link rounded  ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />The Program</a>
+                                                </li>
+                                                <li><a href="../Roadmap/Requirements.html"
+                                                        class="docs-link rounded active">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />Requirements</a>
+                                                </li>
+                                                <li><a href="../Roadmap/GraduationDay.html" class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />Graduation Day</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li class="mb-1">
+                                        <button id="sidebtn"
+                                            class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed"
+                                            data-bs-toggle="collapse" data-bs-target="#HackYourLearning-collapse"
+                                            aria-expanded="false">
+                                            Hack Your Learning
+                                        </button>
+                                        <div class="collapse" id="HackYourLearning-collapse">
+                                            <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+
+                                                <li><a href="../Hack Your Learning/PlanYourLife.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />Plan Your Life</a>
+                                                </li>
+                                                <li><a href="../Hack Your Learning/KnowThyBrain.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />Know Thy Brain</a>
+                                                </li>
+                                                <li><a href="../Hack Your Learning/HowtobeSuccessful.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />How to be Successful</a>
+                                                </li>
+                                                <li><a href="../Hack Your Learning/HowtoProblemSolve.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />How to Problem-Solve</a>
+                                                </li>
+                                                <li><a href="../Hack Your Learning/GettingHelp.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />Getting Help</a>
+                                                </li>
+                                                <li><a href="../Hack Your Learning/AdvicefromAlumni.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />Advice from Alumni</a>
+                                                </li>
+                                                <li><a href="../Hack Your Learning/CheckLearning.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/quiz.png" alt=""
+                                                            class="module-icon" />Check: Learning</a>
+                                                </li>
+                                                <li><a href="../Hack Your Learning/ThePowerofYourPeers.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />The Power of Your Peers</a>
+                                                </li>
+
+
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li class="mb-1">
+                                        <button id="sidebtn"
+                                            class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed"
+                                            data-bs-toggle="collapse" data-bs-target="#SetupComputer-collapse"
+                                            aria-expanded="false">
+                                            Setup Computer
+                                        </button>
+                                        <div class="collapse" id="SetupComputer-collapse">
+                                            <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+
+                                                <li><a href="../Setup Computer/VisualStudioCode.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />Visual Studio Code</a>
+                                                </li>
+                                                <li><a href="../Setup Computer/FirstVSCodeAssignment.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/core.png" alt=""
+                                                            class="module-icon" />First VS Code Assignment</a>
+                                                </li>
+                                                <li><a href="../Setup Computer/OptionalVSCodeExtensionsAssignment.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/option.png" alt=""
+                                                            class="module-icon" />Optional: VS Code Extensions
+                                                        Assignment</a>
+                                                </li>
+                                                <li><a href="../Setup Computer/GitHub.html" class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />GitHub</a>
+                                                </li>
+                                                <li><a href="../Setup Computer/GitHubAssignment.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/core.png" alt=""
+                                                            class="module-icon" />GitHub Assignment</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li class="mb-1">
+                                        <button id="sidebtn"
+                                            class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed"
+                                            data-bs-toggle="collapse" data-bs-target="#OtherResources-collapse"
+                                            aria-expanded="false">
+                                            Other Resources
+                                        </button>
+                                        <div class="collapse" id="OtherResources-collapse">
+                                            <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+
+                                                <li><a href="../Other Resources/W3Schools.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />W3Schools</a>
+                                                </li>
+                                                <li><a href="../Other Resources/HowtoLearn.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />How to Learn</a>
+                                                </li>
+
+                                            </ul>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </aside>
+                    </div>
+                </div><button class="btn btn-link nav-link mx-2 order-3 d-lg-none" type="button"
+                    data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavMain" aria-controls="offcanvasNavMain"
+                    aria-label="Open main navigation menu"><svg xmlns="http://www.w3.org/2000/svg"
+                        class="icon icon-tabler icon-tabler-menu" width="24" height="24" viewBox="0 0 24 24"
+                        stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                        <line x1="4" y1="8" x2="20" y2="8"></line>
+                        <line x1="4" y1="16" x2="20" y2="16"></line>
+                    </svg></button>
+                <div class="offcanvas offcanvas-end h-auto" tabindex="-1" id="offcanvasNavMain"
+                    aria-labelledby="offcanvasNavMainLabel">
+                    <div class="offcanvas-header">
+                        <img src="/assets/icons/logo.png" alt="logo" style="width: 70px; height: 50px;">
+                        <button type="button" class="btn btn-link nav-link p-0" data-bs-dismiss="offcanvas"
+                            aria-label="Close"><svg xmlns="http://www.w3.org/2000/svg"
+                                class="icon icon-tabler icon-tabler-x" width="24" height="24" viewBox="0 0 24 24"
+                                stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round"
+                                stroke-linejoin="round">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                <path d="M18 6 6 18"></path>
+                                <path d="M6 6l12 12"></path>
+                            </svg></button>
+                    </div>
+                    <div class="offcanvas-body d-flex flex-column flex-lg-row justify-content-between">
+                        <!-- <ul class="navbar-nav flex-grow-1">
+              <li class="nav-item"><a class="nav-link active" href="index.html" aria-current="true">Docs</a></li>
+              <li class="nav-item"><a class="nav-link" href="/blog/">Blog</a></li>
+            </ul> -->
+
+                        <!-- this section is for the search bar and results -->
+                        <form class="navbar-form my-auto flex-grow-1 ">
+                            <input id="searchInput" class="form-control is-search ms-auto me-5" type="search"
+                                placeholder="Search ." aria-label="Search docs." autocomplete="off">
+                            <div id="suggestions" class="shadow rounded position-absolute d-none">
+                                <ul id="searchResults" class="list-unstyled m-auto"></ul>
+                            </div>
+                        </form>
+
+
+                        <button id="buttonColorMode" class="btn btn-link mx-auto nav-link p-0 ms-lg-2 me-lg-1"
+                            type="button" aria-label="Toggle theme"><svg data-bs-theme-value="dark"
+                                xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-moon" width="24"
+                                height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentcolor" fill="none"
+                                stroke-linecap="round" stroke-linejoin="round">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                <path d="M12 3c.132.0.263.0.393.0a7.5 7.5.0 007.92 12.446A9 9 0 1112 2.992z"></path>
+                            </svg><svg data-bs-theme-value="light" xmlns="http://www.w3.org/2000/svg"
+                                class="icon icon-tabler icon-tabler-sun" width="24" height="24" viewBox="0 0 24 24"
+                                stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round"
+                                stroke-linejoin="round">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                <path
+                                    d="M12 12m-4 0a4 4 0 108 0 4 4 0 10-8 0m-5 0h1m8-9v1m8 8h1m-9 8v1M5.6 5.6l.7.7m12.1-.7-.7.7m0 11.4.7.7m-12.1-.7-.7.7">
+                                </path>
+                            </svg></button>
+                        <ul id="socialMenu" class="nav mx-auto flex-row order-lg-4">
+
+
+                            <li class="nav-item"><a class="nav-link social-link"
+                                    href="https://github.com/DigitalAcademyTn"><svg xmlns="http://www.w3.org/2000/svg"
+                                        class="icon icon-tabler icon-tabler-brand-github" width="24" height="24"
+                                        viewBox="0 0 24 24" stroke-width="2" stroke="currentcolor" fill="none"
+                                        stroke-linecap="round" stroke-linejoin="round">
+                                        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                        <path
+                                            d="M9 19c-4.3 1.4-4.3-2.5-6-3m12 5v-3.5c0-1 .1-1.4-.5-2 2.8-.3 5.5-1.4 5.5-6a4.6 4.6.0 00-1.3-3.2 4.2 4.2.0 00-.1-3.2s-1.1-.3-3.5 1.3a12.3 12.3.0 00-6.2.0C6.5 2.8 5.4 3.1 5.4 3.1a4.2 4.2.0 00-.1 3.2A4.6 4.6.0 004 9.5c0 4.6 2.7 5.7 5.5 6-.6.6-.6 1.2-.5 2V21">
+                                        </path>
+                                                  </svg><small class="ms-2 visually-hidden">GitHub</small></a></li>
+                  <a id="upgrade" href="../../../upgrade.html">UPGRADE</a>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </header>
+    </div>
+
+
+
+
+    <div class="wrap container-fluid " role="document">
+        <div class="content">
+            <div class="row  d-flex justify-content-center">
+                <div class=" docs-sidebar d-none d-lg-block   ">
+                    <main class="">
+                        <div class="flex-shrink-0 pt-4 ">
+
+                            <div class="module pb-2">
+                                <h2 class="mod-title">PRE-BOOTCAMP WEB DEVELOPMENT</h2>
+                            </div>
+                            <div class="module pb-2">
+                                <a href="#" class="previous"></a>
+                                <img src="/assets/icons/trial.png" alt="" class="chapter-icon" />
+                                <span class="mod-title">Start Here!</span>
+                                <a href="../../../PRE-BOOTCAMP WEB DEVELOPMENT/Intro to Programming/Intro to HTML/PartsofanApp.html"
+                                    class="next">&#8250;</a>
+                            </div>
+
+
+
+
+
+                            <ul class=" list-unstyled px-3 overflow-scroll">
+                                <li class="mb-1  ">
+                                    <button id="sidebtn"
+                                        class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed"
+                                        data-bs-toggle="collapse" data-bs-target="#LetGetStarted-collapse"
+                                        aria-expanded="false">
+                                        Let's Get Started
+                                    </button>
+                                    <div class="collapse" id="LetGetStarted-collapse">
+                                        <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                                            <li><a href="../Let's Get Started/Welcome.html" class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />Welcome!</a>
+                                            </li>
+                                            <li><a href="../Let's Get Started/Checklist.html"
+                                                    class="docs-link rounded ">
+                                                    <img src="/assets/icons/core.png" alt=""
+                                                        class="module-icon" />Checklist</a>
+                                            </li>
+                                            <li><a href="../Let's Get Started/HowWeTeach.html"
+                                                    class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt="" class="module-icon" />How
+                                                    We Teach</a>
+                                            </li>
+                                            <li><a href="../Let's Get Started/ExpectationsOfUs.html"
+                                                    class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />Expectations Of Us</a>
+                                            </li>
+                                            <li><a href="../Let's Get Started/ExpectationsOfYou.html"
+                                                    class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />Expectations Of You</a>
+                                            </li>
+                                            <li><a href="../Let's Get Started/CalendarandLinks.html"
+                                                    class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />Calendar and Links</a>
+                                            </li>
+                                            <li><a href="../Let's Get Started/DojoIntegrity.html"
+                                                    class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />Dojo Integrity</a>
+                                            </li>
+
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li class="mb-1">
+                                    <button id="sidebtn"
+                                        class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed"
+                                        data-bs-toggle="collapse" data-bs-target="#Roadmap-collapse"
+                                        aria-expanded="true">
+                                        Roadmap
+                                    </button>
+                                    <div class="collapse show" id="Roadmap-collapse">
+                                        <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+
+                                            <li><a href="../Roadmap/TheProgram.html" class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt="" class="module-icon" />The
+                                                    Program</a>
+                                            </li>
+                                            <li><a href="../Roadmap/Requirements.html" class="docs-link rounded active">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />Requirements</a>
+                                            </li>
+                                            <li><a href="../Roadmap/GraduationDay.html" class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />Graduation Day</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li class="mb-1">
+                                    <button id="sidebtn"
+                                        class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed"
+                                        data-bs-toggle="collapse" data-bs-target="#HackYourLearning-collapse"
+                                        aria-expanded="false">
+                                        Hack Your Learning
+                                    </button>
+                                    <div class="collapse" id="HackYourLearning-collapse">
+                                        <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+
+                                            <li><a href="../Hack Your Learning/PlanYourLife.html"
+                                                    class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />Plan Your Life</a>
+                                            </li>
+                                            <li><a href="../Hack Your Learning/KnowThyBrain.html"
+                                                    class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />Know Thy Brain</a>
+                                            </li>
+                                            <li><a href="../Hack Your Learning/HowtobeSuccessful.html"
+                                                    class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt="" class="module-icon" />How
+                                                    to be Successful</a>
+                                            </li>
+                                            <li><a href="../Hack Your Learning/HowtoProblemSolve.html"
+                                                    class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt="" class="module-icon" />How
+                                                    to Problem-Solve</a>
+                                            </li>
+                                            <li><a href="../Hack Your Learning/GettingHelp.html"
+                                                    class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />Getting Help</a>
+                                            </li>
+                                            <li><a href="../Hack Your Learning/AdvicefromAlumni.html"
+                                                    class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />Advice from Alumni</a>
+                                            </li>
+                                            <li><a href="../Hack Your Learning/CheckLearning.html"
+                                                    class="docs-link rounded ">
+                                                    <img src="/assets/icons/quiz.png" alt=""
+                                                        class="module-icon" />Check: Learning</a>
+                                            </li>
+                                            <li><a href="../Hack Your Learning/ThePowerofYourPeers.html"
+                                                    class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt="" class="module-icon" />The
+                                                    Power of Your Peers</a>
+                                            </li>
+
+
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li class="mb-1">
+                                    <button id="sidebtn"
+                                        class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed"
+                                        data-bs-toggle="collapse" data-bs-target="#SetupComputer-collapse"
+                                        aria-expanded="false">
+                                        Setup Computer
+                                    </button>
+                                    <div class="collapse" id="SetupComputer-collapse">
+                                        <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+
+                                            <li><a href="../Setup Computer/VisualStudioCode.html"
+                                                    class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />Visual Studio Code</a>
+                                            </li>
+                                            <li><a href="../Setup Computer/FirstVSCodeAssignment.html"
+                                                    class="docs-link rounded ">
+                                                    <img src="/assets/icons/core.png" alt="" class="module-icon" />First
+                                                    VS Code Assignment</a>
+                                            </li>
+                                            <li><a href="../Setup Computer/OptionalVSCodeExtensionsAssignment.html"
+                                                    class="docs-link rounded ">
+                                                    <img src="/assets/icons/option.png" alt=""
+                                                        class="module-icon" />Optional: VS Code Extensions
+                                                    Assignment</a>
+                                            </li>
+                                            <li><a href="../Setup Computer/GitHub.html" class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />GitHub</a>
+                                            </li>
+                                            <li><a href="../Setup Computer/GitHubAssignment.html"
+                                                    class="docs-link rounded ">
+                                                    <img src="/assets/icons/core.png" alt=""
+                                                        class="module-icon" />GitHub Assignment</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li class="mb-1">
+                                    <button id="sidebtn"
+                                        class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed"
+                                        data-bs-toggle="collapse" data-bs-target="#OtherResources-collapse"
+                                        aria-expanded="false">
+                                        Other Resources
+                                    </button>
+                                    <div class="collapse" id="OtherResources-collapse">
+                                        <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+
+                                            <li><a href="../Other Resources/W3Schools.html" class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />W3Schools</a>
+                                            </li>
+                                            <li><a href="../Other Resources/HowtoLearn.html" class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt="" class="module-icon" />How
+                                                    to Learn</a>
+                                            </li>
+
+                                        </ul>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+
+                    </main>
+
+                </div>
+                <div class="docs-content col-lg-11 col-xl-9 " id="lesson_content">
+
+                    <main data-bs-spy="scroll" data-bs-target="#TableOfContents" data-bs-offset="0" tabindex="0">
+
+
+                        <div id="lesson_content">
+                            <h1>Requirements</h1>
+                            <hr>
+                            <h2>Code Challenges</h2>
+                            <p>You must complete 70% of all required code challenges, sometimes referred to as
+                                assignments. This is the bare minimum to eek by. Although some challenges are marked
+                                "optional", we really want students to complete all of them by the end of the bootcamp.
+                                Sometimes this means doing the required challenges and then later returning to the
+                                optionals. Similar to how video games have a variety of playable content you can return
+                                to play through again, return to stacks and do the optional assignments if you can't
+                                complete them within the stack time frame.&nbsp;&nbsp;</p>
+                            <h2>Belt Exams</h2>
+                            <p>Each stack you go through will build upon the concepts you learned in the previous stack.
+                                Therefore, it is imperative that you build your foundation with your first stack before
+                                progressing to the future stacks. We test your proficiency at the end of each stack with
+                                a belt exam. We require that you pass your Web Fundamentals and Python belt exams (you
+                                earn either a red belt or a black belt) in order to move on to your next stack. If you
+                                do not pass the Web Fundamentals or Python belt exams, we will ask you to repeat the
+                                corresponding stack.&nbsp;</p>
+                            <h2>Honor code</h2>
+                            <p>Most importantly, the belt exams are a way for you to determine whether you’ve gained the
+                                skills being offered by each stack. The belt exams are difficult, and they are designed
+                                to be so. When you pass them, you know without a doubt that you are a full stack
+                                developer. You joined the bootcamp to become a self-sufficient developer, and the belt
+                                exam is an opportunity to give yourself insight into your progress on that journey. We
+                                ask all our students to hold to an honor code and to turn in only original work for the
+                                exams. <strong>Any submitted code which is found to be plagiarized will result in
+                                    expulsion from the bootcamp.</strong></p>
+                            <h2>Attendance</h2>
+                            <p>We take attendance. We expect all current students to be present as outlined in the
+                                Catalog. If you are unable to attend for any reason, you must inform your instructors so
+                                they may plan accordingly. To be eligible for graduation, you must meet the attendance
+                                requirements as outlined in Catalog.</p>
+                            <h2>Practice, practice, practice</h2>
+                            <p>Spend as much time as possible every day studying the material. Study time depends on the
+                                your programming experience. Since most of our students are new to web development, it
+                                is helpful to spend as many hours as you can per day on studying. This often requires
+                                you to put in some hours on the weekend.<br></p>
+                            <h2>Working Together (*pair programming)</h2>
+                            <p>We encourage our students to work with each other. We notice that students learn and
+                                absorb information better when they get in groups of two and three. By working together,
+                                students get to discuss the content and explain to each other different aspects of the
+                                topics. There is a frequent exchange of information which is critical to learning. Often
+                                we’ll ask you to pair program, which means two people working together on one computer.
+                                While one person types, the other is giving directions, and the two switch roles
+                                regularly. Other times, we’ll ask a group to work together, but have everyone write the
+                                code on his or her own machine. Regardless, you'll still need to be able to code on your
+                                own. So, obviously, exams are not the time to use pair programming.</p>
+                            <h2>Attitude</h2>
+                            <p>We emphasize the importance of a good attitude and hold a zero tolerance policy for bad
+                                attitudes or disrespect. We believe that a great attitude makes a massive difference in
+                                the classroom feel. Things will get difficult, but remember to remain humble. Accept
+                                that you will make mistakes, and appreciate that they are learning opportunities. With a
+                                good attitude and hard work, you'll be able to accomplish a lot more!</p>
+                            <h2>Passion</h2>
+                            <p>This is just as important as attitude. If you are passionate about development you will
+                                definitely have a great time! Remember <strong>why</strong> you are here when times get
+                                hard and when the workload gets heavy. Your passion for learning and improving will help
+                                you through the program. The casual 5 minute break helps a lot as well. If you find
+                                yourself frustrated, take a quick break away from the computer. Take a short walk and
+                                come back with a clear mind.</p>
+                            <h2>Focus</h2>
+                            <p>We all have busy lives. During the bootcamp, you must put other aspects of your life on
+                                hold for its duration. It's crucial to reduce the distractions while going through the
+                                program and to create a good daily rhythm for yourself to study and focus. Even the most
+                                passionate and positive students need to stay focused on being successful. Don't
+                                underestimate the power of focus and a great study environment.</p>
+                            <p> <br> </p>
+
+
+                        </div>
+
+
+
+
+
+                        <br><br><br>
+
+
+
+                        <div class="d-flex justify-content-between " id="navigation">
+                            <a href="../Roadmap/TheProgram.html" class="previous_page">&laquo;
+                                Previous</a>
+                            <a href="../Roadmap/GraduationDay.html" class="next_page">Next &raquo;</a>
+
+                        </div>
+
+
+
+
+
+
+
+
+
+
+
+                    </main>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <!-- Include jQuery and Bootstrap JS (CDN) -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script src="/assets/js/color-modes.js"></script>
+    <script src="/assets/js/search.js"></script>
+    <script src="/assets/js/main.js"></script>
+
+
+    <!-- <script src="https://cdn.jsdelivr.net/npm/prismjs@1.28.0/prism.min.js"></script>
+  <script>
+    Prism.highlightAll();
+  </script> -->
+
+
+
+    <script>
+        // Initialize Prism.js
+        Prism.highlightAll();
+    </script>
+
+</body>
+
+</html>

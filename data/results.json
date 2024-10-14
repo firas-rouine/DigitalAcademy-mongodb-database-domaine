@@ -1,0 +1,55 @@
+{
+  "quizzes": [
+    {
+      "quizId": "SpotJSPatternFunctions",
+      "users": [
+        {
+          "userId": "00",
+          "answers": {
+            "q1": "First line",
+            "q2": "First line",
+            "q3": "Function",
+            "q4": "Turn on"
+          }
+        }
+      ]
+    },
+    {
+      "quizId": "SpotPatternsHTML",
+      "users": [
+        {
+          "userId": "00",
+          "answers": {
+            "q1": "Pre-Bootcamp",
+            "q2": "<...> means to start formatting and < / ...> means to end it.",
+            "q3": "h1 appears to be the main heading while h2 is a subheading"
+          }
+        }
+      ]
+    },
+    {
+      "quizId": "Quiz",
+      "users": [
+        {
+          "userId": "00",
+          "answers": {
+            "q1": "Social Security Number",
+            "q2": "Many to Many",
+            "q3": "users have many photos and photos have many users",
+            "q4": "Separating out price from the products table to create a prices table with a relationship of 'products has-one price'",
+            "q5": "False",
+            "q6": "False",
+            "q7": "True",
+            "q8": "A users table with profile_pic_name and profile_pic_url columns",
+            "q9": "Creating the proper relationships between tables so that our data stays organized",
+            "q10": "Separating your data into as many tables as possible"
+          }
+        }
+      ]
+    },
+    {
+      "quizId": "SelectTheSelectorII",
+      "users": []
+    }
+  ]
+}

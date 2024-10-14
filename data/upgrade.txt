@@ -1,0 +1,146 @@
+
+    <section class="section">
+        <div class="container">
+            <h2 class="section-title">Pricing Plans</h2>
+            <p class="section-description">Choose your pack</p>
+            <div class="plans">
+                <div class="plan">
+                    <div class="center">
+                    <p class="plan-title">Pack 1</p>
+                    <p class="plan-price">Free (10 days) </p>
+                </div>
+                    <p class="plan-features">
+                        <img src="../assets/icons/ok.svg" class="icon">  Pre-Bootcamp <br>
+                        <img src="../assets/icons/ok.svg" class="icon">
+                        HTML, CSS, Bootstrap<br>
+                        <img src="../assets/icons/ok.svg" class="icon">  GitHub<br>
+                        <img src="../assets/icons/ok.svg" class="icon"> Algorithms<br>
+                        <img src="../assets/icons/milker_X_icon.svg" class="icon">  Web Fundamentals Exam <br>
+                        <img src="../assets/icons/milker_X_icon.svg" class="icon">Web Fundamentals Certification <br>
+                        <img src="../assets/icons/milker_X_icon.svg" class="icon">  Java (Fundamentals + OOP) <br>
+                        <img src="../assets/icons/milker_X_icon.svg" class="icon">  Spring Boot <br>
+                        <img src="../assets/icons/milker_X_icon.svg" class="icon">  Database (MYSQL) <br>
+                        <img src="../assets/icons/milker_X_icon.svg" class="icon">  Java Exam <br>
+                        <img src="../assets/icons/milker_X_icon.svg" class="icon">Java Certification <br>
+                        <img src="../assets/icons/milker_X_icon.svg" class="icon">  Lesson record (Tunisian Videos) <br>
+                    </p>
+                    
+                    <div class="center">  
+                    <a  class="plan-button">Reserve a spot</a></div>
+                </div>
+                <div class="plan">
+                    <div class="center">
+                    <p class="plan-title">Pack 2</p>
+                    <p class="plan-price">90 DT</p>
+                </div>
+                    <p class="plan-features">
+                        <img src="../assets/icons/ok.svg" class="icon">  Pre-Bootcamp <br>
+                        <img src="../assets/icons/ok.svg" class="icon">
+                        HTML, CSS, Bootstrap<br>
+                        <img src="../assets/icons/ok.svg" class="icon">  GitHub<br>
+                        <img src="../assets/icons/ok.svg" class="icon"> Algorithms<br>
+                        <img src="../assets/icons/ok.svg" class="icon">  Web Fundamentals Exam <br>
+                        <img src="../assets/icons/ok.svg" class="icon">Web Fundamentals Certification <br>
+                        <img src="../assets/icons/milker_X_icon.svg" class="icon">  Java (Fundamentals + OOP) <br>
+                        <img src="../assets/icons/milker_X_icon.svg" class="icon">  Spring Boot <br>
+                        <img src="../assets/icons/milker_X_icon.svg" class="icon">  Database (MYSQL) <br>
+                        <img src="../assets/icons/milker_X_icon.svg" class="icon">  Java Exam <br>
+                        <img src="../assets/icons/milker_X_icon.svg" class="icon">Java Certification <br>
+                        <img src="../assets/icons/ok.svg" class="icon">   Lesson record (Tunisian Videos) <br>
+                    </p>
+                    
+                    <div class="center">
+                    <a  class="plan-button" data-bs-toggle="modal" data-bs-target="#popupModal">Reserve a spot</a></div>
+                </div>
+                <div class="plan">
+                    <div class="center">
+                    <p class="plan-title">Pack 3</p>
+                    <p class="plan-price">350 DT</p>
+                </div>
+                    <p class="plan-features">
+                        <img src="../assets/icons/ok.svg" class="icon">  Pre-Bootcamp <br>
+                        <img src="../assets/icons/ok.svg" class="icon">
+                        HTML, CSS, Bootstrap<br>
+                        <img src="../assets/icons/ok.svg" class="icon">  GitHub<br>
+                        <img src="../assets/icons/ok.svg" class="icon"> Algorithms<br>
+                        <img src="../assets/icons/ok.svg" class="icon">  Web Fundamentals Exam <br>
+                        <img src="../assets/icons/ok.svg" class="icon"> Web Fundamentals Certification <br>
+                        <img src="../assets/icons/ok.svg" class="icon">  Java (Fundamentals + OOP) <br>
+                        <img src="../assets/icons/ok.svg" class="icon">  Spring Boot <br>
+                        <img src="../assets/icons/ok.svg" class="icon">  Database (MYSQL) <br>
+                        <img src="../assets/icons/ok.svg" class="icon">  Java Exam <br>
+                        <img src="../assets/icons/ok.svg" class="icon">Java Certification <br>
+                        <img src="../assets/icons/ok.svg" class="icon">   Lesson record (Tunisian Videos) <br>
+                    </p>
+                    
+                    <div class="center">
+                    <a  class="plan-button " data-bs-toggle="modal" data-bs-target="#popupModal" >Reserve a spot</a></div>
+                </div>
+     
+            </div>
+        </div>
+    </section>
+    
+
+    <div class="modal fade" id="popupModal" tabindex="-1" aria-labelledby="popupModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="popupModalLabel">Contact Us</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form id="contact_form">
+                        <div class="mb-3">
+                            <label for="email_addr" class="form-label">Email <span>*</span></label>
+                            <input type="email" maxlength="50" class="form-control" id="email_addr" name="email">
+                            <div id="email_error" class="invalid-feedback"></div>
+                        </div>
+                        <div class="mb-3">
+                            <label for="name_input" class="form-label">Name <span>*</span></label>
+                            <input type="text" maxlength="50" class="form-control" id="name_input" name="name">
+                            <div id="name_error" class="invalid-feedback"></div>
+                        </div>
+                        <div class="mb-3">
+                            <label for="phone_input" class="form-label">Phone <span>*</span></label>
+                            <input type="tel" maxlength="8" class="form-control" id="phone_input" name="phone">
+                            <div id="phone_error" class="invalid-feedback"></div>
+                        </div>
+                        <div class="mb-3">
+                            <label for="pack_select" class="form-label">Select Pack <span>*</span></label>
+                            <select class="form-select" id="pack_select" name="pack">
+                                <option value="pack 2">Pack 2</option>
+                                <option value="pack 3">Pack 3</option>
+                            </select>
+                        </div>
+                        <div class="mb-3">
+                            <label for="message" class="form-label">Message</label>
+                            <textarea class="form-control" id="message" name="message" rows="3"></textarea>
+                        </div>
+                        <button type="button" onclick="validateAndSend()" class="send-button">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div id="success-popup" class="popup">
+            <p>Message sent successfully!</p>
+        </div>
+        
+        <div id="error-popup" class="popup">
+            <p>Failed to send message. Please try again later.</p>
+        </div>
+        
+    </div>
+    
+    
+    
+
+    
+    
+    
+
+
+
+<script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+</script>

@@ -1,0 +1,524 @@
+<!doctype html>
+<html lang="en" data-bs-theme="light">
+
+<head>
+    <!-- <script src="/assets/js/color-modes.js"></script> -->
+
+    <meta charset="utf-8">
+    <link rel="icon" type="image/png" href="../../../../assets/icons/circle-logo.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.118.2">
+    <title>Digital-Academy</title>
+
+    <!-- Custom style -->
+    <link href="/assets/styles/sidebar.css" rel="stylesheet">
+    <link rel="stylesheet" href="/assets/styles/styles.css">
+    <link rel="stylesheet" href="/assets/styles/styles2.css">
+    <!-- bootstrap style -->
+
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous"> -->
+
+
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/prismjs@1.28.0/themes/prism.min.css"> -->
+
+
+
+    <!-- Include the Prism.js library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.25.0/themes/prism.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.25.0/prism.min.js"></script>
+
+    <!-- Include the Okaidia theme -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.25.0/themes/prism-okaidia.min.css">
+
+
+</head>
+
+<body class="single home " data-bs-spy="scroll" data-bs-target="#TableOfContents" data-bs-root-margin="0px 0px -60%"
+    data-bs-smooth-scroll="true" tabindex="0" cz-shortcut-listen="true">
+    <div class="sticky-top">
+        <header class="navbar navbar-expand-lg g-nav">
+            <div class="container-lg"><a class="navbar-brand me-auto me-lg-3" href="#"> <img
+                        src="/assets/icons/logo.png" alt="logo" style="width: 70px; height: 50px;">
+                </a>  <a id="home" href="/home.html">HOME</a> 
+                <button class="btn btn-link d-lg-none" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasNavSection" aria-controls="offcanvasNavSection"
+                    aria-label="Open section navigation menu"><svg xmlns="http://www.w3.org/2000/svg"
+                        class="icon icon-tabler icon-tabler-dots-vertical" width="24" height="24" viewBox="0 0 24 24"
+                        stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                        <path d="M12 12m-1 0a1 1 0 102 0 1 1 0 10-2 0"></path>
+                        <path d="M12 19m-1 0a1 1 0 102 0 1 1 0 10-2 0"></path>
+                        <path d="M12 5m-1 0a1 1 0 102 0 1 1 0 10-2 0"></path>
+                    </svg></button>
+                <div class="offcanvas offcanvas-start d-lg-none" tabindex="-1" id="offcanvasNavSection"
+                    aria-labelledby="offcanvasNavSectionLabel">
+                    <div class="offcanvas-header">
+                        <img src="/assets/icons/logo.png" alt="logo" style="width: 70px; height: 50px;">
+                        <button type="button" class="btn btn-link nav-link p-0" data-bs-dismiss="offcanvas"
+                            aria-label="Close"><svg xmlns="http://www.w3.org/2000/svg"
+                                class="icon icon-tabler icon-tabler-x" width="24" height="24" viewBox="0 0 24 24"
+                                stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round"
+                                stroke-linejoin="round">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                <path d="M18 6 6 18"></path>
+                                <path d="M6 6l12 12"></path>
+                            </svg></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <aside class="doks-sidebar mt-n3">
+                            <nav id="doks-docs-nav" aria-label="Tertiary navigation">
+                                <div class="module pb-2 pt-4">
+                                    <h2 class="mod-title">WEB FUNDAMENTALS</h2>
+                                    <div class="module pb-2">
+                                        <a href="#" class="previous"></a>
+                                        <img src="/assets/icons/html.png" alt="" class="chapter-icon" />
+                                        <span class="mod-title">HTML</span>
+                                        <a href="../../../WEB FUNDAMENTALS/Web Development - CSS/Selectors/SettingUpProjects.html" class="next">&#8250;</a>
+                                    </div>
+                                </div>
+                                <ul class="list-unstyled collapsible-sidebar">
+                                    <li class="mb-1">
+                                        <button id="sidebtn"
+                                            class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed"
+                                            data-bs-toggle="collapse" data-bs-target="#HowToCode-collapse"
+                                            aria-expanded="false">
+                                            How To Code
+                                        </button>
+                                        <div class="collapse " id="HowToCode-collapse">
+                                            <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                                                <li><a href="../HowToCode/introduction.html" class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />Introduction</a>
+                                                </li>
+                                                <li><a href="../HowToCode/SettingUpOurEditor.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />Setting Up Our Editor</a>
+                                                </li>
+                                                <li><a href="../HowToCode/FilesAndFolders.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />Files and Folders</a>
+                                                </li>
+                                                <li><a href="../HowToCode/Git.html" class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />Git</a>
+                                                </li>
+                                                <li><a href="../HowToCode/PushToGitHub.html" class="docs-link rounded ">
+                                                        <img src="/assets/icons/practice.png" alt=""
+                                                            class="module-icon" />Push to GitHub</a>
+
+                                                </li>
+
+
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li class="mb-1">
+                                        <button id="sidebtn"
+                                            class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed"
+                                            data-bs-toggle="collapse" data-bs-target="#HTML-collapse"
+                                            aria-expanded="true">
+                                            HTML
+                                        </button>
+                                        <div class="collapse show" id="HTML-collapse">
+                                            <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                                                <li><a href="../HTML/HowTheWebWorks.html" class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />How the Web Works</a>
+                                                </li>
+                                                <li><a href="../HTML/IntroToHTML.html" class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />Intro to HTML</a>
+                                                </li>
+                                                <li><a href="../HTML/TextElements.html" class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />Text Elements</a>
+                                                </li>
+                                                <li><a href="../HTML/ListsAndTables.html" class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />Lists and Tables</a>
+                                                </li>
+                                                <li><a href="../HTML/ImagesAndVideos.html" class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />Images and Videos</a>
+                                                </li>
+                                                <li><a href="../HTML/Element-aryQuiz.html" class="docs-link rounded ">
+                                                        <img src="/assets/icons/quiz.png" alt=""
+                                                            class="module-icon" />Element-ary Quiz</a>
+                                                </li>
+                                                <li><a href="../HTML/DictionaryEntry.html" class="docs-link rounded ">
+                                                        <img src="/assets/icons/practice.png" alt=""
+                                                            class="module-icon" />Dictionary Entry</a>
+                                                </li>
+                                                <li><a href="../HTML/WhyIndentation.html" class="docs-link rounded">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />Why Indentation?</a>
+                                                </li>
+                                                <li><a href="../HTML/FixIndentation.html" class="docs-link rounded ">
+                                                        <img src="/assets/icons/practice.png" alt=""
+                                                            class="module-icon" />Fix Indentation</a>
+                                                </li>
+                                                <li><a href="../HTML/Forms.html" class="docs-link rounded">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />Forms</a>
+                                                </li>
+                                                <li><a href="../HTML/AboutDivs.html" class="docs-link rounded">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />About Divs</a>
+                                                </li>
+                                                <li><a href="../HTML/RegistrationForm.html"
+                                                        class="docs-link rounded active">
+                                                        <img src="/assets/icons/core.png" alt=""
+                                                            class="module-icon" />Registration Form</a>
+                                                </li>
+                                                <li><a href="../HTML/ValidatingOurHTML.html" class="docs-link rounded">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />Validating Our HTML</a>
+                                                </li>
+                                                <li><a href="../HTML/PortfolioContent.html" class="docs-link rounded">
+                                                        <img src="/assets/icons/practice.png" alt=""
+                                                            class="module-icon" />Portfolio Content</a>
+                                                </li>
+
+                                            </ul>
+                            </nav>
+                        </aside>
+                    </div>
+                </div><button class="btn btn-link nav-link mx-2 order-3 d-lg-none" type="button"
+                    data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavMain" aria-controls="offcanvasNavMain"
+                    aria-label="Open main navigation menu"><svg xmlns="http://www.w3.org/2000/svg"
+                        class="icon icon-tabler icon-tabler-menu" width="24" height="24" viewBox="0 0 24 24"
+                        stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                        <line x1="4" y1="8" x2="20" y2="8"></line>
+                        <line x1="4" y1="16" x2="20" y2="16"></line>
+                    </svg></button>
+                <div class="offcanvas offcanvas-end h-auto" tabindex="-1" id="offcanvasNavMain"
+                    aria-labelledby="offcanvasNavMainLabel">
+                    <div class="offcanvas-header">
+                        <img src="/assets/icons/logo.png" alt="logo" style="width: 70px; height: 50px;">
+                        <button type="button" class="btn btn-link nav-link p-0" data-bs-dismiss="offcanvas"
+                            aria-label="Close"><svg xmlns="http://www.w3.org/2000/svg"
+                                class="icon icon-tabler icon-tabler-x" width="24" height="24" viewBox="0 0 24 24"
+                                stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round"
+                                stroke-linejoin="round">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                <path d="M18 6 6 18"></path>
+                                <path d="M6 6l12 12"></path>
+                            </svg></button>
+                    </div>
+                    <div class="offcanvas-body d-flex flex-column flex-lg-row justify-content-between">
+                        <!-- <ul class="navbar-nav flex-grow-1">
+              <li class="nav-item"><a class="nav-link active" href="index.html" aria-current="true">Docs</a></li>
+              <li class="nav-item"><a class="nav-link" href="/blog/">Blog</a></li>
+            </ul> -->
+
+                        <!-- this section is for the search bar and results -->
+                        <form class="navbar-form my-auto flex-grow-1 ">
+                            <input id="searchInput" class="form-control is-search ms-auto me-5" type="search"
+                                placeholder="Search ..." aria-label="Search docs." autocomplete="off">
+                            <div id="suggestions" class="shadow rounded position-absolute d-none">
+                                <ul id="searchResults" class="list-unstyled m-auto"></ul>
+                            </div>
+                        </form>
+
+
+                        <button id="buttonColorMode" class="btn btn-link mx-auto nav-link p-0 ms-lg-2 me-lg-1"
+                            type="button" aria-label="Toggle theme"><svg data-bs-theme-value="dark"
+                                xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-moon" width="24"
+                                height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentcolor" fill="none"
+                                stroke-linecap="round" stroke-linejoin="round">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                <path d="M12 3c.132.0.263.0.393.0a7.5 7.5.0 007.92 12.446A9 9 0 1112 2.992z"></path>
+                            </svg><svg data-bs-theme-value="light" xmlns="http://www.w3.org/2000/svg"
+                                class="icon icon-tabler icon-tabler-sun" width="24" height="24" viewBox="0 0 24 24"
+                                stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round"
+                                stroke-linejoin="round">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                <path
+                                    d="M12 12m-4 0a4 4 0 108 0 4 4 0 10-8 0m-5 0h1m8-9v1m8 8h1m-9 8v1M5.6 5.6l.7.7m12.1-.7-.7.7m0 11.4.7.7m-12.1-.7-.7.7">
+                                </path>
+                            </svg></button>
+                        <ul id="socialMenu" class="nav mx-auto flex-row order-lg-4">
+
+
+                            <li class="nav-item"><a class="nav-link social-link"  href="https://github.com/DigitalAcademyTn"><svg
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        class="icon icon-tabler icon-tabler-brand-github" width="24" height="24"
+                                        viewBox="0 0 24 24" stroke-width="2" stroke="currentcolor" fill="none"
+                                        stroke-linecap="round" stroke-linejoin="round">
+                                        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                        <path
+                                            d="M9 19c-4.3 1.4-4.3-2.5-6-3m12 5v-3.5c0-1 .1-1.4-.5-2 2.8-.3 5.5-1.4 5.5-6a4.6 4.6.0 00-1.3-3.2 4.2 4.2.0 00-.1-3.2s-1.1-.3-3.5 1.3a12.3 12.3.0 00-6.2.0C6.5 2.8 5.4 3.1 5.4 3.1a4.2 4.2.0 00-.1 3.2A4.6 4.6.0 004 9.5c0 4.6 2.7 5.7 5.5 6-.6.6-.6 1.2-.5 2V21">
+                                        </path>
+                                                  </svg><small class="ms-2 visually-hidden">GitHub</small></a></li>
+                  <a id="upgrade" href="../../../upgrade.html">UPGRADE</a>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </header>
+    </div>
+
+
+
+
+    <div class="wrap container-fluid " role="document">
+        <div class="content">
+            <div class="row  d-flex justify-content-center">
+                <div class=" docs-sidebar d-none d-lg-block   ">
+                    <main class="">
+                        <div class="flex-shrink-0 pt-4 ">
+
+                            <div class="module pb-2">
+                                <h2 class="mod-title">WEB FUNDAMENTALS</h2>
+                            </div>
+                            <div class="module pb-2">
+                                <a href="#" class="previous"></a>
+                                <img src="/assets/icons/html.png" alt="" class="chapter-icon" />
+                                <span class="mod-title">HTML</span>
+                                <a href="../../../WEB FUNDAMENTALS/Web Development - CSS/Selectors/SettingUpProjects.html" class="next">&#8250;</a>
+                            </div>
+
+
+
+
+
+                            <ul class=" list-unstyled px-3 overflow-scroll">
+                                <li class="mb-1  ">
+                                    <button id="sidebtn"
+                                        class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed"
+                                        data-bs-toggle="collapse" data-bs-target="#HowToCode-collapse"
+                                        aria-expanded="false">
+                                        How To Code
+                                    </button>
+                                    <div class="collapse" id="HowToCode-collapse">
+                                        <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                                            <li><a href="../HowToCode/introduction.html" class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />Introduction</a>
+                                            </li>
+                                            <li><a href="../HowToCode/SettingUpOurEditor.html"
+                                                    class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />Setting Up Our Editor</a>
+                                            </li>
+                                            <li><a href="../HowToCode/FilesAndFolders.html" class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />Files and Folders</a>
+                                            </li>
+                                            <li><a href="../HowToCode/Git.html" class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />Git</a>
+                                            </li>
+                                            <li><a href="../HowToCode/PushToGitHub.html" class="docs-link rounded ">
+                                                    <img src="/assets/icons/practice.png" alt=""
+                                                        class="module-icon" />Push to GitHub</a>
+
+                                            </li>
+
+
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li class="mb-1">
+                                    <button id="sidebtn"
+                                        class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed"
+                                        data-bs-toggle="collapse" data-bs-target="#HTML-collapse" aria-expanded="true">
+                                        HTML
+                                    </button>
+                                    <div id="HTML-collapse">
+                                        <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                                            <li><a href="../HTML/HowTheWebWorks.html" class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt="" class="module-icon" />How
+                                                    the Web Works</a>
+                                            </li>
+                                            <li><a href="../HTML/IntroToHTML.html" class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />Intro to HTML</a>
+                                            </li>
+                                            <li><a href="../HTML/TextElements.html" class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />Text Elements</a>
+                                            </li>
+                                            <li><a href="../HTML/ListsAndTables.html" class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />Lists and Tables</a>
+                                            </li>
+                                            <li><a href="../HTML/ImagesAndVideos.html" class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />Images and Videos</a>
+                                            </li>
+                                            <li><a href="../HTML/Element-aryQuiz.html" class="docs-link rounded">
+                                                    <img src="/assets/icons/quiz.png" alt=""
+                                                        class="module-icon" />Element-ary Quiz</a>
+                                            </li>
+                                            <li><a href="../HTML/DictionaryEntry.html" class="docs-link rounded ">
+                                                    <img src="/assets/icons/practice.png" alt=""
+                                                        class="module-icon" />Dictionary Entry</a>
+                                            </li>
+                                            <li><a href="../HTML/WhyIndentation.html" class="docs-link rounded">
+                                                    <img src="/assets/icons/module.png" alt="" class="module-icon" />Why
+                                                    Indentation?</a>
+                                            </li>
+                                            <li><a href="../HTML/FixIndentation.html" class="docs-link rounded ">
+                                                    <img src="/assets/icons/practice.png" alt=""
+                                                        class="module-icon" />Fix Indentation</a>
+                                            </li>
+                                            <li><a href="../HTML/Forms.html" class="docs-link rounded">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />Forms</a>
+                                            </li>
+                                            <li><a href="../HTML/AboutDivs.html" class="docs-link rounded">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />About Divs</a>
+                                            </li>
+                                            <li><a href="../HTML/RegistrationForm.html"
+                                                    class="docs-link rounded active">
+                                                    <img src="/assets/icons/core.png" alt=""
+                                                        class="module-icon" />Registration Form</a>
+                                            </li>
+                                            <li><a href="../HTML/ValidatingOurHTML.html" class="docs-link rounded">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />Validating Our HTML</a>
+                                            </li>
+                                            <li><a href="../HTML/PortfolioContent.html" class="docs-link rounded">
+                                                    <img src="/assets/icons/practice.png" alt=""
+                                                        class="module-icon" />Portfolio Content</a>
+                                            </li>
+
+
+                                        </ul>
+                                    </div>
+                                </li>
+
+                            </ul>
+                        </div>
+
+                    </main>
+
+                </div>
+                <div class="docs-content col-lg-11 col-xl-9 " id="lesson_content">
+
+                    <main data-bs-spy="scroll" data-bs-target="#TableOfContents" data-bs-offset="0" tabindex="0">
+                        <div class="content">
+                            <ul id="todo_info_list" class="list-unstyled">
+                                <li>Core</li>
+                                <li>Deadline: Week 1</li>
+                                <li>Difficulty Level: Select Level </li>
+                                <li>Est. Time: 90 min </li>
+                            </ul>
+                            <div id="todo_description">
+                                <h1>Registration Form</h1>
+                                <hr>
+                                <h3>Objectives</h3>
+                                <ul>
+                                    <li>Practice recreating the staple of many websites, a Registration Form</li>
+                                    <li>Practice using <code>form</code>, <code>input</code>, <code>select</code> and
+                                        <code>textarea</code></li>
+                                </ul>
+                                <p>Now that we've learned about all of the different types of form tags, let's create a
+                                    registration form using only HTML. When registering for many websites, whether it's
+                                    for an email account, a social media platform, or even this bootcamp, you are
+                                    submitting a form! You will be using lots and lots of forms over the next few months
+                                    to send data to your back-end so let's get comfortable creating some forms.</p>
+                                <figure><img
+                                        src="/assets//img/registration-edit3.png"
+                                        style="width: 720px; height: 560px; margin: 20px 0;" width="720" height="560">
+                                </figure>
+                                <p>Recreate all the <strong>HTML </strong>elements shown on the image above! As you
+                                    haven't learned yet how to use <strong>CSS </strong>to make the form look nice,
+                                    don't worry about how our registration form looks for now.<br></p>
+                                <p>Our <strong>HTML </strong>should contain the following tags:</p>
+                                <ul>
+                                    <li><code>&lt;input type="text"&gt;</code><code><br></code></li>
+                                    <li><code>&lt;input type="password"&gt;</code><code><br></code></li>
+                                    <li><code>&lt;input type="date"&gt;</code><code><br></code></li>
+                                    <li><code>&lt;input type="radio"&gt;</code><code><br></code></li>
+                                    <li><code>&lt;input type="checkbox"&gt;</code><code><br></code></li>
+                                    <li><code>&lt;input type="submit"&gt;</code></li>
+                                    <li><code>&lt;textarea&gt;</code></li>
+                                    <li><code>&lt;select&gt;</code></li>
+                                </ul>
+                                <p>We'll get to use forms in one way or another in many later assignments during the
+                                    bootcamp so don't feel the need to memorize all of the different form tags and
+                                    attributes today. We can always come back to this chapter for reference!</p>
+                                <p><strong>Important:</strong> don't worry too much about making the form look identical
+                                    to the image. We will be learning about how exactly to do that tomorrow. For today,
+                                    it's good enough that the form has all the inputs it needs.</p>
+
+                            </div>
+                           
+                        </div>
+
+                        <figure style="text-align: center;margin: 20px;" rel="width: 343px; height: 81px;"><img
+                                src="/assets/img/to_do.jpg" style="width: 343px; height: 200px;" width="343"
+                                height="81"></figure>
+                        <div class="todo-list">
+                            <div class="todo-item">
+                                <p>Recreate the wireframe above using HTML tags</p>
+                            </div>
+                            
+
+                        </div>
+
+
+
+                        <br><br><br>
+
+
+                        <div class="d-flex justify-content-between  " id="navigation">
+                            <a href="../HTML/AboutDivs.html" class="previous_page">&laquo; Previous</a>
+                            <a href="../HTML/ValidatingOurHTML.html" class="next_page">Next &raquo;</a>
+
+                        </div>
+
+
+
+
+
+
+
+
+
+
+
+                    </main>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <!-- Include jQuery and Bootstrap JS (CDN) -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script src="/assets/js/color-modes.js"></script>
+    <script src="/assets/js/search.js"></script>
+    <script src="/assets/js/main.js"></script>
+
+
+    <!-- <script src="https://cdn.jsdelivr.net/npm/prismjs@1.28.0/prism.min.js"></script>
+  <script>
+    Prism.highlightAll();
+  </script> -->
+
+
+
+    <script>
+        // Initialize Prism.js
+        Prism.highlightAll();
+    </script>
+
+</body>
+
+</html>

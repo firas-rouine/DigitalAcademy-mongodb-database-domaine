@@ -1,0 +1,1085 @@
+<!doctype html>
+<html lang="en" data-bs-theme="light">
+
+<head>
+    <!-- <script src="/assets/js/color-modes.js"></script> -->
+
+    <meta charset="utf-8">
+    <link rel="icon" type="image/png" href="../../../../assets/icons/circle-logo.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.118.2">
+    <title>Digital-Academy</title>
+
+    <!-- Custom style -->
+    <link href="/assets/styles/sidebar.css" rel="stylesheet">
+    <link rel="stylesheet" href="/assets/styles/styles.css">
+    <link rel="stylesheet" href="/assets/styles/styles2.css">
+    <!-- bootstrap style -->
+
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous"> -->
+
+
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/prismjs@1.28.0/themes/prism.min.css"> -->
+
+
+
+    <!-- Include the Prism.js library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.25.0/themes/prism.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.25.0/prism.min.js"></script>
+
+    <!-- Include the Okaidia theme -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.25.0/themes/prism-okaidia.min.css">
+
+
+</head>
+
+<body class="single home " data-bs-spy="scroll" data-bs-target="#TableOfContents" data-bs-root-margin="0px 0px -60%"
+    data-bs-smooth-scroll="true" tabindex="0" cz-shortcut-listen="true">
+    <div class="sticky-top">
+        <header class="navbar navbar-expand-lg g-nav">
+            <div class="container-lg"><a class="navbar-brand me-auto me-lg-3" href="#"> <img
+                        src="/assets/icons/logo.png" alt="logo" style="width: 70px; height: 50px;">
+                </a>
+                <a id="home" href="/home.html">HOME</a>
+                <button class="btn btn-link d-lg-none" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasNavSection" aria-controls="offcanvasNavSection"
+                    aria-label="Open section navigation menu"><svg xmlns="http://www.w3.org/2000/svg"
+                        class="icon icon-tabler icon-tabler-dots-vertical" width="24" height="24" viewBox="0 0 24 24"
+                        stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                        <path d="M12 12m-1 0a1 1 0 102 0 1 1 0 10-2 0"></path>
+                        <path d="M12 19m-1 0a1 1 0 102 0 1 1 0 10-2 0"></path>
+                        <path d="M12 5m-1 0a1 1 0 102 0 1 1 0 10-2 0"></path>
+                    </svg></button>
+                <div class="offcanvas offcanvas-start d-lg-none" tabindex="-1" id="offcanvasNavSection"
+                    aria-labelledby="offcanvasNavSectionLabel">
+                    <div class="offcanvas-header">
+                        <img src="/assets/icons/logo.png" alt="logo" style="width: 70px; height: 50px;">
+                        <button type="button" class="btn btn-link nav-link p-0" data-bs-dismiss="offcanvas"
+                            aria-label="Close"><svg xmlns="http://www.w3.org/2000/svg"
+                                class="icon icon-tabler icon-tabler-x" width="24" height="24" viewBox="0 0 24 24"
+                                stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round"
+                                stroke-linejoin="round">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                <path d="M18 6 6 18"></path>
+                                <path d="M6 6l12 12"></path>
+                            </svg></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <aside class="doks-sidebar mt-n3">
+                            <nav id="doks-docs-nav" aria-label="Tertiary navigation">
+                                <div class="module pb-2 pt-4">
+                                    <h2 class="mod-title">WEB FUNDAMENTALS</h2>
+                                    <div class="module pb-2">
+                                        <a href="../../../WEB FUNDAMENTALS/Web Development - CSS/CSS Extras/CSSLibrary.html"
+                                            class="previous">&#8249;</a>
+                                        <img src="/assets/icons/js.png" alt="" class="chapter-icon" />
+                                        <span class="mod-title">JS</span>
+                                        <a href="../../../WEB FUNDAMENTALS/Algorithms/Week1Day2.html"
+                                            class="next">&#8250;</a>
+                                    </div>
+                                </div>
+                                <ul class="list-unstyled collapsible-sidebar">
+                                    <li class="mb-1  ">
+                                        <button id="sidebtn"
+                                            class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed"
+                                            data-bs-toggle="collapse" data-bs-target="#LanguageFundamentals-collapse"
+                                            aria-expanded="true">Language Fundamentals
+                                        </button>
+                                        <div class="collapse show" id="LanguageFundamentals-collapse">
+                                            <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                                                <li><a href="../../../WEB FUNDAMENTALS/JS/Language Fundamentals/Introduction.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />Introduction</a>
+                                                </li>
+                                                <li><a href="../../../WEB FUNDAMENTALS/JS/Language Fundamentals/node.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />node.js</a>
+                                                </li>
+                                                <li><a href="../../../WEB FUNDAMENTALS/JS/Language Fundamentals/VariablesTypesOperators.html"
+                                                        class="docs-link rounded active">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />Variables, Types, Operators</a>
+                                                </li>
+                                                <li><a href="../../../WEB FUNDAMENTALS/JS/Language Fundamentals/PredictTheOutcomeI.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/quiz.png" alt=""
+                                                            class="module-icon" />Predict the Outcome I</a>
+                                                </li>
+                                                <li><a href="../../../WEB FUNDAMENTALS/JS/Language Fundamentals/Conditionals.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />Conditionals</a>
+                                                </li>
+                                                <li><a href="../../../WEB FUNDAMENTALS/JS/Language Fundamentals/Loops.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />Loops</a>
+                                                </li>
+                                                <li><a href="../../../WEB FUNDAMENTALS/JS/Language Fundamentals/PredictTheOutcomeII.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/quiz.png" alt=""
+                                                            class="module-icon" />Predict the Outcome II</a>
+                                                </li>
+                                                <li><a href="../../../WEB FUNDAMENTALS/JS/Language Fundamentals/Fizzbuzz.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/practice.png" alt=""
+                                                            class="module-icon" />Fizzbuzz</a>
+                                                </li>
+                                                <li><a href="../../../WEB FUNDAMENTALS/JS/Language Fundamentals/Debugging.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />Debugging</a>
+                                                </li>
+                                                <li><a href="../../../WEB FUNDAMENTALS/JS/Language Fundamentals/LoopChallenges.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/practice.png" alt=""
+                                                            class="module-icon" />Loop Challenges</a>
+                                                </li>
+                                                <li><a href="../../../WEB FUNDAMENTALS/JS/Language Fundamentals/Arrays.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />Arrays</a>
+                                                </li>
+                                                <li><a href="../../../WEB FUNDAMENTALS/JS/Language Fundamentals/Functions.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />Functions</a>
+                                                </li>
+
+
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li class="mb-1">
+                                        <button id="sidebtn"
+                                            class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed"
+                                            data-bs-toggle="collapse" data-bs-target="#DocumentObjectModel-collapse"
+                                            aria-expanded="false">
+                                            Document Object Model
+                                        </button>
+                                        <div class="collapse" id="DocumentObjectModel-collapse">
+                                            <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                                                <li><a href="../../../WEB FUNDAMENTALS/JS/Document Object Model/ClickEvent.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />Click Event</a>
+                                                </li>
+                                                <li><a href="../../../WEB FUNDAMENTALS/JS/Document Object Model/What.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />What is "this"?</a>
+                                                </li>
+                                                <li><a href="../../../WEB FUNDAMENTALS/JS/Document Object Model/ButtonClicker.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/core.png" alt=""
+                                                            class="module-icon" />Button Clicker</a>
+                                                </li>
+                                                <li><a href="../../../WEB FUNDAMENTALS/JS/Document Object Model/HoverEvent.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />Hover Event</a>
+                                                </li>
+                                                <li><a href="../../../WEB FUNDAMENTALS/JS/Document Object Model/VideoPreview.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/practice.png" alt=""
+                                                            class="module-icon" />Video Preview</a>
+                                                </li>
+                                                <li><a href="../../../WEB FUNDAMENTALS/JS/Document Object Model/JSObjects.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />Objects </a>
+                                                </li>
+                                                <li><a href="../../../WEB FUNDAMENTALS/JS/Document Object Model/DojoPizzeria.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/practice.png" alt=""
+                                                            class="module-icon" />Dojo Pizzeria</a>
+                                                </li>
+                                                <li><a href="../../../WEB FUNDAMENTALS/JS/Document Object Model/QuerySelector.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />QuerySelector</a>
+                                                </li>
+                                                <li><a href="../../../WEB FUNDAMENTALS/JS/Document Object Model/Changing.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />Changing HTML and CSS</a>
+                                                </li>
+                                                <li><a href="../../../WEB FUNDAMENTALS/JS/Document Object Model/Likes.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/core.png" alt=""
+                                                            class="module-icon" />Likes</a>
+                                                </li>
+                                                <li><a href="../../../WEB FUNDAMENTALS/JS/Document Object Model/MakingConnections.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/practice.png" alt=""
+                                                            class="module-icon" />Making Connections</a>
+                                                </li>
+                                                <li><a href="../../../WEB FUNDAMENTALS/JS/Document Object Model/InputAndChange.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />Input and Change</a>
+                                                </li>
+                                                <li><a href="../../../WEB FUNDAMENTALS/JS/Document Object Model/Timeout.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />Timeout</a>
+                                                </li>
+                                                <li><a href="../../../WEB FUNDAMENTALS/JS/Document Object Model/DojoWeather.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/practice.png" alt=""
+                                                            class="module-icon" />DojoWeather</a>
+                                                </li>
+
+
+
+                                            </ul>
+                                        </div>
+                                    </li>
+
+                                    <li class="mb-1">
+                                        <button id="sidebtn"
+                                            class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed"
+                                            data-bs-toggle="collapse" data-bs-target="#TerminalBasics-collapse"
+                                            aria-expanded="false">
+                                            Terminal Basics
+                                        </button>
+                                        <div class="collapse" id="TerminalBasics-collapse">
+                                            <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                                                <li><a href="../../../WEB FUNDAMENTALS/JS/Terminal Basics/Introduction.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />Introduction</a>
+                                                </li>
+                                                <li><a href="../../../WEB FUNDAMENTALS/JS/Terminal Basics/Cmder.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />Cmder (For Windows)</a>
+                                                </li>
+                                                <li><a href="../../../WEB FUNDAMENTALS/JS/Terminal Basics/Terminal.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />Terminal and your File System</a>
+                                                </li>
+                                                <li><a href="../../../WEB FUNDAMENTALS/JS/Terminal Basics/BasicCommands.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />Basic Commands</a>
+                                                </li>
+                                                <li><a href="../../../WEB FUNDAMENTALS/JS/Terminal Basics/NavigatingCommands.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/quiz.png" alt=""
+                                                            class="module-icon" />Navigating Commands</a>
+                                                </li>
+                                                <li><a href="../../../WEB FUNDAMENTALS/JS/Terminal Basics/MITTerminus.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/option.png" alt=""
+                                                            class="module-icon" />MIT Terminus</a>
+                                                </li>
+
+
+
+
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li class="mb-1">
+                                        <button id="sidebtn"
+                                            class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed"
+                                            data-bs-toggle="collapse" data-bs-target="#AdvancedTopics-collapse"
+                                            aria-expanded="false">
+                                            Advanced Topics
+                                        </button>
+                                        <div class="collapse" id="AdvancedTopics-collapse">
+                                            <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                                                <li><a href="../../../WEB FUNDAMENTALS/JS/Advanced Topics/Portfolios.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />Portfolios</a>
+                                                </li>
+                                                <li><a href="../../../WEB FUNDAMENTALS/JS/Advanced Topics/ArrayOperations.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />Array Operations</a>
+                                                </li>
+                                                <li><a href="../../../WEB FUNDAMENTALS/JS/Advanced Topics/ArrayChallenges.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/practice.png" alt=""
+                                                            class="module-icon" />Array Challenges</a>
+                                                </li>
+                                                <li><a href="../../../WEB FUNDAMENTALS/JS/Advanced Topics/querySelectorAll.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />querySelectorAll</a>
+                                                </li>
+                                                <li><a href="../../../WEB FUNDAMENTALS/JS/Advanced Topics/APIsAndAJAX.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />APIs and AJAX</a>
+                                                </li>
+                                                <li><a href="../../../WEB FUNDAMENTALS/JS/Advanced Topics/MediaQueries.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />Media Queries</a>
+                                                </li>
+                                                <li><a href="../../../WEB FUNDAMENTALS/JS/Advanced Topics/Bootstrap.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />Bootstrap</a>
+                                                </li>
+                                                <li><a href="../../../WEB FUNDAMENTALS/JS/Advanced Topics/Transition.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />Transition</a>
+                                                </li>
+                                                <li><a href="../../../WEB FUNDAMENTALS/JS/Advanced Topics/jQuery.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />jQuery</a>
+                                                </li>
+                                                <li><a href="../../../WEB FUNDAMENTALS/JS/Advanced Topics/Calculator.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/option.png" alt=""
+                                                            class="module-icon" />Calculator</a>
+                                                </li>
+                                                <li><a href="../../../WEB FUNDAMENTALS/JS/Advanced Topics/TickingClock.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/option.png" alt=""
+                                                            class="module-icon" />Ticking Clock</a>
+                                                </li>
+                                                <li><a href="../../../WEB FUNDAMENTALS/JS/Advanced Topics/Pacman.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/option.png" alt=""
+                                                            class="module-icon" />Pacman</a>
+                                                </li>
+                                                <li><a href="../../../WEB FUNDAMENTALS/JS/Advanced Topics/1942.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/option.png" alt=""
+                                                            class="module-icon" />1942</a>
+                                                </li>
+
+
+
+
+                                            </ul>
+                                        </div>
+                                    </li>
+
+                                </ul>
+                            </nav>
+                        </aside>
+                    </div>
+                </div><button class="btn btn-link nav-link mx-2 order-3 d-lg-none" type="button"
+                    data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavMain" aria-controls="offcanvasNavMain"
+                    aria-label="Open main navigation menu"><svg xmlns="http://www.w3.org/2000/svg"
+                        class="icon icon-tabler icon-tabler-menu" width="24" height="24" viewBox="0 0 24 24"
+                        stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                        <line x1="4" y1="8" x2="20" y2="8"></line>
+                        <line x1="4" y1="16" x2="20" y2="16"></line>
+                    </svg></button>
+                <div class="offcanvas offcanvas-end h-auto" tabindex="-1" id="offcanvasNavMain"
+                    aria-labelledby="offcanvasNavMainLabel">
+                    <div class="offcanvas-header">
+                        <img src="/assets/icons/logo.png" alt="logo" style="width: 70px; height: 50px;">
+                        <button type="button" class="btn btn-link nav-link p-0" data-bs-dismiss="offcanvas"
+                            aria-label="Close"><svg xmlns="http://www.w3.org/2000/svg"
+                                class="icon icon-tabler icon-tabler-x" width="24" height="24" viewBox="0 0 24 24"
+                                stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round"
+                                stroke-linejoin="round">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                <path d="M18 6 6 18"></path>
+                                <path d="M6 6l12 12"></path>
+                            </svg></button>
+                    </div>
+                    <div class="offcanvas-body d-flex flex-column flex-lg-row justify-content-between">
+                        <!-- <ul class="navbar-nav flex-grow-1">
+              <li class="nav-item"><a class="nav-link active" href="index.html" aria-current="true">Docs</a></li>
+              <li class="nav-item"><a class="nav-link" href="/blog/">Blog</a></li>
+            </ul> -->
+
+                        <!-- this section is for the search bar and results -->
+                        <form class="navbar-form my-auto flex-grow-1 ">
+                            <input id="searchInput" class="form-control is-search ms-auto me-5" type="search"
+                                placeholder="Search ." aria-label="Search docs." autocomplete="off">
+                            <div id="suggestions" class="shadow rounded position-absolute d-none">
+                                <ul id="searchResults" class="list-unstyled m-auto"></ul>
+                            </div>
+                        </form>
+
+
+                        <button id="buttonColorMode" class="btn btn-link mx-auto nav-link p-0 ms-lg-2 me-lg-1"
+                            type="button" aria-label="Toggle theme"><svg data-bs-theme-value="dark"
+                                xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-moon" width="24"
+                                height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentcolor" fill="none"
+                                stroke-linecap="round" stroke-linejoin="round">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                <path d="M12 3c.132.0.263.0.393.0a7.5 7.5.0 007.92 12.446A9 9 0 1112 2.992z"></path>
+                            </svg><svg data-bs-theme-value="light" xmlns="http://www.w3.org/2000/svg"
+                                class="icon icon-tabler icon-tabler-sun" width="24" height="24" viewBox="0 0 24 24"
+                                stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round"
+                                stroke-linejoin="round">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                <path
+                                    d="M12 12m-4 0a4 4 0 108 0 4 4 0 10-8 0m-5 0h1m8-9v1m8 8h1m-9 8v1M5.6 5.6l.7.7m12.1-.7-.7.7m0 11.4.7.7m-12.1-.7-.7.7">
+                                </path>
+                            </svg></button>
+                        <ul id="socialMenu" class="nav mx-auto flex-row order-lg-4">
+
+
+                            <li class="nav-item"><a class="nav-link social-link"
+                                     href="https://github.com/DigitalAcademyTn"><svg xmlns="http://www.w3.org/2000/svg"
+                                        class="icon icon-tabler icon-tabler-brand-github" width="24" height="24"
+                                        viewBox="0 0 24 24" stroke-width="2" stroke="currentcolor" fill="none"
+                                        stroke-linecap="round" stroke-linejoin="round">
+                                        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                        <path
+                                            d="M9 19c-4.3 1.4-4.3-2.5-6-3m12 5v-3.5c0-1 .1-1.4-.5-2 2.8-.3 5.5-1.4 5.5-6a4.6 4.6.0 00-1.3-3.2 4.2 4.2.0 00-.1-3.2s-1.1-.3-3.5 1.3a12.3 12.3.0 00-6.2.0C6.5 2.8 5.4 3.1 5.4 3.1a4.2 4.2.0 00-.1 3.2A4.6 4.6.0 004 9.5c0 4.6 2.7 5.7 5.5 6-.6.6-.6 1.2-.5 2V21">
+                                        </path>
+                                                  </svg><small class="ms-2 visually-hidden">GitHub</small></a></li>
+                  <a id="upgrade" href="../../../upgrade.html">UPGRADE</a>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </header>
+    </div>
+
+
+
+
+    <div class="wrap container-fluid " role="document">
+        <div class="content">
+            <div class="row  d-flex justify-content-center">
+                <div class=" docs-sidebar d-none d-lg-block   ">
+                    <main class="">
+                        <div class="flex-shrink-0 pt-4 ">
+
+                            <div class="module pb-2">
+                                <h2 class="mod-title">WEB FUNDAMENTALS</h2>
+                            </div>
+                            <div class="module pb-2">
+                                <a href="../../../WEB FUNDAMENTALS/Web Development - CSS/CSS Extras/CSSLibrary.html"
+                                    class="previous">&#8249;</a>
+                                <img src="/assets/icons/js.png" alt="" class="chapter-icon" />
+                                <span class="mod-title">JS</span>
+                                <a href="../../../WEB FUNDAMENTALS/Algorithms/Week1Day2.html"
+                                    class="next">&#8250;</a>
+                            </div>
+
+
+
+
+
+                            <ul class=" list-unstyled px-3 overflow-scroll">
+                                <li class="mb-1  ">
+                                    <button id="sidebtn"
+                                        class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed"
+                                        data-bs-toggle="collapse" data-bs-target="#LanguageFundamentals-collapse"
+                                        aria-expanded="true">Language Fundamentals
+                                    </button>
+                                    <div class="collapse show" id="LanguageFundamentals-collapse">
+                                        <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                                            <li><a href="../../../WEB FUNDAMENTALS/JS/Language Fundamentals/Introduction.html"
+                                                    class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />Introduction</a>
+                                            </li>
+                                            <li><a href="../../../WEB FUNDAMENTALS/JS/Language Fundamentals/node.html"
+                                                    class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />node.js</a>
+                                            </li>
+                                            <li><a href="../../../WEB FUNDAMENTALS/JS/Language Fundamentals/VariablesTypesOperators.html"
+                                                    class="docs-link rounded active">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />Variables, Types, Operators</a>
+                                            </li>
+                                            <li><a href="../../../WEB FUNDAMENTALS/JS/Language Fundamentals/PredictTheOutcomeI.html"
+                                                    class="docs-link rounded ">
+                                                    <img src="/assets/icons/quiz.png" alt=""
+                                                        class="module-icon" />Predict the Outcome I</a>
+                                            </li>
+                                            <li><a href="../../../WEB FUNDAMENTALS/JS/Language Fundamentals/Conditionals.html"
+                                                    class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />Conditionals</a>
+                                            </li>
+                                            <li><a href="../../../WEB FUNDAMENTALS/JS/Language Fundamentals/Loops.html"
+                                                    class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />Loops</a>
+                                            </li>
+                                            <li><a href="../../../WEB FUNDAMENTALS/JS/Language Fundamentals/PredictTheOutcomeII.html"
+                                                    class="docs-link rounded ">
+                                                    <img src="/assets/icons/quiz.png" alt=""
+                                                        class="module-icon" />Predict the Outcome II</a>
+                                            </li>
+                                            <li><a href="../../../WEB FUNDAMENTALS/JS/Language Fundamentals/Fizzbuzz.html"
+                                                    class="docs-link rounded ">
+                                                    <img src="/assets/icons/practice.png" alt=""
+                                                        class="module-icon" />Fizzbuzz</a>
+                                            </li>
+                                            <li><a href="../../../WEB FUNDAMENTALS/JS/Language Fundamentals/Debugging.html"
+                                                    class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />Debugging</a>
+                                            </li>
+                                            <li><a href="../../../WEB FUNDAMENTALS/JS/Language Fundamentals/LoopChallenges.html"
+                                                    class="docs-link rounded ">
+                                                    <img src="/assets/icons/practice.png" alt=""
+                                                        class="module-icon" />Loop Challenges</a>
+                                            </li>
+                                            <li><a href="../../../WEB FUNDAMENTALS/JS/Language Fundamentals/Arrays.html"
+                                                    class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />Arrays</a>
+                                            </li>
+                                            <li><a href="../../../WEB FUNDAMENTALS/JS/Language Fundamentals/Functions.html"
+                                                    class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />Functions</a>
+                                            </li>
+
+
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li class="mb-1">
+                                    <button id="sidebtn"
+                                        class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed"
+                                        data-bs-toggle="collapse" data-bs-target="#DocumentObjectModel-collapse"
+                                        aria-expanded="false">
+                                        Document Object Model
+                                    </button>
+                                    <div class="collapse" id="DocumentObjectModel-collapse">
+                                        <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                                            <li><a href="../../../WEB FUNDAMENTALS/JS/Document Object Model/ClickEvent.html"
+                                                    class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />Click Event</a>
+                                            </li>
+                                            <li><a href="../../../WEB FUNDAMENTALS/JS/Document Object Model/What.html"
+                                                    class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />What is "this"?</a>
+                                            </li>
+                                            <li><a href="../../../WEB FUNDAMENTALS/JS/Document Object Model/ButtonClicker.html"
+                                                    class="docs-link rounded ">
+                                                    <img src="/assets/icons/core.png" alt=""
+                                                        class="module-icon" />Button Clicker</a>
+                                            </li>
+                                            <li><a href="../../../WEB FUNDAMENTALS/JS/Document Object Model/HoverEvent.html"
+                                                    class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />Hover Event</a>
+                                            </li>
+                                            <li><a href="../../../WEB FUNDAMENTALS/JS/Document Object Model/VideoPreview.html"
+                                                    class="docs-link rounded ">
+                                                    <img src="/assets/icons/practice.png" alt=""
+                                                        class="module-icon" />Video Preview</a>
+                                            </li>
+                                            <li><a href="../../../WEB FUNDAMENTALS/JS/Document Object Model/JSObjects.html"
+                                                    class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />Objects </a>
+                                            </li>
+                                            <li><a href="../../../WEB FUNDAMENTALS/JS/Document Object Model/DojoPizzeria.html"
+                                                    class="docs-link rounded ">
+                                                    <img src="/assets/icons/practice.png" alt=""
+                                                        class="module-icon" />Dojo Pizzeria</a>
+                                            </li>
+                                            <li><a href="../../../WEB FUNDAMENTALS/JS/Document Object Model/QuerySelector.html"
+                                                    class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />QuerySelector</a>
+                                            </li>
+                                            <li><a href="../../../WEB FUNDAMENTALS/JS/Document Object Model/Changing.html"
+                                                    class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />Changing HTML and CSS</a>
+                                            </li>
+                                            <li><a href="../../../WEB FUNDAMENTALS/JS/Document Object Model/Likes.html"
+                                                    class="docs-link rounded ">
+                                                    <img src="/assets/icons/core.png" alt=""
+                                                        class="module-icon" />Likes</a>
+                                            </li>
+                                            <li><a href="../../../WEB FUNDAMENTALS/JS/Document Object Model/MakingConnections.html"
+                                                    class="docs-link rounded ">
+                                                    <img src="/assets/icons/practice.png" alt=""
+                                                        class="module-icon" />Making Connections</a>
+                                            </li>
+                                            <li><a href="../../../WEB FUNDAMENTALS/JS/Document Object Model/InputAndChange.html"
+                                                    class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />Input and Change</a>
+                                            </li>
+                                            <li><a href="../../../WEB FUNDAMENTALS/JS/Document Object Model/Timeout.html"
+                                                    class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />Timeout</a>
+                                            </li>
+                                            <li><a href="../../../WEB FUNDAMENTALS/JS/Document Object Model/DojoWeather.html"
+                                                    class="docs-link rounded ">
+                                                    <img src="/assets/icons/practice.png" alt=""
+                                                        class="module-icon" />DojoWeather</a>
+                                            </li>
+
+
+
+                                        </ul>
+                                    </div>
+                                </li>
+
+                                <li class="mb-1">
+                                    <button id="sidebtn"
+                                        class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed"
+                                        data-bs-toggle="collapse" data-bs-target="#TerminalBasics-collapse"
+                                        aria-expanded="false">
+                                        Terminal Basics
+                                    </button>
+                                    <div class="collapse" id="TerminalBasics-collapse">
+                                        <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                                            <li><a href="../../../WEB FUNDAMENTALS/JS/Terminal Basics/Introduction.html"
+                                                    class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />Introduction</a>
+                                            </li>
+                                            <li><a href="../../../WEB FUNDAMENTALS/JS/Terminal Basics/Cmder.html"
+                                                    class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />Cmder (For Windows)</a>
+                                            </li>
+                                            <li><a href="../../../WEB FUNDAMENTALS/JS/Terminal Basics/Terminal.html"
+                                                    class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />Terminal and your File System</a>
+                                            </li>
+                                            <li><a href="../../../WEB FUNDAMENTALS/JS/Terminal Basics/BasicCommands.html"
+                                                    class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />Basic Commands</a>
+                                            </li>
+                                            <li><a href="../../../WEB FUNDAMENTALS/JS/Terminal Basics/NavigatingCommands.html"
+                                                    class="docs-link rounded ">
+                                                    <img src="/assets/icons/quiz.png" alt=""
+                                                        class="module-icon" />Navigating Commands</a>
+                                            </li>
+                                            <li><a href="../../../WEB FUNDAMENTALS/JS/Terminal Basics/MITTerminus.html"
+                                                    class="docs-link rounded ">
+                                                    <img src="/assets/icons/option.png" alt="" class="module-icon" />MIT
+                                                    Terminus</a>
+                                            </li>
+
+
+
+
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li class="mb-1">
+                                    <button id="sidebtn"
+                                        class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed"
+                                        data-bs-toggle="collapse" data-bs-target="#AdvancedTopics-collapse"
+                                        aria-expanded="false">
+                                        Advanced Topics
+                                    </button>
+                                    <div class="collapse" id="AdvancedTopics-collapse">
+                                        <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                                            <li><a href="../../../WEB FUNDAMENTALS/JS/Advanced Topics/Portfolios.html"
+                                                    class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />Portfolios</a>
+                                            </li>
+                                            <li><a href="../../../WEB FUNDAMENTALS/JS/Advanced Topics/ArrayOperations.html"
+                                                    class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />Array Operations</a>
+                                            </li>
+                                            <li><a href="../../../WEB FUNDAMENTALS/JS/Advanced Topics/ArrayChallenges.html"
+                                                    class="docs-link rounded ">
+                                                    <img src="/assets/icons/practice.png" alt=""
+                                                        class="module-icon" />Array Challenges</a>
+                                            </li>
+                                            <li><a href="../../../WEB FUNDAMENTALS/JS/Advanced Topics/querySelectorAll.html"
+                                                    class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />querySelectorAll</a>
+                                            </li>
+                                            <li><a href="../../../WEB FUNDAMENTALS/JS/Advanced Topics/APIsAndAJAX.html"
+                                                    class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />APIs and AJAX</a>
+                                            </li>
+                                            <li><a href="../../../WEB FUNDAMENTALS/JS/Advanced Topics/MediaQueries.html"
+                                                    class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />Media Queries</a>
+                                            </li>
+                                            <li><a href="../../../WEB FUNDAMENTALS/JS/Advanced Topics/Bootstrap.html"
+                                                    class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />Bootstrap</a>
+                                            </li>
+                                            <li><a href="../../../WEB FUNDAMENTALS/JS/Advanced Topics/Transition.html"
+                                                    class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />Transition</a>
+                                            </li>
+                                            <li><a href="../../../WEB FUNDAMENTALS/JS/Advanced Topics/jQuery.html"
+                                                    class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />jQuery</a>
+                                            </li>
+                                            <li><a href="../../../WEB FUNDAMENTALS/JS/Advanced Topics/Calculator.html"
+                                                    class="docs-link rounded ">
+                                                    <img src="/assets/icons/option.png" alt=""
+                                                        class="module-icon" />Calculator</a>
+                                            </li>
+                                            <li><a href="../../../WEB FUNDAMENTALS/JS/Advanced Topics/TickingClock.html"
+                                                    class="docs-link rounded ">
+                                                    <img src="/assets/icons/option.png" alt=""
+                                                        class="module-icon" />Ticking Clock</a>
+                                            </li>
+                                            <li><a href="../../../WEB FUNDAMENTALS/JS/Advanced Topics/Pacman.html"
+                                                    class="docs-link rounded ">
+                                                    <img src="/assets/icons/option.png" alt=""
+                                                        class="module-icon" />Pacman</a>
+                                            </li>
+                                            <li><a href="../../../WEB FUNDAMENTALS/JS/Advanced Topics/1942.html"
+                                                    class="docs-link rounded ">
+                                                    <img src="/assets/icons/option.png" alt=""
+                                                        class="module-icon" />1942</a>
+                                            </li>
+
+
+
+
+                                        </ul>
+                                    </div>
+                                </li>
+
+                            </ul>
+                        </div>
+
+                    </main>
+
+                </div>
+                <div class="docs-content col-lg-11 col-xl-9 " id="lesson_content">
+
+                    <main data-bs-spy="scroll" data-bs-target="#TableOfContents" data-bs-offset="0" tabindex="0">
+
+                        <div id="lesson_content">
+                            <h1>Variables, Types, Operators</h1>
+                            <hr>
+                            <h3>Objectives</h3>
+                            <ul>
+                                <li>Learn how to create and use variables</li>
+                                <li>Learn about basic data types in JavaScript</li>
+                                <li>Learn about operators in JavaScript</li>
+                            </ul>
+                            <h2>Variables</h2>
+                            <p>In JavaScript we can define variables, basically a name we can use to store and modify
+                                some information. Some examples of variables look like</p>
+                                <div class="highlight">
+                                    <div class="clipboard"><button class="btn btn-clipboard blankkk"
+                                            aria-label="Clipboard button"></button></div>
+<pre data-language="javascript"><span class="storage type">var</span> count <span class="keyword operator">=</span> <span class="constant numeric">5</span>;
+<span class="storage type">var</span> message <span class="keyword operator">=</span> <span class="string">"Hello World"</span>;
+<span class="storage type">var</span> likesJS <span class="keyword operator">=</span> <span class="constant language">true</span>;
+
+</pre>
+                        </div>
+                            <p>When declaring a variable we need to start by using the <code>var</code> keyword followed
+                                by giving it some sort of unique name (the more descriptive the better). In the examples
+                                above the variables are <code>count</code>, <code>message</code>, and
+                                <code>likesJS</code>. We have also set each of them equal to some values as well with
+                                <code>5</code>, <code>"Hello World"</code>, and <code>true</code> respectively. A couple
+                                things to know about this:</p>
+                            <ol>
+                                <li>We can set variables equal to different types of data (in the above example we have
+                                    a <code>Number</code>, a <code>String</code>, and a <code>Boolean</code>)</li>
+                                <li>We don't have to give it a value (it can be left <code>undefined</code> and/or we
+                                    can choose to define it later but reserve the name and space ahead of time)</li>
+                                <li>The values are allowed to be reassigned and changed</li>
+                            </ol>
+                            <p>While there are different types of data in JavaScript variables are *loosely* typed
+                                meaning we can change their type at will.</p>
+                                <div class="highlight">
+                                    <div class="clipboard"><button class="btn btn-clipboard blankkk"
+                                            aria-label="Clipboard button"></button></div>
+<pre
+    data-language="javascript"><span class="storage type">var</span> count <span class="keyword operator">=</span> <span class="constant numeric">5</span>;
+count <span class="keyword operator">=</span> <span class="string">"I'm now a string!"</span>;
+</pre>
+                        </div>
+                            <p>In the above example we change a <code>Number</code> into a <code>String</code>. While
+                                this isn't something we'll typically want to do in our code we should be aware that we
+                                can change it.</p>
+                            <h2>Operators</h2>
+                            <p>There are many different operators in JS, and we should already be familiar with some of
+                                them from our knowledge of math. For instance we have already used <code>=</code> to set
+                                our variables equal to some values and also in the second example to change what a
+                                variable is equal to. Unlike in math, the <code>=</code> operator isn't making sure each
+                                side of the statement is balanced, but rather in programming it is used to set the left
+                                side of the statement equal to whatever is on the right side of the statement. So if we
+                                were to take an example like <code>var count = 5;</code> and translate it into exactly
+                                what our JavaScript engine is being told it would be:</p>
+                            <ol>
+                                <li>Create a variable if it doesn't already exist called <code>count</code></li>
+                                <li>Set the value of the <code>count</code> variable to <code>5</code></li>
+                            </ol>
+                            <p>A line like <code>count = "I'm now a String!";</code> would be understood as:</p>
+                            <ol>
+                                <li>Set the value of an already existing variable called <code>count</code> to the
+                                    string <code>"I'm now a String!"</code></li>
+                            </ol>
+                            <p>Naturally, <code>var count = 5;</code> and <code>count = "I'm now a String!";</code> are
+                                a lot shorter for us to write. Much of programming syntax is about expressing a specific
+                                operation in a consistent and convenient way. We don't want our JS engine to have to
+                                guess what we want it to do or make assumptions about what we meant.</p>
+                            <p>Another operator we need to talk about in some detail is <code>+</code></p>
+                            <p>When we are working with <code>Number</code> type variables <code>+</code> will work as
+                                we would expect adding the two values together</p>
+                                <div class="highlight">
+                                    <div class="clipboard"><button class="btn btn-clipboard blankkk"
+                                            aria-label="Clipboard button"></button></div>
+<pre
+data-language="javascript"><span class="storage type">var</span> product <span class="keyword operator">=</span> <span class="constant numeric">3.14159</span> <span class="keyword operator">+</span> <span class="constant numeric">2.71828</span>; <span class="comment">// 5.85987</span>
+</pre>
+                            </div>
+                            <p><strong>Note:</strong> JS doesn't differentiate between whole integers and numbers with
+                                decimals</p>
+                            <p>But what about if we are working with <code>String</code> values?</p>
+                            <div class="highlight">
+                                <div class="clipboard"><button class="btn btn-clipboard blankkk"
+                                        aria-label="Clipboard button"></button></div>
+<pre
+    data-language="javascript"><span class="storage type">var</span> name <span class="keyword operator">=</span> <span class="string">"Marisa"</span>;
+<span class="storage type">var</span> message <span class="keyword operator">=</span> <span class="string">"JS is actually the trickiest language"</span>;
+console.<span class="function call">log</span>(name <span class="keyword operator">+</span> <span class="string">" says "</span> <span class="keyword operator">+</span> message);
+<span class="comment">// "Marisa says JS is actually the trickiest language"</span>
+</pre>
+                        </div>
+                            <p>When working with strings <code>+</code> is used to concatenate them together, think of
+                                concatenation as gluing the strings together to make a new one. In the above example,
+                                <code>console.log()</code> is a command that will tell the program to print out whatever
+                                the value in between the parenthesis evaluates to. We'll be using
+                                <code>console.log()</code> quite a bit to get a peak at what the computer is doing. It's
+                                very common to use <code>console.log()</code> when checking our work or when debugging
+                                (trying to figure out why our code doesn't behave as we'd expect).</p>
+                            <p>What if we mix the types we're using?</p>
+                            <div class="highlight">
+                                <div class="clipboard"><button class="btn btn-clipboard blankkk"
+                                        aria-label="Clipboard button"></button></div>
+<pre
+    data-language="javascript"><span class="storage type">var</span> name <span class="keyword operator">=</span> <span class="string">"Phil"</span>;
+<span class="storage type">var</span> luckyNumber <span class="keyword operator">=</span> <span class="constant numeric">8</span>;
+console.<span class="function call">log</span>(name <span class="keyword operator">+</span> <span class="string">"'s lucky number is "</span> <span class="keyword operator">+</span> luckyNumber);
+<span class="comment">// "Phil's lucky number is 8"</span>
+</pre>
+                        </div>
+                            <p>When we add numbers and strings together they result in a new string. One more tricky
+                                example...<br></p>
+                                <div class="highlight">
+                                    <div class="clipboard"><button class="btn btn-clipboard blankkk"
+                                            aria-label="Clipboard button"></button></div>
+<pre
+    data-language="javascript">console.<span class="function call">log</span>(<span class="string">"the number is "</span> <span class="keyword operator">+</span> <span class="constant numeric">12</span> <span class="keyword operator">+</span> <span class="constant numeric">3</span>);&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span class="comment">// "the number is 123"</span>
+console.<span class="function call">log</span>(<span class="constant numeric">12</span> <span class="keyword operator">+</span> <span class="constant numeric">3</span> <span class="keyword operator">+</span> <span class="string">" is a different number"</span>); <span class="comment">// "15 is a different number"</span>
+</pre>
+                        </div>
+                            <p>If we do mix the types remember that order matters and that JS will read from left to
+                                right.</p>
+                            <fieldset>
+                                <legend>
+                                    <h3>Some operators</h3>
+                                </legend>
+                                <table class="table table-bordered">
+                                    <tbody>
+                                        <tr>
+                                            <td>Operator</td>
+                                            <td>What it does<br></td>
+                                            <td>Example Operation(s)</td>
+                                        </tr>
+                                        <tr>
+                                            <td><code>a + b</code></td>
+                                            <td>add two numbers together,<br>concatenates strings</td>
+                                            <td>
+                                                <div class="highlight">
+                                                    <div class="clipboard"><button class="btn btn-clipboard blankkk"
+                                                            aria-label="Clipboard button"></button></div>
+                    <pre data-language="javascript"
+                        style="margin:0!important;"><span class="constant numeric">12</span> <span class="keyword operator">+</span> <span class="constant numeric">3</span> <span class="comment">// 15</span>
+<span class="string">"12"</span> <span class="keyword operator">+</span> <span class="string">"3"</span> <span class="comment">// "123"</span>
+</pre>
+                        </div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td><code>a - b</code></td>
+                                            <td>subtracts <code>b</code> from <code>a</code></td>
+                                            <td>
+                                                <div class="highlight">
+                                                    <div class="clipboard"><button class="btn btn-clipboard blankkk"
+                                                            aria-label="Clipboard button"></button></div>
+<pre data-language="javascript"
+style="margin:0!important;"><span class="constant numeric">12</span> <span class="keyword operator">-</span> <span class="constant numeric">3</span> <span class="comment">// 9</span>
+</pre>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td><code>a * b</code></td>
+                                            <td>multiplies <code>a</code> by <code>b</code></td>
+                                            <td>
+                                                <div class="highlight">
+                                                    <div class="clipboard"><button class="btn btn-clipboard blankkk"
+                                                            aria-label="Clipboard button"></button></div>
+<pre data-language="javascript"
+style="margin:0!important;"><span class="constant numeric">12</span> <span class="keyword operator">*</span> <span class="constant numeric">3</span> <span class="comment">// 36</span>
+</pre>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td><code>a / b</code></td>
+                                            <td>divides <code>a</code> by <code>b</code></td>
+                                            <td>
+                                                <div class="highlight">
+                                                    <div class="clipboard"><button class="btn btn-clipboard blankkk"
+                                                            aria-label="Clipboard button"></button></div>
+                    <pre data-language="javascript"
+                        style="margin:0!important;"><span class="constant numeric">12</span> / <span class="constant numeric">3</span> <span class="comment">// 4</span>
+<span class="constant numeric">12</span> / <span class="constant numeric">5</span> <span class="comment">// 2.4</span>
+</pre>
+                        </div>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </fieldset>
+                            <fieldset>
+                                <legend>
+                                    <h3>Order of operations</h3>
+                                </legend>
+                                <p>What will happen if the code contains both multiplication and addition?</p>
+                                <div class="highlight">
+                                    <div class="clipboard"><button class="btn btn-clipboard blankkk"
+                                            aria-label="Clipboard button"></button></div>
+<pre
+data-language="javascript"><span class="storage type">var</span> answer <span class="keyword operator">=</span> <span class="constant numeric">2</span> <span class="keyword operator">+</span> <span class="constant numeric">4</span> <span class="keyword operator">*</span> <span class="constant numeric">10</span>;
+</pre>
+                                </div>
+                                <details>
+                                    <summary class="btn btn-primary" style="color:#fff;display:block;">What does this
+                                        give us? Click for the answer / explanation</summary>
+                                    <p></p>
+                                    <h4>42</h4>
+                                    <p>We mentioned before that JS will read from left to right, but the order of
+                                        operations we're familiar with from math still occurs with multiplication
+                                        happening before addition. If we wanted the addition to occur first, we can use
+                                        parenthesis just as we would in math.</p>
+                                        <div class="highlight">
+                                            <div class="clipboard"><button class="btn btn-clipboard blankkk"
+                                                    aria-label="Clipboard button"></button></div>
+<pre
+data-language="javascript"><span class="storage type">var</span> answer <span class="keyword operator">=</span> (<span class="constant numeric">2</span> <span class="keyword operator">+</span> <span class="constant numeric">4</span>) <span class="keyword operator">*</span> <span class="constant numeric">10</span>;
+</pre>
+                                    </div>
+                                </details>
+                            </fieldset>
+                            <h2>Combined Operations</h2>
+                            <p>Sometimes we will combine operations together using convenient shorthand.</p>
+                            <div class="highlight">
+                                <div class="clipboard"><button class="btn btn-clipboard blankkk"
+                                        aria-label="Clipboard button"></button></div>
+<pre
+    data-language="javascript"><span class="storage type">var</span> total <span class="keyword operator">=</span> <span class="constant numeric">10</span>;
+total <span class="keyword operator">+</span><span class="keyword operator">=</span> <span class="constant numeric">5</span>; <span class="comment">// equivalent to total = total + 5;</span>
+</pre>
+                        </div>
+                            <p>The <code>+=</code> operator can also be used with strings for concatenation<br></p>
+                            <div class="highlight">
+                                <div class="clipboard"><button class="btn btn-clipboard blankkk"
+                                        aria-label="Clipboard button"></button></div>
+<pre
+    data-language="javascript"><span class="storage type">var</span> message <span class="keyword operator">=</span> <span class="string">"hello"</span>;
+message <span class="keyword operator">+</span><span class="keyword operator">=</span> <span class="string">" world"</span>; <span class="comment">// message is now "hello world"</span>
+</pre>
+                        </div>
+                            <p>Similar to the above examples, we can also use the following: <code>-=</code>,
+                                <code>*=</code>, and <code>/=</code> as combined math and assignment operations.</p>
+                            <h2>Types of Data</h2>
+                            <p>Some types of data are considered <a
+                                    href="https://developer.mozilla.org/en-US/docs/Glossary/Primitive"
+                                    target="_blank">primitive</a> they essentially just store information whereas there
+                                are other types that can provide structure as well. For now we should be aware of
+                                <code>Number</code>, <code>String</code>, and <code>Boolean</code>. We will soon learn
+                                about structural types as well with <code>Object</code> and <code>Array</code> (which
+                                <strong>JS</strong> also considers as <code>Object</code>) types.</p>
+                        </div>
+
+
+                        <br><br><br>
+
+
+
+                        <div class="d-flex justify-content-between " id="navigation">
+                            <a href="../../../WEB FUNDAMENTALS/JS/Language Fundamentals/node.html"
+                                class="previous_page">&laquo; Previous</a>
+                            <a href="../../../WEB FUNDAMENTALS/JS/Language Fundamentals/PredictTheOutcomeI.html"
+                                class="next_page">Next &raquo;</a>
+
+                        </div>
+
+
+
+
+
+
+
+
+
+
+
+                    </main>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <!-- Include jQuery and Bootstrap JS (CDN) -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script src="/assets/js/color-modes.js"></script>
+    <script src="/assets/js/search.js"></script>
+    <script src="/assets/js/main.js"></script>
+
+
+    <!-- <script src="https://cdn.jsdelivr.net/npm/prismjs@1.28.0/prism.min.js"></script>
+  <script>
+    Prism.highlightAll();
+  </script> -->
+
+
+
+    <script>
+        // Initialize Prism.js
+        Prism.highlightAll();
+    </script>
+
+</body>
+
+</html>

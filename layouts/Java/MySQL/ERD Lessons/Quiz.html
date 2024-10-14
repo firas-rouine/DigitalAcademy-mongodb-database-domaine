@@ -1,0 +1,1113 @@
+<!doctype html>
+<html lang="en" data-bs-theme="light">
+
+<head>
+    <!-- <script src="/assets/js/color-modes.js"></script> -->
+
+    <meta charset="utf-8">
+    <link rel="icon" type="image/png" href="../../../../assets/icons/circle-logo.png">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.118.2">
+    <title>Digital-Academy</title>
+
+    <!-- Custom style -->
+    <link href="/assets/styles/sidebar.css" rel="stylesheet">
+    <link rel="stylesheet" href="/assets/styles/quizs-style.css">
+    <link rel="stylesheet" href="/assets/styles/styles.css">
+    <link rel="stylesheet" href="/assets/styles/styles2.css">
+    <!-- bootstrap style -->
+
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous"> -->
+
+
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/prismjs@1.28.0/themes/prism.min.css"> -->
+
+
+
+    <!-- Include the Prism.js library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.25.0/themes/prism.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.25.0/prism.min.js"></script>
+
+    <!-- Include the Okaidia theme -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.25.0/themes/prism-okaidia.min.css">
+
+
+</head>
+
+<body class="single home " data-bs-spy="scroll" data-bs-target="#TableOfContents" data-bs-root-margin="0px 0px -60%"
+    data-bs-smooth-scroll="true" tabindex="0" cz-shortcut-listen="true">
+    <div class="sticky-top">
+        <header class="navbar navbar-expand-lg g-nav">
+            <div class="container-lg"><a class="navbar-brand me-auto me-lg-3" href="#"> <img
+                        src="/assets/icons/logo.png" alt="logo" style="width: 70px; height: 50px;">
+                </a>
+                <a id="home" href="/home.html">HOME</a>
+                <button class="btn btn-link d-lg-none" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasNavSection" aria-controls="offcanvasNavSection"
+                    aria-label="Open section navigation menu"><svg xmlns="http://www.w3.org/2000/svg"
+                        class="icon icon-tabler icon-tabler-dots-vertical" width="24" height="24" viewBox="0 0 24 24"
+                        stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                        <path d="M12 12m-1 0a1 1 0 102 0 1 1 0 10-2 0"></path>
+                        <path d="M12 19m-1 0a1 1 0 102 0 1 1 0 10-2 0"></path>
+                        <path d="M12 5m-1 0a1 1 0 102 0 1 1 0 10-2 0"></path>
+                    </svg></button>
+                <div class="offcanvas offcanvas-start d-lg-none" tabindex="-1" id="offcanvasNavSection"
+                    aria-labelledby="offcanvasNavSectionLabel">
+                    <div class="offcanvas-header">
+                        <img src="/assets/icons/logo.png" alt="logo" style="width: 70px; height: 50px;">
+                        <button type="button" class="btn btn-link nav-link p-0" data-bs-dismiss="offcanvas"
+                            aria-label="Close"><svg xmlns="http://www.w3.org/2000/svg"
+                                class="icon icon-tabler icon-tabler-x" width="24" height="24" viewBox="0 0 24 24"
+                                stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round"
+                                stroke-linejoin="round">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                <path d="M18 6 6 18"></path>
+                                <path d="M6 6l12 12"></path>
+                            </svg></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <aside class="doks-sidebar mt-n3">
+                            <nav id="doks-docs-nav" aria-label="Tertiary navigation">
+                                <div class="module pb-2 pt-4">
+                                    <h2 class="mod-title">Java</h2>
+                                    <div class="module pb-2">
+                                        <a href="../../../Java/Java Spring/Spring Intro/Overview.html"
+                                            class="previous">&#8249;</a>
+                                        <img src="/assets/icons/mysql.png" alt="" class="chapter-icon" />
+                                        <span class="mod-title">MySQL</span>
+                                        <a href="../../../Java/Java Spring Deployment/AWS Deployment/Deploying.html"
+                                            class="next">&#8250;</a>
+                                    </div>
+                                </div>
+                                <ul class="list-unstyled collapsible-sidebar ">
+
+                                    <li class="mb-1">
+                                        <button id="sidebtn"
+                                            class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed"
+                                            data-bs-toggle="collapse" data-bs-target="#Installations-collapse"
+                                            aria-expanded="false">
+                                            Installations
+                                        </button>
+                                        <div class="collapse" id="Installations-collapse">
+                                            <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                                                <li><a href="../Installations/Intro.html" class="docs-link rounded  ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />Intro to MySQL</a>
+                                                </li>
+                                                <li><a href="../Installations/MySQLWorkbench.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />MySQL Workbench</a>
+                                                </li>
+                                                <li><a href="../Installations/Mac.html" class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />(Mac)MySQL Server Installation</a>
+                                                </li>
+                                                <li><a href="../Installations/Windows.html" class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />(Windows)MySQL Server Installation</a>
+                                                </li>
+
+
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li class="mb-1">
+                                        <button id="sidebtn"
+                                            class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed"
+                                            data-bs-toggle="collapse" data-bs-target="#ERDLessons-collapse"
+                                            aria-expanded="true">
+                                            ERD Lessons
+                                        </button>
+                                        <div class="collapse show" id="ERDLessons-collapse">
+                                            <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                                                <li><a href="../ERD Lessons/Overview.html" class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />Overview</a>
+                                                </li>
+                                                <li><a href="../ERD Lessons/DatabaseDesign.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />Database Design</a>
+                                                </li>
+                                                <li><a href="../ERD Lessons/OnetoOne.html" class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />One
+                                                        to One</a>
+                                                </li>
+                                                <li><a href="../ERD Lessons/OnetoMany.html" class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />One
+                                                        to Many</a>
+                                                </li>
+                                                <li><a href="../ERD Lessons/ManytoMany.html" class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />Many to Many</a>
+                                                </li>
+                                                <li><a href="../ERD Lessons/Quiz.html" class="docs-link rounded active">
+                                                        <img src="/assets/icons/quiz.png" alt=""
+                                                            class="module-icon" />Quiz
+                                                        (Basic)</a>
+                                                </li>
+                                                <li><a href="../ERD Lessons/Conventions.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />Conventions</a>
+                                                </li>
+                                                <li><a href="../ERD Lessons/DataTypes.html" class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />Data Types</a>
+                                                </li>
+                                                <li><a href="../ERD Lessons/SimpleBlog.html" class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />Simple Blog</a>
+                                                </li>
+                                                <li><a href="../ERD Lessons/Likes.html" class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />Likes</a>
+                                                </li>
+                                                <li><a href="../ERD Lessons/Yelp.html" class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />Yelp</a>
+                                                </li>
+                                                <li><a href="../ERD Lessons/Amazon.html" class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />Amazon</a>
+                                                </li>
+                                                <li><a href="../ERD Lessons/Belts.html" class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />Belts</a>
+                                                </li>
+                                                <li><a href="../ERD Lessons/Normalization.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />Normalization</a>
+                                                </li>
+                                                <li><a href="../ERD Lessons/Users.html" class="docs-link rounded ">
+                                                        <img src="/assets/icons/option.png" alt=""
+                                                            class="module-icon" />Users</a>
+                                                </li>
+                                                <li><a href="../ERD Lessons/DojosandNinjas.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/option.png" alt=""
+                                                            class="module-icon" />Dojos and Ninjas</a>
+                                                </li>
+                                                <li><a href="../ERD Lessons/Books.html" class="docs-link rounded ">
+                                                        <img src="/assets/icons/option.png" alt=""
+                                                            class="module-icon" />Books</a>
+                                                </li>
+                                                <li><a href="../ERD Lessons/Friendships.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/option.png" alt=""
+                                                            class="module-icon" />Friendships</a>
+                                                </li>
+                                                <li><a href="../ERD Lessons/EventPlanner.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/option.png" alt=""
+                                                            class="module-icon" />Event Planner</a>
+                                                </li>
+                                                <li><a href="../ERD Lessons/Blogs.html" class="docs-link rounded ">
+                                                        <img src="/assets/icons/option.png" alt=""
+                                                            class="module-icon" />Blogs</a>
+                                                </li>
+                                                <li><a href="../ERD Lessons/UserDashboard.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/option.png" alt=""
+                                                            class="module-icon" />User Dashboard</a>
+                                                </li>
+                                                <li><a href="../ERD Lessons/Normalization2.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/option.png" alt=""
+                                                            class="module-icon" />Normalization</a>
+                                                </li>
+
+
+
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li class="mb-1">
+                                        <button id="sidebtn"
+                                            class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed"
+                                            data-bs-toggle="collapse" data-bs-target="#MySQLQueries-collapse"
+                                            aria-expanded="false">
+                                            MySQL Queries
+                                        </button>
+                                        <div class="collapse" id="MySQLQueries-collapse">
+                                            <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                                                <li><a href="../MySQL Queries/SQL.html" class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />SQL</a>
+                                                </li>
+                                                <li><a href="../MySQL Queries/ConnectingtoMySQL.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />Connecting to MySQL</a>
+                                                </li>
+                                                <li><a href="../MySQL Queries/Import.html" class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />Import</a>
+                                                </li>
+                                                <li><a href="../MySQL Queries/SELECT.html" class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />SELECT</a>
+                                                </li>
+                                                <li><a href="../MySQL Queries/INSERT.html" class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />INSERT</a>
+                                                </li>
+                                                <li><a href="../MySQL Queries/UPDATE.html" class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />UPDATE</a>
+                                                </li>
+                                                <li><a href="../MySQL Queries/DELETE.html" class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />DELETE</a>
+                                                </li>
+                                                <li><a href="../MySQL Queries/Functions.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />Functions</a>
+                                                </li>
+                                                <li><a href="../MySQL Queries/Joins.html" class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />Joins</a>
+                                                </li>
+                                                <li><a href="../MySQL Queries/LeftJoin.html" class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />Left Join</a>
+                                                </li>
+                                                <li><a href="../MySQL Queries/Export.html" class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />Export</a>
+                                                </li>
+                                                <li><a href="../MySQL Queries/ForwardEngineer.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />Forward Engineer</a>
+                                                </li>
+                                                <li><a href="../MySQL Queries/Quiz.html" class="docs-link rounded ">
+                                                        <img src="/assets/icons/quiz.png" alt=""
+                                                            class="module-icon" />Quiz (Basic)</a>
+                                                </li>
+                                                <li><a href="../MySQL Queries/MySQLWorkbenchSetup.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/option.png" alt=""
+                                                            class="module-icon" />MySQL Workbench Setup</a>
+                                                </li>
+                                                <li><a href="../MySQL Queries/Users.html" class="docs-link rounded ">
+                                                        <img src="/assets/icons/option.png" alt=""
+                                                            class="module-icon" />Users</a>
+                                                </li>
+                                                <li><a href="../MySQL Queries/DojosandNinjas.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/option.png" alt=""
+                                                            class="module-icon" />Dojos and Ninjas</a>
+                                                </li>
+                                                <li><a href="../MySQL Queries/Books.html" class="docs-link rounded ">
+                                                        <img src="/assets/icons/option.png" alt=""
+                                                            class="module-icon" />Books</a>
+                                                </li>
+                                                <li><a href="../MySQL Queries/Friendships.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/option.png" alt=""
+                                                            class="module-icon" />Friendships</a>
+                                                </li>
+                                                <li><a href="../MySQL Queries/MySQLCountries.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/option.png" alt=""
+                                                            class="module-icon" />MySQL Countries</a>
+                                                </li>
+                                                <li><a href="../MySQL Queries/LeadGenBusiness.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/option.png" alt=""
+                                                            class="module-icon" />Lead Gen Business</a>
+                                                </li>
+                                                <li><a href="../MySQL Queries/SQLZoo.html" class="docs-link rounded ">
+                                                        <img src="/assets/icons/option.png" alt=""
+                                                            class="module-icon" />SQLZoo</a>
+                                                </li>
+
+
+
+
+                                            </ul>
+                                        </div>
+                                    </li>
+
+
+
+
+
+                                </ul>
+                            </nav>
+                        </aside>
+                    </div>
+                </div><button class="btn btn-link nav-link mx-2 order-3 d-lg-none" type="button"
+                    data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavMain" aria-controls="offcanvasNavMain"
+                    aria-label="Open main navigation menu"><svg xmlns="http://www.w3.org/2000/svg"
+                        class="icon icon-tabler icon-tabler-menu" width="24" height="24" viewBox="0 0 24 24"
+                        stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                        <line x1="4" y1="8" x2="20" y2="8"></line>
+                        <line x1="4" y1="16" x2="20" y2="16"></line>
+                    </svg></button>
+                <div class="offcanvas offcanvas-end h-auto" tabindex="-1" id="offcanvasNavMain"
+                    aria-labelledby="offcanvasNavMainLabel">
+                    <div class="offcanvas-header">
+                        <img src="/assets/icons/logo.png" alt="logo" style="width: 70px; height: 50px;">
+                        <button type="button" class="btn btn-link nav-link p-0" data-bs-dismiss="offcanvas"
+                            aria-label="Close"><svg xmlns="http://www.w3.org/2000/svg"
+                                class="icon icon-tabler icon-tabler-x" width="24" height="24" viewBox="0 0 24 24"
+                                stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round"
+                                stroke-linejoin="round">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                <path d="M18 6 6 18"></path>
+                                <path d="M6 6l12 12"></path>
+                            </svg></button>
+                    </div>
+                    <div class="offcanvas-body d-flex flex-column flex-lg-row justify-content-between">
+                        <!-- <ul class="navbar-nav flex-grow-1">
+              <li class="nav-item"><a class="nav-link active" href="index.html" aria-current="true">Docs</a></li>
+              <li class="nav-item"><a class="nav-link" href="/blog/">Blog</a></li>
+            </ul> -->
+
+                        <!-- this section is for the search bar and results -->
+                        <form class="navbar-form my-auto flex-grow-1 ">
+                            <input id="searchInput" class="form-control is-search ms-auto me-5" type="search"
+                                placeholder="Search ." aria-label="Search docs." autocomplete="off">
+                            <div id="suggestions" class="shadow rounded position-absolute d-none">
+                                <ul id="searchResults" class="list-unstyled m-auto"></ul>
+                            </div>
+                        </form>
+
+
+                        <button id="buttonColorMode" class="btn btn-link mx-auto nav-link p-0 ms-lg-2 me-lg-1"
+                            type="button" aria-label="Toggle theme"><svg data-bs-theme-value="dark"
+                                xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-moon" width="24"
+                                height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentcolor" fill="none"
+                                stroke-linecap="round" stroke-linejoin="round">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                <path d="M12 3c.132.0.263.0.393.0a7.5 7.5.0 007.92 12.446A9 9 0 1112 2.992z"></path>
+                            </svg><svg data-bs-theme-value="light" xmlns="http://www.w3.org/2000/svg"
+                                class="icon icon-tabler icon-tabler-sun" width="24" height="24" viewBox="0 0 24 24"
+                                stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round"
+                                stroke-linejoin="round">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                <path
+                                    d="M12 12m-4 0a4 4 0 108 0 4 4 0 10-8 0m-5 0h1m8-9v1m8 8h1m-9 8v1M5.6 5.6l.7.7m12.1-.7-.7.7m0 11.4.7.7m-12.1-.7-.7.7">
+                                </path>
+                            </svg></button>
+                        <ul id="socialMenu" class="nav mx-auto flex-row order-lg-4">
+
+
+                            <li class="nav-item"><a class="nav-link social-link"
+                                    href="https://github.com/DigitalAcademyTn"><svg xmlns="http://www.w3.org/2000/svg"
+                                        class="icon icon-tabler icon-tabler-brand-github" width="24" height="24"
+                                        viewBox="0 0 24 24" stroke-width="2" stroke="currentcolor" fill="none"
+                                        stroke-linecap="round" stroke-linejoin="round">
+                                        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                        <path
+                                            d="M9 19c-4.3 1.4-4.3-2.5-6-3m12 5v-3.5c0-1 .1-1.4-.5-2 2.8-.3 5.5-1.4 5.5-6a4.6 4.6.0 00-1.3-3.2 4.2 4.2.0 00-.1-3.2s-1.1-.3-3.5 1.3a12.3 12.3.0 00-6.2.0C6.5 2.8 5.4 3.1 5.4 3.1a4.2 4.2.0 00-.1 3.2A4.6 4.6.0 004 9.5c0 4.6 2.7 5.7 5.5 6-.6.6-.6 1.2-.5 2V21">
+                                        </path>
+                                                  </svg><small class="ms-2 visually-hidden">GitHub</small></a></li>
+                  <a id="upgrade" href="../../../upgrade.html">UPGRADE</a>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </header>
+    </div>
+
+
+
+
+    <div class="wrap container-fluid " role="document">
+        <div class="content">
+            <div class="row  d-flex justify-content-center">
+                <div class=" docs-sidebar d-none d-lg-block   ">
+                    <main class="">
+                        <div class="flex-shrink-0 pt-4 ">
+
+                            <div class="module pb-2">
+                                <h2 class="mod-title">Java</h2>
+                            </div>
+                            <div class="module pb-2">
+                                <a href="../../../Java/Java Spring/Spring Intro/Overview.html"
+                                    class="previous">&#8249;</a>
+                                <img src="/assets/icons/mysql.png" alt="" class="chapter-icon" />
+                                <span class="mod-title">MySQL</span>
+                                <a href="../../../Java/Java Spring Deployment/AWS Deployment/Deploying.html"
+                                    class="next">&#8250;</a>
+                            </div>
+
+
+
+
+
+                            <ul class=" list-unstyled px-3 overflow-scroll">
+
+
+
+                                <li class="mb-1">
+                                    <button id="sidebtn"
+                                        class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed"
+                                        data-bs-toggle="collapse" data-bs-target="#Installations-collapse"
+                                        aria-expanded="false">
+                                        Installations
+                                    </button>
+                                    <div class="collapse" id="Installations-collapse">
+                                        <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                                            <li><a href="../Installations/Intro.html" class="docs-link rounded  ">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />Intro to MySQL</a>
+                                            </li>
+                                            <li><a href="../Installations/MySQLWorkbench.html"
+                                                    class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />MySQL Workbench</a>
+                                            </li>
+                                            <li><a href="../Installations/Mac.html" class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />(Mac)MySQL Server Installation</a>
+                                            </li>
+                                            <li><a href="../Installations/Windows.html" class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />(Windows)MySQL Server Installation</a>
+                                            </li>
+
+
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li class="mb-1">
+                                    <button id="sidebtn"
+                                        class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed"
+                                        data-bs-toggle="collapse" data-bs-target="#ERDLessons-collapse"
+                                        aria-expanded="true">
+                                        ERD Lessons
+                                    </button>
+                                    <div class="collapse show" id="ERDLessons-collapse">
+                                        <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                                            <li><a href="../ERD Lessons/Overview.html" class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />Overview</a>
+                                            </li>
+                                            <li><a href="../ERD Lessons/DatabaseDesign.html" class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />Database Design</a>
+                                            </li>
+                                            <li><a href="../ERD Lessons/OnetoOne.html" class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt="" class="module-icon" />One
+                                                    to One</a>
+                                            </li>
+                                            <li><a href="../ERD Lessons/OnetoMany.html" class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt="" class="module-icon" />One
+                                                    to Many</a>
+                                            </li>
+                                            <li><a href="../ERD Lessons/ManytoMany.html" class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />Many to Many</a>
+                                            </li>
+                                            <li><a href="../ERD Lessons/Quiz.html" class="docs-link rounded active">
+                                                    <img src="/assets/icons/quiz.png" alt="" class="module-icon" />Quiz
+                                                    (Basic)</a>
+                                            </li>
+                                            <li><a href="../ERD Lessons/Conventions.html" class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />Conventions</a>
+                                            </li>
+                                            <li><a href="../ERD Lessons/DataTypes.html" class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />Data Types</a>
+                                            </li>
+                                            <li><a href="../ERD Lessons/SimpleBlog.html" class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />Simple Blog</a>
+                                            </li>
+                                            <li><a href="../ERD Lessons/Likes.html" class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />Likes</a>
+                                            </li>
+                                            <li><a href="../ERD Lessons/Yelp.html" class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />Yelp</a>
+                                            </li>
+                                            <li><a href="../ERD Lessons/Amazon.html" class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />Amazon</a>
+                                            </li>
+                                            <li><a href="../ERD Lessons/Belts.html" class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />Belts</a>
+                                            </li>
+                                            <li><a href="../ERD Lessons/Normalization.html" class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />Normalization</a>
+                                            </li>
+                                            <li><a href="../ERD Lessons/Users.html" class="docs-link rounded ">
+                                                    <img src="/assets/icons/option.png" alt=""
+                                                        class="module-icon" />Users</a>
+                                            </li>
+                                            <li><a href="../ERD Lessons/DojosandNinjas.html" class="docs-link rounded ">
+                                                    <img src="/assets/icons/option.png" alt=""
+                                                        class="module-icon" />Dojos and Ninjas</a>
+                                            </li>
+                                            <li><a href="../ERD Lessons/Books.html" class="docs-link rounded ">
+                                                    <img src="/assets/icons/option.png" alt=""
+                                                        class="module-icon" />Books</a>
+                                            </li>
+                                            <li><a href="../ERD Lessons/Friendships.html" class="docs-link rounded ">
+                                                    <img src="/assets/icons/option.png" alt=""
+                                                        class="module-icon" />Friendships</a>
+                                            </li>
+                                            <li><a href="../ERD Lessons/EventPlanner.html" class="docs-link rounded ">
+                                                    <img src="/assets/icons/option.png" alt=""
+                                                        class="module-icon" />Event Planner</a>
+                                            </li>
+                                            <li><a href="../ERD Lessons/Blogs.html" class="docs-link rounded ">
+                                                    <img src="/assets/icons/option.png" alt=""
+                                                        class="module-icon" />Blogs</a>
+                                            </li>
+                                            <li><a href="../ERD Lessons/UserDashboard.html" class="docs-link rounded ">
+                                                    <img src="/assets/icons/option.png" alt=""
+                                                        class="module-icon" />User Dashboard</a>
+                                            </li>
+                                            <li><a href="../ERD Lessons/Normalization2.html" class="docs-link rounded ">
+                                                    <img src="/assets/icons/option.png" alt=""
+                                                        class="module-icon" />Normalization</a>
+                                            </li>
+
+
+
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li class="mb-1">
+                                    <button id="sidebtn"
+                                        class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed"
+                                        data-bs-toggle="collapse" data-bs-target="#MySQLQueries-collapse"
+                                        aria-expanded="false">
+                                        MySQL Queries
+                                    </button>
+                                    <div class="collapse" id="MySQLQueries-collapse">
+                                        <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                                            <li><a href="../MySQL Queries/SQL.html" class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />SQL</a>
+                                            </li>
+                                            <li><a href="../MySQL Queries/ConnectingtoMySQL.html"
+                                                    class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />Connecting to MySQL</a>
+                                            </li>
+                                            <li><a href="../MySQL Queries/Import.html" class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />Import</a>
+                                            </li>
+                                            <li><a href="../MySQL Queries/SELECT.html" class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />SELECT</a>
+                                            </li>
+                                            <li><a href="../MySQL Queries/INSERT.html" class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />INSERT</a>
+                                            </li>
+                                            <li><a href="../MySQL Queries/UPDATE.html" class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />UPDATE</a>
+                                            </li>
+                                            <li><a href="../MySQL Queries/DELETE.html" class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />DELETE</a>
+                                            </li>
+                                            <li><a href="../MySQL Queries/Functions.html" class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />Functions</a>
+                                            </li>
+                                            <li><a href="../MySQL Queries/Joins.html" class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />Joins</a>
+                                            </li>
+                                            <li><a href="../MySQL Queries/LeftJoin.html" class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />Left Join</a>
+                                            </li>
+                                            <li><a href="../MySQL Queries/Export.html" class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />Export</a>
+                                            </li>
+                                            <li><a href="../MySQL Queries/ForwardEngineer.html"
+                                                    class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />Forward Engineer</a>
+                                            </li>
+                                            <li><a href="../MySQL Queries/Quiz.html" class="docs-link rounded ">
+                                                    <img src="/assets/icons/quiz.png" alt="" class="module-icon" />Quiz
+                                                    (Basic)</a>
+                                            </li>
+                                            <li><a href="../MySQL Queries/MySQLWorkbenchSetup.html"
+                                                    class="docs-link rounded ">
+                                                    <img src="/assets/icons/option.png" alt=""
+                                                        class="module-icon" />MySQL Workbench Setup</a>
+                                            </li>
+                                            <li><a href="../MySQL Queries/Users.html" class="docs-link rounded ">
+                                                    <img src="/assets/icons/option.png" alt=""
+                                                        class="module-icon" />Users</a>
+                                            </li>
+                                            <li><a href="../MySQL Queries/DojosandNinjas.html"
+                                                    class="docs-link rounded ">
+                                                    <img src="/assets/icons/option.png" alt=""
+                                                        class="module-icon" />Dojos and Ninjas</a>
+                                            </li>
+                                            <li><a href="../MySQL Queries/Books.html" class="docs-link rounded ">
+                                                    <img src="/assets/icons/option.png" alt=""
+                                                        class="module-icon" />Books</a>
+                                            </li>
+                                            <li><a href="../MySQL Queries/Friendships.html" class="docs-link rounded ">
+                                                    <img src="/assets/icons/option.png" alt=""
+                                                        class="module-icon" />Friendships</a>
+                                            </li>
+                                            <li><a href="../MySQL Queries/MySQLCountries.html"
+                                                    class="docs-link rounded ">
+                                                    <img src="/assets/icons/option.png" alt=""
+                                                        class="module-icon" />MySQL Countries</a>
+                                            </li>
+                                            <li><a href="../MySQL Queries/LeadGenBusiness.html"
+                                                    class="docs-link rounded ">
+                                                    <img src="/assets/icons/option.png" alt=""
+                                                        class="module-icon" />Lead Gen Business</a>
+                                            </li>
+                                            <li><a href="../MySQL Queries/SQLZoo.html" class="docs-link rounded ">
+                                                    <img src="/assets/icons/option.png" alt=""
+                                                        class="module-icon" />SQLZoo</a>
+                                            </li>
+
+
+
+
+                                        </ul>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+
+                    </main>
+
+                </div>
+                <div class="docs-content col-lg-11 col-xl-9 " id="lesson_content">
+
+                    <main data-bs-spy="scroll" data-bs-target="#TableOfContents" data-bs-offset="0" tabindex="0" id="lesson_content">
+                        <div id="quiz_description">
+                            <h1>MySQL Quiz</h1>
+                            <h3><img src="/assets/icons/General visual.png"
+                                    style="width: 80px; height: 80px;" width="80" height="80" alt="''"
+                                    title="''">Learning Objectives:</h3>
+                            <ul>
+                                <li>Flex your comprehension with a flash review of the latest modules</li>
+                                <li>Identify and clarify any concepts you didn't quite understand</li>
+                                <li>Identify any specific material to review</li>
+                                <li>Bring up new questions for further research!</li>
+                            </ul>
+                            <hr>
+                            <p>You've had an opportunity to learn about the basics of database design so here is your
+                                opportunity to test your understanding!</p>
+                                <div id="quiz-container">
+  
+
+                            
+                                    <form id="quiz-form">
+                                        <div class="question">
+                                            <p>1. A real world parallel of a primary key would be which one of the following:</p>
+                                            <ul class="options">
+                                                <li class="option">
+                                                    <div class="custom-radio">
+                                                        <input type="radio" id="q1a" name="q1" value="Social Security Number">
+                                                        <label for="q1a">Social Security Number</label>
+                                                    </div>
+                                                </li>
+                                                <li class="option">
+                                                    <div class="custom-radio">
+                                                        <input type="radio" id="q1b" name="q1" value="Birthday">
+                                                        <label for="q1b">Birthday</label>
+                                                    </div>
+                                                </li>
+                                                <li class="option">
+                                                    <div class="custom-radio">
+                                                        <input type="radio" id="q1c" name="q1" value="Street Address">
+                                                        <label for="q1c">Street Address</label>
+                                                    </div>
+                                                </li>
+                                                <li class="option">
+                                                    <div class="custom-radio">
+                                                        <input type="radio" id="q1d" name="q1" value="Last Name">
+                                                        <label for="q1d">Last Name</label>
+                                                    </div>
+                                                </li>
+                                                
+                                            </ul>
+                                        </div>
+        
+                                        <div class="question">
+                                            <p>2. Which of the following relationships requires a foreign key?</p>
+                                            <ul class="options">
+                                                <li class="option">
+                                                    <div class="custom-radio">
+                                                        <input type="radio" id="q2a" name="q2" value="Many to Many">
+                                                        <label for="q2a">Many to Many</label>
+                                                    </div>
+                                                </li>
+                                                <li class="option">
+                                                    <div class="custom-radio">
+                                                        <input type="radio" id="q2b" name="q2" value="One to One">
+                                                        <label for="q2b">One to One</label>
+                                                    </div>
+                                                </li>
+                                                <li class="option">
+                                                    <div class="custom-radio">
+                                                        <input type="radio" id="q2c" name="q2" value="One to Many">
+                                                        <label for="q2c">One to Many</label>
+                                                    </div>
+                                                </li>
+                                                <li class="option">
+                                                    <div class="custom-radio">
+                                                        <input type="radio" id="q2d" name="q2" value="All of the Above">
+                                                        <label for="q2d">All of the Above</label>
+                                                    </div>
+                                                </li>
+                                                
+                                         
+                                            </ul>
+                                        </div>
+        
+                                       
+                                        <div class="question">
+                                            <p>3. Which of the following is the best example of a many to many relationship</p>
+                                            <ul class="options">
+                                                <li class="option">
+                                                    <div class="custom-radio">
+                                                        <input type="radio" id="q3a" name="q3" value="users have many photos and photos have many users">
+                                                        <label for="q3a">users have many photos and photos have many users</label>
+                                                    </div>
+                                                </li>
+                                                <li class="option">
+                                                    <div class="custom-radio">
+                                                        <input type="radio" id="q3b" name="q3" value="users have many interests and interests have many users">
+                                                        <label for="q3b">users have many interests and interests have many users</label>
+                                                    </div>
+                                                </li>
+                                                <li class="option">
+                                                    <div class="custom-radio">
+                                                        <input type="radio" id="q3c" name="q3" value="blogs have many posts and posts have many blogs">
+                                                        <label for="q3c">blogs have many posts and posts have many blogs</label>
+                                                    </div>
+                                                </li>
+                                                <li class="option">
+                                                    <div class="custom-radio">
+                                                        <input type="radio" id="q3d" name="q3" value="messages have many comments and comments have many messages">
+                                                        <label for="q3d">messages have many comments and comments have many messages</label>
+                                                    </div>
+                                                </li>
+                                         
+                                            </ul>
+                                        </div>
+        
+                                        
+        
+                                        <div class="question">
+                                            <p>4. Which of the following violates the first form of normalization?</p>
+                                            <ul class="options">
+                                                <li class="option">
+                                                    <div class="custom-radio">
+                                                        <input type="radio" id="q4a" name="q4" value="Having a column in your products table called assembly which contains the information for how to assemble the product.">
+                                                        <label for="q4a">Having a column in your products table called assembly which contains the information for how to assemble the product.</label>
+                                                    </div>
+                                                </li>
+                                                <li class="option">
+                                                    <div class="custom-radio">
+                                                        <input type="radio" id="q4b" name="q4" value="Removing the type column from your products table and adding a relationship of 'products has-many types'">
+                                                        <label for="q4b">Removing the type column from your products table and adding a relationship of 'products has-many types'</label>
+                                                    </div>
+                                                </li>
+                                                <li class="option">
+                                                    <div class="custom-radio">
+                                                        <input type="radio" id="q4c" name="q4" value="Having a column in your products table with a comma-separated list of all the different categories that the product belongs to">
+                                                        <label for="q4c">Having a column in your products table with a comma-separated list of all the different categories that the product belongs to</label>
+                                                    </div>
+                                                </li>
+                                                <li class="option">
+                                                    <div class="custom-radio">
+                                                        <input type="radio" id="q4d" name="q4" value="Separating out price from the products table to create a prices table with a relationship of 'products has-one price'">
+                                                        <label for="q4d">Separating out price from the products table to create a prices table with a relationship of 'products has-one price'</label>
+                                                    </div>
+                                                </li>
+                                               
+                                         
+                                            </ul>
+                                        </div>
+                                        <div class="question">
+                                            <p>5. In a One to One relationship the joining tables are related by having a foreign key in both tables</p>
+                                            <ul class="options">
+                                                <li class="option">
+                                                    <div class="custom-radio">
+                                                        <input type="radio" id="q5a" name="q5" value="True">
+                                                        <label for="q5a">True</label>
+                                                    </div>
+                                                </li>
+                                                <li class="option">
+                                                    <div class="custom-radio">
+                                                        <input type="radio" id="q5b" name="q5" value="False">
+                                                        <label for="q5b">False</label>
+                                                    </div>
+                                                </li>
+                                                
+                                         
+                                            </ul>
+                                        </div>
+                                        <div class="question">
+                                            <p>6. In the relationship of 'states has-many cities', the foreign key that joins the tables together goes in the states table.</p>
+                                            <ul class="options">
+                                                <li class="option">
+                                                    <div class="custom-radio">
+                                                        <input type="radio" id="q6a" name="q6" value="True">
+                                                        <label for="q6a">True</label>
+                                                    </div>
+                                                </li>
+                                                <li class="option">
+                                                    <div class="custom-radio">
+                                                        <input type="radio" id="q6b" name="q6" value="False">
+                                                        <label for="q6b">False</label>
+                                                    </div>
+                                                </li>
+                                                
+                                         
+                                            </ul>
+                                        </div>
+                                        <div class="question">
+                                            <p>7. To pass the second form of normalization, you should find any non-key columns that have repeated values and separate them out into another table and create the proper relationship.</p>
+                                            <ul class="options">
+                                                <li class="option">
+                                                    <div class="custom-radio">
+                                                        <input type="radio" id="q7a" name="q7" value="True">
+                                                        <label for="q7a">True</label>
+                                                    </div>
+                                                </li>
+                                                <li class="option">
+                                                    <div class="custom-radio">
+                                                        <input type="radio" id="q7b" name="q7" value="False">
+                                                        <label for="q7b">False</label>
+                                                    </div>
+                                                </li>
+                                                
+                                         
+                                            </ul>
+                                        </div>
+                                        <div class="question">
+                                            <p>8. Which of the following violates the third form of normalization?</p>
+                                            <ul class="options">
+                                                <li class="option">
+                                                    <div class="custom-radio">
+                                                        <input type="radio" id="q8a" name="q8" value="A users table with profile_pic_name and profile_pic_url columns">
+                                                        <label for="q8a">A users table with profile_pic_name and profile_pic_url columns</label>
+                                                    </div>
+                                                </li>
+                                                <li class="option">
+                                                    <div class="custom-radio">
+                                                        <input type="radio" id="q8b" name="q8" value="A pictures table with url and name columns">
+                                                        <label for="q8b">A pictures table with url and name columns</label>
+                                                    </div>
+                                                </li>
+                                                <li class="option">
+                                                    <div class="custom-radio">
+                                                        <input type="radio" id="q8c" name="q8" value="A many to many relationship without a joining table">
+                                                        <label for="q8c">A many to many relationship without a joining table</label>
+                                                    </div>
+                                                </li>
+                                                <li class="option">
+                                                    <div class="custom-radio">
+                                                        <input type="radio" id="q8d" name="q8" value="Having an interests column in your students table that lists out each students different interests">
+                                                        <label for="q8d">Having an interests column in your students table that lists out each students different interests</label>
+                                                    </div>
+                                                </li>
+                                                
+                                         
+                                            </ul>
+                                        </div>
+                                        <div class="question">
+                                            <p>9. What is the most important thing to remember about database design?</p>
+                                            <ul class="options">
+                                                <li class="option">
+                                                    <div class="custom-radio">
+                                                        <input type="radio" id="q9a" name="q9" value="Creating the proper relationships between tables so that our data stays organized">
+                                                        <label for="q9a">Creating the proper relationships between tables so that our data stays organized</label>
+                                                    </div>
+                                                </li>
+                                                <li class="option">
+                                                    <div class="custom-radio">
+                                                        <input type="radio" id="q9b" name="q9" value="Making sure we don't repeat data">
+                                                        <label for="q9b">Making sure we don't repeat data</label>
+                                                    </div>
+                                                </li>
+                                                <li class="option">
+                                                    <div class="custom-radio">
+                                                        <input type="radio" id="q9c" name="q9" value="Making sure each table created has a unique identifier">
+                                                        <label for="q9c">Making sure each table created has a unique identifier</label>
+                                                    </div>
+                                                </li>
+                                                <li class="option">
+                                                    <div class="custom-radio">
+                                                        <input type="radio" id="q9d" name="q9" value="Making sure to name your tables all lowercase and plural">
+                                                        <label for="q9d">Making sure to name your tables all lowercase and plural</label>
+                                                    </div>
+                                                </li>
+                                                
+                                         
+                                            </ul>
+                                        </div>
+                                        <div class="question">
+                                            <p>10. What is the main purpose for Normalization?</p>
+                                            <ul class="options">
+                                                <li class="option">
+                                                    <div class="custom-radio">
+                                                        <input type="radio" id="q10a" name="q10" value="Separating your data into as many tables as possible">
+                                                        <label for="q10a">Separating your data into as many tables as possible</label>
+                                                    </div>
+                                                </li>
+                                                <li class="option">
+                                                    <div class="custom-radio">
+                                                        <input type="radio" id="q10b" name="q10" value="Creating a convention for organizing and avoiding the duplication of data">
+                                                        <label for="q10b">Creating a convention for organizing and avoiding the duplication of data</label>
+                                                    </div>
+                                                </li>
+                                                <li class="option">
+                                                    <div class="custom-radio">
+                                                        <input type="radio" id="q10c" name="q10" value="Having a cool name to explain an obvious process">
+                                                        <label for="q10c">Having a cool name to explain an obvious process</label>
+                                                    </div>
+                                                </li>
+                                                <li class="option">
+                                                    <div class="custom-radio">
+                                                        <input type="radio" id="q10d" name="q10" value="Only to make sure that you don't repeat data and no other reasons">
+                                                        <label for="q10d">Only to make sure that you don't repeat data and no other reasons</label>
+                                                    </div>
+                                                </li>
+                                         
+                                            </ul>
+                                        </div>
+        
+                                        <button type="button" onclick="submitQuiz('Quiz')">See Results</button>
+                                    </form>
+                                </div>
+                        </div>
+                        <script>
+                            // search in the DB
+                            function fetchResults(quizId) {
+                                fetch(`/get-results/${quizId}`)
+                                    .then(response => response.json())
+                                    .then(existingResults => {
+                                        // If user has already answered, redirect to the result page
+                                        if (existingResults.success != false) {
+                                            console.log('User has already answered the quiz. Redirecting to results page.');
+                                            window.location.href = 'QuizResult.html';
+                                        }
+                                    })
+                            }
+
+                            // submit 
+                            function submitQuiz(quizId) {
+                                const answers = {
+                                    q1: document.querySelector('input[name="q1"]:checked').value,
+                                    q2: document.querySelector('input[name="q2"]:checked').value,
+                                    q3: document.querySelector('input[name="q3"]:checked').value,
+                                    q4: document.querySelector('input[name="q4"]:checked').value,
+                                    q5: document.querySelector('input[name="q5"]:checked').value,
+                                    q6: document.querySelector('input[name="q6"]:checked').value,
+                                    q7: document.querySelector('input[name="q7"]:checked').value,
+                                    q8: document.querySelector('input[name="q8"]:checked').value,
+                                    q9: document.querySelector('input[name="q9"]:checked').value,
+                                    q10: document.querySelector('input[name="q10"]:checked').value,
+                                    // Add more answers for additional questions
+                                };
+
+                                fetch(`/store-results/${quizId}`, {
+                                    method: 'POST',
+                                    headers: {
+                                        'Content-Type': 'application/json',
+                                    },
+                                    body: JSON.stringify(answers),
+                                })
+                                    .then(response => response.json())
+                                    .then(data => {
+                                        console.log('Results stored:', data);
+                                        window.location.href = 'QuizResult.html';
+                                    })
+                                    .catch(error => {
+                                        console.error('Error storing results:', error);
+                                    });
+                            }
+
+                            // Call fetchResults with the appropriate quizId
+                            fetchResults('Quiz');
+                        </script>
+                        <br><br><br>
+
+
+
+                        <div class="d-flex justify-content-between " id="navigation">
+                            <a href="../ERD Lessons/ManytoMany.html" class="previous_page">&laquo;
+                                Previous</a>
+                            <a href="../ERD Lessons/Conventions.html" class="next_page">Next
+                                &raquo;</a>
+
+                        </div>
+
+
+
+
+
+
+
+
+
+
+
+                    </main>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <!-- Include jQuery and Bootstrap JS (CDN) -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script src="/assets/js/color-modes.js"></script>
+    <script src="/assets/js/search.js"></script>
+    <script src="/assets/js/main.js"></script>
+
+
+    <!-- <script src="https://cdn.jsdelivr.net/npm/prismjs@1.28.0/prism.min.js"></script>
+  <script>
+    Prism.highlightAll();
+  </script> -->
+
+
+
+    <script>
+        // Initialize Prism.js
+        Prism.highlightAll();
+    </script>
+
+</body>
+
+</html>
