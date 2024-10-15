@@ -100,4 +100,68 @@
 
           </a>  </li>
         </ul>
-     
+       <li>
+      <h5 role="button">MERN</h5>
+        <ul class="list-unstyled courses_list">
+          <li class="course_item">
+            <a href="/upgrade.html">
+              <img src="/assets/icons/javascript_(3).png" alt="HTML">
+              <span>Javascript</span>
+            </a>
+          </li>
+          <li class="course_item">
+            <a href="/upgrade.html">
+              <img src="/assets/icons/reaact_logo_(1).png" alt="Web Development - CSS">
+              <span>React</span>
+            </a>
+          </li>
+          <li class="course_item">
+            <a href="/upgrade.html">
+              <img src="/assets/icons/express.png" alt="JS">
+              <span>Express</span>
+            </a>
+          </li>
+          <li class="course_item">
+            <a href="/upgrade.html">
+              <img src="/assets/icons/mongo_(1).png" alt="Algorithms">
+              <span>MongoDB</span>
+            </a>
+          </li>
+          <li class="course_item">
+            <a href="/upgrade.html">
+              <img src="/assets/icons/MERN.png" alt="Algorithms">
+              <span>Full Stack <br> MERN</span>
+            </a>
+          </li>
+          <li class="course_item">
+            <a href="/upgrade.html">
+              <img src="/assets/icons/deployment.png" alt="Algorithms">
+              <span>MERN <br> Deployment </span>
+            </a>
+          </li>
+          <li class="course_item">
+            <a href="/upgrade.html">
+              <img src="/assets/icons/socketIO_logo_(1).png" alt="Algorithms">
+              <span>Sockets</span>
+            </a>
+          </li>
+          <li class="course_item">
+            <a href="/upgrade.html">
+              <img src="/assets/icons/default.png" alt="Algorithms">
+              <span>MERN Auth</span>
+            </a>
+          </li>
+          <li class="course_item">
+            <a href="/upgrade.html">
+              <img src="/assets/icons/trial.png" alt="Algorithms">
+              <span>Projects</span>
+            </a>
+          </li>
+          <li class="course_item">
+            <a href="/upgrade.html">
+              <img src="/assets/icons/exam.png" alt="exam">
+              <span>Exam</span>
+            </a>
+          </li>
+        </ul>
+     </li>

@@ -533,3 +533,6 @@ html[data-bs-theme="dark"] #home  {
 }
 
 
+.navbar .container-lg img{
+    width: 170px!important;
+}

@@ -35,9 +35,23 @@ app.use('/examWeb.html', authenticationController.protectRoute);
 app.use('/Java/*', authenticationController.protectRoute);
 app.use('/users', userRoutes);
 
+// Serve static files from the "landing page" directory
+app.use(express.static(path.join(__dirname, 'layouts/landing page')));
+
+// Serve "index.html" for the root route "/"
 app.get('/', (req, res) => {
-    res.redirect('landing page/index.html');
+    res.sendFile(path.join(__dirname, 'layouts/landing page/index.html'));
 });
+
+app.get('/contact', (req, res) => {
+    res.sendFile(path.join(__dirname, 'layouts/landing page/contact.html'));
+});
+
+// Serve about.html at "/about"
+app.get('/about', (req, res) => {
+    res.sendFile(path.join(__dirname, 'layouts/landing page/about.html'));
+});
+
 // Static files
 app.use(express.static(path.join(__dirname, 'layouts')));
 app.use('/assets', express.static(path.join(__dirname, 'assets')));
