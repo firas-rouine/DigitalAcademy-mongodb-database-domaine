@@ -1,0 +1,922 @@
+<!doctype html>
+<html lang="en" data-bs-theme="light">
+
+<head>
+    <!-- <script src="/assets/js/color-modes.js"></script> -->
+
+    <meta charset="utf-8">
+    <link rel="icon" type="image/png" href="../../../../assets/icons/circle-logo.png">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.118.2">
+    <title>Digital-Academy</title>
+
+    <!-- Custom style -->
+    <link href="/assets/styles/sidebar.css" rel="stylesheet">
+    <link rel="stylesheet" href="/assets/styles/styles.css">
+    <link rel="stylesheet" href="/assets/styles/styles2.css">
+    <!-- bootstrap style -->
+
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous"> -->
+
+
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/prismjs@1.28.0/themes/prism.min.css"> -->
+
+
+
+    <!-- Include the Prism.js library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.25.0/themes/prism.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.25.0/prism.min.js"></script>
+
+    <!-- Include the Okaidia theme -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.25.0/themes/prism-okaidia.min.css">
+
+
+</head>
+
+<body class="single home " data-bs-spy="scroll" data-bs-target="#TableOfContents" data-bs-root-margin="0px 0px -60%"
+    data-bs-smooth-scroll="true" tabindex="0" cz-shortcut-listen="true">
+    <div class="sticky-top">
+        <header class="navbar navbar-expand-lg g-nav">
+            <div class="container-lg"><a class="navbar-brand me-auto me-lg-3" href="#"> <img
+                        src="/assets/icons/logo.png" alt="logo" style="width: 70px; height: 50px;">
+                </a>
+                <a id="home" href="/home.html">HOME</a>
+                <button class="btn btn-link d-lg-none" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasNavSection" aria-controls="offcanvasNavSection"
+                    aria-label="Open section navigation menu"><svg xmlns="http://www.w3.org/2000/svg"
+                        class="icon icon-tabler icon-tabler-dots-vertical" width="24" height="24" viewBox="0 0 24 24"
+                        stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                        <path d="M12 12m-1 0a1 1 0 102 0 1 1 0 10-2 0"></path>
+                        <path d="M12 19m-1 0a1 1 0 102 0 1 1 0 10-2 0"></path>
+                        <path d="M12 5m-1 0a1 1 0 102 0 1 1 0 10-2 0"></path>
+                    </svg></button>
+                <div class="offcanvas offcanvas-start d-lg-none" tabindex="-1" id="offcanvasNavSection"
+                    aria-labelledby="offcanvasNavSectionLabel">
+                    <div class="offcanvas-header">
+                        <img src="/assets/icons/logo.png" alt="logo" style="width: 70px; height: 50px;">
+                        <button type="button" class="btn btn-link nav-link p-0" data-bs-dismiss="offcanvas"
+                            aria-label="Close"><svg xmlns="http://www.w3.org/2000/svg"
+                                class="icon icon-tabler icon-tabler-x" width="24" height="24" viewBox="0 0 24 24"
+                                stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round"
+                                stroke-linejoin="round">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                <path d="M18 6 6 18"></path>
+                                <path d="M6 6l12 12"></path>
+                            </svg></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <aside class="doks-sidebar mt-n3">
+                            <nav id="doks-docs-nav" aria-label="Tertiary navigation">
+                                <div class="module pb-2 pt-4">
+                                    <h2 class="mod-title">MERN</h2>
+                                    <div class="module pb-2">
+                                        <a href="#" class="previous"></a>
+                                        <img src="/assets/icons/html.png" alt="" class="chapter-icon" />
+                                        <span class="mod-title">Javascript</span>
+                                        <a href="../../../MERN/React/Intro to React/WhatisReact.html"
+                                            class="next">&#8250;</a>
+                                    </div>
+                                </div>
+                                <ul class="list-unstyled collapsible-sidebar">
+
+
+                                    <li class="mb-1  ">
+                                        <button id="sidebtn"
+                                            class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed"
+                                            data-bs-toggle="collapse" data-bs-target="#CourseOverview-collapse"
+                                            aria-expanded="false">
+                                            Course Overview
+                                        </button>
+                                        <div class="collapse" id="CourseOverview-collapse">
+                                            <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                                                <li><a href="../Course Overview/intro.html" class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />Intro to MERN</a>
+                                                </li>
+                                                <li><a href="../Course Overview/CourseOutline.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />Course Outline</a>
+                                                </li>
+
+
+
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li class="mb-1">
+                                        <button id="sidebtn"
+                                            class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed"
+                                            data-bs-toggle="collapse" data-bs-target="#Node-collapse"
+                                            aria-expanded="false">
+                                            Node
+                                        </button>
+                                        <div class="collapse" id="Node-collapse">
+                                            <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                                                <li><a href="../Node/IntrotoNode.html" class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />Intro to Node</a>
+                                                </li>
+                                                <li><a href="../Node/Installation.html" class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />Installation</a>
+                                                </li>
+                                                <li><a href="../Node/RunningJavaScript.html" class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />Running JavaScript</a>
+                                                </li>
+
+
+
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li class="mb-1">
+                                        <button id="sidebtn"
+                                            class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed"
+                                            data-bs-toggle="collapse" data-bs-target="#Fundamentals-collapse"
+                                            aria-expanded="true">
+                                            Fundamentals
+                                        </button>
+                                        <div class="collapse show" id="Fundamentals-collapse">
+                                            <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                                                <li><a href="../Fundamentals/Overview.html" class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />Overview</a>
+                                                </li>
+                                                <li><a href="../Fundamentals/ECMAScript.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />ECMAScript</a>
+                                                </li>
+                                                <li><a href="../Fundamentals/Debugging.html" class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />Debugging</a>
+                                                </li>
+                                                <li><a href="../Fundamentals/Scope.html" class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />Scope</a>
+                                                </li>
+                                                <li><a href="../Fundamentals/Hoisting.html" class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />Hoisting</a>
+                                                </li>
+                                                <li><a href="../Fundamentals/Quiz.html" class="docs-link rounded ">
+                                                        <img src="/assets/icons/quiz.png" alt=""
+                                                            class="module-icon" />Quiz</a>
+                                                </li>
+                                                <li><a href="../Fundamentals/Hoist.html" class="docs-link rounded ">
+                                                        <img src="/assets/icons/practice.png" alt=""
+                                                            class="module-icon" />Hoist</a>
+                                                </li>
+                                                <li><a href="../Fundamentals/Destructuring.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />Destructuring</a>
+                                                </li>
+                                                <li><a href="../Fundamentals/PredictDestructuring.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/core.png" alt=""
+                                                            class="module-icon" />Predict Destructuring</a>
+                                                </li>
+                                                <li><a href="../Fundamentals/RestSpread.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />Rest/Spread</a>
+                                                </li>
+                                                <li><a href="../Fundamentals/ArrowFunctions.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />Arrow Functions</a>
+                                                </li>
+                                                <li><a href="../Fundamentals/ConverttoArrow.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/core.png" alt=""
+                                                            class="module-icon" />Convert to Arrow</a>
+                                                </li>
+                                                <li><a href="../Fundamentals/TernaryOperator.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />Ternary Operator</a>
+                                                </li>
+                                                <li><a href="../Fundamentals/Big O.html" class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />The Big O</a>
+                                                </li>
+                                                <li><a href="../Fundamentals/Howlong.html"
+                                                        class="docs-link rounded active">
+                                                        <img src="/assets/icons/option.png" alt=""
+                                                            class="module-icon" />How long did that take?</a>
+                                                </li>
+                                                <li><a href="../Fundamentals/quicksort.html" class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />Quick Sort - Introduction
+                                                    </a>
+                                                </li>
+                                                <li><a href="../Fundamentals/Quicksort2.html" class="docs-link rounded ">
+                                                        <img src="/assets/icons/option.png" alt=""
+                                                            class="module-icon" />Quick Sort</a>
+                                                </li>
+                                                <li><a href="../Fundamentals/Jest.html" class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />Jest Unit Testing</a>
+                                                </li>
+
+
+
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li class="mb-1">
+                                        <button id="sidebtn"
+                                            class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed"
+                                            data-bs-toggle="collapse" data-bs-target="#OOP-collapse"
+                                            aria-expanded="false">
+                                            OOP
+                                        </button>
+                                        <div class="collapse" id="OOP-collapse">
+                                            <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                                                <li><a href="../OOP/Overview.html" class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />Overview</a>
+                                                </li>
+                                                <li><a href="../OOP/Classes.html" class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />Classes</a>
+                                                </li>
+
+                                                <li><a href="../OOP/Inheritance.html" class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />Inheritance and Super</a>
+                                                </li>
+
+                                                <li><a href="../OOP/Ninja.html" class="docs-link rounded ">
+                                                        <img src="/assets/icons/practice.png" alt=""
+                                                            class="module-icon" />Ninja</a>
+                                                </li>
+
+                                                <li><a href="../OOP/SuperNinja.html" class="docs-link rounded ">
+                                                        <img src="/assets/icons/core.png" alt=""
+                                                            class="module-icon" />Super Ninja</a>
+                                                </li>
+
+                                                <li><a href="../OOP/DojoCCG.html" class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />Dojo CCG</a>
+                                                </li>
+
+                                                <li><a href="../OOP/ItTime.html" class="docs-link rounded ">
+                                                        <img src="/assets/icons/practice.png" alt=""
+                                                            class="module-icon" />It's Time to Duel</a>
+                                                </li>
+
+
+
+
+
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li class="mb-1">
+                                        <button id="sidebtn"
+                                            class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed"
+                                            data-bs-toggle="collapse" data-bs-target="#FunctionalProgramming-collapse"
+                                            aria-expanded="false">
+                                            Functional Programming
+                                        </button>
+                                        <div class="collapse" id="FunctionalProgramming-collapse">
+                                            <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                                                <li><a href="../Functional Programming/MultiParadigm.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />Multi-Paradigm</a>
+                                                </li>
+                                                <li><a href="../Functional Programming/CallbackFunctions.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />Callback Functions</a>
+                                                </li>
+                                                <li><a href="../Functional Programming/TheBigFreeze.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />The Big Freeze</a>
+                                                </li>
+                                                <li><a href="../Functional Programming/MapandFilter.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />Map and Filter</a>
+                                                </li>
+                                                <li><a href="../Functional Programming/ObjectMaster.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/option.png" alt=""
+                                                            class="module-icon" />Object Master/a>
+                                                </li>
+                                                <li><a href="../Functional Programming/Currying.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />Currying</a>
+                                                </li>
+                                                <li><a href="../Functional Programming/Closures.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />Closures</a>
+                                                </li>
+
+
+
+
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li class="mb-1">
+                                        <button id="sidebtn"
+                                            class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed"
+                                            data-bs-toggle="collapse" data-bs-target="#NPM-collapse"
+                                            aria-expanded="false">
+                                            NPM
+                                        </button>
+                                        <div class="collapse" id="NPM-collapse">
+                                            <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                                                <li><a href="../NPM/NodePackageManager.html" class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />Node Package Manager</a>
+                                                </li>
+
+
+
+                                            </ul>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </aside>
+                    </div>
+                </div><button class="btn btn-link nav-link mx-2 order-3 d-lg-none" type="button"
+                    data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavMain" aria-controls="offcanvasNavMain"
+                    aria-label="Open main navigation menu"><svg xmlns="http://www.w3.org/2000/svg"
+                        class="icon icon-tabler icon-tabler-menu" width="24" height="24" viewBox="0 0 24 24"
+                        stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                        <line x1="4" y1="8" x2="20" y2="8"></line>
+                        <line x1="4" y1="16" x2="20" y2="16"></line>
+                    </svg></button>
+                <div class="offcanvas offcanvas-end h-auto" tabindex="-1" id="offcanvasNavMain"
+                    aria-labelledby="offcanvasNavMainLabel">
+                    <div class="offcanvas-header">
+                        <img src="/assets/icons/logo.png" alt="logo" style="width: 70px; height: 50px;">
+                        <button type="button" class="btn btn-link nav-link p-0" data-bs-dismiss="offcanvas"
+                            aria-label="Close"><svg xmlns="http://www.w3.org/2000/svg"
+                                class="icon icon-tabler icon-tabler-x" width="24" height="24" viewBox="0 0 24 24"
+                                stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round"
+                                stroke-linejoin="round">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                <path d="M18 6 6 18"></path>
+                                <path d="M6 6l12 12"></path>
+                            </svg></button>
+                    </div>
+                    <div class="offcanvas-body d-flex flex-column flex-lg-row justify-content-between">
+                        <!-- <ul class="navbar-nav flex-grow-1">
+              <li class="nav-item"><a class="nav-link active" href="index.html" aria-current="true">Docs</a></li>
+              <li class="nav-item"><a class="nav-link" href="/blog/">Blog</a></li>
+            </ul> -->
+
+                        <!-- this section is for the search bar and results -->
+                        <form class="navbar-form my-auto flex-grow-1 ">
+                            <input id="searchInput" class="form-control is-search ms-auto me-5" type="search"
+                                placeholder="Search ." aria-label="Search docs." autocomplete="off">
+                            <div id="suggestions" class="shadow rounded position-absolute d-none">
+                                <ul id="searchResults" class="list-unstyled m-auto"></ul>
+                            </div>
+                        </form>
+
+
+                        <button id="buttonColorMode" class="btn btn-link mx-auto nav-link p-0 ms-lg-2 me-lg-1"
+                            type="button" aria-label="Toggle theme"><svg data-bs-theme-value="dark"
+                                xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-moon" width="24"
+                                height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentcolor" fill="none"
+                                stroke-linecap="round" stroke-linejoin="round">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                <path d="M12 3c.132.0.263.0.393.0a7.5 7.5.0 007.92 12.446A9 9 0 1112 2.992z"></path>
+                            </svg><svg data-bs-theme-value="light" xmlns="http://www.w3.org/2000/svg"
+                                class="icon icon-tabler icon-tabler-sun" width="24" height="24" viewBox="0 0 24 24"
+                                stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round"
+                                stroke-linejoin="round">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                <path
+                                    d="M12 12m-4 0a4 4 0 108 0 4 4 0 10-8 0m-5 0h1m8-9v1m8 8h1m-9 8v1M5.6 5.6l.7.7m12.1-.7-.7.7m0 11.4.7.7m-12.1-.7-.7.7">
+                                </path>
+                            </svg></button>
+                        <ul id="socialMenu" class="nav mx-auto flex-row order-lg-4">
+
+
+                            <li class="nav-item"><a class="nav-link social-link"
+                                    href="https://github.com/DigitalAcademyTn"><svg xmlns="http://www.w3.org/2000/svg"
+                                        class="icon icon-tabler icon-tabler-brand-github" width="24" height="24"
+                                        viewBox="0 0 24 24" stroke-width="2" stroke="currentcolor" fill="none"
+                                        stroke-linecap="round" stroke-linejoin="round">
+                                        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                        <path
+                                            d="M9 19c-4.3 1.4-4.3-2.5-6-3m12 5v-3.5c0-1 .1-1.4-.5-2 2.8-.3 5.5-1.4 5.5-6a4.6 4.6.0 00-1.3-3.2 4.2 4.2.0 00-.1-3.2s-1.1-.3-3.5 1.3a12.3 12.3.0 00-6.2.0C6.5 2.8 5.4 3.1 5.4 3.1a4.2 4.2.0 00-.1 3.2A4.6 4.6.0 004 9.5c0 4.6 2.7 5.7 5.5 6-.6.6-.6 1.2-.5 2V21">
+                                        </path>
+                                    </svg><small class="ms-2 visually-hidden">GitHub</small></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </header>
+    </div>
+
+
+
+
+    <div class="wrap container-fluid " role="document">
+        <div class="content">
+            <div class="row  d-flex justify-content-center">
+                <div class=" docs-sidebar d-none d-lg-block   ">
+                    <main class="">
+                        <div class="flex-shrink-0 pt-4 ">
+
+                            <div class="module pb-2">
+                                <h2 class="mod-title">MERN</h2>
+                            </div>
+                            <div class="module pb-2">
+                                <a href="#" class="previous"></a>
+                                <img src="/assets/icons/html.png" alt="" class="chapter-icon" />
+                                <span class="mod-title">Javascript</span>
+                                <a href="../../../MERN/React/Intro to React/WhatisReact.html" class="next">&#8250;</a>
+                            </div>
+
+
+
+
+
+                            <ul class=" list-unstyled px-3 overflow-scroll">
+                                <li class="mb-1  ">
+                                    <button id="sidebtn"
+                                        class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed"
+                                        data-bs-toggle="collapse" data-bs-target="#CourseOverview-collapse"
+                                        aria-expanded="false">
+                                        Course Overview
+                                    </button>
+                                    <div class="collapse" id="CourseOverview-collapse">
+                                        <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                                            <li><a href="../Course Overview/intro.html" class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />Intro to MERN</a>
+                                            </li>
+                                            <li><a href="../Course Overview/CourseOutline.html"
+                                                    class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />Course Outline</a>
+                                            </li>
+
+
+
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li class="mb-1">
+                                    <button id="sidebtn"
+                                        class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed"
+                                        data-bs-toggle="collapse" data-bs-target="#Node-collapse" aria-expanded="false">
+                                        Node
+                                    </button>
+                                    <div class="collapse" id="Node-collapse">
+                                        <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                                            <li><a href="../Node/IntrotoNode.html" class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />Intro to Node</a>
+                                            </li>
+                                            <li><a href="../Node/Installation.html" class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />Installation</a>
+                                            </li>
+                                            <li><a href="../Node/RunningJavaScript.html" class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />Running JavaScript</a>
+                                            </li>
+
+
+
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li class="mb-1">
+                                    <button id="sidebtn"
+                                        class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed"
+                                        data-bs-toggle="collapse" data-bs-target="#Fundamentals-collapse"
+                                        aria-expanded="true">
+                                        Fundamentals
+                                    </button>
+                                    <div class="collapse show" id="Fundamentals-collapse">
+                                        <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                                            <li><a href="../Fundamentals/Overview.html" class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />Overview</a>
+                                            </li>
+                                            <li><a href="../Fundamentals/ECMAScript.html" class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />ECMAScript</a>
+                                            </li>
+                                            <li><a href="../Fundamentals/Debugging.html" class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />Debugging</a>
+                                            </li>
+                                            <li><a href="../Fundamentals/Scope.html" class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />Scope</a>
+                                            </li>
+                                            <li><a href="../Fundamentals/Hoisting.html" class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />Hoisting</a>
+                                            </li>
+                                            <li><a href="../Fundamentals/Quiz.html" class="docs-link rounded ">
+                                                    <img src="/assets/icons/quiz.png" alt=""
+                                                        class="module-icon" />Quiz</a>
+                                            </li>
+                                            <li><a href="../Fundamentals/Hoist.html" class="docs-link rounded ">
+                                                    <img src="/assets/icons/practice.png" alt=""
+                                                        class="module-icon" />Hoist</a>
+                                            </li>
+                                            <li><a href="../Fundamentals/Destructuring.html" class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />Destructuring</a>
+                                            </li>
+                                            <li><a href="../Fundamentals/PredictDestructuring.html"
+                                                    class="docs-link rounded ">
+                                                    <img src="/assets/icons/core.png" alt=""
+                                                        class="module-icon" />Predict Destructuring</a>
+                                            </li>
+                                            <li><a href="../Fundamentals/RestSpread.html" class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />Rest/Spread</a>
+                                            </li>
+                                            <li><a href="../Fundamentals/ArrowFunctions.html"
+                                                    class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />Arrow Functions</a>
+                                            </li>
+                                            <li><a href="../Fundamentals/ConverttoArrow.html"
+                                                    class="docs-link rounded ">
+                                                    <img src="/assets/icons/core.png" alt=""
+                                                        class="module-icon" />Convert to Arrow</a>
+                                            </li>
+                                            <li><a href="../Fundamentals/TernaryOperator.html"
+                                                    class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />Ternary Operator</a>
+                                            </li>
+                                            <li><a href="../Fundamentals/Big O.html" class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt="" class="module-icon" />The
+                                                    Big O</a>
+                                            </li>
+                                            <li><a href="../Fundamentals/Howlong.html" class="docs-link rounded active">
+                                                    <img src="/assets/icons/option.png" alt="" class="module-icon" />How
+                                                    long did that take?</a>
+                                            </li>
+                                            <li><a href="../Fundamentals/quicksort.html" class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />Quick Sort - Introduction
+                                                </a>
+                                            </li>
+                                            <li><a href="../Fundamentals/Quicksort2.html" class="docs-link rounded ">
+                                                    <img src="/assets/icons/option.png" alt=""
+                                                        class="module-icon" />Quick Sort</a>
+                                            </li>
+                                            <li><a href="../Fundamentals/Jest.html" class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />Jest Unit Testing</a>
+                                            </li>
+
+
+
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li class="mb-1">
+                                    <button id="sidebtn"
+                                        class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed"
+                                        data-bs-toggle="collapse" data-bs-target="#OOP-collapse" aria-expanded="false">
+                                        OOP
+                                    </button>
+                                    <div class="collapse" id="OOP-collapse">
+                                        <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                                            <li><a href="../OOP/Overview.html" class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />Overview</a>
+                                            </li>
+                                            <li><a href="../OOP/Classes.html" class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />Classes</a>
+                                            </li>
+
+                                            <li><a href="../OOP/Inheritance.html" class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />Inheritance and Super</a>
+                                            </li>
+
+                                            <li><a href="../OOP/Ninja.html" class="docs-link rounded ">
+                                                    <img src="/assets/icons/practice.png" alt=""
+                                                        class="module-icon" />Ninja</a>
+                                            </li>
+
+                                            <li><a href="../OOP/SuperNinja.html" class="docs-link rounded ">
+                                                    <img src="/assets/icons/core.png" alt="" class="module-icon" />Super
+                                                    Ninja</a>
+                                            </li>
+
+                                            <li><a href="../OOP/DojoCCG.html" class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />Dojo CCG</a>
+                                            </li>
+
+                                            <li><a href="../OOP/ItTime.html" class="docs-link rounded ">
+                                                    <img src="/assets/icons/practice.png" alt=""
+                                                        class="module-icon" />It's Time to Duel</a>
+                                            </li>
+
+
+
+
+
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li class="mb-1">
+                                    <button id="sidebtn"
+                                        class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed"
+                                        data-bs-toggle="collapse" data-bs-target="#FunctionalProgramming-collapse"
+                                        aria-expanded="false">
+                                        Functional Programming
+                                    </button>
+                                    <div class="collapse" id="FunctionalProgramming-collapse">
+                                        <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                                            <li><a href="../Functional Programming/MultiParadigm.html"
+                                                    class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />Multi-Paradigm</a>
+                                            </li>
+                                            <li><a href="../Functional Programming/CallbackFunctions.html"
+                                                    class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />Callback Functions</a>
+                                            </li>
+                                            <li><a href="../Functional Programming/TheBigFreeze.html"
+                                                    class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt="" class="module-icon" />The
+                                                    Big Freeze</a>
+                                            </li>
+                                            <li><a href="../Functional Programming/MapandFilter.html"
+                                                    class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt="" class="module-icon" />Map
+                                                    and Filter</a>
+                                            </li>
+                                            <li><a href="../Functional Programming/ObjectMaster.html"
+                                                    class="docs-link rounded ">
+                                                    <img src="/assets/icons/option.png" alt=""
+                                                        class="module-icon" />Object Master/a>
+                                            </li>
+                                            <li><a href="../Functional Programming/Currying.html"
+                                                    class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />Currying</a>
+                                            </li>
+                                            <li><a href="../Functional Programming/Closures.html"
+                                                    class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />Closures</a>
+                                            </li>
+
+
+
+
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li class="mb-1">
+                                    <button id="sidebtn"
+                                        class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed"
+                                        data-bs-toggle="collapse" data-bs-target="#NPM-collapse" aria-expanded="false">
+                                        NPM
+                                    </button>
+                                    <div class="collapse" id="NPM-collapse">
+                                        <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                                            <li><a href="../NPM/NodePackageManager.html" class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />Node Package Manager</a>
+                                            </li>
+
+
+
+                                        </ul>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+
+                    </main>
+
+                </div>
+                <div class="docs-content col-lg-11 col-xl-9 " id="lesson_content">
+
+                    <main data-bs-spy="scroll" data-bs-target="#TableOfContents" data-bs-offset="0" tabindex="0">
+                        <div class="content" id="lesson_content">
+                            <ul id="todo_info_list" class="list-unstyled">
+                                <li>Optional</li>
+                                <li>Deadline: Monday of Week 1</li>
+                                <li>Difficulty Level: Intermediate </li>
+                                <li>Est. Time: 1 - 2 hrs </li>
+                            </ul>
+                            <div id="todo_description">
+                                <p> <br></p>
+                                <h1>How long did that take? (Optional)</h1>
+                                <div>
+                                    <p><br></p>
+                                    <hr>
+                                </div>
+                                <h3><br>Calculating prime numbers</h3>
+                                <p>Let's start with a prototype function to calculate if a number is prime...<br><br>
+                                </p>
+                                <div class="highlight">
+                                    <div class="clipboard"><button class="btn btn-clipboard blankkk"
+                                            aria-label="Clipboard button"></button></div>
+    <pre data-language="javascript"><span class="entity function">Number.prototype.isPrime</span> <span class="keyword operator">=</span> <span class="keyword">function</span>() {
+&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">for</span>( <span class="storage type">let</span> i<span class="keyword operator">=</span><span class="constant numeric">2</span>; i<span class="keyword operator">&lt;</span><span class="variable language this">this</span>; i<span class="keyword operator">+</span><span class="keyword operator">+</span> ) {
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">if</span>( <span class="variable language this">this</span> % i <span class="keyword operator">=</span><span class="keyword operator">=</span><span class="keyword operator">=</span> <span class="constant numeric">0</span> ) {
+        &nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">return</span> <span class="constant language">false</span>;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}
+&nbsp;&nbsp;&nbsp;&nbsp;}
+&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">return</span> <span class="constant language">true</span>;
+}
+</pre>
+                                </div>
+                                <p><br>and then see how long it takes to find the 10,000th prime number.<br><br></p>
+                                <div class="highlight">
+                                    <div class="clipboard"><button class="btn btn-clipboard blankkk"
+                                            aria-label="Clipboard button"></button></div>
+    <pre
+        data-language="javascript"><span class="storage type">const</span> { performance } <span class="keyword operator">=</span> <span class="function call">require</span>(<span class="string">'perf_hooks'</span>);
+<span class="storage type">const</span> start <span class="keyword operator">=</span> performance.<span class="function call">now</span>();
+<span class="storage type">let</span> primeCount <span class="keyword operator">=</span> <span class="constant numeric">0</span>;
+<span class="storage type">let</span> num <span class="keyword operator">=</span> <span class="constant numeric">2</span>; <span class="comment">// for math reasons, 1 is considered prime</span>
+<span class="keyword">while</span>( primeCount <span class="keyword operator">&lt;</span> <span class="constant numeric">1e4</span> )&nbsp;{
+&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">if</span>( num.<span class="function call">isPrime</span>() ) {
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;primeCount<span class="keyword operator">+</span><span class="keyword operator">+</span>;
+&nbsp;&nbsp;&nbsp;&nbsp;}
+&nbsp;&nbsp;&nbsp;&nbsp;num<span class="keyword operator">+</span><span class="keyword operator">+</span>;
+}
+console.<span class="function call">log</span>(`The <span class="constant numeric">10</span>,000th prime number is ${num<span class="keyword operator">-</span><span class="constant numeric">1</span>}`);
+console.<span class="function call">log</span>(`<span class="keyword">This</span> took ${performance.<span class="function call">now</span>() <span class="keyword operator">-</span> start} milliseconds to run`);
+</pre>
+                                </div>
+                                <p><br>On this author's laptop this took 50 seconds.<br></p>
+                                <p><br>This took a considerable amount of time considering the prime we calculated is
+                                    only 6 digits long and primes used in RSA encryption are hundreds of digits in
+                                    length. Calculating primes is hard work; as the numbers get bigger it takes more and
+                                    more work to see if they are evenly divisible by smaller numbers, and division is a
+                                    already a slow operation on CPUs (as much as 6 times slower than multiplication).
+                                    There are some tricks we can use to speed this up though, for instance
+                                    <em><strong>we don't need to search past the square root of the number</strong></em>
+                                    we are checking to see if it is evenly divisible by smaller numbers. Try rewriting
+                                    the <code>isPrime()</code> function above and seeing how much quicker this runs. You
+                                    should see results similar to the below image.<br><br></p>
+                                <figure><img
+                                        src="/assets/img/primes.png"
+                                        style="width: 695px; height: 127px;" width="695" height="127"></figure>
+                                <div>
+                                    <p><br></p>
+                                    <hr>
+                                </div>
+                                <h3><br>Fibonacci</h3>
+                                <p><br>Which implementation of Fibonacci should be faster?<br></p>
+                                <div class="highlight">
+                                    <div class="clipboard"><button class="btn btn-clipboard blankkk"
+                                            aria-label="Clipboard button"></button></div>
+    <pre
+        data-language="javascript"><span class="comment">// recursive</span>
+<span class="storage function">function</span> <span class="entity name function">rFib</span>( n ) {
+&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">if</span> ( n <span class="keyword operator">&lt;</span> <span class="constant numeric">2</span> ) {
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">return</span> n;
+&nbsp;&nbsp;&nbsp;&nbsp;}
+&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">return</span> <span class="function call">rFib</span>( n<span class="keyword operator">-</span><span class="constant numeric">1</span> ) <span class="keyword operator">+</span> <span class="function call">rFib</span>( n<span class="keyword operator">-</span><span class="constant numeric">2</span> );
+}
+<span class="function call">rFib</span>(<span class="constant numeric">20</span>);
+<span class="comment">// iterative</span>
+<span class="storage function">function</span> <span class="entity name function">iFib</span>( n ) {
+&nbsp;&nbsp;&nbsp;&nbsp;<span class="storage type">const</span> vals <span class="keyword operator">=</span> [ <span class="constant numeric">0</span>, <span class="constant numeric">1</span> ];
+&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">while</span>(vals.<span class="support property">length</span><span class="keyword operator">-</span><span class="constant numeric">1</span> <span class="keyword operator">&lt;</span> n) {
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="storage type">let</span> len <span class="keyword operator">=</span> vals.<span class="support property">length</span>;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;vals.<span class="support method">push</span>( vals[len<span class="keyword operator">-</span><span class="constant numeric">1</span>] <span class="keyword operator">+</span> vals[len<span class="keyword operator">-</span><span class="constant numeric">2</span>] );
+&nbsp;&nbsp;&nbsp;&nbsp;}
+&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">return</span> vals[n];
+}
+<span class="function call">iFib</span>(<span class="constant numeric">20</span>);
+</pre>
+                                </div>
+                                <div>
+                                    <p><br></p>
+                                    <hr>
+                                </div>
+                                <h3><br>Reversing a string</h3>
+                                <p><br>Can we reverse a string more efficiently?<br></p>
+                                <div class="highlight">
+                                    <div class="clipboard"><button class="btn btn-clipboard blankkk"
+                                            aria-label="Clipboard button"></button></div>
+<pre
+data-language="javascript"><span class="storage type">const</span> story <span class="keyword operator">=</span> <span class="string">"Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident culpa nihil repellat nulla laboriosam maxime, quia aliquam ipsam reprehenderit delectus reiciendis molestias assumenda aut fugit tempore laudantium tempora aspernatur? Repellendus consequatur expedita doloribus soluta cupiditate quae fugit! Aliquid, repellat animi, illum molestias maiores, laboriosam vero impedit iusto mollitia optio labore asperiores!"</span>;
+<span class="storage type">const</span> reversed1 <span class="keyword operator">=</span> story.<span class="function call">split</span>(<span class="string">""</span>).<span class="function call">reverse</span>().<span class="function call">join</span>(<span class="string">""</span>);
+</pre>
+                                </div>
+                                <h4><br>Hint:</h4>
+                                <p>Can this be written using one loop?<br></p>
+
+
+
+
+
+
+
+                            </div>
+           
+                        </div>
+                        <br>                          <figure style="text-align: center;margin: 20px;" rel="width: 343px; height: 81px;"><img
+                            src="/assets/img/to_do.jpg" style="width: 343px; height: 200px;" width="343"
+                            height="81"></figure>
+           
+                    <div class="todo-list">
+                        <div class="todo-item">
+                            <p>Rewrite isPrime() to calculate primes faster.</p>
+                        </div>
+                        <div class="todo-item">
+                            <p>Try calculating the 100,000th and 1,000,000th prime numbers.</p>
+                        </div>
+                        <div class="todo-item">
+                            <p>Determine if the iterative or recursive Fibonacci function is faster.</p>
+                        </div>
+                        <div class="todo-item">
+                            <p>Write a more efficient function to reverse a string.</p>
+                        </div>
+                     
+                    </div>
+                        <br><br><br>
+
+
+
+                        <div class="d-flex justify-content-between " id="navigation">
+                            <a href="../Fundamentals/Big O.html" class="previous_page">&laquo;
+                                Previous</a>
+                            <a href="../Fundamentals/quicksort.html" class="next_page ">Next &raquo;</a>
+
+                        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+                    </main>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <!-- Include jQuery and Bootstrap JS (CDN) -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script src="/assets/js/color-modes.js"></script>
+    <script src="/assets/js/search.js"></script>
+    <script src="/assets/js/main.js"></script>
+
+
+    <!-- <script src="https://cdn.jsdelivr.net/npm/prismjs@1.28.0/prism.min.js"></script>
+  <script>
+    Prism.highlightAll();
+  </script> -->
+
+
+
+    <script>
+        // Initialize Prism.js
+        Prism.highlightAll();
+    </script>
+
+</body>
+
+</html>

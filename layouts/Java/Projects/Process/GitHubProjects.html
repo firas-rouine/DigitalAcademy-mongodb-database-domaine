@@ -1,0 +1,855 @@
+<!doctype html>
+<html lang="en" data-bs-theme="light">
+
+<head>
+    <!-- <script src="/assets/js/color-modes.js"></script> -->
+
+    <meta charset="utf-8">
+    <link rel="icon" type="image/png" href="../../../../assets/icons/circle-logo.png">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.118.2">
+    <title>Digital-Academy</title>
+
+    <!-- Custom style -->
+    <link href="/assets/styles/sidebar.css" rel="stylesheet">
+    <link rel="stylesheet" href="/assets/styles/styles.css">
+    <link rel="stylesheet" href="/assets/styles/styles2.css">
+    <!-- bootstrap style -->
+
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous"> -->
+
+
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/prismjs@1.28.0/themes/prism.min.css"> -->
+
+
+
+    <!-- Include the Prism.js library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.25.0/themes/prism.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.25.0/prism.min.js"></script>
+
+    <!-- Include the Okaidia theme -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.25.0/themes/prism-okaidia.min.css">
+
+
+</head>
+
+<body class="single home " data-bs-spy="scroll" data-bs-target="#TableOfContents" data-bs-root-margin="0px 0px -60%"
+    data-bs-smooth-scroll="true" tabindex="0" cz-shortcut-listen="true">
+    <div class="sticky-top">
+        <header class="navbar navbar-expand-lg g-nav m">
+            <div class="container-lg"><a class="navbar-brand me-auto me-lg-3" href="#"> <img
+                        src="/assets/icons/logo.png" alt="logo" style="width: 70px; height: 50px;">
+                </a>
+                <a id="home" href="/home.html">HOME</a>
+                <button class="btn btn-link d-lg-none" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasNavSection" aria-controls="offcanvasNavSection"
+                    aria-label="Open section navigation menu"><svg xmlns="http://www.w3.org/2000/svg"
+                        class="icon icon-tabler icon-tabler-dots-vertical" width="24" height="24" viewBox="0 0 24 24"
+                        stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                        <path d="M12 12m-1 0a1 1 0 102 0 1 1 0 10-2 0"></path>
+                        <path d="M12 19m-1 0a1 1 0 102 0 1 1 0 10-2 0"></path>
+                        <path d="M12 5m-1 0a1 1 0 102 0 1 1 0 10-2 0"></path>
+                    </svg></button>
+                <div class="offcanvas offcanvas-start d-lg-none" tabindex="-1" id="offcanvasNavSection"
+                    aria-labelledby="offcanvasNavSectionLabel">
+                    <div class="offcanvas-header">
+                        <img src="/assets/icons/logo.png" alt="logo" style="width: 70px; height: 50px;">
+                        <button type="button" class="btn btn-link nav-link p-0" data-bs-dismiss="offcanvas"
+                            aria-label="Close"><svg xmlns="http://www.w3.org/2000/svg"
+                                class="icon icon-tabler icon-tabler-x" width="24" height="24" viewBox="0 0 24 24"
+                                stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round"
+                                stroke-linejoin="round">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                <path d="M18 6 6 18"></path>
+                                <path d="M6 6l12 12"></path>
+                            </svg></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <aside class="doks-sidebar mt-n3">
+                            <nav id="doks-docs-nav" aria-label="Tertiary navigation">
+                                <div class="module pb-2 pt-4">
+                                    <h2 class="mod-title">Java</h2>
+                                    <div class="module pb-2">
+                                        <a href="../../../Java/Java Spring Deployment/AWS Deployment/Deploying.html"
+                                            style='padding-right: 20px;' class="previous">&#8249;</a>
+                                        <img src="/assets/icons/trial.png" alt="" class="chapter-icon" />
+                                        <span class="mod-title ">Spring Deployment</span>
+
+                                    </div>
+                                </div>
+                                <ul class="list-unstyled collapsible-sidebar ">
+
+                                    <li class="mb-1">
+                                        <button id="sidebtn"
+                                            class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed"
+                                            data-bs-toggle="collapse" data-bs-target="#Introduction-collapse"
+                                            aria-expanded="false">
+                                            Introduction
+                                        </button>
+                                        <div class="collapse" id="Introduction-collapse">
+                                            <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                                                <li><a href="../Introduction/Objectives.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />Objectives</a>
+                                                </li>
+                                                <li><a href="../Introduction/Ideas.html" class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />Idea</a>
+                                                </li>
+
+                                            </ul>
+                                        </div>
+                                    </li>
+
+                                    <li class="mb-1">
+                                        <button id="sidebtn"
+                                            class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed"
+                                            data-bs-toggle="collapse" data-bs-target="#Requirements-collapse"
+                                            aria-expanded="false">
+                                            Requirements
+                                        </button>
+                                        <div class="collapse" id="Requirements-collapse">
+                                            <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                                                <li><a href="../Requirements/ProjectRequirements.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />Project Requirements</a>
+                                                </li>
+                                                <li><a href="../Requirements/ProjectChecklist.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/option.png" alt=""
+                                                            class="module-icon" />Project Checklist</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li class="mb-1">
+                                        <button id="sidebtn"
+                                            class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed"
+                                            data-bs-toggle="collapse" data-bs-target="#Process-collapse"
+                                            aria-expanded="true">
+                                            Process
+                                        </button>
+                                        <div class="collapse show" id="Process-collapse">
+                                            <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                                                <li><a href="../Process/AgileDevelopment.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />Agile Development</a>
+                                                </li>
+                                                <li><a href="../Process/MVP.html" class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />MVP</a>
+                                                </li>
+                                                <li><a href="../Process/Wireframes.html" class="docs-link rounded ">
+                                                        <img src="/assets/icons/option.png" alt=""
+                                                            class="module-icon" />Wireframes</a>
+                                                </li>
+                                                <li><a href="../Process/GitHubProjects.html"
+                                                        class="docs-link rounded active">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />AGitHub Projects</a>
+                                                </li>
+                                                <li><a href="../Process/UserStoriesandTimeline.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/option.png" alt=""
+                                                            class="module-icon" />User Stories and Timelinet</a>
+                                                </li>
+                                                <li><a href="../Process/PlanningMeeting.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />Planning Meeting</a>
+                                                </li>
+                                                <li><a href="../Process/DailyStandUps.html" class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />Daily Stand Ups</a>
+                                                </li>
+
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li class="mb-1">
+                                        <button id="sidebtn"
+                                            class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed"
+                                            data-bs-toggle="collapse" data-bs-target="#Presentations-collapse"
+                                            aria-expanded="false">
+                                            Presentations
+                                        </button>
+                                        <div class="collapse " id="Presentations-collapse">
+                                            <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                                                <li><a href="../Presentations/PresentationProcess.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />Presentation Process</a>
+                                                </li>
+                                                <li><a href="../Presentations/PeerFeedbackForm.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/option.png" alt=""
+                                                            class="module-icon" />Peer Feedback Form</a>
+                                                </li>
+
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li class="mb-1">
+                                        <button id="sidebtn"
+                                            class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed"
+                                            data-bs-toggle="collapse" data-bs-target="#AdditionalResources-collapse"
+                                            aria-expanded="false">
+                                            Additional Resources
+                                        </button>
+                                        <div class="collapse " id="AdditionalResources-collapse">
+                                            <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                                                <li><a href="../Additional Resources/SampleProjectWireframes.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />Sample Project Wireframes</a>
+                                                </li>
+                                                <li><a href="../Additional Resources/HallofRecords.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />Hall of Records</a>
+                                                </li>
+                                                <li><a href="../Additional Resources/CSS.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />CSS</a>
+                                                </li>
+                                                <li><a href="../Additional Resources/APIs.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />APIs</a>
+                                                </li>
+                                                <li><a href="../Additional Resources/Git.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />Git</a>
+                                                </li>
+                                                <li><a href="../Additional Resources/Deployment.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />Deployment</a>
+                                                </li>
+                                                <li><a href="../Additional Resources/Tutorials.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />Tutorials</a>
+                                                </li>
+
+
+                                            </ul>
+                                        </div>
+                                    </li>
+
+
+
+
+
+                                </ul>
+                            </nav>
+                        </aside>
+                    </div>
+                </div><button class="btn btn-link nav-link mx-2 order-3 d-lg-none" type="button"
+                    data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavMain" aria-controls="offcanvasNavMain"
+                    aria-label="Open main navigation menu"><svg xmlns="http://www.w3.org/2000/svg"
+                        class="icon icon-tabler icon-tabler-menu" width="24" height="24" viewBox="0 0 24 24"
+                        stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                        <line x1="4" y1="8" x2="20" y2="8"></line>
+                        <line x1="4" y1="16" x2="20" y2="16"></line>
+                    </svg></button>
+                <div class="offcanvas offcanvas-end h-auto" tabindex="-1" id="offcanvasNavMain"
+                    aria-labelledby="offcanvasNavMainLabel">
+                    <div class="offcanvas-header">
+                        <img src="/assets/icons/logo.png" alt="logo" style="width: 70px; height: 50px;">
+                        <button type="button" class="btn btn-link nav-link p-0" data-bs-dismiss="offcanvas"
+                            aria-label="Close"><svg xmlns="http://www.w3.org/2000/svg"
+                                class="icon icon-tabler icon-tabler-x" width="24" height="24" viewBox="0 0 24 24"
+                                stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round"
+                                stroke-linejoin="round">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                <path d="M18 6 6 18"></path>
+                                <path d="M6 6l12 12"></path>
+                            </svg></button>
+                    </div>
+                    <div class="offcanvas-body d-flex flex-column flex-lg-row justify-content-between">
+                        <!-- <ul class="navbar-nav flex-grow-1">
+              <li class="nav-item"><a class="nav-link active" href="index.html" aria-current="true">Docs</a></li>
+              <li class="nav-item"><a class="nav-link" href="/blog/">Blog</a></li>
+            </ul> -->
+
+                        <!-- this section is for the search bar and results -->
+                        <form class="navbar-form my-auto flex-grow-1 ">
+                            <input id="searchInput" class="form-control is-search ms-auto me-5" type="search"
+                                placeholder="Search ." aria-label="Search docs." autocomplete="off">
+                            <div id="suggestions" class="shadow rounded position-absolute d-none">
+                                <ul id="searchResults" class="list-unstyled m-auto"></ul>
+                            </div>
+                        </form>
+
+
+                        <button id="buttonColorMode" class="btn btn-link mx-auto nav-link p-0 ms-lg-2 me-lg-1"
+                            type="button" aria-label="Toggle theme"><svg data-bs-theme-value="dark"
+                                xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-moon" width="24"
+                                height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentcolor" fill="none"
+                                stroke-linecap="round" stroke-linejoin="round">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                <path d="M12 3c.132.0.263.0.393.0a7.5 7.5.0 007.92 12.446A9 9 0 1112 2.992z"></path>
+                            </svg><svg data-bs-theme-value="light" xmlns="http://www.w3.org/2000/svg"
+                                class="icon icon-tabler icon-tabler-sun" width="24" height="24" viewBox="0 0 24 24"
+                                stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round"
+                                stroke-linejoin="round">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                <path
+                                    d="M12 12m-4 0a4 4 0 108 0 4 4 0 10-8 0m-5 0h1m8-9v1m8 8h1m-9 8v1M5.6 5.6l.7.7m12.1-.7-.7.7m0 11.4.7.7m-12.1-.7-.7.7">
+                                </path>
+                            </svg></button>
+                        <ul id="socialMenu" class="nav mx-auto flex-row order-lg-4">
+
+
+                            <li class="nav-item"><a class="nav-link social-link"
+                                    href="https://github.com/DigitalAcademyTn"><svg xmlns="http://www.w3.org/2000/svg"
+                                        class="icon icon-tabler icon-tabler-brand-github" width="24" height="24"
+                                        viewBox="0 0 24 24" stroke-width="2" stroke="currentcolor" fill="none"
+                                        stroke-linecap="round" stroke-linejoin="round">
+                                        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                        <path
+                                            d="M9 19c-4.3 1.4-4.3-2.5-6-3m12 5v-3.5c0-1 .1-1.4-.5-2 2.8-.3 5.5-1.4 5.5-6a4.6 4.6.0 00-1.3-3.2 4.2 4.2.0 00-.1-3.2s-1.1-.3-3.5 1.3a12.3 12.3.0 00-6.2.0C6.5 2.8 5.4 3.1 5.4 3.1a4.2 4.2.0 00-.1 3.2A4.6 4.6.0 004 9.5c0 4.6 2.7 5.7 5.5 6-.6.6-.6 1.2-.5 2V21">
+                                        </path>
+                                                  </svg><small class="ms-2 visually-hidden">GitHub</small></a></li>
+                  <a id="upgrade" href="../../../upgrade.html">UPGRADE</a>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </header>
+    </div>
+
+
+
+
+    <div class="wrap container-fluid " role="document">
+        <div class="content">
+            <div class="row  d-flex justify-content-center">
+                <div class=" docs-sidebar d-none d-lg-block   ">
+                    <main class="">
+                        <div class="flex-shrink-0 pt-4 ">
+
+                            <div class="module pb-2">
+                                <h2 class="mod-title">Java</h2>
+                            </div>
+                            <div class="module pb-2">
+                                <a href="../../../Java/Java Spring Deployment/AWS Deployment/Deploying.html"
+                                    style='padding-right: 20px;' class="previous">&#8249;</a>
+                                <img src="/assets/icons/trial.png" alt="" class="chapter-icon" />
+                                <span class="mod-title ">Projects</span>
+
+                            </div>
+
+
+
+
+
+                            <ul class=" list-unstyled px-3 overflow-scroll">
+
+                                <li class="mb-1">
+                                    <button id="sidebtn"
+                                        class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed"
+                                        data-bs-toggle="collapse" data-bs-target="#Introduction-collapse"
+                                        aria-expanded="true">
+                                        Introduction
+                                    </button>
+                                    <div class="collapse show" id="Introduction-collapse">
+                                        <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                                            <li><a href="../Introduction/Objectives.html" class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />Objectives</a>
+                                            </li>
+                                            <li><a href="../Introduction/Ideas.html" class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />Idea</a>
+                                            </li>
+
+                                        </ul>
+                                    </div>
+                                </li>
+
+                                <li class="mb-1">
+                                    <button id="sidebtn"
+                                        class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed"
+                                        data-bs-toggle="collapse" data-bs-target="#Requirements-collapse"
+                                        aria-expanded="false">
+                                        Requirements
+                                    </button>
+                                    <div class="collapse" id="Requirements-collapse">
+                                        <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                                            <li><a href="../Requirements/ProjectRequirements.html"
+                                                    class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />Project Requirements</a>
+                                            </li>
+                                            <li><a href="../Requirements/ProjectChecklist.html"
+                                                    class="docs-link rounded ">
+                                                    <img src="/assets/icons/option.png" alt=""
+                                                        class="module-icon" />Project Checklist</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li class="mb-1">
+                                    <button id="sidebtn"
+                                        class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed"
+                                        data-bs-toggle="collapse" data-bs-target="#Process-collapse"
+                                        aria-expanded="true">
+                                        Process
+                                    </button>
+                                    <div class="collapse show" id="Process-collapse">
+                                        <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                                            <li><a href="../Process/AgileDevelopment.html" class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />Agile Development</a>
+                                            </li>
+                                            <li><a href="../Process/MVP.html" class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />MVP</a>
+                                            </li>
+                                            <li><a href="../Process/Wireframes.html" class="docs-link rounded ">
+                                                    <img src="/assets/icons/option.png" alt=""
+                                                        class="module-icon" />Wireframes</a>
+                                            </li>
+                                            <li><a href="../Process/GitHubProjects.html"
+                                                    class="docs-link rounded active">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />AGitHub Projects</a>
+                                            </li>
+                                            <li><a href="../Process/UserStoriesandTimeline.html"
+                                                    class="docs-link rounded ">
+                                                    <img src="/assets/icons/option.png" alt=""
+                                                        class="module-icon" />User Stories and Timelinet</a>
+                                            </li>
+                                            <li><a href="../Process/PlanningMeeting.html" class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />Planning Meeting</a>
+                                            </li>
+                                            <li><a href="../Process/DailyStandUps.html" class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />Daily Stand Ups</a>
+                                            </li>
+
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li class="mb-1">
+                                    <button id="sidebtn"
+                                        class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed"
+                                        data-bs-toggle="collapse" data-bs-target="#Presentations-collapse"
+                                        aria-expanded="false">
+                                        Presentations
+                                    </button>
+                                    <div class="collapse " id="Presentations-collapse">
+                                        <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                                            <li><a href="../Presentations/PresentationProcess.html"
+                                                    class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />Presentation Process</a>
+                                            </li>
+                                            <li><a href="../Presentations/PeerFeedbackForm.html"
+                                                    class="docs-link rounded ">
+                                                    <img src="/assets/icons/option.png" alt=""
+                                                        class="module-icon" />Peer Feedback Form</a>
+                                            </li>
+
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li class="mb-1">
+                                    <button id="sidebtn"
+                                        class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed"
+                                        data-bs-toggle="collapse" data-bs-target="#AdditionalResources-collapse"
+                                        aria-expanded="false">
+                                        Additional Resources
+                                    </button>
+                                    <div class="collapse " id="AdditionalResources-collapse">
+                                        <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                                            <li><a href="../Additional Resources/SampleProjectWireframes.html"
+                                                    class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />Sample Project Wireframes</a>
+                                            </li>
+                                            <li><a href="../Additional Resources/HallofRecords.html"
+                                                    class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />Hall of Records</a>
+                                            </li>
+                                            <li><a href="../Additional Resources/CSS.html" class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />CSS</a>
+                                            </li>
+                                            <li><a href="../Additional Resources/APIs.html" class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />APIs</a>
+                                            </li>
+                                            <li><a href="../Additional Resources/Git.html" class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />Git</a>
+                                            </li>
+                                            <li><a href="../Additional Resources/Deployment.html"
+                                                    class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />Deployment</a>
+                                            </li>
+                                            <li><a href="../Additional Resources/Tutorials.html"
+                                                    class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />Tutorials</a>
+                                            </li>
+
+
+                                        </ul>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+
+                    </main>
+
+                </div>
+                <div class="docs-content col-lg-11 col-xl-9 " id="lesson_content">
+
+                    <main data-bs-spy="scroll" data-bs-target="#TableOfContents" data-bs-offset="0" tabindex="0"
+                        id="lesson_content">
+                        <div id="lesson_content">
+                            <table style="background-color: rgb(13,32,76); border-radius: 10px">
+                                <thead>
+                                    <tr>
+                                        <th colspan="2" style="border: hidden; vertical-align: top;" width="15%"><img
+                                                src="/assets/img/Lesson Open Book.png">
+                                        </th>
+                                        <th style="border: hidden;">
+                                            <h1 style="color: white;">GitHub Projects</h1>
+                                        </th>
+                                    </tr>
+                                </thead>
+                            </table>
+
+                            <h3><img src="/assets/img/Learning Objectives.png"
+                                    style="width: 75px; height: 75px;" width="75" height="75" alt="''"
+                                    title="''">Learning Objectives</h3>
+
+
+
+                            <ul>
+                                <li>Create a board and table using GitHub Projects</li>
+                            </ul>
+
+
+
+                            <hr style="height:2px;border-width:0;color:gray;background-color:gray;">
+
+
+
+
+
+                            <p>Keeping your project goals organized is the best way to ensure you are able to meet your
+                                MVP on time. You should use GitHub's built-in project-tracking features to keep
+                                everything you need in one place. </p>
+
+
+
+                            <p>If you have not already done so, <a href="https://github.com/" target="_blank">sign up
+                                    for a GitHub</a> account. GitHub is an excellent tool to post your projects and
+                                collaborate with teammates on larger projects. </p>
+
+
+
+                            <p>This module details the steps necessary to create your project repo and set up everything
+                                you need to start tracking your project progress. This tutorial does not cover any steps
+                                related to pushing code to the repository. </p>
+
+
+
+                            <h3>GitHub Projects Tutorial</h3>
+
+
+
+                            <p>To begin tracking your project, you must first make a repository in GitHub. At this time
+                                you do not have to have any code pushed into the project. You only need a project to
+                                exist. </p>
+
+
+
+                            <figure rel="width: 533px; height: 488px;"><img
+                                    src="/assets/img/MakeARepo.png"
+                                    style="width: 533px; height: 488px;" width="533" height="488"
+                                    alt="Make a repository" title="Make a repository"></figure>
+
+
+
+                            <p rel="width: 559px; height: 534px;">Once your repository is created, you can access the
+                                Projects tab. Select it to move over to the Projects tab window.<br></p>
+
+
+
+                            <figure rel="width: 719px; height: 299px;"><img
+                                    src="/assets/img/ProjectTab.png"
+                                    style="width: 719px; height: 299px;" width="719" height="299"
+                                    alt="Select the project tab" title="Select the project tab"></figure>
+
+
+
+                            <p>From within the Projects tab, locate this button on the right to link a project. Select
+                                the dropdown, change it to "New Project", and click the button to open the New Projects
+                                window.<br></p>
+
+
+
+                            <figure><img
+                                    src="/assets/img/NewProject.png"
+                                    alt="Change selection to New Project" title="Change selection to New Project">
+                            </figure>
+
+
+
+                            <p>From here, change the selection on the left bar to "Board", give the project a name, and
+                                press the Create button.<br></p>
+
+
+
+                            <figure rel="width: 703px; height: 489px;"><img
+                                    src="/assets/img/NewprojectWindow.png"
+                                    style="width: 703px; height: 489px;" width="703" height="489" alt="Create new board"
+                                    title="Create new board"></figure>
+
+
+
+                            <p>This will generate your new Board. <br></p>
+
+
+
+                            <figure><img
+                                    src="/assets/img/NewBoardView.png"
+                                    alt="New board" title="New board"></figure>
+
+
+
+                            <p>This will create 3 columns: Todo, In Progress, and Done. You can add items to any of the
+                                columns by selecting "Add Item" at the bottom of the appropriate column.<br></p>
+
+
+
+                            <figure><img
+                                    src="/assets/img/NewItem.png"
+                                    alt="Add an item to Todo" title="Add an item to Todo"></figure>
+
+
+
+                            <p>Once the item is added, you can click on it to add further details by clicking the Edit
+                                button. If you want to take your descriptions to the next level, you can use <a
+                                    href="https://www.markdownguide.org/" target="_blank">Markdown</a> to make your
+                                notes clear and organized.<br></p>
+
+
+
+                            <figure><img
+                                    src="/assets/img/AddUpdates.png"
+                                    alt="View details on an item" title="View details on an item"></figure>
+
+
+
+                            <p>Each item can also be dragged and dropped between the columns as you complete or progress
+                                on your items.<br></p>
+
+
+
+                            <figure rel="width: 622px; height: 368px;"><img
+                                    src="/assets/img/DragAndDrop.png"
+                                    style="width: 622px; height: 368px;" width="622" height="368"
+                                    alt="Drag and drop items to other columns"
+                                    title="Drag and drop items to other columns"></figure>
+
+
+
+                            <p>If you would like to add another column, you can do so by selecting the plus (+) icon to
+                                the far right of the columns.<br></p>
+
+
+
+                            <figure><img
+                                    src="/assets/img/AddNewColumn.png"
+                                    alt="Add a new column" title="Add a new column"></figure>
+
+
+
+                            <figure><img
+                                    src="/assets/img/AddedColumn.png"
+                                    alt="New column" title="New column"></figure>
+
+
+
+                            <p>Next, we recommend that you also add a Table to your project. A table will be another way
+                                to visualize your work and will allow you to add more details to each item on your
+                                board. To create a table, select the "New View" button and select "Table".<br></p>
+
+
+
+                            <figure rel="width: 451px; height: 344px;"><img
+                                    src="/assets/img/NewTable.png"
+                                    style="width: 451px; height: 344px;" width="451" height="344" alt="Add a new table"
+                                    title="Add a new table"></figure>
+
+
+
+                            <p>This will automatically generate a table with any items created on your board.<br></p>
+
+
+
+                            <figure><img
+                                    src="/assets/img/TableView.png"
+                                    alt="New table view" title="New table view"></figure>
+
+
+
+                            <p>From here, we recommend that you add two new columns: one to specify a due date and
+                                another to specify a priority. To create extra columns in a table, select the plus (+)
+                                sign on the far right of the header of the table. <br></p>
+
+
+
+                            <figure><img
+                                    src="/assets/img/NewTableItems.png"
+                                    alt="Add a new table field" title="Add a new table field"></figure>
+
+
+
+                            <p>Below are the options to create a Date column and a Priority column. Feel free to choose
+                                your own verbiage for priority levels. <br></p>
+
+
+
+                            <p>For due date:</p>
+
+
+
+                            <figure rel="width: 338px; height: 255px;"><img
+                                    src="/assets/img/DueDate.png"
+                                    style="width: 338px; height: 255px;" width="338" height="255" alt="Due date setup"
+                                    title="Due date setup"></figure>
+
+
+
+                            <p>For priority: <br></p>
+
+
+
+                            <figure rel="width: 327px; height: 393px;"><img
+                                    src="/assets/img/PrioritySetup.png"
+                                    style="width: 327px; height: 393px;" width="327" height="393" alt="Priority setup"
+                                    title="Priority setup"></figure>
+
+
+
+                            <p>You can now update each item with its relevant information.<br></p>
+
+
+
+                            <figure><img
+                                    src="/assets/img/UpdatedTableView.png"
+                                    alt="Edited table view" title="Edited table view"></figure>
+
+
+
+                            <p>Update or add any extra features as needed to create an organization tool that works for
+                                you. Update the name of the project and the tab names, and assign collaborators to
+                                certain items on the board. <br></p>
+
+
+
+                            <p>Adding Assignees can be a great way to delegate tasks and split up work between
+                                teammates. If you are working with others on a project, make sure the owner of the
+                                GitHub repo adds everyone as a collaborator so they can be part of the project.</p>
+
+
+
+                            <figure><img
+                                    src="/assets/img/Assignees.png"
+                                    alt="Add an assignee" title="Add an assignee"></figure>
+
+
+
+                            <p>The final optional step is to rename each tab so it is easy to navigate.</p>
+
+
+
+                            <figure rel="width: 582px; height: 295px;"><img
+                                    src="/assets/img/UpdatedTabNames.png"
+                                    style="width: 582px; height: 295px;" width="582" height="295" alt="Rename tabs"
+                                    title="Rename tabs"></figure>
+
+
+
+                            <p>With that done, you have your project board all set up and ready to use! In the next
+                                assignment, you will create your Project board for your upcoming project.<br></p>
+                        </div>
+                        <br><br><br>
+
+
+
+                        <div class="d-flex justify-content-between " id="navigation">
+                            <a href="../Process/Wireframes.html" class=" previous_page">&laquo;
+                                Previous</a>
+                            <a href="../Process/UserStoriesandTimeline.html" class="next_page">Next
+                                &raquo;</a>
+
+                        </div>
+
+
+
+
+
+
+
+
+
+
+
+                    </main>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <!-- Include jQuery and Bootstrap JS (CDN) -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script src="/assets/js/color-modes.js"></script>
+    <script src="/assets/js/search.js"></script>
+    <script src="/assets/js/main.js"></script>
+
+
+    <!-- <script src="https://cdn.jsdelivr.net/npm/prismjs@1.28.0/prism.min.js"></script>
+  <script>
+    Prism.highlightAll();
+  </script> -->
+
+
+
+    <script>
+        // Initialize Prism.js
+        Prism.highlightAll();
+    </script>
+
+</body>
+
+</html>

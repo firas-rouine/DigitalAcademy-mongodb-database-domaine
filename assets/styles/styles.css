@@ -1,0 +1,543 @@
+/* Dark Mode Styles */
+html[data-bs-theme="dark"] .icon-tabler-sun {
+    display: block
+}
+
+html[data-bs-theme="dark"] .icon-tabler-moon {
+    display: none
+}
+
+html[data-bs-theme="dark"] .icon-tabler-brand-github {
+    color: white;
+}
+ code {
+    background: rgba(255, 198, 86, .16);
+    border-radius: 2px;
+    color: #8d5e00 !important;
+    padding: 6px 5px;
+}
+html[data-bs-theme="dark"] .g-nav {
+    background-color: #17181C;
+
+    #suggestions {
+        background-color: #23262F;
+    }
+
+    #searchResults a {
+        color: white;
+    }
+
+    #searchResults a:hover {
+        background-color: darkgrey;
+    }
+}
+
+html[data-bs-theme="dark"] .form-control.is-search {
+    background: #17181C
+}
+
+/* Light Mode Styles */
+html[data-bs-theme="light"] .icon-tabler-sun {
+    display: none
+}
+
+html[data-bs-theme="light"] .icon-tabler-moon {
+    display: block
+}
+
+html[data-bs-theme="light"] .g-nav {
+    background-color: white;
+}
+
+.foot-test {
+    padding-top: 1.125rem;
+    padding-bottom: 1.125rem;
+    border-top: 1px solid rgb(233, 236, 239);
+}
+
+.navbar-brand {
+    font-weight: 700;
+}
+
+.home .navbar {
+    border-bottom: 0px;
+}
+
+
+.sticky-top {
+    border-bottom: 1px solid rgb(233, 236, 239);
+}
+
+@media (min-width: 1500px) {
+    html[data-bs-theme="light"] .sticky-top {
+        border-bottom: 2px solid #dee1e4;
+    }
+}
+
+/* body.dark .form-control.is-search {
+    background: #1b1f22
+} */
+
+.form-control.is-search {
+    padding-right: 2.5rem;
+    background: #f8f9fa;
+    border: 0
+}
+
+/* .form-control.is-search:focus {
+    box-shadow: 0 0 0 .25rem #ff004494
+} */
+
+/* **************************************** */
+
+#sidebtn {
+    font-weight: 700;
+}
+input ,select{
+    width: 100%;
+}
+
+/* Style for the search input */
+#searchInput {
+    width: 40%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+
+}
+
+/* Media query for screens with a maximum width of 768px (typical for mobile devices) */
+@media (max-width: 768px) {
+    #searchInput {
+        width: 100%;
+        /* Change width to 100% for mobile screens */
+    }
+}
+
+@media (max-width: 982px) {
+    #searchInput {
+        width: 100%;
+    }
+}
+
+
+/* Style for the search results */
+#suggestions {
+    background-color: white;
+}
+
+#searchResults {
+    list-style: none;
+    padding: 0;
+}
+
+#searchResults li {
+    margin-bottom: 5px;
+}
+
+#searchResults a {
+    color: #333;
+    text-decoration: none;
+}
+
+#searchResults a:hover {
+    text-decoration: underline;
+    color: black;
+}
+
+
+#pre-code {
+    background-color: #121212;
+}
+
+[data-bs-theme="dark"] #pre-code {
+    background-color: #23262f;
+}
+
+.card-border:hover {
+    box-shadow: 0 0 0 3px #009dffb9
+}
+
+.chapter-icon {
+    height: 18px;
+    margin-right: 12px;
+    width: 17px;
+}
+
+.module-icon {
+    height: 20px;
+    margin-right: 12px;
+    width: 22px!important;
+}
+
+.core-icon{
+    height: 18px;
+    margin-right: 12px;
+    width: 16px;
+}
+
+.previous, .next {
+    text-decoration: none;
+    display: inline-block;
+    font-size: 31px;
+    color: blue;
+}
+
+.previous {
+    padding: 0 40px 0 0;
+}
+
+.next {
+    padding: 0 0 0 40px;
+}
+
+.question p {
+    font-weight: bold!important;
+}
+.previous:hover , .next:hover {
+    text-decoration: none;
+    
+    color: black;
+    
+}
+
+.module {
+    border-bottom: 1px dashed #e9ecef;
+    text-align: center;
+}
+
+.mod-title{
+    font-size: 20px;
+}
+
+
+
+
+
+
+
+
+.overflow-scroll {
+    max-height: 500px; /* Set maximum height to viewport height */
+      overflow: auto;
+    scrollbar-width: none; /* For Firefox */
+    -ms-overflow-style: none; /* For IE/Edge */
+  }
+  
+  /* Hide scrollbar for WebKit browsers (Chrome, Safari) */
+  .overflow-scroll::-webkit-scrollbar {
+    display: none;
+  }
+  #lesson_content{
+    padding-top: 20px;
+    padding-left: 40px;
+  }
+
+  #lesson_content h1 {
+    font-size: 38px;
+    font-weight: 500;
+    line-height: 48px;
+}
+
+  #lesson_content h2 {
+    font-size: 26px;
+    font-weight: 500;
+    line-height: 39px;
+}
+
+#lesson_content p {
+    font-family: "Poppins",sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    
+    line-height: 200%!important;
+}
+#lesson_content p {
+    font-family: "Poppins",sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    
+    line-height: 200%!important;
+}
+#lesson_content * {
+    font-family: "Poppins",sans-serif;
+    text-shadow: none;
+}
+p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+
+#navigation .previous_page {
+    text-decoration: none;
+    background-color: #ddd;
+    color: black;
+    padding: 8px 16px;
+  }
+  
+  #navigation .next_page {
+    text-decoration: none;
+    padding: 8px 16px;
+    background-color: #009fff
+    ;
+    color: white;
+  }
+  #lesson_content a {
+    color: #2c6bff;
+    cursor: pointer;
+    font-family: "Poppins",sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 200%;
+    text-decoration-line: underline;
+}
+#lesson_content h3 {
+    margin-bottom: 20px;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 33px;
+}
+#lesson_content li, #lesson_content p {
+  
+    font-family: "Poppins",sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 200%!important;
+}
+
+
+
+pre[data-language] {
+    background: #121212!important;
+    word-wrap: break-word!important;
+    padding: 30px 30px 17px!important;
+    color: #fff!important;
+    font-size: 14px;
+    line-height: 21px;
+    margin: 0 0 20px!important;
+    overflow: none!important;
+    white-space: pre-wrap!important;
+    border-radius: 6px;
+}
+pre[data-language]  span {
+    font-family: SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace!important;
+    font-style: normal;
+    font-weight: 400;
+}
+pre[data-language] .string {
+    color: #e6db74!important;
+}
+pre[data-language] .keyword, pre[data-language] .selector, pre[data-language] .support.tag-name, pre[data-language] [data-language=ruby] .storage {
+    font-style: normal;
+    color: #f92672!important;
+}
+
+
+#todo_info_list {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 58px;
+    margin-top: 26px;
+}
+.list-unstyled {
+    padding-left: 0;
+    list-style: none;
+}
+#todo_info_list li {
+    border-right: 2px solid #dce6ff;
+    font-family: "Poppins",sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 21px;
+    margin-right: 25px;
+    padding-right: 25px;
+}
+
+
+#todo_info_list li:last-child {
+    border-right: 0;
+    margin-right: 0;
+    padding-right: 0;
+}
+
+.todo-list {
+    list-style: none;
+    padding: 40px;
+  }
+
+  .todo-item {
+    position: relative;
+    padding-left: 40px; /* Adjust the padding as needed */
+    margin-bottom: 10px; /* Adjust the margin as needed */
+  }
+
+  .todo-item::before {
+    content: "\2192"; /* Unicode character for a left arrow, you can change it */
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 18px; /* Adjust the font size as needed */
+    color: #007bff; /* Adjust the arrow color as needed */
+  }
+
+  a {
+    color: #007bff; /* Adjust the link color as needed */
+    text-decoration: none;
+  }
+
+  a:hover {
+    text-decoration: underline;
+  }
+
+  #lesson_content strong {
+    font-weight: 600!important;
+}
+
+#lesson_content blockquote {
+    border-left: none!important;
+
+    margin-left: 2em!important;
+    font-style: italic!important;
+    font-weight: 300;
+    margin: 0 0 1rem;
+    font-size: 1.1rem!important;
+    
+}
+pre:not([data-language]), #course_container.container .right_container pre[data-language=""] {
+    background-color: #f5f5f5;
+    font-family: "Andale Mono",Consolas,monospace!important;
+    padding: 16px 20px 17px!important;
+    white-space: pre-wrap!important;
+}
+html[data-bs-theme="dark"] pre:not([data-language]){
+    background: #121212!important;
+}
+
+pre[data-language] .support {
+    color: #66d9ef!important;
+}
+pre[data-language] .entity, pre[data-language] .support.attribute {
+    color: #a6e22e!important;
+}
+pre[data-language] .comment, pre[data-language] span.comment {
+    color: #727272!important;
+}
+code, pre[data-language], pre[data-language] span {
+    font-family: SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace!important;
+    font-style: normal;
+    font-weight: 400;
+}
+pre[data-language] .constant {
+    color: #ae81ff!important;
+}
+
+#lesson_content fieldset {
+    width: 100%;
+    border-image: none;
+    border-image: initial;
+    border: 2px groove threedface;
+    display: block;
+    margin-bottom: 20px;
+    -webkit-margin-end: 2px;
+    margin-inline-end: 2px;
+    -webkit-margin-start: 2px;
+    margin-inline-start: 2px;
+    min-inline-size: -webkit-min-content;
+    min-inline-size: min-content;
+    -webkit-padding-after: 0.625em;
+    padding-block-end: 0.625em;
+    -webkit-padding-before: 0.35em;
+    padding-block-start: 0.35em;
+    -webkit-padding-end: 0.75em;
+    padding-inline-end: 0.75em;
+    -webkit-padding-start: 0.75em;
+    padding-inline-start: 0.75em;
+}
+#lesson_content table {
+    margin: 0%;
+    border: 1px solid #dee2e6;
+    margin-bottom: 1rem;
+    width: 100%;
+}
+.table-bordered, .table-bordered td, .table-bordered th {
+    border: 1px solid #dee2e6;
+}
+iframe {
+    width: 100%; /* Make the iframe take up 100% of the container's width */
+    height: 500px; /* Set a default height for the iframe */
+  }
+
+  /* Use media query to adjust styles for smaller screens */
+  @media (max-width: 767px) {
+    #lesson_content {
+        
+        padding-left: 10px;
+    }
+    iframe {
+      height: 200px; /* Set a different height for smaller screens */
+    }
+  }
+
+#home {
+    list-style: none; /* Remove default list styles (bullets/numbers) */
+    display: inline-block; /* Make the list item appear in a horizontal line */
+    margin-right: 15px; /* Adjust the spacing between list items */
+}
+#upgrade {
+    list-style: none; /* Remove default list styles (bullets/numbers) */
+    display: inline-block; /* Make the list item appear in a horizontal line */
+ 
+    padding-top: 15px;
+    margin-left: 30px!important;
+    text-decoration: none; /* Remove default underline on links */
+   
+    color: black;
+    font: normal 700 16px/24px "Poppins",sans-serif;
+    opacity: 1;
+}
+html[data-bs-theme="dark"] #upgrade  {
+    margin-left: 50px!important;
+    text-decoration: none; /* Remove default underline on links */
+   
+    color:white;
+    font: normal 700 16px/24px "Poppins",sans-serif;
+    opacity: 1;
+}
+
+html[data-bs-theme="dark"] #home  {
+    margin-left: 50px!important;
+    text-decoration: none; /* Remove default underline on links */
+   
+    color:white;
+    font: normal 700 16px/24px "Poppins",sans-serif;
+    opacity: 1;
+}
+#home  {
+    margin-left: 50px!important;
+    text-decoration: none; /* Remove default underline on links */
+   
+    color: black;
+    font: normal 700 16px/24px "Poppins",sans-serif;
+    opacity: 1;
+}
+
+/* Apply styling when hovering over the link */
+#home a:hover {
+    color: #ff0000; /* Set a different color on hover */
+}
+
+
+.navbar .container-lg .offcanvas-header img,.navbar .container-lg .navbar-brand img{
+    width: 170px!important;
+}
+
+.btn-group {
+    display: flex;
+    gap: 5px; /* Adjust spacing as needed */
+  }

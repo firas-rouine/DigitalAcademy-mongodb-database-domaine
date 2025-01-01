@@ -1,0 +1,917 @@
+<!doctype html>
+<html lang="en" data-bs-theme="light">
+
+<head>
+    <!-- <script src="/assets/js/color-modes.js"></script> -->
+
+    <meta charset="utf-8">
+    <link rel="icon" type="image/png" href="../../../../assets/icons/circle-logo.png">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.118.2">
+    <title>Digital-Academy</title>
+
+    <!-- Custom style -->
+    <link href="/assets/styles/sidebar.css" rel="stylesheet">
+    <link rel="stylesheet" href="/assets/styles/styles.css">
+    <link rel="stylesheet" href="/assets/styles/styles2.css">
+    <!-- bootstrap style -->
+
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous"> -->
+
+
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/prismjs@1.28.0/themes/prism.min.css"> -->
+
+
+
+    <!-- Include the Prism.js library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.25.0/themes/prism.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.25.0/prism.min.js"></script>
+
+    <!-- Include the Okaidia theme -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.25.0/themes/prism-okaidia.min.css">
+
+
+</head>
+
+<body class="single home " data-bs-spy="scroll" data-bs-target="#TableOfContents" data-bs-root-margin="0px 0px -60%"
+    data-bs-smooth-scroll="true" tabindex="0" cz-shortcut-listen="true">
+    <div class="sticky-top">
+        <header class="navbar navbar-expand-lg g-nav">
+            <div class="container-lg"><a class="navbar-brand me-auto me-lg-3" href="#"> <img
+                        src="/assets/icons/logo.png" alt="logo" style="width: 70px; height: 50px;">
+                </a>
+                <a id="home" href="/home.html">HOME</a>
+                <button class="btn btn-link d-lg-none" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasNavSection" aria-controls="offcanvasNavSection"
+                    aria-label="Open section navigation menu"><svg xmlns="http://www.w3.org/2000/svg"
+                        class="icon icon-tabler icon-tabler-dots-vertical" width="24" height="24" viewBox="0 0 24 24"
+                        stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                        <path d="M12 12m-1 0a1 1 0 102 0 1 1 0 10-2 0"></path>
+                        <path d="M12 19m-1 0a1 1 0 102 0 1 1 0 10-2 0"></path>
+                        <path d="M12 5m-1 0a1 1 0 102 0 1 1 0 10-2 0"></path>
+                    </svg></button>
+                <div class="offcanvas offcanvas-start d-lg-none" tabindex="-1" id="offcanvasNavSection"
+                    aria-labelledby="offcanvasNavSectionLabel">
+                    <div class="offcanvas-header">
+                        <img src="/assets/icons/logo.png" alt="logo" style="width: 70px; height: 50px;">
+                        <button type="button" class="btn btn-link nav-link p-0" data-bs-dismiss="offcanvas"
+                            aria-label="Close"><svg xmlns="http://www.w3.org/2000/svg"
+                                class="icon icon-tabler icon-tabler-x" width="24" height="24" viewBox="0 0 24 24"
+                                stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round"
+                                stroke-linejoin="round">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                <path d="M18 6 6 18"></path>
+                                <path d="M6 6l12 12"></path>
+                            </svg></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <aside class="doks-sidebar mt-n3">
+                            <nav id="doks-docs-nav" aria-label="Tertiary navigation">
+                                <div class="module pb-2 pt-4">
+                                    <h2 class="mod-title">Java</h2>
+                                    <div class="module pb-2">
+                                        <a href="#" class="previous"></a>
+                                        <img src="/assets/icons/html.png" alt="" class="chapter-icon" />
+                                        <span class="mod-title">Java Fundamentals</span>
+                                        <a href="../../../Java/Java OOP/Java OOP/Overview.html"
+                                            class="next p-0">&#8250;</a>
+                                    </div>
+                                </div>
+                                <ul class="list-unstyled collapsible-sidebar ">
+                                    <li class="mb-1  ">
+                                        <button id="sidebtn"
+                                            class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed"
+                                            data-bs-toggle="collapse" data-bs-target="#Setup-collapse"
+                                            aria-expanded="false">
+                                            Setup
+                                        </button>
+                                        <div class="collapse" id="Setup-collapse">
+                                            <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                                                <li><a href="../Setup/CourseOverview.html" class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />Course Overview</a>
+                                                </li>
+                                                <li><a href="../Setup/JDKInstallation.html" class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />JDK Installation</a>
+                                                </li>
+
+                                                <li><a href="../Setup/JavaVersioning.html" class="docs-link rounded">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />Java Versioning</a>
+                                                </li>
+                                                <li><a href="../Setup/JavaStudyStrategies.html"
+                                                        class="docs-link rounded">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />Java Study Strategies</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li class="mb-1">
+                                        <button id="sidebtn"
+                                            class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed"
+                                            data-bs-toggle="collapse" data-bs-target="#Fundamentals-collapse"
+                                            aria-expanded="true">
+                                            Fundamentals
+                                        </button>
+                                        <div class="collapse show" id="Fundamentals-collapse">
+                                            <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                                                <li><a href="../Fundamentals/WhyJava.html" class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />Why Java</a>
+                                                </li>
+
+                                                <li><a href="../Fundamentals/HowDoesJavaWork.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />How Does Java Work?</a>
+                                                </li>
+                                                <li><a href="../Fundamentals/HelloWorld.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />Hello World</a>
+                                                </li>
+                                                <li><a href="../Fundamentals/JavaFirstStepsReview.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/quiz.png" alt=""
+                                                            class="module-icon" />Java First Steps Review</a>
+                                                </li>
+                                                <li><a href="../Fundamentals/FirstJavaprogram.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/practice.png" alt=""
+                                                            class="module-icon" />First Java program</a>
+                                                </li>
+                                                <li><a href="../Fundamentals/Variables.html"
+                                                        class="docs-link rounded  ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />Variables</a>
+                                                </li>
+                                                <li><a href="../Fundamentals/ToolTip.html" class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />Tool Tip: Playgrounds</a>
+                                                </li>
+                                                <li><a href="../Fundamentals/Conditionals&Operators.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />Conditionals &
+                                                        Operators</a>
+                                                </li>
+                                                <li><a href="../Fundamentals/SwitchStatements.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />Switch Statements and
+                                                        Ternary
+                                                        Operators</a>
+                                                </li>
+                                                <li><a href="../Fundamentals/LanguageBasicsReview.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/quiz.png" alt=""
+                                                            class="module-icon" />Language Basics Review</a>
+                                                </li>
+
+                                                <li><a href="../Fundamentals/CafeJava.html" class="docs-link rounded ">
+                                                        <img src="/assets/icons/practice.png" alt=""
+                                                            class="module-icon" />Cafe Java</a>
+                                                </li>
+                                                <li><a href="../Fundamentals/Strings.html" class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />Strings</a>
+                                                </li>
+                                                <li><a href="../Fundamentals/Methods.html" class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />Methods</a>
+                                                </li>
+                                                <li><a href="../Fundamentals/Modularization.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />Modularization</a>
+                                                </li>
+                                                <li><a href="../Fundamentals/MethodsReview.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/quiz.png" alt=""
+                                                            class="module-icon" />Methods Review</a>
+                                                </li>
+                                                <li><a href="../Fundamentals/AlfredBot.html"
+                                                        class="docs-link rounded active">
+                                                        <img src="/assets/icons/practice.png" alt=""
+                                                            class="module-icon" />Alfred Bot</a>
+                                                </li>
+                                                <li><a href="../Fundamentals/TypeCasting.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />Type Casting</a>
+                                                </li>
+                                                <li><a href="../Fundamentals/FixedArrays.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />Fixed Arrays</a>
+                                                </li>
+                                                <li><a href="../Fundamentals/ArrayLists.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />ArrayLists (Dynamic
+                                                        Arrays)</a>
+                                                </li>
+                                                <li><a href="../Fundamentals/Loops.html" class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />Loops</a>
+                                                </li>
+
+
+                                                <li><a href="../Fundamentals/Arrays&LoopsReview.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/quiz.png" alt=""
+                                                            class="module-icon" />Arrays & Loops Review</a>
+                                                </li>
+                                                <li><a href="../Fundamentals/CafeBusinessLogic.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/core.png" alt=""
+                                                            class="module-icon" />Cafe Business Logic</a>
+                                                </li>
+                                                <li><a href="../Fundamentals/Puzzling.html" class="docs-link rounded ">
+                                                        <img src="/assets/icons/practice.png" alt=""
+                                                            class="module-icon" />Puzzling</a>
+                                                </li>
+                                                <li><a href="../Fundamentals/Maps.html" class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />Maps</a>
+                                                </li>
+                                                <li><a href="../Fundamentals/MapHashmatique.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/practice.png" alt=""
+                                                            class="module-icon" />Map of the
+                                                        Hashmatique</a>
+                                                </li>
+                                                <li><a href="../Fundamentals/Exceptions.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />Exceptions</a>
+                                                </li>
+                                                <li><a href="../Fundamentals/ListsExceptions.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/option.png" alt=""
+                                                            class="module-icon" />Lists of Exceptions</a>
+                                                </li>
+                                                <li><a href="../Fundamentals/DebugginginJava.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />Debugging in Java</a>
+                                                </li>
+                                                <li><a href="../Fundamentals/NumbersGame.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/option.png" alt=""
+                                                            class="module-icon" />Numbers Game</a>
+                                                </li>
+
+                                            </ul>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </aside>
+                    </div>
+                </div><button class="btn btn-link nav-link mx-2 order-3 d-lg-none" type="button"
+                    data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavMain" aria-controls="offcanvasNavMain"
+                    aria-label="Open main navigation menu"><svg xmlns="http://www.w3.org/2000/svg"
+                        class="icon icon-tabler icon-tabler-menu" width="24" height="24" viewBox="0 0 24 24"
+                        stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                        <line x1="4" y1="8" x2="20" y2="8"></line>
+                        <line x1="4" y1="16" x2="20" y2="16"></line>
+                    </svg></button>
+                <div class="offcanvas offcanvas-end h-auto" tabindex="-1" id="offcanvasNavMain"
+                    aria-labelledby="offcanvasNavMainLabel">
+                    <div class="offcanvas-header">
+                        <img src="/assets/icons/logo.png" alt="logo" style="width: 70px; height: 50px;">
+                        <button type="button" class="btn btn-link nav-link p-0" data-bs-dismiss="offcanvas"
+                            aria-label="Close"><svg xmlns="http://www.w3.org/2000/svg"
+                                class="icon icon-tabler icon-tabler-x" width="24" height="24" viewBox="0 0 24 24"
+                                stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round"
+                                stroke-linejoin="round">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                <path d="M18 6 6 18"></path>
+                                <path d="M6 6l12 12"></path>
+                            </svg></button>
+                    </div>
+                    <div class="offcanvas-body d-flex flex-column flex-lg-row justify-content-between">
+                        <!-- <ul class="navbar-nav flex-grow-1">
+              <li class="nav-item"><a class="nav-link active" href="index.html" aria-current="true">Docs</a></li>
+              <li class="nav-item"><a class="nav-link" href="/blog/">Blog</a></li>
+            </ul> -->
+
+                        <!-- this section is for the search bar and results -->
+                        <form class="navbar-form my-auto flex-grow-1 ">
+                            <input id="searchInput" class="form-control is-search ms-auto me-5" type="search"
+                                placeholder="Search ." aria-label="Search docs." autocomplete="off">
+                            <div id="suggestions" class="shadow rounded position-absolute d-none">
+                                <ul id="searchResults" class="list-unstyled m-auto"></ul>
+                            </div>
+                        </form>
+
+
+                        <button id="buttonColorMode" class="btn btn-link mx-auto nav-link p-0 ms-lg-2 me-lg-1"
+                            type="button" aria-label="Toggle theme"><svg data-bs-theme-value="dark"
+                                xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-moon" width="24"
+                                height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentcolor" fill="none"
+                                stroke-linecap="round" stroke-linejoin="round">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                <path d="M12 3c.132.0.263.0.393.0a7.5 7.5.0 007.92 12.446A9 9 0 1112 2.992z"></path>
+                            </svg><svg data-bs-theme-value="light" xmlns="http://www.w3.org/2000/svg"
+                                class="icon icon-tabler icon-tabler-sun" width="24" height="24" viewBox="0 0 24 24"
+                                stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round"
+                                stroke-linejoin="round">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                <path
+                                    d="M12 12m-4 0a4 4 0 108 0 4 4 0 10-8 0m-5 0h1m8-9v1m8 8h1m-9 8v1M5.6 5.6l.7.7m12.1-.7-.7.7m0 11.4.7.7m-12.1-.7-.7.7">
+                                </path>
+                            </svg></button>
+                        <ul id="socialMenu" class="nav mx-auto flex-row order-lg-4">
+
+
+                            <li class="nav-item"><a class="nav-link social-link"
+                                    href="https://github.com/DigitalAcademyTn"><svg xmlns="http://www.w3.org/2000/svg"
+                                        class="icon icon-tabler icon-tabler-brand-github" width="24" height="24"
+                                        viewBox="0 0 24 24" stroke-width="2" stroke="currentcolor" fill="none"
+                                        stroke-linecap="round" stroke-linejoin="round">
+                                        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                        <path
+                                            d="M9 19c-4.3 1.4-4.3-2.5-6-3m12 5v-3.5c0-1 .1-1.4-.5-2 2.8-.3 5.5-1.4 5.5-6a4.6 4.6.0 00-1.3-3.2 4.2 4.2.0 00-.1-3.2s-1.1-.3-3.5 1.3a12.3 12.3.0 00-6.2.0C6.5 2.8 5.4 3.1 5.4 3.1a4.2 4.2.0 00-.1 3.2A4.6 4.6.0 004 9.5c0 4.6 2.7 5.7 5.5 6-.6.6-.6 1.2-.5 2V21">
+                                        </path>
+                                 </svg><small class="ms-2 visually-hidden">GitHub</small></a></li>
+                  <a id="upgrade" href="../../../upgrade.html">UPGRADE</a>
+                
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </header>
+    </div>
+
+
+
+
+    <div class="wrap container-fluid " role="document">
+        <div class="content">
+            <div class="row  d-flex justify-content-center">
+                <div class=" docs-sidebar d-none d-lg-block   ">
+                    <main class="">
+                        <div class="flex-shrink-0 pt-4 ">
+
+                            <div class="module pb-2">
+                                <h2 class="mod-title">Java</h2>
+                            </div>
+                            <div class="module pb-2">
+                                <a href="#" class="previous"></a>
+                                <img src="/assets/icons/html.png" alt="" class="chapter-icon" />
+                                <span class="mod-title">Java Fundamentals</span>
+                                <a href="../../../Java/Java OOP/Java OOP/Overview.html" class="next p-0">&#8250;</a>
+                            </div>
+
+
+
+
+
+                            <ul class=" list-unstyled px-3 overflow-scroll">
+                                <li class="mb-1  ">
+                                    <button id="sidebtn"
+                                        class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed"
+                                        data-bs-toggle="collapse" data-bs-target="#Setup-collapse"
+                                        aria-expanded="false">
+                                        Setup
+                                    </button>
+                                    <div class="collapse" id="Setup-collapse">
+                                        <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                                            <li><a href="../Setup/CourseOverview.html" class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />Course Overview</a>
+                                            </li>
+                                            <li><a href="../Setup/JDKInstallation.html" class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt="" class="module-icon" />JDK
+                                                    Installation</a>
+                                            </li>
+
+                                            <li><a href="../Setup/JavaVersioning.html" class="docs-link rounded">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />Java Versioning</a>
+                                            </li>
+                                            <li><a href="../Setup/JavaStudyStrategies.html" class="docs-link rounded">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />Java Study Strategies</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li class="mb-1">
+                                    <button id="sidebtn"
+                                        class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed"
+                                        data-bs-toggle="collapse" data-bs-target="#Fundamentals-collapse"
+                                        aria-expanded="true">
+                                        Fundamentals
+                                    </button>
+                                    <div class="collapse show" id="Fundamentals-collapse">
+                                        <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                                            <li><a href="../Fundamentals/WhyJava.html" class="docs-link rounded  ">
+                                                    <img src="/assets/icons/module.png" alt="" class="module-icon" />Why
+                                                    Java</a>
+                                            </li>
+
+                                            <li><a href="../Fundamentals/HowDoesJavaWork.html"
+                                                    class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt="" class="module-icon" />How
+                                                    Does Java Work?</a>
+                                            </li>
+                                            <li><a href="../Fundamentals/HelloWorld.html" class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />Hello World</a>
+                                            </li>
+                                            <li><a href="../Fundamentals/JavaFirstStepsReview.html"
+                                                    class="docs-link rounded ">
+                                                    <img src="/assets/icons/quiz.png" alt="" class="module-icon" />Java
+                                                    First Steps Review</a>
+                                            </li>
+                                            <li><a href="../Fundamentals/FirstJavaprogram.html"
+                                                    class="docs-link rounded ">
+                                                    <img src="/assets/icons/practice.png" alt=""
+                                                        class="module-icon" />First Java program</a>
+                                            </li>
+                                            <li><a href="../Fundamentals/Variables.html" class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />Variables</a>
+                                            </li>
+                                            <li><a href="../Fundamentals/ToolTip.html" class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />Tool Tip: Playgrounds</a>
+                                            </li>
+                                            <li><a href="../Fundamentals/Conditionals&Operators.html"
+                                                    class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />Conditionals & Operators</a>
+                                            </li>
+                                            <li><a href="../Fundamentals/SwitchStatements.html"
+                                                    class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />Switch Statements and Ternary
+                                                    Operators</a>
+                                            </li>
+                                            <li><a href="../Fundamentals/LanguageBasicsReview.html"
+                                                    class="docs-link rounded ">
+                                                    <img src="/assets/icons/quiz.png" alt=""
+                                                        class="module-icon" />Language Basics Review</a>
+                                            </li>
+
+                                            <li><a href="../Fundamentals/CafeJava.html" class="docs-link rounded ">
+                                                    <img src="/assets/icons/practice.png" alt=""
+                                                        class="module-icon" />Cafe Java</a>
+                                            </li>
+                                            <li><a href="../Fundamentals/Strings.html" class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />Strings</a>
+                                            </li>
+                                            <li><a href="../Fundamentals/Methods.html" class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />Methods</a>
+                                            </li>
+                                            <li><a href="../Fundamentals/Modularization.html"
+                                                    class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />Modularization</a>
+                                            </li>
+                                            <li><a href="../Fundamentals/MethodsReview.html" class="docs-link rounded ">
+                                                    <img src="/assets/icons/quiz.png" alt=""
+                                                        class="module-icon" />Methods Review</a>
+                                            </li>
+                                            <li><a href="../Fundamentals/AlfredBot.html"
+                                                    class="docs-link rounded active">
+                                                    <img src="/assets/icons/practice.png" alt=""
+                                                        class="module-icon" />Alfred Bot</a>
+                                            </li>
+                                            <li><a href="../Fundamentals/TypeCasting.html" class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />Type Casting</a>
+                                            </li>
+                                            <li><a href="../Fundamentals/FixedArrays.html" class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />Fixed Arrays</a>
+                                            </li>
+                                            <li><a href="../Fundamentals/ArrayLists.html" class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />ArrayLists (Dynamic
+                                                    Arrays)</a>
+                                            </li>
+                                            <li><a href="../Fundamentals/Loops.html" class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />Loops</a>
+                                            </li>
+
+
+                                            <li><a href="../Fundamentals/Arrays&LoopsReview.html"
+                                                    class="docs-link rounded ">
+                                                    <img src="/assets/icons/quiz.png" alt=""
+                                                        class="module-icon" />Arrays & Loops Review</a>
+                                            </li>
+                                            <li><a href="../Fundamentals/CafeBusinessLogic.html"
+                                                    class="docs-link rounded ">
+                                                    <img src="/assets/icons/core.png" alt="" class="module-icon" />Cafe
+                                                    Business Logic</a>
+                                            </li>
+                                            <li><a href="../Fundamentals/Puzzling.html" class="docs-link rounded ">
+                                                    <img src="/assets/icons/practice.png" alt=""
+                                                        class="module-icon" />Puzzling</a>
+                                            </li>
+                                            <li><a href="../Fundamentals/Maps.html" class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />Maps</a>
+                                            </li>
+                                            <li><a href="../Fundamentals/MapHashmatique.html"
+                                                    class="docs-link rounded ">
+                                                    <img src="/assets/icons/practice.png" alt=""
+                                                        class="module-icon" />Map of the Hashmatique</a>
+                                            </li>
+                                            <li><a href="../Fundamentals/Exceptions.html" class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />Exceptions</a>
+                                            </li>
+                                            <li><a href="../Fundamentals/ListsExceptions.html"
+                                                    class="docs-link rounded ">
+                                                    <img src="/assets/icons/option.png" alt=""
+                                                        class="module-icon" />Lists of Exceptions</a>
+                                            </li>
+                                            <li><a href="../Fundamentals/DebugginginJava.html"
+                                                    class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />Debugging in Java</a>
+                                            </li>
+                                            <li><a href="../Fundamentals/NumbersGame.html" class="docs-link rounded ">
+                                                    <img src="/assets/icons/option.png" alt=""
+                                                        class="module-icon" />Numbers Game</a>
+                                            </li>
+
+                                        </ul>
+                                    </div>
+                                </li>
+
+                            </ul>
+                        </div>
+
+                    </main>
+
+                </div>
+                <div class="docs-content col-lg-11 col-xl-9 " id="lesson_content">
+
+                    <main data-bs-spy="scroll" data-bs-target="#TableOfContents" data-bs-offset="0" tabindex="0" id="lesson_content">
+                        <div class="content">
+                            <ul id="todo_info_list" class="list-unstyled">
+                                <li>Practice</li>
+                                <li>Deadline: Monday of Week 1</li>
+                                <li>Difficulty Level: Basic </li>
+                                <li>Est. Time: 1 - 2 hrs </li>
+                            </ul>
+                            <div id="todo_description">
+                                <h1>Alfred Bot</h1>
+                                <h3><img src="/assets/icons/General visual.png"
+                                        style="width: 80px; height: 80px;" width="80" height="80" alt="''"
+                                        title="''">Learning Objective:</h3>
+                                <ul>
+                                    <li>Be able to implement methods in Java</li>
+                                    <li>Begin using a file with the <code>main</code> method to test your code</li>
+                                    <li>Be able to inject another class instance into your main to use and test methods
+                                    </li>
+                                    <li>Import and use the <code>java.util.Date</code> class</li>
+                                    <li>Practice using <code>String</code> class methods</li>
+                                    <li>Practice using conditional control structures in Java</li>
+                                </ul>
+                                <hr>
+                                <p>Bruce Wayne's loyal and tireless Butler and best friend, Alfred is getting ready to
+                                    take some vacation time. He needs to program the Batcomputer to assume his duties
+                                    through a fully robotic avatar. Although he has mastered numerous arts such as rose
+                                    breeding, various fields of engineering, nanotechnology, and biotechnology, he
+                                    doesn't feel like programming his own conversational responses. Therefore, he has
+                                    contracted you to implement the AlfredQuotes library class. It must rival the
+                                    "largely unhelpful Alexis", a talking home appliance that Master Wayne bought on
+                                    Tropics, a large online retailer. To the bat-code!</p>
+                                <figure><img
+                                        src="/assets/img/alfredBot.jpeg">
+                                </figure>
+                                <h2>java.util</h2>
+                                <p>Throughout this course you will need to import classes from the
+                                    <code>java.util</code> library. It contains many of the datatypes we will use later
+                                    in the course like <code>List</code>, <code>ArrayList</code>, <code>HashMap</code>,
+                                    as well as useful classes like <code>Random</code> and <code>Date</code> to generate
+                                    pseudo-random numbers.</p>
+                                <h2>AlfredQuotes Class File</h2>
+                                <p>For this Assignment You Will Need 2 Files. First, you'll need an AlfredQuotes.java
+                                    file that will hold all of the AlfredQuotes functionality. This is where you will do
+                                    your coding for this assignment. <em>You won't need to compile or run this file
+                                        directly</em>, as it will be compiled by the AlfredTest.java file. We will also
+                                    only call/invoke AlfredQuotes methods from within the AlfredTest.java file which is
+                                    provided.</p>
+                                <h5>alfredBot/AlfredQuotes.java</h5>
+                                <div class="highlight">
+                                    <div class="clipboard"><button class="btn btn-clipboard"
+                                            aria-label="Clipboard button"></button></div>
+    <pre data-language="java"><span class="keyword">import</span> <span class="support namespace">java.util.Date;</span>
+<span class="keyword">public</span> <span class="keyword">class</span> <span class="entity class">AlfredQuotes</span> {
+    
+    <span class="keyword">public</span> <span class="entity class">String</span> <span class="entity function">basicGreeting</span>() {
+        <span class="comment">// You do not need to code here, this is an example method</span>
+        <span class="keyword">return</span> <span class="string">"Hello, lovely to see you. How are you?"</span>;
+    }
+    
+    <span class="keyword">public</span> <span class="entity class">String</span> <span class="entity function">guestGreeting</span>(<span class="entity class">String</span> name) {
+        <span class="comment">// YOUR CODE HERE</span>
+        <span class="keyword">return</span> <span class="string">"placeholder for guest greeting return string"</span>;
+    }
+    
+    <span class="keyword">public</span> <span class="entity class">String</span> <span class="entity function">dateAnnouncement</span>() {
+        <span class="comment">// YOUR CODE HERE</span>
+        <span class="keyword">return</span> <span class="string">"placeholder for date announcement return string"</span>;
+    }
+    
+    <span class="keyword">public</span> <span class="entity class">String</span> <span class="entity function">respondBeforeAlexis</span>(<span class="entity class">String</span> conversation) {
+        <span class="comment">// YOUR CODE HERE</span>
+        <span class="keyword">return</span> <span class="string">"for snarky response return string"</span>;
+    }
+    
+    <span class="comment">// NINJA BONUS</span>
+    <span class="comment">// See the specs to overload the guestGreeting method</span>
+        <span class="comment">// SENSEI BONUS</span>
+        <span class="comment">// Write your own AlfredQuote method using any of the String methods you have learned!</span>
+}
+</pre>
+                                </div>
+            <h2>Test File</h2>
+            <p>The methods that belong to the AlfredQuotes file do not execute automatically without
+                the test file. For our Java assignments in this section going forward, you will have
+                two files. But you will only need to compile and run the test file, which will
+                compile the other file as well if there is an instance of that class in the test
+                code. You do not need to alter the following file, although you may if you like.</p>
+            <h5>alfredBot/AlfredTest.java</h5>
+            <div class="highlight">
+                <div class="clipboard"><button class="btn btn-clipboard"
+                        aria-label="Clipboard button"></button></div>
+<pre data-language="java"><span class="keyword">public</span> <span class="keyword">class</span> <span class="entity class">AlfredTest</span> {
+<span class="comment">/*
+* This main method will always be the launch point for a Java application
+* For now, we are using the main to test all our 
+* AlfredQuotes methods.
+*/</span>
+<span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="entity function">main</span>(<span class="entity class">String</span>[] args) {
+    <span class="comment">// Make an instance of AlfredQuotes to access all its methods.</span>
+    <span class="entity class">AlfredQuotes</span> alfredBot <span class="operator">=</span> <span class="keyword">new</span> <span class="entity function">AlfredQuotes</span>();
+    
+    <span class="comment">// Make some test greetings, providing any necessary data</span>
+    <span class="entity class">String</span> testGreeting <span class="operator">=</span> alfredBot.<span class="entity function">basicGreeting</span>();
+    <span class="entity class">String</span> testGuestGreeting <span class="operator">=</span> alfredBot.<span class="entity function">guestGreeting</span>(<span class="string">"Beth Kane"</span>);
+    <span class="entity class">String</span> testDateAnnouncement <span class="operator">=</span> alfredBot.<span class="entity function">dateAnnouncement</span>();
+    
+    <span class="entity class">String</span> alexisTest <span class="operator">=</span> alfredBot.<span class="entity function">respondBeforeAlexis</span>(
+                        <span class="string">"Alexis! Play some low-fi beats."</span>
+                        );
+    <span class="entity class">String</span> alfredTest <span class="operator">=</span> alfredBot.<span class="entity function">respondBeforeAlexis</span>(
+        <span class="string">"I can't find my yo-yo. Maybe Alfred will know where it is."</span>);
+    <span class="entity class">String</span> notRelevantTest <span class="operator">=</span> alfredBot.<span class="entity function">respondBeforeAlexis</span>(
+        <span class="string">"Maybe that's what Batman is about. Not winning. But failing.."</span>
+    );
+    
+    <span class="comment">// Print the greetings to test.</span>
+    <span class="entity class">System</span>.out.<span class="entity function">println</span>(testGreeting);
+    
+    <span class="comment">// Uncomment these one at a time as you implement each method.</span>
+    <span class="comment">// System.out.println(testGuestGreeting);</span>
+    <span class="comment">// System.out.println(testDateAnnouncement);</span>
+    <span class="comment">// System.out.println(alexisTest);</span>
+    <span class="comment">// System.out.println(alfredTest);</span>
+    <span class="comment">// System.out.println(notRelevantTest);</span>
+}
+}</pre>
+            </div>
+                                <h2 class="text-center">Methods to be implemented:</h2>
+                                <h2>Guest Greeting</h2>
+                                <ul>
+                                    <li>Tip: Try using the <code>String.format</code> method for string interpolation in
+                                        Java.</li>
+                                </ul>
+                                <table>
+                                    <tbody>
+                                        <tr>
+                                            <td><strong></strong><em><strong>Description: </strong></em></td>
+                                            <td><em>Returns a greeting that includes the person's name. </em></td>
+                                        </tr>
+                                        <tr>
+                                            <td><strong>Inputs:</strong></td>
+                                            <td> <code>String name</code> </td>
+                                        </tr>
+                                        <tr>
+                                            <td><strong>Return Type:</strong></td>
+                                            <td> <code>String</code> </td>
+                                        </tr>
+                                        <tr>
+                                            <td><strong>Example Output:</strong></td>
+                                            <td><em>"Hello, Beth Kane. Lovely to see you."</em></td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                                <p>
+                                    <font color="#505050" face="Gotham-Rounded-Medium"><i><br></i></font>
+                                </p>
+                                <h2>Date Announcement</h2>
+                                <table>
+                                    <tbody>
+                                        <tr>
+                                            <td><em><strong>Description: </strong></em></td>
+                                            <td><em>Returns a polite announcement of the current date and time.</em>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td><strong>Inputs:</strong></td>
+                                            <td>None</td>
+                                        </tr>
+                                        <tr>
+                                            <td><strong>Return Type:</strong></td>
+                                            <td> <code>String</code> </td>
+                                        </tr>
+                                        <tr>
+                                            <td><strong>Example Output:</strong></td>
+                                            <td><em>"It is currently Wed Aug 11 16:34:59 PDT 2022."</em></td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                                <p>
+                                    <font color="#505050" face="Gotham-Rounded-Medium"><i><br></i></font>
+                                </p>
+                                <h2>Respond Before Alexis</h2>
+                                <ul>
+                                    <li>Tip: Use the <code>indexOf</code> String method</li>
+                                </ul>
+                                <table>
+                                    <tbody>
+                                        <tr>
+                                            <td><em><strong>Description: </strong></em></td>
+                                            <td><em>AlfredBot will periodically process audio (Alfred is listening.)
+                                                    Write a method that accepts any string of conversation and responds
+                                                    appropriately.</em></td>
+                                        </tr>
+                                        <tr>
+                                            <td>Specifications</td>
+                                            <td>
+                                                <ul>
+                                                    <li>If "Alexis" appears in the conversation (in the string) return a
+                                                        snarky response, such as, "Right away, sir. She certainly isn't
+                                                        sophisticated enough for that."</li>
+                                                    <li>If "Alfred" is in the conversation return an obliging response,
+                                                        for example, "At your service. As you wish, naturally."</li>
+                                                    <li>If neither name is found, return an appropriate response, for
+                                                        instance, "Right. And with that I shall retire." </li>
+                                                </ul>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td><strong>Inputs:</strong></td>
+                                            <td> <code>String conversation</code></td>
+                                        </tr>
+                                        <tr>
+                                            <td><strong>Return Type:</strong></td>
+                                            <td> <code>String</code> </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                                <h2>Product Back Log (PBL) ~ Ninja Bonuses</h2>
+                                <h4>Guest Greeting (Ninja Bonus Version!)</h4>
+                                <ul>
+                                    <li><em><strong>Description: </strong>Use method overloading to write another
+                                            guestGreeting method that returns a greeting including the person's name as
+                                            well as the day period. Note: It must have the same method name but will
+                                            have a different <strong>method signature.</strong></em></li>
+                                    <li><strong>Inputs: </strong>String name, String dayPeriod ("morning", "afternoon"
+                                        or "evening")</li>
+                                    <li><strong>Return Type:</strong> String<ul>
+                                            <li>Example Output: "Good evening, Beth Kane. Lovely to see you."</li>
+                                        </ul>
+                                    </li>
+                                    <li><strong>SENSEI VERSION:</strong> Instead of a string for the day period, write
+                                        the overloaded method with no parameters, and use a <code>Date</code> object to
+                                        determine the day period. <em>
+                                            <p><strong>Hint: </strong>Use your google-kung-fu! You can use the
+                                                <code>SimpleDateFormat</code> class and the <code>Format</code> class to
+                                                help. Both are part of the <code>java.text</code> library. To the <a
+                                                    href="https://docs.oracle.com/javase/8/docs/api/java/text/SimpleDateFormat.html"
+                                                    target="_blank">bat-documentation</a>!</p>
+                                        </em></li>
+                                </ul>
+                                <h4>Sensei Bonus</h4>
+                                <p>Write your own AlfredQuote method using any of the String methods you have learned!
+                                    For example, maybe he sometimes yells when he's angry.</p>
+                                <h3 id="useful-links">
+                                    <div>
+                                        <h2>A Note About Commenting Your Code</h2>
+                                    </div>
+                                    <p>As you go through this bootcamp, it's a good idea to use comments liberally. Not
+                                        only will you make your own life easier, but down the line, if you're working on
+                                        a project and someone else ends up maintaining your code, they will thank you
+                                        for well-commented code. Likewise, you will appreciate well-commented code in
+                                        any project you inherit. Many teams and companies will have a style guide for
+                                        commenting code that you will need to adhere to. In fact, commenting code can
+                                        also contribute to the autogeneration of documentation in human-readable form.
+                                        If you're curious about a tool the JDK uses to do this, check out the link for
+                                        an intro to Javadoc below.</p>Useful Links
+                                </h3>
+                                <ul>
+                                    <li><a href="https://docs.oracle.com/javase/8/docs/api/java/util/package-summary.html"
+                                            target="_blank">java.util</a></li>
+                                    <li><a href="https://docs.oracle.com/javase/8/docs/api/java/util/package-summary.html"
+                                            target="_blank">Java String documentation</a></li>
+                                    <li><a href="https://www.baeldung.com/javadoc" target="_blank">Javadoc</a></li>
+                                </ul>
+                            </div>
+                            <br>                          <figure style="text-align: center;margin: 20px;" rel="width: 343px; height: 81px;"><img
+                                src="/assets/img/to_do.jpg" style="width: 343px; height: 200px;" width="343"
+                                height="81"></figure>
+                        <div class="todo-list">
+                            <div class="todo-item">
+                                <p>Create a project folder in your Java course folder called alfredBot.</p>
+                            </div>
+                            <div class="todo-item">
+                                <p>Create an AlfredQuotes.java class file that will hold all of Alfred bot's functionality.</p>
+                            </div>
+                            <div class="todo-item">
+                                <p>Create an AlfredTest.java main program file that will execute code to test our AlfredQuotes class.</p>
+                            </div>
+                            <div class="todo-item">
+                                <p>Implement the guestGreeting method, and test it by first compiling the test file with the javac command and then running the test file with the java command in your terminal.</p>
+                            </div>
+                            <div class="todo-item">
+                                <p>Implement the dateAnnouncement method and test it.</p>
+                            </div>
+                            <div class="todo-item">
+                                <p>Implement the answeringBeforeAlexis method and test it.</p>
+                            </div>
+                            <div class="todo-item">
+                                <p>Ninja Bonus 1: Overload the guestGreeting method.</p>
+                            </div>
+                            <div class="todo-item">
+                                <p>Ninja Bonus 2: Implement your own method for the Alfred bot using any of the built-in String methods you've learned.</p>
+                            </div>
+                        </div>
+                        </div>
+                        <br><br><br>
+
+
+
+                        <div class="d-flex justify-content-between " id="navigation">
+                            <a href="../Fundamentals/MethodsReview.html" class="previous_page">&laquo;
+                                Previous</a>
+                            <a href="../Fundamentals/TypeCasting.html" class="next_page">Next &raquo;</a>
+
+                        </div>
+
+
+
+
+
+
+
+
+
+
+
+                    </main>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <!-- Include jQuery and Bootstrap JS (CDN) -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script src="/assets/js/color-modes.js"></script>
+    <script src="/assets/js/search.js"></script>
+    <script src="/assets/js/main.js"></script>
+
+
+    <!-- <script src="https://cdn.jsdelivr.net/npm/prismjs@1.28.0/prism.min.js"></script>
+  <script>
+    Prism.highlightAll();
+  </script> -->
+
+
+
+    <script>
+        // Initialize Prism.js
+        Prism.highlightAll();
+    </script>
+
+</body>
+
+</html>

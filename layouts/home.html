@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="icon" type="image/png" href="../../../../assets/icons/circle-logo.png">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/assets/styles/home.css">
+  <link rel="stylesheet" href="/assets/styles/styles.css">
+  <link rel="stylesheet" href="/assets/styles/styles2.css">
+  <link rel="stylesheet" href="/assets/styles/upgrade.css">
+  <!-- Bootstrap CSS -->
+  <!-- <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet"> -->
+
+  <title>Digital-Academy</title>
+</head>
+
+<body>
+  <div class="sticky-top">
+    <header class="navbar navbar-expand-lg g-nav">
+      <div class="container-lg"><a class="navbar-brand me-auto me-lg-3" href="#"> <img src="/assets/icons/logo.png"
+            alt="logo" style="width: 70px; height: 50px;">
+        </a>
+
+        <button class="btn btn-link nav-link mx-2 order-3 d-lg-none" type="button" data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvasNavMain" aria-controls="offcanvasNavMain"
+          aria-label="Open main navigation menu"><svg xmlns="http://www.w3.org/2000/svg"
+            class="icon icon-tabler icon-tabler-menu" width="24" height="24" viewBox="0 0 24 24" stroke-width="2"
+            stroke="currentcolor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+            <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+            <line x1="4" y1="8" x2="20" y2="8"></line>
+            <line x1="4" y1="16" x2="20" y2="16"></line>
+          </svg></button>
+        <div class="offcanvas offcanvas-end h-auto" tabindex="-1" id="offcanvasNavMain"
+          aria-labelledby="offcanvasNavMainLabel">
+          <div class="offcanvas-header">
+            <img src="/assets/icons/logo.png" alt="logo" style="width: 70px; height: 50px;">
+            <button type="button" class="btn btn-link nav-link p-0" data-bs-dismiss="offcanvas" aria-label="Close"><svg
+                xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-x" width="24" height="24"
+                viewBox="0 0 24 24" stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round"
+                stroke-linejoin="round">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                <path d="M18 6 6 18"></path>
+                <path d="M6 6l12 12"></path>
+              </svg></button>
+          </div>
+          <div class="offcanvas-body d-flex flex-column flex-lg-row justify-content-between">
+            <!-- <ul class="navbar-nav flex-grow-1">
+                <li class="nav-item"><a class="nav-link active" href="index.html" aria-current="true">Docs</a></li>
+                <li class="nav-item"><a class="nav-link" href="/blog/">Blog</a></li>
+              </ul> -->
+
+            <!-- this section is for the search bar and results -->
+            <form class="navbar-form my-auto flex-grow-1 ">
+              <input id="searchInput" class="form-control is-search ms-auto me-5" type="search" placeholder="Search ."
+                aria-label="Search docs." autocomplete="off">
+              <div id="suggestions" class="shadow rounded position-absolute d-none">
+                <ul id="searchResults" class="list-unstyled m-auto"></ul>
+              </div>
+            </form>
+
+
+            <button id="buttonColorMode" class="btn btn-link mx-auto nav-link p-0 ms-lg-2 me-lg-1" type="button"
+              aria-label="Toggle theme"><svg data-bs-theme-value="dark" xmlns="http://www.w3.org/2000/svg"
+                class="icon icon-tabler icon-tabler-moon" width="24" height="24" viewBox="0 0 24 24" stroke-width="2"
+                stroke="currentcolor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                <path d="M12 3c.132.0.263.0.393.0a7.5 7.5.0 007.92 12.446A9 9 0 1112 2.992z"></path>
+              </svg><svg data-bs-theme-value="light" xmlns="http://www.w3.org/2000/svg"
+                class="icon icon-tabler icon-tabler-sun" width="24" height="24" viewBox="0 0 24 24" stroke-width="2"
+                stroke="currentcolor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                <path
+                  d="M12 12m-4 0a4 4 0 108 0 4 4 0 10-8 0m-5 0h1m8-9v1m8 8h1m-9 8v1M5.6 5.6l.7.7m12.1-.7-.7.7m0 11.4.7.7m-12.1-.7-.7.7">
+                </path>
+              </svg></button>
+            <ul id="socialMenu" class="nav mx-auto flex-row order-lg-4">
+
+
+              <li class="nav-item"><a class="nav-link social-link" href="https://github.com/DigitalAcademyTn"><svg
+                    xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-github" width="24"
+                    height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentcolor" fill="none"
+                    stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                    <path
+                      d="M9 19c-4.3 1.4-4.3-2.5-6-3m12 5v-3.5c0-1 .1-1.4-.5-2 2.8-.3 5.5-1.4 5.5-6a4.6 4.6.0 00-1.3-3.2 4.2 4.2.0 00-.1-3.2s-1.1-.3-3.5 1.3a12.3 12.3.0 00-6.2.0C6.5 2.8 5.4 3.1 5.4 3.1a4.2 4.2.0 00-.1 3.2A4.6 4.6.0 004 9.5c0 4.6 2.7 5.7 5.5 6-.6.6-.6 1.2-.5 2V21">
+                    </path>
+                  </svg><small class="ms-2 visually-hidden">GitHub</small></a></li>
+              <a id="upgrade" href="upgrade.html">UPGRADE</a>
+
+
+            </ul>
+
+          </div>
+        </div>
+      </div>
+    </header>
+  </div>
+  <div id="tracks_container" class="container">
+    <ul class="list-unstyled" id="tracks_list">
+      
+      <div id="logsContainer"></div>
+    </ul>
+
+    <!-- Manage Users Section -->
+    <div id="manageUsersSection" class="container-fluid mt-5" style="display: none;">
+      <h2>Manage Users</h2>
+  
+      <!-- Button to trigger the modal -->
+      <button type="button" class="btn btn-primary mb-3" data-toggle="modal" data-target="#addUserModal">
+        Add User
+      </button>
+  
+      <!-- Add User Modal -->
+      <div class="modal fade" id="addUserModal" tabindex="-1" role="dialog" aria-labelledby="addUserModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-scrollable modal-lg" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="addUserModalLabel">Add User</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <form id="addUserForm">
+                <div class="form-group">
+                  <label for="username">Username</label>
+                  <input type="text" class="form-control" id="username" name="username" required>
+                </div>
+                <div class="form-group">
+                  <label for="password">Password</label>
+                  <input type="password" class="form-control" id="password" name="password" required>
+                </div>
+                <div class="form-group">
+                  <label for="email">Email</label>
+                  <input type="email" class="form-control" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                  <label for="phone">Phone</label>
+                  <input type="text" class="form-control" id="phone" name="phone" required>
+                </div>
+                <div class="form-group">
+                  <label for="status">Status</label>
+                  <select class="form-control" id="status" name="status" required>
+                    <option value="pack1">Pack 1</option>
+                    <option value="pack2">Pack 2</option>
+                    <option value="pack3">Pack 3</option>
+                  </select>
+                </div>
+                <div class="form-group mb-2">
+                  <label for="coupon">Coupon code </label>
+                  <input type="tel" maxlength="8" class="form-control" id="coupon" name="coupon">
+                
+              </div>
+                <button type="submit" class="btn btn-primary">Add User</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+  
+      <!-- Edit User Modal -->
+      <div class="modal fade" id="editUserModal" tabindex="-1" role="dialog" aria-labelledby="editUserModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-scrollable modal-lg" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="editUserModalLabel">Edit User</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <form id="editUserForm">
+                <input type="hidden" id="editUserId">
+                <div class="form-group">
+                  <label for="editUsername">Username</label>
+                  <input type="text" class="form-control" id="editUsername" name="username" required>
+                </div>
+                <div class="form-group">
+                  <label for="editEmail">Email</label>
+                  <input type="email" class="form-control" id="editEmail" name="email" required>
+                </div>
+                <div class="form-group">
+                  <label for="editPassword">Password</label>
+                  <input type="password" class="form-control" id="editPassword" name="password">
+                </div>
+                <div class="form-group">
+                  <label for="editPhone">Phone</label>
+                  <input type="text" class="form-control" id="editPhone" name="phone">
+                </div>
+                <div class="form-group">
+                  <label for="editStatus">Status</label>
+                  <select class="form-control" id="editStatus" name="status" required>
+                    <option value="pack1">Pack 1</option>
+                    <option value="pack2">Pack 2</option>
+                    <option value="pack3">Pack 3</option>
+                  </select>
+                </div>
+                <div class="form-group mb-2">
+                  <label for="editcoupon">Coupon code </label>
+                  <input type="tel" maxlength="8" class="form-control" id="editcoupon" name="coupon">
+                
+              </div>
+                <button type="submit" class="btn btn-primary">Update User</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+  
+      <!-- Table to display users with update and delete options -->
+      <div class="table-responsive" style="overflow-x:auto;">
+        <table id="usersTable" class="table table-bordered" style="width: 100%;">
+            <thead>
+                <tr>
+                    <th>User ID</th>
+                    <th>Username</th>
+                    <th>Email</th>
+                    <th>Phone</th>
+                    <th>Status</th>
+                    <th>coupon</th>
+                    <th>Start Time Java</th>
+                    <th>Start Time Web</th>
+                    <th>GitHub Java URL</th>
+                    <th>GitHub Web URL</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- User rows will be added here dynamically -->
+            </tbody>
+        </table>
+    </div>
+    
+    <!-- Pagination controls -->
+    <nav>
+        <ul id="pagination" class="pagination">
+            <!-- Pagination buttons will be generated here dynamically -->
+        </ul>
+    </nav>
+    
+    
+  
+      <!-- Table to display logs -->
+      <h2>User Activity Logs</h2>
+      <div class="table-responsive" style="overflow-x:auto;">
+        <table id="logsTable" class="table table-bordered" style="width: 100%;">
+          <thead>
+            <tr>
+              <th>User ID</th>
+              <th>Username</th>
+              <th>Email</th>
+              <th>Phone</th>
+              <th>Timestamp</th>
+            </tr>
+          </thead>
+          <tbody>
+            <!-- Log rows will be added here dynamically -->
+          </tbody>
+        </table>
+      </div>
+      
+      <!-- Pagination controls -->
+      <nav>
+        <ul id="paginationLogs" class="pagination">
+          <!-- Pagination buttons will be generated here -->
+        </ul>
+      </nav>
+      
+    </div>
+
+
+  </div>
+
+   <!-- jQuery and Bootstrap JS -->
+   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+
+
+</body>
+<div id="upgrade-plan" class="wrap container-fluid " role="document"></div>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+<!-- jQuery -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+<!-- Bootstrap JavaScript -->
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+
+<script src="/assets/js/color-modes.js"></script>
+<script src="/assets/js/main.js"></script>
+
+</html>

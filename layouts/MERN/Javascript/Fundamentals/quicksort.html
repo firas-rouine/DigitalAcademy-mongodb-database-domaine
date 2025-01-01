@@ -1,0 +1,897 @@
+<!doctype html>
+<html lang="en" data-bs-theme="light">
+
+<head>
+    <!-- <script src="/assets/js/color-modes.js"></script> -->
+
+    <meta charset="utf-8">
+    <link rel="icon" type="image/png" href="../../../../assets/icons/circle-logo.png">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.118.2">
+    <title>Digital-Academy</title>
+
+    <!-- Custom style -->
+    <link href="/assets/styles/sidebar.css" rel="stylesheet">
+    <link rel="stylesheet" href="/assets/styles/styles.css">
+    <link rel="stylesheet" href="/assets/styles/styles2.css">
+    <!-- bootstrap style -->
+
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous"> -->
+
+
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/prismjs@1.28.0/themes/prism.min.css"> -->
+
+
+
+    <!-- Include the Prism.js library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.25.0/themes/prism.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.25.0/prism.min.js"></script>
+
+    <!-- Include the Okaidia theme -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.25.0/themes/prism-okaidia.min.css">
+
+
+</head>
+
+<body class="single home " data-bs-spy="scroll" data-bs-target="#TableOfContents" data-bs-root-margin="0px 0px -60%"
+    data-bs-smooth-scroll="true" tabindex="0" cz-shortcut-listen="true">
+    <div class="sticky-top">
+        <header class="navbar navbar-expand-lg g-nav">
+            <div class="container-lg"><a class="navbar-brand me-auto me-lg-3" href="#"> <img
+                        src="/assets/icons/logo.png" alt="logo" style="width: 70px; height: 50px;">
+                </a>
+                <a id="home" href="/home.html">HOME</a>
+                <button class="btn btn-link d-lg-none" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasNavSection" aria-controls="offcanvasNavSection"
+                    aria-label="Open section navigation menu"><svg xmlns="http://www.w3.org/2000/svg"
+                        class="icon icon-tabler icon-tabler-dots-vertical" width="24" height="24" viewBox="0 0 24 24"
+                        stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                        <path d="M12 12m-1 0a1 1 0 102 0 1 1 0 10-2 0"></path>
+                        <path d="M12 19m-1 0a1 1 0 102 0 1 1 0 10-2 0"></path>
+                        <path d="M12 5m-1 0a1 1 0 102 0 1 1 0 10-2 0"></path>
+                    </svg></button>
+                <div class="offcanvas offcanvas-start d-lg-none" tabindex="-1" id="offcanvasNavSection"
+                    aria-labelledby="offcanvasNavSectionLabel">
+                    <div class="offcanvas-header">
+                        <img src="/assets/icons/logo.png" alt="logo" style="width: 70px; height: 50px;">
+                        <button type="button" class="btn btn-link nav-link p-0" data-bs-dismiss="offcanvas"
+                            aria-label="Close"><svg xmlns="http://www.w3.org/2000/svg"
+                                class="icon icon-tabler icon-tabler-x" width="24" height="24" viewBox="0 0 24 24"
+                                stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round"
+                                stroke-linejoin="round">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                <path d="M18 6 6 18"></path>
+                                <path d="M6 6l12 12"></path>
+                            </svg></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <aside class="doks-sidebar mt-n3">
+                            <nav id="doks-docs-nav" aria-label="Tertiary navigation">
+                                <div class="module pb-2 pt-4">
+                                    <h2 class="mod-title">MERN</h2>
+                                    <div class="module pb-2">
+                                        <a href="#" class="previous"></a>
+                                        <img src="/assets/icons/html.png" alt="" class="chapter-icon" />
+                                        <span class="mod-title">Javascript</span>
+                                        <a href="../../../MERN/React/Intro to React/WhatisReact.html"
+                                            class="next">&#8250;</a>
+                                    </div>
+                                </div>
+                                <ul class="list-unstyled collapsible-sidebar">
+
+
+                                    <li class="mb-1  ">
+                                        <button id="sidebtn"
+                                            class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed"
+                                            data-bs-toggle="collapse" data-bs-target="#CourseOverview-collapse"
+                                            aria-expanded="false">
+                                            Course Overview
+                                        </button>
+                                        <div class="collapse" id="CourseOverview-collapse">
+                                            <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                                                <li><a href="../Course Overview/intro.html" class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />Intro to MERN</a>
+                                                </li>
+                                                <li><a href="../Course Overview/CourseOutline.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />Course Outline</a>
+                                                </li>
+
+
+
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li class="mb-1">
+                                        <button id="sidebtn"
+                                            class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed"
+                                            data-bs-toggle="collapse" data-bs-target="#Node-collapse"
+                                            aria-expanded="false">
+                                            Node
+                                        </button>
+                                        <div class="collapse" id="Node-collapse">
+                                            <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                                                <li><a href="../Node/IntrotoNode.html" class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />Intro to Node</a>
+                                                </li>
+                                                <li><a href="../Node/Installation.html" class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />Installation</a>
+                                                </li>
+                                                <li><a href="../Node/RunningJavaScript.html" class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />Running JavaScript</a>
+                                                </li>
+
+
+
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li class="mb-1">
+                                        <button id="sidebtn"
+                                            class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed"
+                                            data-bs-toggle="collapse" data-bs-target="#Fundamentals-collapse"
+                                            aria-expanded="true">
+                                            Fundamentals
+                                        </button>
+                                        <div class="collapse show" id="Fundamentals-collapse">
+                                            <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                                                <li><a href="../Fundamentals/Overview.html" class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />Overview</a>
+                                                </li>
+                                                <li><a href="../Fundamentals/ECMAScript.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />ECMAScript</a>
+                                                </li>
+                                                <li><a href="../Fundamentals/Debugging.html" class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />Debugging</a>
+                                                </li>
+                                                <li><a href="../Fundamentals/Scope.html" class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />Scope</a>
+                                                </li>
+                                                <li><a href="../Fundamentals/Hoisting.html" class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />Hoisting</a>
+                                                </li>
+                                                <li><a href="../Fundamentals/Quiz.html" class="docs-link rounded ">
+                                                        <img src="/assets/icons/quiz.png" alt=""
+                                                            class="module-icon" />Quiz</a>
+                                                </li>
+                                                <li><a href="../Fundamentals/Hoist.html" class="docs-link rounded ">
+                                                        <img src="/assets/icons/practice.png" alt=""
+                                                            class="module-icon" />Hoist</a>
+                                                </li>
+                                                <li><a href="../Fundamentals/Destructuring.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />Destructuring</a>
+                                                </li>
+                                                <li><a href="../Fundamentals/PredictDestructuring.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/core.png" alt=""
+                                                            class="module-icon" />Predict Destructuring</a>
+                                                </li>
+                                                <li><a href="../Fundamentals/RestSpread.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />Rest/Spread</a>
+                                                </li>
+                                                <li><a href="../Fundamentals/ArrowFunctions.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />Arrow Functions</a>
+                                                </li>
+                                                <li><a href="../Fundamentals/ConverttoArrow.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/core.png" alt=""
+                                                            class="module-icon" />Convert to Arrow</a>
+                                                </li>
+                                                <li><a href="../Fundamentals/TernaryOperator.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />Ternary Operator</a>
+                                                </li>
+                                                <li><a href="../Fundamentals/Big O.html" class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />The Big O</a>
+                                                </li>
+                                                <li><a href="../Fundamentals/Howlong.html" class="docs-link rounded ">
+                                                        <img src="/assets/icons/option.png" alt=""
+                                                            class="module-icon" />How long did that take?</a>
+                                                </li>
+                                                <li><a href="../Fundamentals/quicksort.html"
+                                                        class="docs-link rounded active">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />Quick Sort - Introduction
+                                                    </a>
+                                                </li>
+                                                <li><a href="../Fundamentals/Quicksort2.html" class="docs-link rounded ">
+                                                        <img src="/assets/icons/option.png" alt=""
+                                                            class="module-icon" />Quick Sort</a>
+                                                </li>
+                                                <li><a href="../Fundamentals/Jest.html" class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />Jest Unit Testing</a>
+                                                </li>
+
+
+
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li class="mb-1">
+                                        <button id="sidebtn"
+                                            class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed"
+                                            data-bs-toggle="collapse" data-bs-target="#OOP-collapse"
+                                            aria-expanded="false">
+                                            OOP
+                                        </button>
+                                        <div class="collapse" id="OOP-collapse">
+                                            <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                                                <li><a href="../OOP/Overview.html" class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />Overview</a>
+                                                </li>
+                                                <li><a href="../OOP/Classes.html" class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />Classes</a>
+                                                </li>
+
+                                                <li><a href="../OOP/Inheritance.html" class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />Inheritance and Super</a>
+                                                </li>
+
+                                                <li><a href="../OOP/Ninja.html" class="docs-link rounded ">
+                                                        <img src="/assets/icons/practice.png" alt=""
+                                                            class="module-icon" />Ninja</a>
+                                                </li>
+
+                                                <li><a href="../OOP/SuperNinja.html" class="docs-link rounded ">
+                                                        <img src="/assets/icons/core.png" alt=""
+                                                            class="module-icon" />Super Ninja</a>
+                                                </li>
+
+                                                <li><a href="../OOP/DojoCCG.html" class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />Dojo CCG</a>
+                                                </li>
+
+                                                <li><a href="../OOP/ItTime.html" class="docs-link rounded ">
+                                                        <img src="/assets/icons/practice.png" alt=""
+                                                            class="module-icon" />It's Time to Duel</a>
+                                                </li>
+
+
+
+
+
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li class="mb-1">
+                                        <button id="sidebtn"
+                                            class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed"
+                                            data-bs-toggle="collapse" data-bs-target="#FunctionalProgramming-collapse"
+                                            aria-expanded="false">
+                                            Functional Programming
+                                        </button>
+                                        <div class="collapse" id="FunctionalProgramming-collapse">
+                                            <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                                                <li><a href="../Functional Programming/MultiParadigm.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />Multi-Paradigm</a>
+                                                </li>
+                                                <li><a href="../Functional Programming/CallbackFunctions.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />Callback Functions</a>
+                                                </li>
+                                                <li><a href="../Functional Programming/TheBigFreeze.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />The Big Freeze</a>
+                                                </li>
+                                                <li><a href="../Functional Programming/MapandFilter.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />Map and Filter</a>
+                                                </li>
+                                                <li><a href="../Functional Programming/ObjectMaster.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/option.png" alt=""
+                                                            class="module-icon" />Object Master/a>
+                                                </li>
+                                                <li><a href="../Functional Programming/Currying.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />Currying</a>
+                                                </li>
+                                                <li><a href="../Functional Programming/Closures.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />Closures</a>
+                                                </li>
+
+
+
+
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li class="mb-1">
+                                        <button id="sidebtn"
+                                            class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed"
+                                            data-bs-toggle="collapse" data-bs-target="#NPM-collapse"
+                                            aria-expanded="false">
+                                            NPM
+                                        </button>
+                                        <div class="collapse" id="NPM-collapse">
+                                            <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                                                <li><a href="../NPM/NodePackageManager.html" class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />Node Package Manager</a>
+                                                </li>
+
+
+
+                                            </ul>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </aside>
+                    </div>
+                </div><button class="btn btn-link nav-link mx-2 order-3 d-lg-none" type="button"
+                    data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavMain" aria-controls="offcanvasNavMain"
+                    aria-label="Open main navigation menu"><svg xmlns="http://www.w3.org/2000/svg"
+                        class="icon icon-tabler icon-tabler-menu" width="24" height="24" viewBox="0 0 24 24"
+                        stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                        <line x1="4" y1="8" x2="20" y2="8"></line>
+                        <line x1="4" y1="16" x2="20" y2="16"></line>
+                    </svg></button>
+                <div class="offcanvas offcanvas-end h-auto" tabindex="-1" id="offcanvasNavMain"
+                    aria-labelledby="offcanvasNavMainLabel">
+                    <div class="offcanvas-header">
+                        <img src="/assets/icons/logo.png" alt="logo" style="width: 70px; height: 50px;">
+                        <button type="button" class="btn btn-link nav-link p-0" data-bs-dismiss="offcanvas"
+                            aria-label="Close"><svg xmlns="http://www.w3.org/2000/svg"
+                                class="icon icon-tabler icon-tabler-x" width="24" height="24" viewBox="0 0 24 24"
+                                stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round"
+                                stroke-linejoin="round">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                <path d="M18 6 6 18"></path>
+                                <path d="M6 6l12 12"></path>
+                            </svg></button>
+                    </div>
+                    <div class="offcanvas-body d-flex flex-column flex-lg-row justify-content-between">
+                        <!-- <ul class="navbar-nav flex-grow-1">
+              <li class="nav-item"><a class="nav-link active" href="index.html" aria-current="true">Docs</a></li>
+              <li class="nav-item"><a class="nav-link" href="/blog/">Blog</a></li>
+            </ul> -->
+
+                        <!-- this section is for the search bar and results -->
+                        <form class="navbar-form my-auto flex-grow-1 ">
+                            <input id="searchInput" class="form-control is-search ms-auto me-5" type="search"
+                                placeholder="Search ." aria-label="Search docs." autocomplete="off">
+                            <div id="suggestions" class="shadow rounded position-absolute d-none">
+                                <ul id="searchResults" class="list-unstyled m-auto"></ul>
+                            </div>
+                        </form>
+
+
+                        <button id="buttonColorMode" class="btn btn-link mx-auto nav-link p-0 ms-lg-2 me-lg-1"
+                            type="button" aria-label="Toggle theme"><svg data-bs-theme-value="dark"
+                                xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-moon" width="24"
+                                height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentcolor" fill="none"
+                                stroke-linecap="round" stroke-linejoin="round">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                <path d="M12 3c.132.0.263.0.393.0a7.5 7.5.0 007.92 12.446A9 9 0 1112 2.992z"></path>
+                            </svg><svg data-bs-theme-value="light" xmlns="http://www.w3.org/2000/svg"
+                                class="icon icon-tabler icon-tabler-sun" width="24" height="24" viewBox="0 0 24 24"
+                                stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round"
+                                stroke-linejoin="round">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                <path
+                                    d="M12 12m-4 0a4 4 0 108 0 4 4 0 10-8 0m-5 0h1m8-9v1m8 8h1m-9 8v1M5.6 5.6l.7.7m12.1-.7-.7.7m0 11.4.7.7m-12.1-.7-.7.7">
+                                </path>
+                            </svg></button>
+                        <ul id="socialMenu" class="nav mx-auto flex-row order-lg-4">
+
+
+                            <li class="nav-item"><a class="nav-link social-link"
+                                    href="https://github.com/DigitalAcademyTn"><svg xmlns="http://www.w3.org/2000/svg"
+                                        class="icon icon-tabler icon-tabler-brand-github" width="24" height="24"
+                                        viewBox="0 0 24 24" stroke-width="2" stroke="currentcolor" fill="none"
+                                        stroke-linecap="round" stroke-linejoin="round">
+                                        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                        <path
+                                            d="M9 19c-4.3 1.4-4.3-2.5-6-3m12 5v-3.5c0-1 .1-1.4-.5-2 2.8-.3 5.5-1.4 5.5-6a4.6 4.6.0 00-1.3-3.2 4.2 4.2.0 00-.1-3.2s-1.1-.3-3.5 1.3a12.3 12.3.0 00-6.2.0C6.5 2.8 5.4 3.1 5.4 3.1a4.2 4.2.0 00-.1 3.2A4.6 4.6.0 004 9.5c0 4.6 2.7 5.7 5.5 6-.6.6-.6 1.2-.5 2V21">
+                                        </path>
+                                    </svg><small class="ms-2 visually-hidden">GitHub</small></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </header>
+    </div>
+
+
+
+
+    <div class="wrap container-fluid " role="document">
+        <div class="content">
+            <div class="row  d-flex justify-content-center">
+                <div class=" docs-sidebar d-none d-lg-block   ">
+                    <main class="">
+                        <div class="flex-shrink-0 pt-4 ">
+
+                            <div class="module pb-2">
+                                <h2 class="mod-title">MERN</h2>
+                            </div>
+                            <div class="module pb-2">
+                                <a href="#" class="previous"></a>
+                                <img src="/assets/icons/html.png" alt="" class="chapter-icon" />
+                                <span class="mod-title">Javascript</span>
+                                <a href="../../../MERN/React/Intro to React/WhatisReact.html" class="next">&#8250;</a>
+                            </div>
+
+
+
+
+
+                            <ul class=" list-unstyled px-3 overflow-scroll">
+                                <li class="mb-1  ">
+                                    <button id="sidebtn"
+                                        class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed"
+                                        data-bs-toggle="collapse" data-bs-target="#CourseOverview-collapse"
+                                        aria-expanded="false">
+                                        Course Overview
+                                    </button>
+                                    <div class="collapse" id="CourseOverview-collapse">
+                                        <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                                            <li><a href="../Course Overview/intro.html" class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />Intro to MERN</a>
+                                            </li>
+                                            <li><a href="../Course Overview/CourseOutline.html"
+                                                    class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />Course Outline</a>
+                                            </li>
+
+
+
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li class="mb-1">
+                                    <button id="sidebtn"
+                                        class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed"
+                                        data-bs-toggle="collapse" data-bs-target="#Node-collapse" aria-expanded="false">
+                                        Node
+                                    </button>
+                                    <div class="collapse" id="Node-collapse">
+                                        <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                                            <li><a href="../Node/IntrotoNode.html" class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />Intro to Node</a>
+                                            </li>
+                                            <li><a href="../Node/Installation.html" class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />Installation</a>
+                                            </li>
+                                            <li><a href="../Node/RunningJavaScript.html" class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />Running JavaScript</a>
+                                            </li>
+
+
+
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li class="mb-1">
+                                    <button id="sidebtn"
+                                        class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed"
+                                        data-bs-toggle="collapse" data-bs-target="#Fundamentals-collapse"
+                                        aria-expanded="true">
+                                        Fundamentals
+                                    </button>
+                                    <div class="collapse show" id="Fundamentals-collapse">
+                                        <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                                            <li><a href="../Fundamentals/Overview.html" class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />Overview</a>
+                                            </li>
+                                            <li><a href="../Fundamentals/ECMAScript.html" class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />ECMAScript</a>
+                                            </li>
+                                            <li><a href="../Fundamentals/Debugging.html" class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />Debugging</a>
+                                            </li>
+                                            <li><a href="../Fundamentals/Scope.html" class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />Scope</a>
+                                            </li>
+                                            <li><a href="../Fundamentals/Hoisting.html" class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />Hoisting</a>
+                                            </li>
+                                            <li><a href="../Fundamentals/Quiz.html" class="docs-link rounded ">
+                                                    <img src="/assets/icons/quiz.png" alt=""
+                                                        class="module-icon" />Quiz</a>
+                                            </li>
+                                            <li><a href="../Fundamentals/Hoist.html" class="docs-link rounded ">
+                                                    <img src="/assets/icons/practice.png" alt=""
+                                                        class="module-icon" />Hoist</a>
+                                            </li>
+                                            <li><a href="../Fundamentals/Destructuring.html" class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />Destructuring</a>
+                                            </li>
+                                            <li><a href="../Fundamentals/PredictDestructuring.html"
+                                                    class="docs-link rounded ">
+                                                    <img src="/assets/icons/core.png" alt=""
+                                                        class="module-icon" />Predict Destructuring</a>
+                                            </li>
+                                            <li><a href="../Fundamentals/RestSpread.html" class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />Rest/Spread</a>
+                                            </li>
+                                            <li><a href="../Fundamentals/ArrowFunctions.html"
+                                                    class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />Arrow Functions</a>
+                                            </li>
+                                            <li><a href="../Fundamentals/ConverttoArrow.html"
+                                                    class="docs-link rounded ">
+                                                    <img src="/assets/icons/core.png" alt=""
+                                                        class="module-icon" />Convert to Arrow</a>
+                                            </li>
+                                            <li><a href="../Fundamentals/TernaryOperator.html"
+                                                    class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />Ternary Operator</a>
+                                            </li>
+                                            <li><a href="../Fundamentals/Big O.html" class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt="" class="module-icon" />The
+                                                    Big O</a>
+                                            </li>
+                                            <li><a href="../Fundamentals/Howlong.html" class="docs-link rounded ">
+                                                    <img src="/assets/icons/option.png" alt="" class="module-icon" />How
+                                                    long did that take?</a>
+                                            </li>
+                                            <li><a href="../Fundamentals/quicksort.html"
+                                                    class="docs-link rounded active">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />Quick Sort - Introduction
+                                                </a>
+                                            </li>
+                                            <li><a href="../Fundamentals/Quicksort2.html" class="docs-link rounded ">
+                                                    <img src="/assets/icons/option.png" alt=""
+                                                        class="module-icon" />Quick Sort</a>
+                                            </li>
+                                            <li><a href="../Fundamentals/Jest.html" class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />Jest Unit Testing</a>
+                                            </li>
+
+
+
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li class="mb-1">
+                                    <button id="sidebtn"
+                                        class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed"
+                                        data-bs-toggle="collapse" data-bs-target="#OOP-collapse" aria-expanded="false">
+                                        OOP
+                                    </button>
+                                    <div class="collapse" id="OOP-collapse">
+                                        <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                                            <li><a href="../OOP/Overview.html" class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />Overview</a>
+                                            </li>
+                                            <li><a href="../OOP/Classes.html" class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />Classes</a>
+                                            </li>
+
+                                            <li><a href="../OOP/Inheritance.html" class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />Inheritance and Super</a>
+                                            </li>
+
+                                            <li><a href="../OOP/Ninja.html" class="docs-link rounded ">
+                                                    <img src="/assets/icons/practice.png" alt=""
+                                                        class="module-icon" />Ninja</a>
+                                            </li>
+
+                                            <li><a href="../OOP/SuperNinja.html" class="docs-link rounded ">
+                                                    <img src="/assets/icons/core.png" alt="" class="module-icon" />Super
+                                                    Ninja</a>
+                                            </li>
+
+                                            <li><a href="../OOP/DojoCCG.html" class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />Dojo CCG</a>
+                                            </li>
+
+                                            <li><a href="../OOP/ItTime.html" class="docs-link rounded ">
+                                                    <img src="/assets/icons/practice.png" alt=""
+                                                        class="module-icon" />It's Time to Duel</a>
+                                            </li>
+
+
+
+
+
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li class="mb-1">
+                                    <button id="sidebtn"
+                                        class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed"
+                                        data-bs-toggle="collapse" data-bs-target="#FunctionalProgramming-collapse"
+                                        aria-expanded="false">
+                                        Functional Programming
+                                    </button>
+                                    <div class="collapse" id="FunctionalProgramming-collapse">
+                                        <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                                            <li><a href="../Functional Programming/MultiParadigm.html"
+                                                    class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />Multi-Paradigm</a>
+                                            </li>
+                                            <li><a href="../Functional Programming/CallbackFunctions.html"
+                                                    class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />Callback Functions</a>
+                                            </li>
+                                            <li><a href="../Functional Programming/TheBigFreeze.html"
+                                                    class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt="" class="module-icon" />The
+                                                    Big Freeze</a>
+                                            </li>
+                                            <li><a href="../Functional Programming/MapandFilter.html"
+                                                    class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt="" class="module-icon" />Map
+                                                    and Filter</a>
+                                            </li>
+                                            <li><a href="../Functional Programming/ObjectMaster.html"
+                                                    class="docs-link rounded ">
+                                                    <img src="/assets/icons/option.png" alt=""
+                                                        class="module-icon" />Object Master/a>
+                                            </li>
+                                            <li><a href="../Functional Programming/Currying.html"
+                                                    class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />Currying</a>
+                                            </li>
+                                            <li><a href="../Functional Programming/Closures.html"
+                                                    class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />Closures</a>
+                                            </li>
+
+
+
+
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li class="mb-1">
+                                    <button id="sidebtn"
+                                        class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed"
+                                        data-bs-toggle="collapse" data-bs-target="#NPM-collapse" aria-expanded="false">
+                                        NPM
+                                    </button>
+                                    <div class="collapse" id="NPM-collapse">
+                                        <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                                            <li><a href="../NPM/NodePackageManager.html" class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />Node Package Manager</a>
+                                            </li>
+
+
+
+                                        </ul>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+
+                    </main>
+
+                </div>
+                <div class="docs-content col-lg-11 col-xl-9 " id="lesson_content">
+
+                    <main data-bs-spy="scroll" data-bs-target="#TableOfContents" data-bs-offset="0" tabindex="0">
+                        <div id="lesson_content">
+                            <p> <br></p>
+                            <h1>Introduction</h1>
+                            <h2>Objectives:</h2>
+                            <ul>
+                                <li>Introduction to the quicksort algorithm</li>
+                                <li>Be able to sort an array of numbers with no duplicates</li>
+                            </ul>
+                            <hr>
+                            <iframe width="100%" height="500" src="https://www.youtube.com/embed/qa96hF9ZzcQ?si=A0vqUSM_UZsqWmoo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                            <h3>Given an unsorted array with no duplicate values, how does the quicksort algorithm sort
+                                the values in place?</h3>
+                            <p>Watch the video above to see how the quicksort algorithm works. You may need to watch it
+                                several times - there is a lot of information being presented in a variety of ways.
+                                Focus on the verbal explanation, then watch it again with your focus on the diagrams
+                                being drawn at the top. Then, try going through the same process on a whiteboard or with
+                                slips of paper, but use different pivots from those chosen in the video. No matter which
+                                pivot you choose, the algorithm will sort the array.</p>
+                            <h3>Partition</h3>
+                            <h3>
+                                <p>
+                                    <font face="Gotham-Rounded-Bold">Before addressing quicksort, we must first
+                                        understand&nbsp; partition.&nbsp; Partitioning an array means that we will
+                                        divide it into two portions - the small values and the large values. The
+                                        dividing point between the two portions is called the&nbsp;
+                                        <strong>pivot</strong>.&nbsp; The&nbsp; pivot can be&nbsp; any value in the
+                                        array.&nbsp; Beyond making a small group and a large group, the values are not
+                                        sorted. Below we show some examples of partitioned arrays.</font>
+                                </p>
+    <pre>For this array, the pivot is the value 8.
+Notice that the values are not sorted, but everything to the left of 8 is smaller than 8. 
+Everything to the right is larger than 8.
+[1, 4, 2, 7, 6, 3, 8, 20, 9, 15, 12, 10, 30 ]</pre>
+    <pre>For this array, the pivot is the value 3.
+Notice that the pivot may be placed anywhere in the array, not necessarily in the center.
+[1, 3, 5, 4, 8, 30, 20, 17, 7]</pre>
+                            </h3>
+                            <h3>Hoare's partitioning algorithm</h3>
+                            <div>
+                                <p>
+                                    <font face="Gotham-Rounded-Bold">There are different partitioning algorithms we can
+                                        explore. Here, we will focus on Hoare's algorithm. Remember that we are assuming
+                                        that there are<em>&nbsp;no duplicate values in the array.</em></font>
+                                </p>
+                                <ol>
+                                    <li><strong>Choose a pivot value.</strong>&nbsp;<ol>
+                                            <li>This can be any value in the array.&nbsp;</li>
+                                            <li>There are extensive discussions we could have about choosing the optimum
+                                                pivot value. Some people always pick the left-most value. While this is
+                                                easy to execute, this could potentially cause our runtime to increase
+                                                dramatically. We will discuss why shortly. A better approach is to pick
+                                                a random value, which is the strategy we will use from now on.</li>
+                                        </ol>
+                                    </li>
+                                    <li><strong> Scan the values in the array from the left and from the
+                                            right.&nbsp;</strong>&nbsp;<ol>
+                                            <li>Initialize two pointers (we use <code>i</code> and <code>j</code>) at
+                                                the left-most and right-most values.&nbsp;</li>
+                                            <li>Starting with <code>i</code>, iterate over the values to the left of the
+                                                pivot. Since these values should be smaller than the pivot, stop when we
+                                                encounter anything that is not less than the pivot (this includes
+                                                stopping at the pivot itself should we encounter it).&nbsp;</li>
+                                            <li>When <code>i</code> stops, move to <code>j</code>. Now we are checking
+                                                to make sure that the value at <code>j</code> is larger than the pivot.
+                                                Iterate to the left until we encounter anything that is not greater than
+                                                the pivot (this includes stopping at the pivot itself should we
+                                                encounter it).</li>
+                                        </ol>
+                                    </li>
+                                    <li><strong> Swap the values at i and j</strong>
+                                        <ol>
+                                            <li>When both <code>i</code> and <code>j</code> are stopped, that means
+                                                <code>i</code> is pointing at something too large and <code>j</code> is
+                                                pointing at something too small. Therefore, we may swap these values and
+                                                repeat step 2.</li>
+                                        </ol>
+                                    </li>
+                                    <li><strong>Break when i = j</strong>
+                                        <ol>
+                                            <li>When <code>i</code> and <code>j</code> arrive at the same index, then we
+                                                know that we have successfully partitioned. Everything to the left of
+                                                <code>i</code> is smaller than that value, and everything to the right
+                                                of <code>j</code> is greater. Therefore, wherever <code>i</code> and
+                                                <code>j</code> are, we know this is the pivot.</li>
+                                        </ol>
+                                    </li>
+                                    <li><strong>Return j</strong>
+                                        <ol>
+                                            <li>To continue with the quicksort algorithm, we need to know where the
+                                                array had been partitioned. Since partitioning may have moved the pivot
+                                                value from where it started, we need to return the position of the
+                                                pivot. We could return either <code>i</code> or <code>j</code> since
+                                                they are the same. Conventionally we return <code>j</code>.</li>
+                                        </ol>
+                                    </li>
+                                </ol>
+                                <h3>Quicksort continuously calls partition on both sides of the pivot</h3>
+                            </div>
+                            <div>
+                                <p>Once we have a partition algorithm working for us, we may use it to implement
+                                    quicksort. The plan is to continuously call partition on the portions of the array
+                                    to the left and right of the returned pivot. The diagram below is using n to refer
+                                    to the final position in the array to be sorted.</p>
+                                <figure><img
+                                        src="/assets/img/quicksortdiagram.png">
+                                </figure>
+                                <p><br></p>
+                            </div>
+                            <p> <br></p>
+
+
+                        </div>
+                        <br><br><br>
+
+
+
+                        <div class="d-flex justify-content-between " id="navigation">
+                            <a href="../Fundamentals/Howlong.html" class="previous_page">&laquo;
+                                Previous</a>
+                            <a href="../Fundamentals/Quicksort2.html" class="next_page ">Next &raquo;</a>
+
+                        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+                    </main>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <!-- Include jQuery and Bootstrap JS (CDN) -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script src="/assets/js/color-modes.js"></script>
+    <script src="/assets/js/search.js"></script>
+    <script src="/assets/js/main.js"></script>
+
+
+    <!-- <script src="https://cdn.jsdelivr.net/npm/prismjs@1.28.0/prism.min.js"></script>
+  <script>
+    Prism.highlightAll();
+  </script> -->
+
+
+
+    <script>
+        // Initialize Prism.js
+        Prism.highlightAll();
+    </script>
+
+</body>
+
+</html>

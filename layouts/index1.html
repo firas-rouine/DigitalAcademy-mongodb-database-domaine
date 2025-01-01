@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/assets/styles/login-style.css">
+    <title>Login</title>
+</head>
+
+<body>
+    <main>
+        <form id="loginForm" aria-labelledby="loginTitle">
+            <h1 id="loginTitle">Login</h1>
+            <input type="text" name="email" required aria-required="true" placeholder="Enter your email" aria-label="Email">
+            <input type="password" name="password" required aria-required="true" placeholder="Enter your password" aria-label="Password">
+            <div id="error" aria-live="assertive"></div>
+            <button type="submit" aria-label="Login">Login</button>
+        </form>
+    </main>
+    <script src="/assets/js/login.js"></script>
+
+            
+</body>
+
+</html>

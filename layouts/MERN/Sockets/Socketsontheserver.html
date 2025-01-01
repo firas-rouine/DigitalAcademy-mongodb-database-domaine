@@ -1,0 +1,412 @@
+<!doctype html>
+<html lang="en" data-bs-theme="light">
+
+<head>
+    <!-- <script src="/assets/js/color-modes.js"></script> -->
+
+    <meta charset="utf-8">
+    <link rel="icon" type="image/png" href="../../../../assets/icons/circle-logo.png">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.118.2">
+    <title>Digital-Academy</title>
+
+    <!-- Custom style -->
+    <link href="/assets/styles/sidebar.css" rel="stylesheet">
+    <link rel="stylesheet" href="/assets/styles/styles.css">
+    <link rel="stylesheet" href="/assets/styles/styles2.css">
+    <!-- bootstrap style -->
+
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous"> -->
+
+
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/prismjs@1.28.0/themes/prism.min.css"> -->
+
+
+
+    <!-- Include the Prism.js library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.25.0/themes/prism.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.25.0/prism.min.js"></script>
+
+    <!-- Include the Okaidia theme -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.25.0/themes/prism-okaidia.min.css">
+
+
+</head>
+
+<body class="single home " data-bs-spy="scroll" data-bs-target="#TableOfContents" data-bs-root-margin="0px 0px -60%"
+    data-bs-smooth-scroll="true" tabindex="0" cz-shortcut-listen="true">
+    <div class="sticky-top">
+        <header class="navbar navbar-expand-lg g-nav">
+            <div class="container-lg"><a class="navbar-brand me-auto me-lg-3" href="#"> <img
+                        src="/assets/icons/logo.png" alt="logo" style="width: 70px; height: 50px;">
+                </a>
+                <a id="home" href="/home.html">HOME</a>
+                <button class="btn btn-link d-lg-none" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasNavSection" aria-controls="offcanvasNavSection"
+                    aria-label="Open section navigation menu"><svg xmlns="http://www.w3.org/2000/svg"
+                        class="icon icon-tabler icon-tabler-dots-vertical" width="24" height="24" viewBox="0 0 24 24"
+                        stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                        <path d="M12 12m-1 0a1 1 0 102 0 1 1 0 10-2 0"></path>
+                        <path d="M12 19m-1 0a1 1 0 102 0 1 1 0 10-2 0"></path>
+                        <path d="M12 5m-1 0a1 1 0 102 0 1 1 0 10-2 0"></path>
+                    </svg></button>
+                <div class="offcanvas offcanvas-start d-lg-none" tabindex="-1" id="offcanvasNavSection"
+                    aria-labelledby="offcanvasNavSectionLabel">
+                    <div class="offcanvas-header">
+                        <img src="/assets/icons/logo.png" alt="logo" style="width: 70px; height: 50px;">
+                        <button type="button" class="btn btn-link nav-link p-0" data-bs-dismiss="offcanvas"
+                            aria-label="Close"><svg xmlns="http://www.w3.org/2000/svg"
+                                class="icon icon-tabler icon-tabler-x" width="24" height="24" viewBox="0 0 24 24"
+                                stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round"
+                                stroke-linejoin="round">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                <path d="M18 6 6 18"></path>
+                                <path d="M6 6l12 12"></path>
+                            </svg></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <aside class="doks-sidebar mt-n3">
+                            <nav id="doks-docs-nav" aria-label="Tertiary navigation">
+                                <div class="module pb-2 pt-4">
+                                    <h2 class="mod-title">MERN</h2>
+                                    <div class="module pb-2">
+                                        <a href="../../MERN/MERN Deployment/MERNSetup.html"
+                                            class="previous ">&#8249;</a>
+                                        <img src="/assets/icons/deployment.png" alt="" class="chapter-icon " />
+                                        <span class="mod-title">Sockets</span>
+                                        <a href="../../MERN/MERN Auth/Introduction.html" class="next">&#8250;</a>
+                                    </div>
+                                </div>
+                                <ul class="list-unstyled collapsible-sidebar">
+
+
+                                    <li class="mb-1">
+                                        <button id="sidebtn"
+                                            class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed"
+                                            data-bs-toggle="collapse" data-bs-target="#Sockets-collapse"
+                                            aria-expanded="true">
+                                            Sockets.io
+                                        </button>
+                                        <div class="collapse show" id="Sockets-collapse">
+                                            <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                                                <li><a href="../Sockets/WebSockets.html" class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />Web Sockets</a>
+                                                </li>
+                                                <li><a href="../Sockets/Socketsontheserver.html"
+                                                        class="docs-link rounded active">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />Sockets on the server</a>
+                                                </li>
+                                                <li><a href="../Sockets/Socketsontheclient.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />Sockets on the client</a>
+                                                </li>
+                                                <li><a href="../Sockets/Quiz.html" class="docs-link rounded ">
+                                                        <img src="/assets/icons/quiz.png" alt=""
+                                                            class="module-icon" />Quiz</a>
+                                                </li>
+                                                <li><a href="../Sockets/TheHandshake.html" class="docs-link rounded ">
+                                                        <img src="/assets/icons/practice.png" alt=""
+                                                            class="module-icon" />Creating the Handshake</a>
+                                                </li>
+                                                <li><a href="../Sockets/ChatApp.html" class="docs-link rounded ">
+                                                        <img src="/assets/icons/practice.png" alt=""
+                                                            class="module-icon" />Chat App</a>
+                                                </li>
+
+
+
+
+
+
+
+                                            </ul>
+                                        </div>
+                                    </li>
+
+
+                                </ul>
+                            </nav>
+                        </aside>
+                    </div>
+                </div><button class="btn btn-link nav-link mx-2 order-3 d-lg-none" type="button"
+                    data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavMain" aria-controls="offcanvasNavMain"
+                    aria-label="Open main navigation menu"><svg xmlns="http://www.w3.org/2000/svg"
+                        class="icon icon-tabler icon-tabler-menu" width="24" height="24" viewBox="0 0 24 24"
+                        stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                        <line x1="4" y1="8" x2="20" y2="8"></line>
+                        <line x1="4" y1="16" x2="20" y2="16"></line>
+                    </svg></button>
+                <div class="offcanvas offcanvas-end h-auto" tabindex="-1" id="offcanvasNavMain"
+                    aria-labelledby="offcanvasNavMainLabel">
+                    <div class="offcanvas-header">
+                        <img src="/assets/icons/logo.png" alt="logo" style="width: 70px; height: 50px;">
+                        <button type="button" class="btn btn-link nav-link p-0" data-bs-dismiss="offcanvas"
+                            aria-label="Close"><svg xmlns="http://www.w3.org/2000/svg"
+                                class="icon icon-tabler icon-tabler-x" width="24" height="24" viewBox="0 0 24 24"
+                                stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round"
+                                stroke-linejoin="round">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                <path d="M18 6 6 18"></path>
+                                <path d="M6 6l12 12"></path>
+                            </svg></button>
+                    </div>
+                    <div class="offcanvas-body d-flex flex-column flex-lg-row justify-content-between">
+                        <!-- <ul class="navbar-nav flex-grow-1">
+              <li class="nav-item"><a class="nav-link active" href="index.html" aria-current="true">Docs</a></li>
+              <li class="nav-item"><a class="nav-link" href="/blog/">Blog</a></li>
+            </ul> -->
+
+                        <!-- this section is for the search bar and results -->
+                        <form class="navbar-form my-auto flex-grow-1 ">
+                            <input id="searchInput" class="form-control is-search ms-auto me-5" type="search"
+                                placeholder="Search ." aria-label="Search docs." autocomplete="off">
+                            <div id="suggestions" class="shadow rounded position-absolute d-none">
+                                <ul id="searchResults" class="list-unstyled m-auto"></ul>
+                            </div>
+                        </form>
+
+
+                        <button id="buttonColorMode" class="btn btn-link mx-auto nav-link p-0 ms-lg-2 me-lg-1"
+                            type="button" aria-label="Toggle theme"><svg data-bs-theme-value="dark"
+                                xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-moon" width="24"
+                                height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentcolor" fill="none"
+                                stroke-linecap="round" stroke-linejoin="round">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                <path d="M12 3c.132.0.263.0.393.0a7.5 7.5.0 007.92 12.446A9 9 0 1112 2.992z"></path>
+                            </svg><svg data-bs-theme-value="light" xmlns="http://www.w3.org/2000/svg"
+                                class="icon icon-tabler icon-tabler-sun" width="24" height="24" viewBox="0 0 24 24"
+                                stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round"
+                                stroke-linejoin="round">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                <path
+                                    d="M12 12m-4 0a4 4 0 108 0 4 4 0 10-8 0m-5 0h1m8-9v1m8 8h1m-9 8v1M5.6 5.6l.7.7m12.1-.7-.7.7m0 11.4.7.7m-12.1-.7-.7.7">
+                                </path>
+                            </svg></button>
+                        <ul id="socialMenu" class="nav mx-auto flex-row order-lg-4">
+
+
+                            <li class="nav-item"><a class="nav-link social-link"
+                                    href="https://github.com/DigitalAcademyTn"><svg xmlns="http://www.w3.org/2000/svg"
+                                        class="icon icon-tabler icon-tabler-brand-github" width="24" height="24"
+                                        viewBox="0 0 24 24" stroke-width="2" stroke="currentcolor" fill="none"
+                                        stroke-linecap="round" stroke-linejoin="round">
+                                        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                        <path
+                                            d="M9 19c-4.3 1.4-4.3-2.5-6-3m12 5v-3.5c0-1 .1-1.4-.5-2 2.8-.3 5.5-1.4 5.5-6a4.6 4.6.0 00-1.3-3.2 4.2 4.2.0 00-.1-3.2s-1.1-.3-3.5 1.3a12.3 12.3.0 00-6.2.0C6.5 2.8 5.4 3.1 5.4 3.1a4.2 4.2.0 00-.1 3.2A4.6 4.6.0 004 9.5c0 4.6 2.7 5.7 5.5 6-.6.6-.6 1.2-.5 2V21">
+                                        </path>
+                                    </svg><small class="ms-2 visually-hidden">GitHub</small></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </header>
+    </div>
+
+
+
+
+    <div class="wrap container-fluid " role="document">
+        <div class="content">
+            <div class="row  d-flex justify-content-center">
+                <div class=" docs-sidebar d-none d-lg-block   ">
+                    <main class="">
+                        <div class="flex-shrink-0 pt-4 ">
+
+                            <div class="module pb-2">
+                                <h2 class="mod-title">MERN</h2>
+                            </div>
+                            <div class="module pb-2">
+                                <a href="../../MERN/MERN Deployment/MERNSetup.html" class="previous">&#8249;</a>
+                                <img src="/assets/icons/deployment.png" alt="" class="chapter-icon " />
+                                <span class="mod-title ">Sockets</span>
+                                <a href="../../MERN/MERN Auth/Introduction.html" class="next ">&#8250;</a>
+                            </div>
+
+
+
+
+
+                            <ul class=" list-unstyled px-3 overflow-scroll">
+
+
+                                <li class="mb-1">
+                                    <button id="sidebtn"
+                                        class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed"
+                                        data-bs-toggle="collapse" data-bs-target="#Sockets-collapse"
+                                        aria-expanded="true">
+                                        Sockets.io
+                                    </button>
+                                    <div class="collapse show" id="Sockets-collapse">
+                                        <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                                            <li><a href="../Sockets/WebSockets.html" class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt="" class="module-icon" />Web
+                                                    Sockets</a>
+                                            </li>
+                                            <li><a href="../Sockets/Socketsontheserver.html"
+                                                    class="docs-link rounded active">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />Sockets on the server</a>
+                                            </li>
+                                            <li><a href="../Sockets/Socketsontheclient.html" class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />Sockets on the client</a>
+                                            </li>
+                                            <li><a href="../Sockets/Quiz.html" class="docs-link rounded ">
+                                                    <img src="/assets/icons/quiz.png" alt=""
+                                                        class="module-icon" />Quiz</a>
+                                            </li>
+                                            <li><a href="../Sockets/TheHandshake.html" class="docs-link rounded ">
+                                                    <img src="/assets/icons/practice.png" alt=""
+                                                        class="module-icon" />Creating the Handshake</a>
+                                            </li>
+                                            <li><a href="../Sockets/ChatApp.html" class="docs-link rounded ">
+                                                    <img src="/assets/icons/practice.png" alt=""
+                                                        class="module-icon" />Chat App</a>
+                                            </li>
+
+
+
+
+
+
+
+                                        </ul>
+                                    </div>
+                                </li>
+
+                            </ul>
+                        </div>
+
+                    </main>
+
+                </div>
+                <div class="docs-content col-lg-11 col-xl-9 " id="lesson_content">
+
+                    <main data-bs-spy="scroll" data-bs-target="#TableOfContents" data-bs-offset="0" tabindex="0">
+                        <div id="lesson_content">
+                            <h1 class="text-center">Socket.io &amp;&amp; Node</h1>
+                            <p>With Node.js, there is a package called Socket.io. Socket.io utilizes everything in the
+                                Web Sockets API and then adds some additional features on top of that. This makes things
+                                simple enough for us because we already use Node.js for our back end, we can simply use
+                                socket.io without any issues. Socket.io is an install-able npm package that we install
+                                using the same installation method we use to install express and/or mongoose:</p>
+
+                            <pre>npm install socket.io</pre>
+                            <p>In order to use socket.io, we need to pass it an instance of our server. To do that, we
+                                just need to pass our server variable like this:</p>
+                            <div class="highlight">
+                                <div class="clipboard"><button class="btn btn-clipboard blankkk"
+                                        aria-label="Clipboard button"></button></div>
+                                <pre data-language="javascript"><span class="comment">// server.js</span>
+<span class="storage type">const</span> express <span class="keyword operator">=</span> <span class="function call">require</span>(<span class="string">'express'</span>);
+<span class="storage type">const</span> app <span class="keyword operator">=</span> <span class="function call">express</span>();
+    
+<span class="storage type">const</span> server <span class="keyword operator">=</span> app.<span class="function call">listen</span>(<span class="constant numeric">8000</span>, () <span class="storage type function arrow">=&gt;</span>
+    console.<span class="function call">log</span>(<span class="string">'The server is all fired up on port 8000'</span>)
+);
+    
+<span class="comment">// To initialize the socket, we need to</span>
+<span class="comment">// invoke the socket.io library</span>
+<span class="comment">// and pass it our Express server</span>
+<span class="storage type">const</span> io <span class="keyword operator">=</span> <span class="function call">require</span>(<span class="string">'socket.io'</span>)(server, { cors: <span class="constant language">true</span> });
+</pre>
+                            </div>
+                            <p>Once initialized, we can now set event listeners and event emitters to help pass data
+                                along between the server and client. There is one event listener, named "connection",
+                                that is required that we must have before we can create our own event listeners. Here is
+                                what that looks like:</p>
+                            <figure rel="width: 675px; height: 265px;"><img
+                                    src="/assets/img/onconnection.png"
+                                    style="width: 675px; height: 265px;" width="675" height="265">
+                                <figcaption>in our server.js file</figcaption>
+                            </figure>
+                            <p><br></p>
+                            <p>At this point, inside the function we can now use the <code>socket</code> to create event
+                                listeners and emitters like so:</p>
+                            <figure><img
+                                    src="/assets/img/socket_events.png"
+                                    style="width: 679px; height: 175px;" width="679" height="175"></figure>
+                            <p><br></p>
+                            <p><code>socket.on</code> will listen for an event from the client. It takes a callback
+                                function that contains the data from the client. We then send that data straight to all
+                                the other clients.</p>
+                            <h2>Emitting Events from the Server</h2>
+                            <p>With sockets, the individual clients don't communicate directly with one another; instead
+                                all communications must pass through the server. There are multiple ways for the server
+                                to emit events to connected clients, depending on which clients you intend to reach.
+                                They are all functions and all three take in two arguments: 1) the event name, and 2)
+                                optionally any data you want to send along with the event.</p>
+                            <ul>
+                                <li><code>io.emit</code> emits an event to <strong>all connected clients</strong></li>
+                                <li><code>socket.broadcast.emit</code> emits an event to <strong>all clients other than
+                                        this particular one</strong>, referenced by the socket variable</li>
+                                <li><code>socket.emit</code> emits an event directly to <strong>this specific
+                                        client</strong></li>
+                            </ul>
+                        </div>
+                        <br><br><br>
+
+
+
+                        <div class="d-flex justify-content-between " id="navigation">
+                            <a href="../Sockets/WebSockets.html" class="previous_page">&laquo;
+                                Previous</a>
+                            <a href="../Sockets/Socketsontheclient.html" class="next_page ">Next
+                                &raquo;</a>
+
+                        </div>
+
+
+
+
+
+
+
+
+
+
+
+                    </main>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <!-- Include jQuery and Bootstrap JS (CDN) -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script src="/assets/js/color-modes.js"></script>
+    <script src="/assets/js/search.js"></script>
+    <script src="/assets/js/main.js"></script>
+
+
+    <!-- <script src="https://cdn.jsdelivr.net/npm/prismjs@1.28.0/prism.min.js"></script>
+  <script>
+    Prism.highlightAll();
+  </script> -->
+
+
+
+    <script>
+        // Initialize Prism.js
+        Prism.highlightAll();
+    </script>
+
+</body>
+
+</html>

@@ -1,0 +1,949 @@
+<!doctype html>
+<html lang="en" data-bs-theme="light">
+
+<head>
+    <!-- <script src="/assets/js/color-modes.js"></script> -->
+
+    <meta charset="utf-8">
+    <link rel="icon" type="image/png" href="../../../../assets/icons/circle-logo.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.118.2">
+    <title>Digital-Academy</title>
+
+    <!-- Custom style -->
+    <link href="/assets/styles/sidebar.css" rel="stylesheet">
+    <link rel="stylesheet" href="/assets/styles/styles.css">
+    <link rel="stylesheet" href="/assets/styles/styles2.css">
+    <!-- bootstrap style -->
+
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous"> -->
+
+
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/prismjs@1.28.0/themes/prism.min.css"> -->
+
+
+
+    <!-- Include the Prism.js library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.25.0/themes/prism.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.25.0/prism.min.js"></script>
+
+    <!-- Include the Okaidia theme -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.25.0/themes/prism-okaidia.min.css">
+
+
+</head>
+
+<body class="single home " data-bs-spy="scroll" data-bs-target="#TableOfContents" data-bs-root-margin="0px 0px -60%"
+    data-bs-smooth-scroll="true" tabindex="0" cz-shortcut-listen="true">
+    <div class="sticky-top">
+        <header class="navbar navbar-expand-lg g-nav">
+            <div class="container-lg"><a class="navbar-brand me-auto me-lg-3" href="#"> <img
+                        src="/assets/icons/logo.png" alt="logo" style="width: 70px; height: 50px;">
+                </a>
+                <a id="home" href="/home.html">HOME</a>
+                <button class="btn btn-link d-lg-none" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasNavSection" aria-controls="offcanvasNavSection"
+                    aria-label="Open section navigation menu"><svg xmlns="http://www.w3.org/2000/svg"
+                        class="icon icon-tabler icon-tabler-dots-vertical" width="24" height="24" viewBox="0 0 24 24"
+                        stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                        <path d="M12 12m-1 0a1 1 0 102 0 1 1 0 10-2 0"></path>
+                        <path d="M12 19m-1 0a1 1 0 102 0 1 1 0 10-2 0"></path>
+                        <path d="M12 5m-1 0a1 1 0 102 0 1 1 0 10-2 0"></path>
+                    </svg></button>
+                <div class="offcanvas offcanvas-start d-lg-none" tabindex="-1" id="offcanvasNavSection"
+                    aria-labelledby="offcanvasNavSectionLabel">
+                    <div class="offcanvas-header">
+                        <img src="/assets/icons/logo.png" alt="logo" style="width: 70px; height: 50px;">
+                        <button type="button" class="btn btn-link nav-link p-0" data-bs-dismiss="offcanvas"
+                            aria-label="Close"><svg xmlns="http://www.w3.org/2000/svg"
+                                class="icon icon-tabler icon-tabler-x" width="24" height="24" viewBox="0 0 24 24"
+                                stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round"
+                                stroke-linejoin="round">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                <path d="M18 6 6 18"></path>
+                                <path d="M6 6l12 12"></path>
+                            </svg></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <aside class="doks-sidebar mt-n3">
+                            <nav id="doks-docs-nav" aria-label="Tertiary navigation">
+                                <div class="module pb-2 pt-4">
+                                    <h2 class="mod-title">WEB FUNDAMENTALS</h2>
+                                    <div class="module pb-2">
+                                        <a href="../../../WEB FUNDAMENTALS/Web Development - CSS/CSS Extras/CSSLibrary.html"
+                                            class="previous">&#8249;</a>
+                                        <img src="/assets/icons/js.png" alt="" class="chapter-icon" />
+                                        <span class="mod-title">JS</span>
+                                        <a href="../../../WEB FUNDAMENTALS/Algorithms/Week1Day2.html"
+                                            class="next">&#8250;</a>
+                                    </div>
+                                </div>
+                                <ul class="list-unstyled collapsible-sidebar">
+                                    <li class="mb-1  ">
+                                        <button id="sidebtn"
+                                            class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed"
+                                            data-bs-toggle="collapse" data-bs-target="#LanguageFundamentals-collapse"
+                                            aria-expanded="false">Language Fundamentals
+                                        </button>
+                                        <div class="collapse" id="LanguageFundamentals-collapse">
+                                            <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                                                <li><a href="../../../WEB FUNDAMENTALS/JS/Language Fundamentals/Introduction.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />Introduction</a>
+                                                </li>
+                                                <li><a href="../../../WEB FUNDAMENTALS/JS/Language Fundamentals/node.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />node.js</a>
+                                                </li>
+                                                <li><a href="../../../WEB FUNDAMENTALS/JS/Language Fundamentals/VariablesTypesOperators.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />Variables, Types, Operators</a>
+                                                </li>
+                                                <li><a href="../../../WEB FUNDAMENTALS/JS/Language Fundamentals/PredictTheOutcomeI.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/quiz.png" alt=""
+                                                            class="module-icon" />Predict the Outcome I</a>
+                                                </li>
+                                                <li><a href="../../../WEB FUNDAMENTALS/JS/Language Fundamentals/Conditionals.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />Conditionals</a>
+                                                </li>
+                                                <li><a href="../../../WEB FUNDAMENTALS/JS/Language Fundamentals/Loops.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />Loops</a>
+                                                </li>
+                                                <li><a href="../../../WEB FUNDAMENTALS/JS/Language Fundamentals/PredictTheOutcomeII.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/quiz.png" alt=""
+                                                            class="module-icon" />Predict the Outcome II</a>
+                                                </li>
+                                                <li><a href="../../../WEB FUNDAMENTALS/JS/Language Fundamentals/Fizzbuzz.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/practice.png" alt=""
+                                                            class="module-icon" />Fizzbuzz</a>
+                                                </li>
+                                                <li><a href="../../../WEB FUNDAMENTALS/JS/Language Fundamentals/Debugging.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />Debugging</a>
+                                                </li>
+                                                <li><a href="../../../WEB FUNDAMENTALS/JS/Language Fundamentals/LoopChallenges.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/practice.png" alt=""
+                                                            class="module-icon" />Loop Challenges</a>
+                                                </li>
+                                                <li><a href="../../../WEB FUNDAMENTALS/JS/Language Fundamentals/Arrays.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />Arrays</a>
+                                                </li>
+                                                <li><a href="../../../WEB FUNDAMENTALS/JS/Language Fundamentals/Functions.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />Functions</a>
+                                                </li>
+
+
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li class="mb-1">
+                                        <button id="sidebtn"
+                                            class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed"
+                                            data-bs-toggle="collapse" data-bs-target="#DocumentObjectModel-collapse"
+                                            aria-expanded="true">
+                                            Document Object Model
+                                        </button>
+                                        <div class="collapse show" id="DocumentObjectModel-collapse">
+                                            <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                                                <li><a href="../../../WEB FUNDAMENTALS/JS/Document Object Model/ClickEvent.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />Click Event</a>
+                                                </li>
+                                                <li><a href="../../../WEB FUNDAMENTALS/JS/Document Object Model/What.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />What is "this"?</a>
+                                                </li>
+                                                <li><a href="../../../WEB FUNDAMENTALS/JS/Document Object Model/ButtonClicker.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/core.png" alt=""
+                                                            class="module-icon" />Button Clicker</a>
+                                                </li>
+                                                <li><a href="../../../WEB FUNDAMENTALS/JS/Document Object Model/HoverEvent.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />Hover Event</a>
+                                                </li>
+                                                <li><a href="../../../WEB FUNDAMENTALS/JS/Document Object Model/VideoPreview.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/practice.png" alt=""
+                                                            class="module-icon" />Video Preview</a>
+                                                </li>
+                                                <li><a href="../../../WEB FUNDAMENTALS/JS/Document Object Model/JSObjects.html"
+                                                        class="docs-link rounded active">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />Objects </a>
+                                                </li>
+                                                <li><a href="../../../WEB FUNDAMENTALS/JS/Document Object Model/DojoPizzeria.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/practice.png" alt=""
+                                                            class="module-icon" />Dojo Pizzeria</a>
+                                                </li>
+                                                <li><a href="../../../WEB FUNDAMENTALS/JS/Document Object Model/QuerySelector.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />QuerySelector</a>
+                                                </li>
+                                                <li><a href="../../../WEB FUNDAMENTALS/JS/Document Object Model/Changing.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />Changing HTML and CSS</a>
+                                                </li>
+                                                <li><a href="../../../WEB FUNDAMENTALS/JS/Document Object Model/Likes.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/core.png" alt=""
+                                                            class="module-icon" />Likes</a>
+                                                </li>
+                                                <li><a href="../../../WEB FUNDAMENTALS/JS/Document Object Model/MakingConnections.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/practice.png" alt=""
+                                                            class="module-icon" />Making Connections</a>
+                                                </li>
+                                                <li><a href="../../../WEB FUNDAMENTALS/JS/Document Object Model/InputAndChange.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />Input and Change</a>
+                                                </li>
+                                                <li><a href="../../../WEB FUNDAMENTALS/JS/Document Object Model/Timeout.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />Timeout</a>
+                                                </li>
+                                                <li><a href="../../../WEB FUNDAMENTALS/JS/Document Object Model/DojoWeather.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/practice.png" alt=""
+                                                            class="module-icon" />DojoWeather</a>
+                                                </li>
+
+
+
+                                            </ul>
+                                        </div>
+                                    </li>
+
+                                    <li class="mb-1">
+                                        <button id="sidebtn"
+                                            class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed"
+                                            data-bs-toggle="collapse" data-bs-target="#TerminalBasics-collapse"
+                                            aria-expanded="false">
+                                            Terminal Basics
+                                        </button>
+                                        <div class="collapse" id="TerminalBasics-collapse">
+                                            <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                                                <li><a href="../../../WEB FUNDAMENTALS/JS/Terminal Basics/Introduction.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />Introduction</a>
+                                                </li>
+                                                <li><a href="../../../WEB FUNDAMENTALS/JS/Terminal Basics/Cmder.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />Cmder (For Windows)</a>
+                                                </li>
+                                                <li><a href="../../../WEB FUNDAMENTALS/JS/Terminal Basics/Terminal.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />Terminal and your File System</a>
+                                                </li>
+                                                <li><a href="../../../WEB FUNDAMENTALS/JS/Terminal Basics/BasicCommands.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />Basic Commands</a>
+                                                </li>
+                                                <li><a href="../../../WEB FUNDAMENTALS/JS/Terminal Basics/NavigatingCommands.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/quiz.png" alt=""
+                                                            class="module-icon" />Navigating Commands</a>
+                                                </li>
+                                                <li><a href="../../../WEB FUNDAMENTALS/JS/Terminal Basics/MITTerminus.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/option.png" alt=""
+                                                            class="module-icon" />MIT Terminus</a>
+                                                </li>
+
+
+
+
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li class="mb-1">
+                                        <button id="sidebtn"
+                                            class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed"
+                                            data-bs-toggle="collapse" data-bs-target="#AdvancedTopics-collapse"
+                                            aria-expanded="false">
+                                            Advanced Topics
+                                        </button>
+                                        <div class="collapse" id="AdvancedTopics-collapse">
+                                            <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                                                <li><a href="../../../WEB FUNDAMENTALS/JS/Advanced Topics/Portfolios.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />Portfolios</a>
+                                                </li>
+                                                <li><a href="../../../WEB FUNDAMENTALS/JS/Advanced Topics/ArrayOperations.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />Array Operations</a>
+                                                </li>
+                                                <li><a href="../../../WEB FUNDAMENTALS/JS/Advanced Topics/ArrayChallenges.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/practice.png" alt=""
+                                                            class="module-icon" />Array Challenges</a>
+                                                </li>
+                                                <li><a href="../../../WEB FUNDAMENTALS/JS/Advanced Topics/querySelectorAll.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />querySelectorAll</a>
+                                                </li>
+                                                <li><a href="../../../WEB FUNDAMENTALS/JS/Advanced Topics/APIsAndAJAX.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />APIs and AJAX</a>
+                                                </li>
+                                                <li><a href="../../../WEB FUNDAMENTALS/JS/Advanced Topics/MediaQueries.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />Media Queries</a>
+                                                </li>
+                                                <li><a href="../../../WEB FUNDAMENTALS/JS/Advanced Topics/Bootstrap.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />Bootstrap</a>
+                                                </li>
+                                                <li><a href="../../../WEB FUNDAMENTALS/JS/Advanced Topics/Transition.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />Transition</a>
+                                                </li>
+                                                <li><a href="../../../WEB FUNDAMENTALS/JS/Advanced Topics/jQuery.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />jQuery</a>
+                                                </li>
+                                                <li><a href="../../../WEB FUNDAMENTALS/JS/Advanced Topics/Calculator.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/option.png" alt=""
+                                                            class="module-icon" />Calculator</a>
+                                                </li>
+                                                <li><a href="../../../WEB FUNDAMENTALS/JS/Advanced Topics/TickingClock.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/option.png" alt=""
+                                                            class="module-icon" />Ticking Clock</a>
+                                                </li>
+                                                <li><a href="../../../WEB FUNDAMENTALS/JS/Advanced Topics/Pacman.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/option.png" alt=""
+                                                            class="module-icon" />Pacman</a>
+                                                </li>
+                                                <li><a href="../../../WEB FUNDAMENTALS/JS/Advanced Topics/1942.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/option.png" alt=""
+                                                            class="module-icon" />1942</a>
+                                                </li>
+
+
+
+
+                                            </ul>
+                                        </div>
+                                    </li>
+
+                                </ul>
+                            </nav>
+                        </aside>
+                    </div>
+                </div><button class="btn btn-link nav-link mx-2 order-3 d-lg-none" type="button"
+                    data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavMain" aria-controls="offcanvasNavMain"
+                    aria-label="Open main navigation menu"><svg xmlns="http://www.w3.org/2000/svg"
+                        class="icon icon-tabler icon-tabler-menu" width="24" height="24" viewBox="0 0 24 24"
+                        stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                        <line x1="4" y1="8" x2="20" y2="8"></line>
+                        <line x1="4" y1="16" x2="20" y2="16"></line>
+                    </svg></button>
+                <div class="offcanvas offcanvas-end h-auto" tabindex="-1" id="offcanvasNavMain"
+                    aria-labelledby="offcanvasNavMainLabel">
+                    <div class="offcanvas-header">
+                        <img src="/assets/icons/logo.png" alt="logo" style="width: 70px; height: 50px;">
+                        <button type="button" class="btn btn-link nav-link p-0" data-bs-dismiss="offcanvas"
+                            aria-label="Close"><svg xmlns="http://www.w3.org/2000/svg"
+                                class="icon icon-tabler icon-tabler-x" width="24" height="24" viewBox="0 0 24 24"
+                                stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round"
+                                stroke-linejoin="round">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                <path d="M18 6 6 18"></path>
+                                <path d="M6 6l12 12"></path>
+                            </svg></button>
+                    </div>
+                    <div class="offcanvas-body d-flex flex-column flex-lg-row justify-content-between">
+                        <!-- <ul class="navbar-nav flex-grow-1">
+              <li class="nav-item"><a class="nav-link active" href="index.html" aria-current="true">Docs</a></li>
+              <li class="nav-item"><a class="nav-link" href="/blog/">Blog</a></li>
+            </ul> -->
+
+                        <!-- this section is for the search bar and results -->
+                        <form class="navbar-form my-auto flex-grow-1 ">
+                            <input id="searchInput" class="form-control is-search ms-auto me-5" type="search"
+                                placeholder="Search ." aria-label="Search docs." autocomplete="off">
+                            <div id="suggestions" class="shadow rounded position-absolute d-none">
+                                <ul id="searchResults" class="list-unstyled m-auto"></ul>
+                            </div>
+                        </form>
+
+
+                        <button id="buttonColorMode" class="btn btn-link mx-auto nav-link p-0 ms-lg-2 me-lg-1"
+                            type="button" aria-label="Toggle theme"><svg data-bs-theme-value="dark"
+                                xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-moon" width="24"
+                                height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentcolor" fill="none"
+                                stroke-linecap="round" stroke-linejoin="round">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                <path d="M12 3c.132.0.263.0.393.0a7.5 7.5.0 007.92 12.446A9 9 0 1112 2.992z"></path>
+                            </svg><svg data-bs-theme-value="light" xmlns="http://www.w3.org/2000/svg"
+                                class="icon icon-tabler icon-tabler-sun" width="24" height="24" viewBox="0 0 24 24"
+                                stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round"
+                                stroke-linejoin="round">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                <path
+                                    d="M12 12m-4 0a4 4 0 108 0 4 4 0 10-8 0m-5 0h1m8-9v1m8 8h1m-9 8v1M5.6 5.6l.7.7m12.1-.7-.7.7m0 11.4.7.7m-12.1-.7-.7.7">
+                                </path>
+                            </svg></button>
+                        <ul id="socialMenu" class="nav mx-auto flex-row order-lg-4">
+
+
+                            <li class="nav-item"><a class="nav-link social-link"
+                                     href="https://github.com/DigitalAcademyTn"><svg xmlns="http://www.w3.org/2000/svg"
+                                        class="icon icon-tabler icon-tabler-brand-github" width="24" height="24"
+                                        viewBox="0 0 24 24" stroke-width="2" stroke="currentcolor" fill="none"
+                                        stroke-linecap="round" stroke-linejoin="round">
+                                        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                        <path
+                                            d="M9 19c-4.3 1.4-4.3-2.5-6-3m12 5v-3.5c0-1 .1-1.4-.5-2 2.8-.3 5.5-1.4 5.5-6a4.6 4.6.0 00-1.3-3.2 4.2 4.2.0 00-.1-3.2s-1.1-.3-3.5 1.3a12.3 12.3.0 00-6.2.0C6.5 2.8 5.4 3.1 5.4 3.1a4.2 4.2.0 00-.1 3.2A4.6 4.6.0 004 9.5c0 4.6 2.7 5.7 5.5 6-.6.6-.6 1.2-.5 2V21">
+                                        </path>
+                                                  </svg><small class="ms-2 visually-hidden">GitHub</small></a></li>
+                  <a id="upgrade" href="../../../upgrade.html">UPGRADE</a>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </header>
+    </div>
+
+
+
+
+    <div class="wrap container-fluid " role="document">
+        <div class="content">
+            <div class="row  d-flex justify-content-center">
+                <div class=" docs-sidebar d-none d-lg-block   ">
+                    <main class="">
+                        <div class="flex-shrink-0 pt-4 ">
+
+                            <div class="module pb-2">
+                                <h2 class="mod-title">WEB FUNDAMENTALS</h2>
+                            </div>
+                            <div class="module pb-2">
+                                <a href="../../../WEB FUNDAMENTALS/Web Development - CSS/CSS Extras/CSSLibrary.html"
+                                    class="previous">&#8249;</a>
+                                <img src="/assets/icons/js.png" alt="" class="chapter-icon" />
+                                <span class="mod-title">JS</span>
+                                <a href="../../../WEB FUNDAMENTALS/Algorithms/Week1Day2.html"
+                                    class="next">&#8250;</a>
+                            </div>
+
+
+
+
+
+                            <ul class=" list-unstyled px-3 overflow-scroll">
+                                <li class="mb-1  ">
+                                    <button id="sidebtn"
+                                        class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed"
+                                        data-bs-toggle="collapse" data-bs-target="#LanguageFundamentals-collapse"
+                                        aria-expanded="false">Language Fundamentals
+                                    </button>
+                                    <div class="collapse" id="LanguageFundamentals-collapse">
+                                        <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                                            <li><a href="../../../WEB FUNDAMENTALS/JS/Language Fundamentals/Introduction.html"
+                                                    class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />Introduction</a>
+                                            </li>
+                                            <li><a href="../../../WEB FUNDAMENTALS/JS/Language Fundamentals/node.html"
+                                                    class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />node.js</a>
+                                            </li>
+                                            <li><a href="../../../WEB FUNDAMENTALS/JS/Language Fundamentals/VariablesTypesOperators.html"
+                                                    class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />Variables, Types, Operators</a>
+                                            </li>
+                                            <li><a href="../../../WEB FUNDAMENTALS/JS/Language Fundamentals/PredictTheOutcomeI.html"
+                                                    class="docs-link rounded ">
+                                                    <img src="/assets/icons/quiz.png" alt=""
+                                                        class="module-icon" />Predict the Outcome I</a>
+                                            </li>
+                                            <li><a href="../../../WEB FUNDAMENTALS/JS/Language Fundamentals/Conditionals.html"
+                                                    class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />Conditionals</a>
+                                            </li>
+                                            <li><a href="../../../WEB FUNDAMENTALS/JS/Language Fundamentals/Loops.html"
+                                                    class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />Loops</a>
+                                            </li>
+                                            <li><a href="../../../WEB FUNDAMENTALS/JS/Language Fundamentals/PredictTheOutcomeII.html"
+                                                    class="docs-link rounded ">
+                                                    <img src="/assets/icons/quiz.png" alt=""
+                                                        class="module-icon" />Predict the Outcome II</a>
+                                            </li>
+                                            <li><a href="../../../WEB FUNDAMENTALS/JS/Language Fundamentals/Fizzbuzz.html"
+                                                    class="docs-link rounded ">
+                                                    <img src="/assets/icons/practice.png" alt=""
+                                                        class="module-icon" />Fizzbuzz</a>
+                                            </li>
+                                            <li><a href="../../../WEB FUNDAMENTALS/JS/Language Fundamentals/Debugging.html"
+                                                    class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />Debugging</a>
+                                            </li>
+                                            <li><a href="../../../WEB FUNDAMENTALS/JS/Language Fundamentals/LoopChallenges.html"
+                                                    class="docs-link rounded ">
+                                                    <img src="/assets/icons/practice.png" alt=""
+                                                        class="module-icon" />Loop Challenges</a>
+                                            </li>
+                                            <li><a href="../../../WEB FUNDAMENTALS/JS/Language Fundamentals/Arrays.html"
+                                                    class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />Arrays</a>
+                                            </li>
+                                            <li><a href="../../../WEB FUNDAMENTALS/JS/Language Fundamentals/Functions.html"
+                                                    class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />Functions</a>
+                                            </li>
+
+
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li class="mb-1">
+                                    <button id="sidebtn"
+                                        class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed"
+                                        data-bs-toggle="collapse" data-bs-target="#DocumentObjectModel-collapse"
+                                        aria-expanded="true">
+                                        Document Object Model
+                                    </button>
+                                    <div class="collapse show" id="DocumentObjectModel-collapse">
+                                        <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                                            <li><a href="../../../WEB FUNDAMENTALS/JS/Document Object Model/ClickEvent.html"
+                                                    class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />Click Event</a>
+                                            </li>
+                                            <li><a href="../../../WEB FUNDAMENTALS/JS/Document Object Model/What.html"
+                                                    class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />What is "this"?</a>
+                                            </li>
+                                            <li><a href="../../../WEB FUNDAMENTALS/JS/Document Object Model/ButtonClicker.html"
+                                                    class="docs-link rounded ">
+                                                    <img src="/assets/icons/core.png" alt=""
+                                                        class="module-icon" />Button Clicker</a>
+                                            </li>
+                                            <li><a href="../../../WEB FUNDAMENTALS/JS/Document Object Model/HoverEvent.html"
+                                                    class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />Hover Event</a>
+                                            </li>
+                                            <li><a href="../../../WEB FUNDAMENTALS/JS/Document Object Model/VideoPreview.html"
+                                                    class="docs-link rounded ">
+                                                    <img src="/assets/icons/practice.png" alt=""
+                                                        class="module-icon" />Video Preview</a>
+                                            </li>
+                                            <li><a href="../../../WEB FUNDAMENTALS/JS/Document Object Model/JSObjects.html"
+                                                    class="docs-link rounded active">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />Objects </a>
+                                            </li>
+                                            <li><a href="../../../WEB FUNDAMENTALS/JS/Document Object Model/DojoPizzeria.html"
+                                                    class="docs-link rounded ">
+                                                    <img src="/assets/icons/practice.png" alt=""
+                                                        class="module-icon" />Dojo Pizzeria</a>
+                                            </li>
+                                            <li><a href="../../../WEB FUNDAMENTALS/JS/Document Object Model/QuerySelector.html"
+                                                    class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />QuerySelector</a>
+                                            </li>
+                                            <li><a href="../../../WEB FUNDAMENTALS/JS/Document Object Model/Changing.html"
+                                                    class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />Changing HTML and CSS</a>
+                                            </li>
+                                            <li><a href="../../../WEB FUNDAMENTALS/JS/Document Object Model/Likes.html"
+                                                    class="docs-link rounded ">
+                                                    <img src="/assets/icons/core.png" alt=""
+                                                        class="module-icon" />Likes</a>
+                                            </li>
+                                            <li><a href="../../../WEB FUNDAMENTALS/JS/Document Object Model/MakingConnections.html"
+                                                    class="docs-link rounded ">
+                                                    <img src="/assets/icons/practice.png" alt=""
+                                                        class="module-icon" />Making Connections</a>
+                                            </li>
+                                            <li><a href="../../../WEB FUNDAMENTALS/JS/Document Object Model/InputAndChange.html"
+                                                    class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />Input and Change</a>
+                                            </li>
+                                            <li><a href="../../../WEB FUNDAMENTALS/JS/Document Object Model/Timeout.html"
+                                                    class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />Timeout</a>
+                                            </li>
+                                            <li><a href="../../../WEB FUNDAMENTALS/JS/Document Object Model/DojoWeather.html"
+                                                    class="docs-link rounded ">
+                                                    <img src="/assets/icons/practice.png" alt=""
+                                                        class="module-icon" />DojoWeather</a>
+                                            </li>
+
+
+
+                                        </ul>
+                                    </div>
+                                </li>
+
+                                <li class="mb-1">
+                                    <button id="sidebtn"
+                                        class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed"
+                                        data-bs-toggle="collapse" data-bs-target="#TerminalBasics-collapse"
+                                        aria-expanded="false">
+                                        Terminal Basics
+                                    </button>
+                                    <div class="collapse" id="TerminalBasics-collapse">
+                                        <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                                            <li><a href="../../../WEB FUNDAMENTALS/JS/Terminal Basics/Introduction.html"
+                                                    class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />Introduction</a>
+                                            </li>
+                                            <li><a href="../../../WEB FUNDAMENTALS/JS/Terminal Basics/Cmder.html"
+                                                    class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />Cmder (For Windows)</a>
+                                            </li>
+                                            <li><a href="../../../WEB FUNDAMENTALS/JS/Terminal Basics/Terminal.html"
+                                                    class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />Terminal and your File System</a>
+                                            </li>
+                                            <li><a href="../../../WEB FUNDAMENTALS/JS/Terminal Basics/BasicCommands.html"
+                                                    class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />Basic Commands</a>
+                                            </li>
+                                            <li><a href="../../../WEB FUNDAMENTALS/JS/Terminal Basics/NavigatingCommands.html"
+                                                    class="docs-link rounded ">
+                                                    <img src="/assets/icons/quiz.png" alt=""
+                                                        class="module-icon" />Navigating Commands</a>
+                                            </li>
+                                            <li><a href="../../../WEB FUNDAMENTALS/JS/Terminal Basics/MITTerminus.html"
+                                                    class="docs-link rounded ">
+                                                    <img src="/assets/icons/option.png" alt="" class="module-icon" />MIT
+                                                    Terminus</a>
+                                            </li>
+
+
+
+
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li class="mb-1">
+                                    <button id="sidebtn"
+                                        class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed"
+                                        data-bs-toggle="collapse" data-bs-target="#AdvancedTopics-collapse"
+                                        aria-expanded="false">
+                                        Advanced Topics
+                                    </button>
+                                    <div class="collapse" id="AdvancedTopics-collapse">
+                                        <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                                            <li><a href="../../../WEB FUNDAMENTALS/JS/Advanced Topics/Portfolios.html"
+                                                    class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />Portfolios</a>
+                                            </li>
+                                            <li><a href="../../../WEB FUNDAMENTALS/JS/Advanced Topics/ArrayOperations.html"
+                                                    class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />Array Operations</a>
+                                            </li>
+                                            <li><a href="../../../WEB FUNDAMENTALS/JS/Advanced Topics/ArrayChallenges.html"
+                                                    class="docs-link rounded ">
+                                                    <img src="/assets/icons/practice.png" alt=""
+                                                        class="module-icon" />Array Challenges</a>
+                                            </li>
+                                            <li><a href="../../../WEB FUNDAMENTALS/JS/Advanced Topics/querySelectorAll.html"
+                                                    class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />querySelectorAll</a>
+                                            </li>
+                                            <li><a href="../../../WEB FUNDAMENTALS/JS/Advanced Topics/APIsAndAJAX.html"
+                                                    class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />APIs and AJAX</a>
+                                            </li>
+                                            <li><a href="../../../WEB FUNDAMENTALS/JS/Advanced Topics/MediaQueries.html"
+                                                    class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />Media Queries</a>
+                                            </li>
+                                            <li><a href="../../../WEB FUNDAMENTALS/JS/Advanced Topics/Bootstrap.html"
+                                                    class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />Bootstrap</a>
+                                            </li>
+                                            <li><a href="../../../WEB FUNDAMENTALS/JS/Advanced Topics/Transition.html"
+                                                    class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />Transition</a>
+                                            </li>
+                                            <li><a href="../../../WEB FUNDAMENTALS/JS/Advanced Topics/jQuery.html"
+                                                    class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />jQuery</a>
+                                            </li>
+                                            <li><a href="../../../WEB FUNDAMENTALS/JS/Advanced Topics/Calculator.html"
+                                                    class="docs-link rounded ">
+                                                    <img src="/assets/icons/option.png" alt=""
+                                                        class="module-icon" />Calculator</a>
+                                            </li>
+                                            <li><a href="../../../WEB FUNDAMENTALS/JS/Advanced Topics/TickingClock.html"
+                                                    class="docs-link rounded ">
+                                                    <img src="/assets/icons/option.png" alt=""
+                                                        class="module-icon" />Ticking Clock</a>
+                                            </li>
+                                            <li><a href="../../../WEB FUNDAMENTALS/JS/Advanced Topics/Pacman.html"
+                                                    class="docs-link rounded ">
+                                                    <img src="/assets/icons/option.png" alt=""
+                                                        class="module-icon" />Pacman</a>
+                                            </li>
+                                            <li><a href="../../../WEB FUNDAMENTALS/JS/Advanced Topics/1942.html"
+                                                    class="docs-link rounded ">
+                                                    <img src="/assets/icons/option.png" alt=""
+                                                        class="module-icon" />1942</a>
+                                            </li>
+
+
+
+
+                                        </ul>
+                                    </div>
+                                </li>
+
+                            </ul>
+                        </div>
+
+                    </main>
+
+                </div>
+                <div class="docs-content col-lg-11 col-xl-9 " id="lesson_content">
+
+                    <main data-bs-spy="scroll" data-bs-target="#TableOfContents" data-bs-offset="0" tabindex="0">
+                        <div id="lesson_content">
+                            <h1>A JavaScript Taco</h1>
+                            <hr>
+                            <h3>Objectives</h3>
+                            <ul>
+                                <li>Learn about objects in JavaScript</li>
+                                <li>Learn about properties and methods</li>
+                                <li>Learn what <code>this</code> is</li>
+                            </ul>
+                            <h2>Objects - storing information in named properties</h2>
+                            <p>Oftentimes when we're dealing with data, it's not enough to just know one property or
+                                value, there is instead a lot of related information we're concerned with. If for
+                                instance we wanted to plan out our perfect taco, we might imagine all of the individual
+                                ingredients we'd want to add onto it! The tortilla or shell, the protein, maybe cheese
+                                and lots of toppings! We can express all of this as separate variables in JavaScript!
+                            </p>
+                            <div class="highlight">
+                                <div class="clipboard"><button class="btn btn-clipboard blankkk"
+                                        aria-label="Clipboard button"></button></div>
+<pre data-language="javascript"><span class="storage type">var</span> tortilla <span class="keyword operator">=</span> <span class="string">"soft corn tortilla"</span>;
+<span class="storage type">var</span> protein <span class="keyword operator">=</span> <span class="string">"tinga chicken"</span>;
+<span class="storage type">var</span> cheese <span class="keyword operator">=</span> <span class="string">"cotija cheese"</span>;
+<span class="storage type">var</span> toppings <span class="keyword operator">=</span> [<span class="string">"lettuce"</span>, <span class="string">"pico de gallo"</span>, <span class="string">"guacamole"</span>];
+</pre>
+                        </div>
+                            <p>This works just fine for one taco, but what if we want to make a second taco with
+                                different ingredients? Should we start adding numbers to the end of our variables?
+                                Something like <code>tortilla2</code>, <code>protein2</code>, <code>cheese2</code>, and
+                                <code>toppings2</code>? Instead, we could create separate tacos and allow them both to
+                                have properites that can share a common name by using Objects! An object allows us to
+                                combine multiple values like an array, but unlike how an array uses consecutive numbers
+                                for the locations an object allows us to use any word we would like. We'll commonly
+                                refer to these as <code>key value pairs</code>. We can rewrite our taco like below,
+                                using a colon <code>:</code> to separate the <code>key</code> from the
+                                <code>value</code> and using commas <code>,</code> to sperate each
+                                <code>key value pair</code>.</p>
+                                <div class="highlight">
+                                    <div class="clipboard"><button class="btn btn-clipboard blankkk"
+                                            aria-label="Clipboard button"></button></div>
+<pre data-language="javascript"><span class="storage type">var</span> taco1 <span class="keyword operator">=</span> {
+    <span class="string">"tortilla"</span>: <span class="string">"soft corn tortilla"</span>,
+    <span class="string">"protein"</span>:  <span class="string">"tinga chicken"</span>,
+    <span class="string">"cheese"</span>:   <span class="string">"cotija cheese"</span>,
+    <span class="string">"toppings"</span>: [<span class="string">"lettuce"</span>, <span class="string">"pico de gallo"</span>, <span class="string">"guacamole"</span>]
+}
+</pre>
+                        </div>
+                            <p>Now that we have our taco in an object we can access the values that are stored using the
+                                dot <code>.</code> syntax.</p>
+                                <div class="highlight">
+                                    <div class="clipboard"><button class="btn btn-clipboard blankkk"
+                                            aria-label="Clipboard button"></button></div>
+<pre data-language="javascript">console.<span class="function call">log</span>(<span class="string">"Tortilla: "</span> <span class="keyword operator">+</span> taco1.tortilla);
+console.<span class="function call">log</span>(<span class="string">"Protein:  "</span> <span class="keyword operator">+</span> taco1.protein);
+console.<span class="function call">log</span>(<span class="string">"Cheese:   "</span> <span class="keyword operator">+</span> taco1.cheese);
+console.<span class="function call">log</span>(<span class="string">"Toppings: "</span> <span class="keyword operator">+</span> taco1.toppings);
+</pre>
+                        </div>
+                            <p>As delicious as it would be, there are no languages that have a built in property called
+                                <code>.cheese</code> in the objects that are made using it. It turns out that all of our
+                                properties can be accessed this way which will make it easy for us to remember how to
+                                get them. If we use really generic keys like <code>x</code>, <code>y</code>, and
+                                <code>z</code> we could still access the information but it would be hard to know what
+                                it's for (unless it's a 3 dimensional point perhaps?).</p>
+                            <h2>Methods - giving actions to objects</h2>
+                            <p>Objects are great at storing information in a logical way, but objects can provide even
+                                more than that. Our objects are also able to contain actions they can
+                                <strong>do</strong>. It's hard to imagine our taco as <strong>doing</strong> much beyond
+                                being highly delectable, but we can take the <code>console.log()</code> lines from above
+                                to make some functionality.</p>
+                                <div class="highlight">
+                                    <div class="clipboard"><button class="btn btn-clipboard blankkk"
+                                            aria-label="Clipboard button"></button></div>
+<pre data-language="javascript"><span class="storage type">var</span> taco1 <span class="keyword operator">=</span> {
+    <span class="string">"tortilla"</span>: <span class="string">"soft corn tortilla"</span>,
+    <span class="string">"protein"</span>:  <span class="string">"tinga chicken"</span>,
+    <span class="string">"cheese"</span>:   <span class="string">"cotija cheese"</span>,
+    <span class="string">"toppings"</span>: [<span class="string">"lettuce"</span>, <span class="string">"pico de gallo"</span>, <span class="string">"guacamole"</span>],
+    <span class="string">"tacoInfo"</span>: <span class="keyword">function</span>() {
+        console.<span class="function call">log</span>(<span class="string">"Tortilla: "</span> <span class="keyword operator">+</span> taco1.tortilla);
+        console.<span class="function call">log</span>(<span class="string">"Protein:  "</span> <span class="keyword operator">+</span> taco1.protein);
+        console.<span class="function call">log</span>(<span class="string">"Cheese:   "</span> <span class="keyword operator">+</span> taco1.cheese);
+        console.<span class="function call">log</span>(<span class="string">"Toppings: "</span> <span class="keyword operator">+</span> taco1.toppings);
+    }
+}
+    
+<span class="comment">// we can now get all the delicious taco facts by</span>
+taco1.<span class="function call">tacoInfo</span>(); <span class="comment">// note we call this like a function because it is a function</span>
+</pre>
+                        </div>
+                            <h3>It can't be helped... We'll have to use 'this'</h3>
+                            <p>Just like in your favorite anime when the protagonists must use some secret weapon
+                                (usually <em>that</em>) to save the day, JavaScript objects can save us from having the
+                                retype the same variable names many times! The special keyword that will let us do this
+                                is actually called <code>this</code>. Using <code>this</code> we can rewrite the above
+                                like so.</p>
+                                <div class="highlight">
+                                    <div class="clipboard"><button class="btn btn-clipboard blankkk"
+                                            aria-label="Clipboard button"></button></div>
+<pre
+    data-language="javascript"><span class="storage type">var</span> taco1 <span class="keyword operator">=</span> {
+    <span class="string">"tortilla"</span>: <span class="string">"soft corn tortilla"</span>,
+    <span class="string">"protein"</span>:  <span class="string">"tinga chicken"</span>,
+    <span class="string">"cheese"</span>:   <span class="string">"cotija cheese"</span>,
+    <span class="string">"toppings"</span>: [<span class="string">"lettuce"</span>, <span class="string">"pico de gallo"</span>, <span class="string">"guacamole"</span>],
+    <span class="string">"tacoInfo"</span>: <span class="keyword">function</span>() {
+        console.<span class="function call">log</span>(<span class="string">"Tortilla: "</span> <span class="keyword operator">+</span> <span class="variable language this">this</span>.tortilla);
+        console.<span class="function call">log</span>(<span class="string">"Protein:  "</span> <span class="keyword operator">+</span> <span class="variable language this">this</span>.protein);
+        console.<span class="function call">log</span>(<span class="string">"Cheese:   "</span> <span class="keyword operator">+</span> <span class="variable language this">this</span>.cheese);
+        console.<span class="function call">log</span>(<span class="string">"Toppings: "</span> <span class="keyword operator">+</span> <span class="variable language this">this</span>.toppings);
+    }
+}
+    
+<span class="comment">// we can now still get all the delicious taco facts by</span>
+taco1.<span class="function call">tacoInfo</span>(); <span class="comment">// note tacoInfo still gets called like a function</span></pre>
+</div>
+                        </div>
+                        <br><br><br>
+
+
+
+                        <div class="d-flex justify-content-between " id="navigation">
+                            <a href="../../../WEB FUNDAMENTALS/JS/Document Object Model/VideoPreview.html"
+                                class="previous_page">&laquo; Previous</a>
+                            <a href="../../../WEB FUNDAMENTALS/JS/Document Object Model/DojoPizzeria.html"
+                                class="next_page">Next &raquo;</a>
+
+                        </div>
+
+
+
+
+
+
+
+
+
+
+
+                    </main>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <!-- Include jQuery and Bootstrap JS (CDN) -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script src="/assets/js/color-modes.js"></script>
+    <script src="/assets/js/search.js"></script>
+    <script src="/assets/js/main.js"></script>
+
+
+    <!-- <script src="https://cdn.jsdelivr.net/npm/prismjs@1.28.0/prism.min.js"></script>
+  <script>
+    Prism.highlightAll();
+  </script> -->
+
+
+
+    <script>
+        // Initialize Prism.js
+        Prism.highlightAll();
+    </script>
+
+</body>
+
+</html>

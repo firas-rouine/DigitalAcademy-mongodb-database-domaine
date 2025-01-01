@@ -1,0 +1,914 @@
+<!doctype html>
+<html lang="en" data-bs-theme="light">
+
+<head>
+    <!-- <script src="/assets/js/color-modes.js"></script> -->
+
+    <meta charset="utf-8">
+    <link rel="icon" type="image/png" href="../../../../assets/icons/circle-logo.png">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.118.2">
+    <title>Digital-Academy</title>
+
+    <!-- Custom style -->
+    <link href="/assets/styles/sidebar.css" rel="stylesheet">
+    <link rel="stylesheet" href="/assets/styles/styles.css">
+    <link rel="stylesheet" href="/assets/styles/styles2.css">
+    <!-- bootstrap style -->
+
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous"> -->
+
+
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/prismjs@1.28.0/themes/prism.min.css"> -->
+
+
+
+    <!-- Include the Prism.js library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.25.0/themes/prism.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.25.0/prism.min.js"></script>
+
+    <!-- Include the Okaidia theme -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.25.0/themes/prism-okaidia.min.css">
+
+
+</head>
+
+<body class="single home " data-bs-spy="scroll" data-bs-target="#TableOfContents" data-bs-root-margin="0px 0px -60%"
+    data-bs-smooth-scroll="true" tabindex="0" cz-shortcut-listen="true">
+    <div class="sticky-top">
+        <header class="navbar navbar-expand-lg g-nav">
+            <div class="container-lg"><a class="navbar-brand me-auto me-lg-3" href="#"> <img
+                        src="/assets/icons/logo.png" alt="logo" style="width: 70px; height: 50px;">
+                </a>
+                <a id="home" href="/home.html">HOME</a>
+                <button class="btn btn-link d-lg-none" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasNavSection" aria-controls="offcanvasNavSection"
+                    aria-label="Open section navigation menu"><svg xmlns="http://www.w3.org/2000/svg"
+                        class="icon icon-tabler icon-tabler-dots-vertical" width="24" height="24" viewBox="0 0 24 24"
+                        stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                        <path d="M12 12m-1 0a1 1 0 102 0 1 1 0 10-2 0"></path>
+                        <path d="M12 19m-1 0a1 1 0 102 0 1 1 0 10-2 0"></path>
+                        <path d="M12 5m-1 0a1 1 0 102 0 1 1 0 10-2 0"></path>
+                    </svg></button>
+                <div class="offcanvas offcanvas-start d-lg-none" tabindex="-1" id="offcanvasNavSection"
+                    aria-labelledby="offcanvasNavSectionLabel">
+                    <div class="offcanvas-header">
+                        <img src="/assets/icons/logo.png" alt="logo" style="width: 70px; height: 50px;">
+                        <button type="button" class="btn btn-link nav-link p-0" data-bs-dismiss="offcanvas"
+                            aria-label="Close"><svg xmlns="http://www.w3.org/2000/svg"
+                                class="icon icon-tabler icon-tabler-x" width="24" height="24" viewBox="0 0 24 24"
+                                stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round"
+                                stroke-linejoin="round">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                <path d="M18 6 6 18"></path>
+                                <path d="M6 6l12 12"></path>
+                            </svg></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <aside class="doks-sidebar mt-n3">
+                            <nav id="doks-docs-nav" aria-label="Tertiary navigation">
+                                <div class="module pb-2 pt-4">
+                                    <h2 class="mod-title">Java</h2>
+                                    <div class="module pb-2">
+                                        <a href="../../../Java/Java Fundamentals/Setup/CourseOverview.html"
+                                            class="previous">&#8249;</a>
+                                        <img src="/assets/icons/workshop.png" alt="" class="chapter-icon" />
+                                        <span class="mod-title">Java OOP</span>
+                                        <a href="../../../Java/Java Spring/Spring Intro/Overview.html"
+                                            class="next">&#8250;</a>
+                                    </div>
+                                </div>
+                                <ul class="list-unstyled collapsible-sidebar ">
+                                    <li class="mb-1  ">
+                                        <button id="sidebtn"
+                                            class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed"
+                                            data-bs-toggle="collapse" data-bs-target="#JavaOOP-collapse"
+                                            aria-expanded="true">
+                                            Java OOP
+                                        </button>
+                                        <div class="collapse show" id="JavaOOP-collapse">
+                                            <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                                                <li><a href="../Java OOP/Overview.html" class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />Overview</a>
+                                                </li>
+                                                <li><a href="../Java OOP/ObjectsandClasses.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />Objects and Classes</a>
+                                                </li>
+                                                <li><a href="../Java OOP/MemberVariables.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />Member Variables</a>
+                                                </li>
+                                                <li><a href="../Java OOP/OOPQuiz1.html" class="docs-link rounded ">
+                                                        <img src="/assets/icons/quiz.png" alt=""
+                                                            class="module-icon" />OOP Quiz 1</a>
+                                                </li>
+                                                <li><a href="../Java OOP/Orders&Items.html" class="docs-link rounded  ">
+                                                        <img src="/assets/icons/practice.png" alt=""
+                                                            class="module-icon" />Orders & Items</a>
+                                                </li>
+                                                <li><a href="../Java OOP/Getters.html" class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />Getters, Setters & Access
+                                                        Modifiers</a>
+                                                </li>
+                                                <li><a href="../Java OOP/Constructors.html" class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />Constructors and Method
+                                                        Overloading</a>
+                                                </li>
+                                                <li><a href="../Java OOP/this.html" class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />this </a>
+                                                </li>
+                                                <li><a href="../Java OOP/MoreonMethods.html"
+                                                        class="docs-link rounded active">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />More on Methods</a>
+                                                </li>
+                                                <li><a href="../Java OOP/OOPQuiz2.html" class="docs-link rounded ">
+                                                        <img src="/assets/icons/quiz.png" alt=""
+                                                            class="module-icon" />OOP Quiz 2</a>
+                                                </li>
+                                                <li><a href="../Java OOP/BaristaChallenge.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/practice.png" alt=""
+                                                            class="module-icon" />Barista's Challenge</a>
+                                                </li>
+                                                <li><a href="../Java OOP/Static.html" class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />Static</a>
+                                                </li>
+                                                <li><a href="../Java OOP/BankAccount.html" class="docs-link rounded ">
+                                                        <img src="/assets/icons/core.png" alt=""
+                                                            class="module-icon" />BankAccount </a>
+                                                </li>
+                                                <li><a href="../Java OOP/Coffeedore.html" class="docs-link rounded ">
+                                                        <img src="/assets/icons/practice.png" alt=""
+                                                            class="module-icon" />Coffeedore 64</a>
+                                                </li>
+
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li class="mb-1">
+                                        <button id="sidebtn"
+                                            class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed"
+                                            data-bs-toggle="collapse" data-bs-target="#JavaOOPAdvanced-collapse"
+                                            aria-expanded="false">
+                                            Java OOP Advanced
+                                        </button>
+                                        <div class="collapse" id="JavaOOPAdvanced-collapse">
+                                            <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                                                <li><a href="../Java OOP Advanced/Spring.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />Spring Tool Suite (STS)</a>
+                                                </li>
+                                                <li><a href="../Java OOP Advanced/Packages.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />Packages</a>
+                                                </li>
+                                                <li><a href="../Java OOP Advanced/Four.html" class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />Four Pillars of OOP</a>
+                                                </li>
+                                                <li><a href="../Java OOP Advanced/Inheritance.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />Inheritance</a>
+                                                </li>
+                                                <li><a href="../Java OOP Advanced/OOPQuiz3.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/quiz.png" alt=""
+                                                            class="module-icon" />OOP Quiz 3</a>
+                                                </li>
+                                                <li><a href="../Java OOP Advanced/Devices.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/practice.png" alt=""
+                                                            class="module-icon" />Devices</a>
+                                                </li>
+                                                <li><a href="../Java OOP Advanced/Zookeeper.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/core.png" alt=""
+                                                            class="module-icon" />Zookeeper</a>
+                                                </li>
+                                                <li><a href="../Java OOP Advanced/Interface.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />Interface</a>
+                                                </li>
+                                                <li><a href="../Java OOP Advanced/InterfaceImplementation.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />Interface Implementation</a>
+                                                </li>
+                                                <li><a href="../Java OOP Advanced/Annotations.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />Annotations</a>
+                                                </li>
+                                                <li><a href="../Java OOP Advanced/OOPQuiz4.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/quiz.png" alt=""
+                                                            class="module-icon" />OOP Quiz 4</a>
+                                                </li>
+                                                <li><a href="../Java OOP Advanced/CareSoftInterfaces.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/core.png" alt=""
+                                                            class="module-icon" />CareSoft Interfaces</a>
+                                                </li>
+                                                <li><a href="../Java OOP Advanced/Abstract.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />Abstract</a>
+                                                </li>
+                                                <li><a href="../Java OOP Advanced/OOPQuiz5.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/quiz.png" alt=""
+                                                            class="module-icon" />OOP Quiz 5</a>
+                                                </li>
+                                                <li><a href="../Java OOP Advanced/AbstractArt.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/option.png" alt=""
+                                                            class="module-icon" />Abstract Art</a>
+                                                </li>
+                                                <li><a href="../Java OOP Advanced/AbstractsvsInterfaces.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />Abstracts vs Interfaces</a>
+                                                </li>
+                                                <li><a href="../Java OOP Advanced/POJOsandJavaBeans.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />POJOs and JavaBeans</a>
+                                                </li>
+                                                <li><a href="../Java OOP Advanced/CalculatorI.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/option.png" alt=""
+                                                            class="module-icon" />Calculator I</a>
+                                                </li>
+                                                <li><a href="../Java OOP Advanced/CalculatorII.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/option.png" alt=""
+                                                            class="module-icon" />Calculator II</a>
+                                                </li>
+
+
+
+
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li class="mb-1">
+                                        <button id="sidebtn"
+                                            class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed"
+                                            data-bs-toggle="collapse" data-bs-target="#DataStructures-collapse"
+                                            aria-expanded="false">
+                                            Data Structures
+                                        </button>
+                                        <div class="collapse" id="DataStructures-collapse">
+                                            <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                                                <li><a href="../Data Structures/SinglyLinkedList.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/option.png" alt=""
+                                                            class="module-icon" />Singly Linked List</a>
+                                                </li>
+                                                <li><a href="../Data Structures/DoublyLinkedList.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />Doubly Linked List</a>
+                                                </li>
+                                                <li><a href="../Data Structures/DLLAssignment.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/option.png" alt=""
+                                                            class="module-icon" />DLL Assignment</a>
+                                                </li>
+                                                <li><a href="../Data Structures/v.html" class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />Tries</a>
+                                                </li>
+                                                <li><a href="../Data Structures/Tries Assignment.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/option.png" alt=""
+                                                            class="module-icon" />Tries Assignment</a>
+                                                </li>
+
+
+
+
+
+                                            </ul>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </aside>
+                    </div>
+                </div><button class="btn btn-link nav-link mx-2 order-3 d-lg-none" type="button"
+                    data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavMain" aria-controls="offcanvasNavMain"
+                    aria-label="Open main navigation menu"><svg xmlns="http://www.w3.org/2000/svg"
+                        class="icon icon-tabler icon-tabler-menu" width="24" height="24" viewBox="0 0 24 24"
+                        stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                        <line x1="4" y1="8" x2="20" y2="8"></line>
+                        <line x1="4" y1="16" x2="20" y2="16"></line>
+                    </svg></button>
+                <div class="offcanvas offcanvas-end h-auto" tabindex="-1" id="offcanvasNavMain"
+                    aria-labelledby="offcanvasNavMainLabel">
+                    <div class="offcanvas-header">
+                        <img src="/assets/icons/logo.png" alt="logo" style="width: 70px; height: 50px;">
+                        <button type="button" class="btn btn-link nav-link p-0" data-bs-dismiss="offcanvas"
+                            aria-label="Close"><svg xmlns="http://www.w3.org/2000/svg"
+                                class="icon icon-tabler icon-tabler-x" width="24" height="24" viewBox="0 0 24 24"
+                                stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round"
+                                stroke-linejoin="round">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                <path d="M18 6 6 18"></path>
+                                <path d="M6 6l12 12"></path>
+                            </svg></button>
+                    </div>
+                    <div class="offcanvas-body d-flex flex-column flex-lg-row justify-content-between">
+                        <!-- <ul class="navbar-nav flex-grow-1">
+              <li class="nav-item"><a class="nav-link active" href="index.html" aria-current="true">Docs</a></li>
+              <li class="nav-item"><a class="nav-link" href="/blog/">Blog</a></li>
+            </ul> -->
+
+                        <!-- this section is for the search bar and results -->
+                        <form class="navbar-form my-auto flex-grow-1 ">
+                            <input id="searchInput" class="form-control is-search ms-auto me-5" type="search"
+                                placeholder="Search ." aria-label="Search docs." autocomplete="off">
+                            <div id="suggestions" class="shadow rounded position-absolute d-none">
+                                <ul id="searchResults" class="list-unstyled m-auto"></ul>
+                            </div>
+                        </form>
+
+
+                        <button id="buttonColorMode" class="btn btn-link mx-auto nav-link p-0 ms-lg-2 me-lg-1"
+                            type="button" aria-label="Toggle theme"><svg data-bs-theme-value="dark"
+                                xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-moon" width="24"
+                                height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentcolor" fill="none"
+                                stroke-linecap="round" stroke-linejoin="round">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                <path d="M12 3c.132.0.263.0.393.0a7.5 7.5.0 007.92 12.446A9 9 0 1112 2.992z"></path>
+                            </svg><svg data-bs-theme-value="light" xmlns="http://www.w3.org/2000/svg"
+                                class="icon icon-tabler icon-tabler-sun" width="24" height="24" viewBox="0 0 24 24"
+                                stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round"
+                                stroke-linejoin="round">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                <path
+                                    d="M12 12m-4 0a4 4 0 108 0 4 4 0 10-8 0m-5 0h1m8-9v1m8 8h1m-9 8v1M5.6 5.6l.7.7m12.1-.7-.7.7m0 11.4.7.7m-12.1-.7-.7.7">
+                                </path>
+                            </svg></button>
+                        <ul id="socialMenu" class="nav mx-auto flex-row order-lg-4">
+
+
+                            <li class="nav-item"><a class="nav-link social-link"
+                                    href="https://github.com/DigitalAcademyTn"><svg xmlns="http://www.w3.org/2000/svg"
+                                        class="icon icon-tabler icon-tabler-brand-github" width="24" height="24"
+                                        viewBox="0 0 24 24" stroke-width="2" stroke="currentcolor" fill="none"
+                                        stroke-linecap="round" stroke-linejoin="round">
+                                        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                        <path
+                                            d="M9 19c-4.3 1.4-4.3-2.5-6-3m12 5v-3.5c0-1 .1-1.4-.5-2 2.8-.3 5.5-1.4 5.5-6a4.6 4.6.0 00-1.3-3.2 4.2 4.2.0 00-.1-3.2s-1.1-.3-3.5 1.3a12.3 12.3.0 00-6.2.0C6.5 2.8 5.4 3.1 5.4 3.1a4.2 4.2.0 00-.1 3.2A4.6 4.6.0 004 9.5c0 4.6 2.7 5.7 5.5 6-.6.6-.6 1.2-.5 2V21">
+                                        </path>
+                                                  </svg><small class="ms-2 visually-hidden">GitHub</small></a></li>
+                  <a id="upgrade" href="../../../upgrade.html">UPGRADE</a>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </header>
+    </div>
+
+
+
+
+    <div class="wrap container-fluid " role="document">
+        <div class="content">
+            <div class="row  d-flex justify-content-center">
+                <div class=" docs-sidebar d-none d-lg-block   ">
+                    <main class="">
+                        <div class="flex-shrink-0 pt-4 ">
+
+                            <div class="module pb-2">
+                                <h2 class="mod-title">Java</h2>
+                            </div>
+                            <div class="module pb-2">
+                                <a href="../../../Java/Java Fundamentals/Setup/CourseOverview.html"
+                                    class="previous">&#8249;</a>
+                                <img src="/assets/icons/workshop.png" alt="" class="chapter-icon" />
+                                <span class="mod-title">Java OOP</span>
+                                <a href="../../../Java/Java Spring/Spring Intro/Overview.html" class="next">&#8250;</a>
+                            </div>
+
+
+
+
+
+                            <ul class=" list-unstyled px-3 overflow-scroll">
+                                <li class="mb-1  ">
+                                    <button id="sidebtn"
+                                        class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed"
+                                        data-bs-toggle="collapse" data-bs-target="#JavaOOP-collapse"
+                                        aria-expanded="true">
+                                        Java OOP
+                                    </button>
+                                    <div class="collapse show" id="JavaOOP-collapse">
+                                        <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                                            <li><a href="../Java OOP/Overview.html" class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />Overview</a>
+                                            </li>
+                                            <li><a href="../Java OOP/ObjectsandClasses.html" class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />Objects and Classes</a>
+                                            </li>
+                                            <li><a href="../Java OOP/MemberVariables.html" class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />Member Variables</a>
+                                            </li>
+                                            <li><a href="../Java OOP/OOPQuiz1.html" class="docs-link rounded ">
+                                                    <img src="/assets/icons/quiz.png" alt="" class="module-icon" />OOP
+                                                    Quiz 1</a>
+                                            </li>
+                                            <li><a href="../Java OOP/Orders&Items.html" class="docs-link rounded ">
+                                                    <img src="/assets/icons/practice.png" alt=""
+                                                        class="module-icon" />Orders & Items</a>
+                                            </li>
+                                            <li><a href="../Java OOP/Getters.html" class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />Getters, Setters & Access Modifiers</a>
+                                            </li>
+                                            <li><a href="../Java OOP/Constructors.html" class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />Constructors and Method Overloading</a>
+                                            </li>
+                                            <li><a href="../Java OOP/this.html" class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />this </a>
+                                            </li>
+                                            <li><a href="../Java OOP/MoreonMethods.html"
+                                                    class="docs-link rounded active">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />More on Methods</a>
+                                            </li>
+                                            <li><a href="../Java OOP/OOPQuiz2.html" class="docs-link rounded ">
+                                                    <img src="/assets/icons/quiz.png" alt="" class="module-icon" />OOP
+                                                    Quiz 2</a>
+                                            </li>
+                                            <li><a href="../Java OOP/BaristaChallenge.html" class="docs-link rounded ">
+                                                    <img src="/assets/icons/practice.png" alt=""
+                                                        class="module-icon" />Barista's Challenge</a>
+                                            </li>
+                                            <li><a href="../Java OOP/Static.html" class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />Static</a>
+                                            </li>
+                                            <li><a href="../Java OOP/BankAccount.html" class="docs-link rounded ">
+                                                    <img src="/assets/icons/core.png" alt=""
+                                                        class="module-icon" />BankAccount </a>
+                                            </li>
+                                            <li><a href="../Java OOP/Coffeedore.html" class="docs-link rounded ">
+                                                    <img src="/assets/icons/practice.png" alt=""
+                                                        class="module-icon" />Coffeedore 64</a>
+                                            </li>
+
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li class="mb-1">
+                                    <button id="sidebtn"
+                                        class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed"
+                                        data-bs-toggle="collapse" data-bs-target="#JavaOOPAdvanced-collapse"
+                                        aria-expanded="false">
+                                        Java OOP Advanced
+                                    </button>
+                                    <div class="collapse" id="JavaOOPAdvanced-collapse">
+                                        <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                                            <li><a href="../Java OOP Advanced/Spring.html" class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />Spring Tool Suite (STS)</a>
+                                            </li>
+                                            <li><a href="../Java OOP Advanced/Packages.html" class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />Packages</a>
+                                            </li>
+                                            <li><a href="../Java OOP Advanced/Four.html" class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />Four Pillars of OOP</a>
+                                            </li>
+                                            <li><a href="../Java OOP Advanced/Inheritance.html"
+                                                    class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />Inheritance</a>
+                                            </li>
+                                            <li><a href="../Java OOP Advanced/OOPQuiz3.html" class="docs-link rounded ">
+                                                    <img src="/assets/icons/quiz.png" alt="" class="module-icon" />OOP
+                                                    Quiz 3</a>
+                                            </li>
+                                            <li><a href="../Java OOP Advanced/Devices.html" class="docs-link rounded ">
+                                                    <img src="/assets/icons/practice.png" alt=""
+                                                        class="module-icon" />Devices</a>
+                                            </li>
+                                            <li><a href="../Java OOP Advanced/Zookeeper.html"
+                                                    class="docs-link rounded ">
+                                                    <img src="/assets/icons/core.png" alt=""
+                                                        class="module-icon" />Zookeeper</a>
+                                            </li>
+                                            <li><a href="../Java OOP Advanced/Interface.html"
+                                                    class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />Interface</a>
+                                            </li>
+                                            <li><a href="../Java OOP Advanced/InterfaceImplementation.html"
+                                                    class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />Interface Implementation</a>
+                                            </li>
+                                            <li><a href="../Java OOP Advanced/Annotations.html"
+                                                    class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />Annotations</a>
+                                            </li>
+                                            <li><a href="../Java OOP Advanced/OOPQuiz4.html" class="docs-link rounded ">
+                                                    <img src="/assets/icons/quiz.png" alt="" class="module-icon" />OOP
+                                                    Quiz 4</a>
+                                            </li>
+                                            <li><a href="../Java OOP Advanced/CareSoftInterfaces.html"
+                                                    class="docs-link rounded ">
+                                                    <img src="/assets/icons/core.png" alt=""
+                                                        class="module-icon" />CareSoft Interfaces</a>
+                                            </li>
+                                            <li><a href="../Java OOP Advanced/Abstract.html" class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />Abstract</a>
+                                            </li>
+                                            <li><a href="../Java OOP Advanced/OOPQuiz5.html" class="docs-link rounded ">
+                                                    <img src="/assets/icons/quiz.png" alt="" class="module-icon" />OOP
+                                                    Quiz 5</a>
+                                            </li>
+                                            <li><a href="../Java OOP Advanced/AbstractArt.html"
+                                                    class="docs-link rounded ">
+                                                    <img src="/assets/icons/option.png" alt=""
+                                                        class="module-icon" />Abstract Art</a>
+                                            </li>
+                                            <li><a href="../Java OOP Advanced/AbstractsvsInterfaces.html"
+                                                    class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />Abstracts vs Interfaces</a>
+                                            </li>
+                                            <li><a href="../Java OOP Advanced/POJOsandJavaBeans.html"
+                                                    class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />POJOs and JavaBeans</a>
+                                            </li>
+                                            <li><a href="../Java OOP Advanced/CalculatorI.html"
+                                                    class="docs-link rounded ">
+                                                    <img src="/assets/icons/option.png" alt=""
+                                                        class="module-icon" />Calculator I</a>
+                                            </li>
+                                            <li><a href="../Java OOP Advanced/CalculatorII.html"
+                                                    class="docs-link rounded ">
+                                                    <img src="/assets/icons/option.png" alt=""
+                                                        class="module-icon" />Calculator II</a>
+                                            </li>
+
+
+
+
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li class="mb-1">
+                                    <button id="sidebtn"
+                                        class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed"
+                                        data-bs-toggle="collapse" data-bs-target="#DataStructures-collapse"
+                                        aria-expanded="false">
+                                        Data Structures
+                                    </button>
+                                    <div class="collapse" id="DataStructures-collapse">
+                                        <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                                            <li><a href="../Data Structures/SinglyLinkedList.html"
+                                                    class="docs-link rounded ">
+                                                    <img src="/assets/icons/option.png" alt=""
+                                                        class="module-icon" />Singly Linked List</a>
+                                            </li>
+                                            <li><a href="../Data Structures/DoublyLinkedList.html"
+                                                    class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />Doubly Linked List</a>
+                                            </li>
+                                            <li><a href="../Data Structures/DLLAssignment.html"
+                                                    class="docs-link rounded ">
+                                                    <img src="/assets/icons/option.png" alt="" class="module-icon" />DLL
+                                                    Assignment</a>
+                                            </li>
+                                            <li><a href="../Data Structures/v.html" class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />Tries</a>
+                                            </li>
+                                            <li><a href="../Data Structures/Tries Assignment.html"
+                                                    class="docs-link rounded ">
+                                                    <img src="/assets/icons/option.png" alt=""
+                                                        class="module-icon" />Tries Assignment</a>
+                                            </li>
+
+
+
+
+
+                                        </ul>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+
+                    </main>
+
+                </div>
+                <div class="docs-content col-lg-11 col-xl-9 " id="lesson_content">
+
+                    <main data-bs-spy="scroll" data-bs-target="#TableOfContents" data-bs-offset="0" tabindex="0">
+
+                        <div id="lesson_content">
+                            <h1 id="methods">More on Methods</h1>
+
+                            <h3><img src="/assets/icons/General visual.png"
+                                    style="width: 80px; height: 80px;" width="80" height="80" alt="''"
+                                    title="''">Learning Objectives:</h3>
+
+
+
+                            <ul>
+                                <li>See examples of method overloading in action</li>
+                                <li>Understand the benefits of organizing your code with method overloading</li>
+                                <li>Review access modifiers and the concept of encapsulation</li>
+                                <li>Learn method naming conventions</li>
+                                <li>Introduce the static modifier</li>
+                                <li>Review all the parts of what makes up a method</li>
+                            </ul>
+
+
+
+                            <hr>
+
+
+
+                            <h2>The Benefits of Method Overloading</h2>
+
+
+
+                            <iframe width="100%" height="500" src="https://www.youtube.com/embed/xjJzvYhnQ9A?si=FJY4vmPHT5QLLQDe" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+
+
+                            <iframe width="100%" height="500" src="https://www.youtube.com/embed/LgAFiIGDrvo?si=_8tCyCNO6b7AZ5Oc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+
+
+                            <p>A <code>method</code> is just a function that belongs to a class. It is a sequence of
+                                statements that are grouped together to perform a certain task. A method can do things
+                                like print, get, set, or delete information, or anything else you can think of. We name
+                                methods after verbs, like 'getHeight' or 'setSpeed' or 'isValid'.</p>
+
+
+
+                            <p>One of the most important concepts relating to OOP is that objects only share certain
+                                aspects about themselves publicly. The idea is that we can create objects with
+                                <em>public</em> methods that deal with how to interact with the object, but we keep all
+                                the details about the logic we are performing inside those functions <em>private</em>.
+                                This gives us a lot of control over what sort of information we broadcast, and it also
+                                allows us to write code that is more flexible and ready for change.</p>
+
+
+
+                            <p>For a real-world analogy, let's think of an old-fashioned stereo. We would want anyone to
+                                be able to access the buttons and switches on the outside of the stereo, to turn it on
+                                or change the volume or what station we are listening to. However, we would not share
+                                information about the algorithm we use to translate the sound input into something the
+                                speakers produce. Sharing that information would not only make the object harder to use,
+                                but also prevent us from being able to update the internals to a newer and better
+                                version while keeping the interface the same.</p>
+
+
+
+                            <p>In this same vein, think about our <code>Greeter</code> class. What needs to be public
+                                and what needs to be private? How could we design the <code>Greeter</code> class to only
+                                expose publicly the essentials? The <code>greet</code> methods should remain public, but
+                                what about what they actually do? We could first pull out the raw essentials and create
+                                a private method such as <code>createGreeting</code>:</p>
+
+
+                                <div class="highlight">
+                                    <div class="clipboard"><button class="btn btn-clipboard"
+                                            aria-label="Clipboard button"></button></div>
+<pre data-language="python"><span class="keyword">private</span> <span class="keyword">String</span> <span class="function call">createGreeting</span>(<span class="keyword">String</span> toBeGreeted){
+    <span class="keyword">return</span> <span class="string">"Hello "</span> <span class="keyword operator">+</span> toBeGreeted;
+}</pre>
+                                </div>
+
+
+
+
+
+                            <p>This could then be used by both of our <code>greet</code> methods, as well as by any
+                                future greet method, such as one taking in a first name and a last name:</p>
+
+
+                                <div class="highlight">
+                                    <div class="clipboard"><button class="btn btn-clipboard"
+                                            aria-label="Clipboard button"></button></div>
+<pre data-language="python"><span class="keyword">public</span> <span class="keyword">String</span> <span class="function call">greet</span>(){
+    <span class="keyword">return</span> <span class="function call">createGreeting</span>(<span class="string">"World"</span>);
+}
+<span class="keyword">public</span> <span class="keyword">String</span> <span class="function call">greet</span>(<span class="keyword">String</span> firstName, <span class="keyword">String</span> lastName){
+    <span class="keyword">return</span> <span class="function call">createGreeting</span>(firstName <span class="keyword operator">+</span> <span class="string">" "</span> <span class="keyword operator">+</span> lastName)
+}</pre>
+                                </div>
+
+
+
+
+
+                            <p>This design would allow us to change how we greet (in this case, with the word "hello")
+                                very quickly, for example to "Greetings":</p>
+
+
+                                <div class="highlight">
+                                    <div class="clipboard"><button class="btn btn-clipboard"
+                                            aria-label="Clipboard button"></button></div>
+<pre data-language="python"><span class="keyword">private</span> <span class="keyword">String</span> <span class="function call">createGreeting</span>(<span class="keyword">String</span> toBeGreeted){
+    <span class="keyword">return</span> <span class="string">"Greetings "</span> <span class="keyword operator">+</span> toBeGreeted;
+}</pre>
+                                </div>
+
+
+
+
+
+                            <p>In the next tab, we will look at how we can change this more easily, but first let's
+                                explore the parts of a method.</p>
+
+
+
+                            <h2 id="defining-terms">Defining Terms:</h2>
+
+
+
+                            <p>Every method has the following parts: <em>modifiers</em>, <em>return type</em>,
+                                <em>method name</em>, <em>parameter list</em>, and <em>method body</em>. Let's break
+                                down the new <code>createGreeting</code> method in more detail and look at each of its
+                                parts:</p>
+
+
+
+                            <ul>
+                                <li><strong>modifiers</strong>: <code>private</code> is the access modifier that defines
+                                    the access type of the method. The above method will only be visible to the object
+                                    itself and cannot be called from other classes. There are also other modifiers, such
+                                    as <code>static</code> which we will explore later. The access modifiers are:<ul>
+                                        <li><code>private</code>: Only the class in which it is declared can see and
+                                            access the method. This is the most restrictive access level.</li>
+                                        <li><code>protected</code>: Protected access gives subclasses a chance to use
+                                            the method, while preventing a nonrelated class from trying to use it.</li>
+                                        <li><code>public</code>: Every class everywhere has access to the method.</li>
+                                    </ul>
+                                </li>
+                                <li><strong>return type</strong>: <code>String</code> is a return type that is used to
+                                    declare that a method returns a <code>String</code> type. Other return types are the
+                                    data type of whatever your method returns, like <code>int</code>,
+                                    <code>String</code>, <code>double</code>, <code>boolean</code>, or
+                                    <code>void</code>. In Java, you must specify what data type your method will return;
+                                    otherwise, it will result in an error.</li>
+                                <li><strong>method name</strong>: createGreeting is the method name. The convention for
+                                    choosing a name for your method depends on what return type the method has. If the
+                                    method returns a boolean, the convention is to ask a question in the name; that way,
+                                    the names are read like they would have a question mark at the end. Is the
+                                    collection empty? Is the user logged in? Does this element have items? We use
+                                    lowerCamelCase for method names. For non-boolean methods we will use either verbs or
+                                    get and set for property values, e.g.:getValue();
+                                    setValue();
+                                    greet();
+                                    addToList();
+                                    createGreeting();
+                                    <div class="highlight">
+                                        <div class="clipboard"><button class="btn btn-clipboard"
+                                                aria-label="Clipboard button"></button></div>
+        <pre
+            data-language="python"><span class="function call">isEmpty</span>();
+<span class="function call">isLoggedIn</span>();
+<span class="function call">hasItems</span>();
+</pre>
+                                    </div>
+
+
+                                </li>
+                                <li><strong>parameter list</strong> - This is common to all programming languages.
+                                    Whatever is enclosed in the opening and closing parenthesis are called parameters.
+                                    In the <code>createGreeting</code> method, notice that we specifically declare a
+                                    datatype again for our <code>toBeGreeted</code> variable. Declaring the datatype is
+                                    required when there are parameters.</li>
+                                <li>
+                                    <p><strong>method body</strong> - The line
+                                        <code>return "Greetings " + toBeGreeted;</code> in the
+                                        <code>createGreeting</code> is part of the method body. The method body defines
+                                        the instructions that are to be executed when the method is called. It is all
+                                        the code between the curly braces, <code>{ }</code>.</p>
+                                </li>
+                                <li>
+                                    <p><strong>method type</strong>: <code>static</code> defines the method to be a
+                                        <strong>class method</strong> that is invoked without reference to an object.
+                                    </p>
+                                </li>
+                                <li><strong>static modifier:</strong> This is the most common modifier you will see that
+                                    is not an access modifier. This modifier defines the method as a class method, which
+                                    means it can be invoked without reference to a particular object. Static methods can
+                                    be called without creating an object. Have you wondered why we write the static
+                                    keyword when defining main? It is because program execution begins from main and no
+                                    object has been created yet. Class methods are useful for creating constants and
+                                    class fields that need to be used throughout a program. One rule-of-thumb: ask
+                                    yourself "does it make sense to call this method, even if an object has not been
+                                    constructed yet?" If so, that method should be static. One good example is the Math
+                                    class. You do not need to instantiate it; you just have to call its methods. For
+                                    example:
+                                    <div class="highlight">
+                                        <div class="clipboard"><button class="btn btn-clipboard"
+                                                aria-label="Clipboard button"></button></div>
+        <pre data-language="python"><span class="keyword">public</span> <span class="keyword">class</span> MathTest {
+    <span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="function call">main</span>(<span class="keyword">String</span>[] args) {
+        System.out.<span class="function call">println</span>(Math.<span class="function call">sin</span>(<span class="constant numeric">25</span>));
+    }
+}
+</pre>
+                                    </div>
+
+
+                                </li>
+                            </ul>
+                        </div>
+
+                        <br><br><br>
+
+
+
+                        <div class="d-flex justify-content-between " id="navigation">
+                            <a href="../Java OOP/this.html" class="previous_page">&laquo; Previous</a>
+                            <a href="../Java OOP/OOPQuiz2.html" class="next_page">Next &raquo;</a>
+
+                        </div>
+
+
+
+
+
+
+
+
+
+
+
+                    </main>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <!-- Include jQuery and Bootstrap JS (CDN) -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script src="/assets/js/color-modes.js"></script>
+    <script src="/assets/js/search.js"></script>
+    <script src="/assets/js/main.js"></script>
+
+
+    <!-- <script src="https://cdn.jsdelivr.net/npm/prismjs@1.28.0/prism.min.js"></script>
+  <script>
+    Prism.highlightAll();
+  </script> -->
+
+
+
+    <script>
+        // Initialize Prism.js
+        Prism.highlightAll();
+    </script>
+
+</body>
+
+</html>

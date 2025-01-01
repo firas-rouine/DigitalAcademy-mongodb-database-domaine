@@ -1,0 +1,1857 @@
+<!doctype html>
+<html lang="en" data-bs-theme="light">
+
+<head>
+    <!-- <script src="/assets/js/color-modes.js"></script> -->
+
+    <meta charset="utf-8">
+    <link rel="icon" type="image/png" href="../../../../assets/icons/circle-logo.png">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.118.2">
+    <title>Digital-Academy</title>
+
+    <!-- Custom style -->
+    <link href="/assets/styles/sidebar.css" rel="stylesheet">
+    <link rel="stylesheet" href="/assets/styles/quizs-style.css">
+    <link rel="stylesheet" href="/assets/styles/styles.css">
+    <link rel="stylesheet" href="/assets/styles/styles2.css">
+    <!-- bootstrap style -->
+
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous"> -->
+
+
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/prismjs@1.28.0/themes/prism.min.css"> -->
+
+
+
+    <!-- Include the Prism.js library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.25.0/themes/prism.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.25.0/prism.min.js"></script>
+
+    <!-- Include the Okaidia theme -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.25.0/themes/prism-okaidia.min.css">
+
+
+</head>
+
+<body class="single home " data-bs-spy="scroll" data-bs-target="#TableOfContents" data-bs-root-margin="0px 0px -60%"
+    data-bs-smooth-scroll="true" tabindex="0" cz-shortcut-listen="true">
+    <div class="sticky-top">
+        <header class="navbar navbar-expand-lg g-nav">
+            <div class="container-lg"><a class="navbar-brand me-auto me-lg-3" href="#"> <img
+                        src="/assets/icons/logo.png" alt="logo" style="width: 70px; height: 50px;">
+                </a>
+                <a id="home" href="/home.html">HOME</a>
+                <button class="btn btn-link d-lg-none" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasNavSection" aria-controls="offcanvasNavSection"
+                    aria-label="Open section navigation menu"><svg xmlns="http://www.w3.org/2000/svg"
+                        class="icon icon-tabler icon-tabler-dots-vertical" width="24" height="24" viewBox="0 0 24 24"
+                        stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                        <path d="M12 12m-1 0a1 1 0 102 0 1 1 0 10-2 0"></path>
+                        <path d="M12 19m-1 0a1 1 0 102 0 1 1 0 10-2 0"></path>
+                        <path d="M12 5m-1 0a1 1 0 102 0 1 1 0 10-2 0"></path>
+                    </svg></button>
+                <div class="offcanvas offcanvas-start d-lg-none" tabindex="-1" id="offcanvasNavSection"
+                    aria-labelledby="offcanvasNavSectionLabel">
+                    <div class="offcanvas-header">
+                        <img src="/assets/icons/logo.png" alt="logo" style="width: 70px; height: 50px;">
+                        <button type="button" class="btn btn-link nav-link p-0" data-bs-dismiss="offcanvas"
+                            aria-label="Close"><svg xmlns="http://www.w3.org/2000/svg"
+                                class="icon icon-tabler icon-tabler-x" width="24" height="24" viewBox="0 0 24 24"
+                                stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round"
+                                stroke-linejoin="round">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                <path d="M18 6 6 18"></path>
+                                <path d="M6 6l12 12"></path>
+                            </svg></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <aside class="doks-sidebar mt-n3">
+                            <nav id="doks-docs-nav" aria-label="Tertiary navigation">
+                                <div class="module pb-2 pt-4">
+                                    <h2 class="mod-title">Java</h2>
+                                    <div class="module pb-2">
+                                        <a href="../../../Java/Java OOP/Java OOP/Overview.html"
+                                            class="previous">&#8249;</a>
+                                        <img src="/assets/icons/workshop.png" alt="" class="chapter-icon" />
+                                        <span class="mod-title">Java Spring</span>
+                                        <a href="../../../Java/MySQL/Installations/Intro.html" class="next">&#8250;</a>
+                                    </div>
+                                </div>
+                                <ul class="list-unstyled collapsible-sidebar ">
+                                    <li class="mb-1  ">
+                                        <button id="sidebtn"
+                                            class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed"
+                                            data-bs-toggle="collapse" data-bs-target="#SpringIntro-collapse"
+                                            aria-expanded="false">
+                                            Spring Intro
+                                        </button>
+                                        <div class="collapse" id="SpringIntro-collapse">
+                                            <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                                                <li><a href="../Spring Intro/Overview.html" class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />Overview</a>
+                                                </li>
+                                                <li><a href="../Spring Intro/Mac.html" class="docs-link rounded  ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />Mac
+                                                        Installation</a>
+                                                </li>
+                                                <li><a href="../Spring Intro/Windows.html" class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />Windows Installation</a>
+                                                </li>
+                                                <li><a href="../Spring Intro/Start.html" class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />Start a New Spring Boot Project</a>
+                                                </li>
+                                                <li><a href="../Spring Intro/HelloWorld.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />Hello World</a>
+                                                </li>
+                                                <li><a href="../Spring Intro/RestControllerAnnotations.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />@RestController and Annotations</a>
+                                                </li>
+                                                <li><a href="../Spring Intro/Routing.html" class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />Routing</a>
+                                                </li>
+                                                <li><a href="../Spring Intro/SpringQuiz1.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/quiz.png" alt=""
+                                                            class="module-icon" />Spring Quiz 1</a>
+                                                </li>
+                                                <li><a href="../Spring Intro/DaikichiRoutes.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/practice.png" alt=""
+                                                            class="module-icon" />Daikichi Routes</a>
+                                                </li>
+                                                <li><a href="../Spring Intro/QueryParameters.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />Query Parameters</a>
+                                                </li>
+                                                <li><a href="../Spring Intro/HelloHuman.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/practice.png" alt=""
+                                                            class="module-icon" />Hello Human</a>
+                                                </li>
+                                                <li><a href="../Spring Intro/URLs.html" class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />URLs & @PathVariable</a>
+                                                </li>
+                                                <li><a href="../Spring Intro/DaikichiPathVariables.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/core.png" alt=""
+                                                            class="module-icon" />Daikichi Path Variables</a>
+                                                </li>
+                                                <li><a href="../Spring Intro/JavaServerPages.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />Java Server Pages</a>
+                                                </li>
+                                                <li><a href="../Spring Intro/JSTLTags.html" class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />JSTL Tags</a>
+                                                </li>
+
+                                                <li><a href="../Spring Intro/Rendering.html" class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />Rendering with @Controller</a>
+                                                </li>
+                                                <li><a href="../Spring Intro/MoreOnRenderingData.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />More On Rendering Data</a>
+                                                </li>
+                                                <li><a href="../Spring Intro/SpringQuiz2.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/quiz.png" alt=""
+                                                            class="module-icon" />Spring Quiz 2</a>
+                                                </li>
+                                                <li><a href="../Spring Intro/HopperReceipt.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/practice.png" alt=""
+                                                            class="module-icon" />Hopper's Receipt</a>
+                                                </li>
+                                                <li><a href="../Spring Intro/AddingStatic.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />Adding Static Content (CSS & JS)</a>
+                                                </li>
+                                                <li><a href="../Spring Intro/Bootstrap.html" class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />Bootstrap</a>
+                                                </li>
+                                                <li><a href="../Spring Intro/DisplayDate.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/option.png" alt=""
+                                                            class="module-icon" />Display Date</a>
+                                                </li>
+                                                <li><a href="../Spring Intro/JSTLLoops.html" class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />JSTL Loops and You</a>
+                                                </li>
+                                                <li><a href="../Spring Intro/ConditionalJSTLTags.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />Conditional JSTL Tags</a>
+                                                </li>
+                                                <li><a href="../Spring Intro/FruityLoops.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/core.png" alt=""
+                                                            class="module-icon" />Fruity Loops</a>
+                                                </li>
+                                                <li><a href="../Spring Intro/Session.html" class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />Session </a>
+                                                </li>
+                                                <li><a href="../Spring Intro/SessioninJava.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />Session in Java</a>
+                                                </li>
+
+                                                <li><a href="../Spring Intro/SpringQuiz3.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/quiz.png" alt=""
+                                                            class="module-icon" />Spring Quiz 3</a>
+                                                </li>
+                                                <li><a href="../Spring Intro/Counter.html" class="docs-link rounded ">
+                                                        <img src="/assets/icons/practice.png" alt=""
+                                                            class="module-icon" />Counter</a>
+                                                </li>
+                                                <li><a href="../Spring Intro/FormSubmission.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />Form Submission</a>
+                                                </li>
+                                                <li><a href="../Spring Intro/GETvsPOST.html" class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />GET
+                                                        vs. POST</a>
+                                                </li>
+                                                <li><a href="../Spring Intro/POSTandRedirecting.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />POST and Redirecting</a>
+                                                </li>
+                                                <li><a href="../Spring Intro/SpringQuiz4.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/quiz.png" alt=""
+                                                            class="module-icon" />Spring Quiz 4</a>
+                                                </li>
+                                                <li><a href="../Spring Intro/OmikujiForm.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/core.png" alt=""
+                                                            class="module-icon" />Omikuji Form</a>
+                                                </li>
+                                                <li><a href="../Spring Intro/FlashData.html" class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />Flash Data</a>
+                                                </li>
+                                                <li><a href="../Spring Intro/NinjaGoldGame.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/practice.png" alt=""
+                                                            class="module-icon" />Ninja Gold Game</a>
+                                                </li>
+                                                <li><a href="../Spring Intro/DependencyInjection.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />Dependency Injection</a>
+                                                </li>
+
+
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li class="mb-1">
+                                        <button id="sidebtn"
+                                            class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed"
+                                            data-bs-toggle="collapse" data-bs-target="#SpringMVC-collapse"
+                                            aria-expanded="false">
+                                            Spring MVC
+                                        </button>
+                                        <div class="collapse" id="SpringMVC-collapse">
+                                            <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                                                <li><a href="../Spring MVC/MySQLWorkbenchIntroduction.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />MySQL Workbench Introduction</a>
+                                                </li>
+                                                <li><a href="../Spring MVC/Mac.html" class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />(Mac) MySQL Server Installation</a>
+                                                </li>
+                                                <li><a href="../Spring MVC/Windows.html" class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />(Windows) MySQL Server
+                                                        Installation</a>
+                                                </li>
+                                                <li><a href="../Spring MVC/MVCDesignPattern.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />MVC
+                                                        Design Pattern</a>
+                                                </li>
+                                                <li><a href="../Spring MVC/MVCLayers.html" class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />MVC
+                                                        Layers in Spring</a>
+                                                </li>
+                                                <li><a href="../Spring MVC/JPA.html" class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />JPA</a>
+                                                </li>
+                                                <li><a href="../Spring MVC/ConnectingtoMySQL.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />Connecting to MySQL</a>
+                                                </li>
+                                                <li><a href="../Spring MVC/DomainModel.html" class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />Domain Model and Validation
+                                                        Annotations</a>
+                                                </li>
+                                                <li><a href="../Spring MVC/Repositories.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />Repositories</a>
+                                                </li>
+                                                <li><a href="../Spring MVC/Services.html" class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />Services</a>
+                                                </li>
+                                                <li><a href="../Spring MVC/NotNull.html" class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />@NotNull</a>
+                                                </li>
+                                                <li><a href="../Spring MVC/MVCQuiz1.html" class="docs-link rounded ">
+                                                        <img src="/assets/icons/quiz.png" alt=""
+                                                            class="module-icon" />MVC
+                                                        Quiz 1</a>
+                                                </li>
+                                                <li><a href="../Spring MVC/BooksAPI.html" class="docs-link rounded ">
+                                                        <img src="/assets/icons/practice.png" alt=""
+                                                            class="module-icon" />Books API</a>
+                                                </li>
+                                                <li><a href="../Spring MVC/AddingViews.html" class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />Adding Views - Goodbye API</a>
+                                                </li>
+                                                <li><a href="../Spring MVC/RenderingBooks.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/practice.png" alt=""
+                                                            class="module-icon" />Rendering Books</a>
+                                                </li>
+                                                <li><a href="../Spring MVC/AllBooks.html" class="docs-link rounded ">
+                                                        <img src="/assets/icons/practice.png" alt=""
+                                                            class="module-icon" />All Books</a>
+                                                </li>
+                                                <li><a href="../Spring MVC/AddingaCreateForm.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />Adding a Create Form</a>
+                                                </li>
+                                                <li><a href="../Spring MVC/ModelAttribute.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />@ModelAttribute & Data Binding</a>
+                                                </li>
+
+                                                <li><a href="../Spring MVC/MVCQuiz2.html" class="docs-link rounded ">
+                                                        <img src="/assets/icons/quiz.png" alt=""
+                                                            class="module-icon" />MVC
+                                                        Quiz 2</a>
+                                                </li>
+                                                <li><a href="../Spring MVC/BurgerTracker1.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/practice.png" alt=""
+                                                            class="module-icon" />Burger Tracker 1</a>
+                                                </li>
+                                                <li><a href="../Spring MVC/EditandUpdate.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />Edit and Update</a>
+                                                </li>
+                                                <li><a href="../Spring MVC/BurgerTracker2.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/practice.png" alt=""
+                                                            class="module-icon" />Burger Tracker 2</a>
+                                                </li>
+                                                <li><a href="../Spring MVC/Delete.html" class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />Delete</a>
+                                                </li>
+                                                <li><a href="../Spring MVC/SaveTravels.html" class="docs-link rounded ">
+                                                        <img src="/assets/icons/core.png" alt=""
+                                                            class="module-icon" />Save
+                                                        Travels</a>
+                                                </li>
+                                                <li><a href="../Spring MVC/Lookify.html" class="docs-link rounded ">
+                                                        <img src="/assets/icons/option.png" alt=""
+                                                            class="module-icon" />Lookify</a>
+                                                </li>
+                                                <li><a href="../Spring MVC/Appendix.html" class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />Appendix</a>
+                                                </li>
+
+
+
+
+
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li class="mb-1">
+                                        <button id="sidebtn"
+                                            class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed"
+                                            data-bs-toggle="collapse" data-bs-target="#Adding-collapse"
+                                            aria-expanded="false">
+                                            Adding One-to-Many
+                                        </button>
+                                        <div class="collapse" id="Adding-collapse">
+                                            <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                                                <li><a href="../Adding One-to-Many/Relationships.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />Relationships</a>
+                                                </li>
+                                                <li><a href="../Adding One-to-Many/CaseStudy.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />Case Study: Driver's License</a>
+                                                </li>
+                                                <li><a href="../Adding One-to-Many/OnetoMany.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />One
+                                                        to Many</a>
+                                                </li>
+                                                <li><a href="../Adding One-to-Many/PotentialData.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />Potential Data Binding Issues</a>
+                                                </li>
+                                                <li><a href="../Adding One-to-Many/OneToManyQuiz.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/quiz.png" alt=""
+                                                            class="module-icon" />One
+                                                        To Many Quiz</a>
+                                                </li>
+                                                <li><a href="../Adding One-to-Many/DojoandNinjas.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/core.png" alt=""
+                                                            class="module-icon" />Dojo
+                                                        and Ninjas</a>
+                                                </li>
+                                                <li><a href="../Adding One-to-Many/StudentRoster1n.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/option.png" alt=""
+                                                            class="module-icon" />Student Roster 1:n</a>
+                                                </li>
+                                                <li><a href="../Adding One-to-Many/MVCReview.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />Full MVC Review </a>
+                                                </li>
+
+
+
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li class="mb-1">
+                                        <button id="sidebtn"
+                                            class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed"
+                                            data-bs-toggle="collapse" data-bs-target="#FullSpring-collapse"
+                                            aria-expanded="false">
+                                            Full Spring
+                                        </button>
+                                        <div class="collapse" id="FullSpring-collapse">
+                                            <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                                                <li><a href="../Full Spring/Overview.html" class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />Overview</a>
+                                                </li>
+                                                <li><a href="../Full Spring/ProjectSetup.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />Project Setup</a>
+                                                </li>
+                                                <li><a href="../Full Spring/UserandLoginUser.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />User and LoginUser</a>
+                                                </li>
+                                                <li><a href="../Full Spring/Login Page.html" class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />Login Page: Controller and View</a>
+                                                </li>
+                                                <li><a href="../Full Spring/PasswordSecurity.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />Password Security</a>
+                                                </li>
+                                                <li><a href="../Full Spring/RepositoryandService.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />Repository and Service</a>
+                                                </li>
+                                                <li><a href="../Full Spring/Authentication.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />Authentication & Validation Logic</a>
+                                                </li>
+                                                <li><a href="../Full Spring/AuthQuiz.html" class="docs-link rounded ">
+                                                        <img src="/assets/icons/quiz.png" alt=""
+                                                            class="module-icon" />Auth
+                                                        Quiz</a>
+                                                </li>
+                                                <li><a href="../Full Spring/LoginandRegistration.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/core.png" alt=""
+                                                            class="module-icon" />Login
+                                                        and Registration</a>
+                                                </li>
+                                                <li><a href="../Full Spring/BookClub.html" class="docs-link rounded ">
+                                                        <img src="/assets/icons/core.png" alt=""
+                                                            class="module-icon" />Book
+                                                        Club</a>
+                                                </li>
+                                                <li><a href="../Full Spring/Multiple.html" class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />Multiple One-to-Many</a>
+                                                </li>
+                                                <li><a href="../Full Spring/BookBroker.html" class="docs-link rounded ">
+                                                        <img src="/assets/icons/option.png" alt=""
+                                                            class="module-icon" />Book Broker</a>
+                                                </li>
+                                                <li><a href="../Full Spring/Many-to-Many.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />Many-to-Many</a>
+                                                </li>
+                                                <li><a href="../Full Spring/Creating.html" class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />Creating Many-to-Many
+                                                        Relationships</a>
+                                                </li>
+                                                <li><a href="../Full Spring/CascadeType.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />CascadeType</a>
+                                                </li>
+                                                <li><a href="../Full Spring/ManyToManyQuiz.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/quiz.png" alt=""
+                                                            class="module-icon" />Many
+                                                        To Many Quiz</a>
+                                                </li>
+                                                <li><a href="../Full Spring/ProductsandCategories.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/option.png" alt=""
+                                                            class="module-icon" />Products and Categories</a>
+                                                </li>
+                                                <li><a href="../Full Spring/DojoOverflow.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/option.png" alt=""
+                                                            class="module-icon" />Dojo Overflow</a>
+                                                </li>
+                                                <li><a href="../Full Spring/StudentRoster.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/option.png" alt=""
+                                                            class="module-icon" />Student Roster n:m</a>
+                                                </li>
+                                                <li><a href="../Full Spring/BeltExamRubric.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />Belt Exam Rubric</a>
+                                                </li>
+                                                <li><a href="../Full Spring/ProjectManager.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/option.png" alt=""
+                                                            class="module-icon" />Project Manager Extra Belt Review</a>
+                                                </li>
+
+
+
+
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li class="mb-1">
+                                        <button id="sidebtn"
+                                            class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed"
+                                            data-bs-toggle="collapse" data-bs-target="#SpringSecurity-collapse"
+                                            aria-expanded="true">
+                                            Spring Security
+                                        </button>
+                                        <div class="collapse show" id="SpringSecurity-collapse">
+                                            <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                                                <li><a href="../Spring Security/Auth.html" class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />Auth</a>
+                                                </li>
+                                                <li><a href="../Spring Security/SpringSecurityOverview.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />Spring Security Overview</a>
+                                                </li>
+                                                <li><a href="../Spring Security/DataModels.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />Data Models and Repositories</a>
+                                                </li>
+                                                <li><a href="../Spring Security/WebSecurity.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />Web
+                                                        Security Configuration</a>
+                                                </li>
+                                                <li><a href="../Spring Security/BcryptRegistration.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />Bcrypt Registration</a>
+                                                </li>
+                                                <li><a href="../Spring Security/UserDetailsService.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />UserDetailsService</a>
+                                                </li>
+                                                <li><a href="../Spring Security/Log.html" class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />Log
+                                                        In & Log Out</a>
+                                                </li>
+                                                <li><a href="../Spring Security/Validations.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />Validations</a>
+                                                </li>
+                                                <li><a href="../Spring Security/Authorization.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />Authorization</a>
+                                                </li>
+                                                <li><a href="../Spring Security/SpringSecurityQuiz.html"
+                                                        class="docs-link rounded active">
+                                                        <img src="/assets/icons/quiz.png" alt=""
+                                                            class="module-icon" />Spring Security Quiz</a>
+                                                </li>
+                                                <li><a href="../Spring Security/AdminDashboard.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/option.png" alt=""
+                                                            class="module-icon" />Admin Dashboard</a>
+                                                </li>
+
+
+
+
+
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li class="mb-1">
+                                        <button id="sidebtn"
+                                            class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed"
+                                            data-bs-toggle="collapse" data-bs-target="#AdvancedQueries-collapse"
+                                            aria-expanded="false">
+                                            Advanced Queries
+                                        </button>
+                                        <div class="collapse" id="AdvancedQueries-collapse">
+                                            <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                                                <li><a href="../Advanced Queries/AdvancedQueries.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />Advanced Queries</a>
+                                                </li>
+                                                <li><a href="../Advanced Queries/Joins.html" class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />Joins</a>
+                                                </li>
+                                                <li><a href="../Advanced Queries/QueriesandJoins.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/option.png" alt=""
+                                                            class="module-icon" />Queries and Joins</a>
+                                                </li>
+                                                <li><a href="../Advanced Queries/SelfJoins.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />Self Joins</a>
+                                                </li>
+                                                <li><a href="../Advanced Queries/EmployeesandManagers.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/option.png" alt=""
+                                                            class="module-icon" />Employees and Managers</a>
+                                                </li>
+                                                <li><a href="../Advanced Queries/OptionalPaginationAndSorting.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />Optional - Pagination And Sorting</a>
+                                                </li>
+                                                <li><a href="../Advanced Queries/PaginationandSorting.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/option.png" alt=""
+                                                            class="module-icon" />Pagination and Sorting</a>
+                                                </li>
+
+
+
+
+
+
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li class="mb-1">
+                                        <button id="sidebtn"
+                                            class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed"
+                                            data-bs-toggle="collapse" data-bs-target="#SpringExtras-collapse"
+                                            aria-expanded="false">
+                                            Spring Extras (Optional)
+                                        </button>
+                                        <div class="collapse" id="SpringExtras-collapse">
+                                            <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                                                <li><a href="../Spring Extras (Optional)/Introduction.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />Introduction</a>
+                                                </li>
+                                                <li><a href="../Spring Extras (Optional)/JUnitIntroduction.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />JUnit Introduction</a>
+                                                </li>
+                                                <li><a href="../Spring Extras (Optional)/Testing.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />Testing</a>
+                                                </li>
+                                                <li><a href="../Spring Extras (Optional)/Assertions.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />Assertions</a>
+                                                </li>
+                                                <li><a href="../Spring Extras (Optional)/JUnitSinglyLinkedList.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/option.png" alt=""
+                                                            class="module-icon" />JUnit Singly Linked List</a>
+                                                </li>
+                                                <li><a href="../Spring Extras (Optional)/JUnitwithSpring.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />JUnit with Spring</a>
+                                                </li>
+                                                <li><a href="../Spring Extras (Optional)/TestingModelValidations.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />Testing Model Validations</a>
+                                                </li>
+                                                <li><a href="../Spring Extras (Optional)/ModelTest.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/option.png" alt=""
+                                                            class="module-icon" />Model Test</a>
+                                                </li>
+
+
+
+
+
+
+
+                                            </ul>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </aside>
+                    </div>
+                </div><button class="btn btn-link nav-link mx-2 order-3 d-lg-none" type="button"
+                    data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavMain" aria-controls="offcanvasNavMain"
+                    aria-label="Open main navigation menu"><svg xmlns="http://www.w3.org/2000/svg"
+                        class="icon icon-tabler icon-tabler-menu" width="24" height="24" viewBox="0 0 24 24"
+                        stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                        <line x1="4" y1="8" x2="20" y2="8"></line>
+                        <line x1="4" y1="16" x2="20" y2="16"></line>
+                    </svg></button>
+                <div class="offcanvas offcanvas-end h-auto" tabindex="-1" id="offcanvasNavMain"
+                    aria-labelledby="offcanvasNavMainLabel">
+                    <div class="offcanvas-header">
+                        <img src="/assets/icons/logo.png" alt="logo" style="width: 70px; height: 50px;">
+                        <button type="button" class="btn btn-link nav-link p-0" data-bs-dismiss="offcanvas"
+                            aria-label="Close"><svg xmlns="http://www.w3.org/2000/svg"
+                                class="icon icon-tabler icon-tabler-x" width="24" height="24" viewBox="0 0 24 24"
+                                stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round"
+                                stroke-linejoin="round">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                <path d="M18 6 6 18"></path>
+                                <path d="M6 6l12 12"></path>
+                            </svg></button>
+                    </div>
+                    <div class="offcanvas-body d-flex flex-column flex-lg-row justify-content-between">
+                        <!-- <ul class="navbar-nav flex-grow-1">
+              <li class="nav-item"><a class="nav-link active" href="index.html" aria-current="true">Docs</a></li>
+              <li class="nav-item"><a class="nav-link" href="/blog/">Blog</a></li>
+            </ul> -->
+
+                        <!-- this section is for the search bar and results -->
+                        <form class="navbar-form my-auto flex-grow-1 ">
+                            <input id="searchInput" class="form-control is-search ms-auto me-5" type="search"
+                                placeholder="Search ." aria-label="Search docs." autocomplete="off">
+                            <div id="suggestions" class="shadow rounded position-absolute d-none">
+                                <ul id="searchResults" class="list-unstyled m-auto"></ul>
+                            </div>
+                        </form>
+
+
+                        <button id="buttonColorMode" class="btn btn-link mx-auto nav-link p-0 ms-lg-2 me-lg-1"
+                            type="button" aria-label="Toggle theme"><svg data-bs-theme-value="dark"
+                                xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-moon" width="24"
+                                height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentcolor" fill="none"
+                                stroke-linecap="round" stroke-linejoin="round">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                <path d="M12 3c.132.0.263.0.393.0a7.5 7.5.0 007.92 12.446A9 9 0 1112 2.992z"></path>
+                            </svg><svg data-bs-theme-value="light" xmlns="http://www.w3.org/2000/svg"
+                                class="icon icon-tabler icon-tabler-sun" width="24" height="24" viewBox="0 0 24 24"
+                                stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round"
+                                stroke-linejoin="round">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                <path
+                                    d="M12 12m-4 0a4 4 0 108 0 4 4 0 10-8 0m-5 0h1m8-9v1m8 8h1m-9 8v1M5.6 5.6l.7.7m12.1-.7-.7.7m0 11.4.7.7m-12.1-.7-.7.7">
+                                </path>
+                            </svg></button>
+                        <ul id="socialMenu" class="nav mx-auto flex-row order-lg-4">
+
+
+                            <li class="nav-item"><a class="nav-link social-link"
+                                    href="https://github.com/DigitalAcademyTn"><svg xmlns="http://www.w3.org/2000/svg"
+                                        class="icon icon-tabler icon-tabler-brand-github" width="24" height="24"
+                                        viewBox="0 0 24 24" stroke-width="2" stroke="currentcolor" fill="none"
+                                        stroke-linecap="round" stroke-linejoin="round">
+                                        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                        <path
+                                            d="M9 19c-4.3 1.4-4.3-2.5-6-3m12 5v-3.5c0-1 .1-1.4-.5-2 2.8-.3 5.5-1.4 5.5-6a4.6 4.6.0 00-1.3-3.2 4.2 4.2.0 00-.1-3.2s-1.1-.3-3.5 1.3a12.3 12.3.0 00-6.2.0C6.5 2.8 5.4 3.1 5.4 3.1a4.2 4.2.0 00-.1 3.2A4.6 4.6.0 004 9.5c0 4.6 2.7 5.7 5.5 6-.6.6-.6 1.2-.5 2V21">
+                                        </path>
+                                                  </svg><small class="ms-2 visually-hidden">GitHub</small></a></li>
+                  <a id="upgrade" href="../../../upgrade.html">UPGRADE</a>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </header>
+    </div>
+
+
+
+
+    <div class="wrap container-fluid " role="document">
+        <div class="content">
+            <div class="row  d-flex justify-content-center">
+                <div class=" docs-sidebar d-none d-lg-block   ">
+                    <main class="">
+                        <div class="flex-shrink-0 pt-4 ">
+
+                            <div class="module pb-2">
+                                <h2 class="mod-title">Java</h2>
+                            </div>
+                            <div class="module pb-2">
+                                <a href="../../../Java/Java OOP/Java OOP/Overview.html" class="previous">&#8249;</a>
+                                <img src="/assets/icons/workshop.png" alt="" class="chapter-icon" />
+                                <span class="mod-title">Java Spring</span>
+                                <a href="../../../Java/MySQL/Installations/Intro.html" class="next">&#8250;</a>
+                            </div>
+
+
+
+
+
+                            <ul class=" list-unstyled px-3 overflow-scroll">
+                                <li class="mb-1  ">
+                                    <button id="sidebtn"
+                                        class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed"
+                                        data-bs-toggle="collapse" data-bs-target="#SpringIntro-collapse"
+                                        aria-expanded="false">
+                                        Spring Intro
+                                    </button>
+                                    <div class="collapse" id="SpringIntro-collapse">
+                                        <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                                            <li><a href="../Spring Intro/Overview.html" class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />Overview</a>
+                                            </li>
+                                            <li><a href="../Spring Intro/Mac.html" class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt="" class="module-icon" />Mac
+                                                    Installation</a>
+                                            </li>
+                                            <li><a href="../Spring Intro/Windows.html" class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />Windows Installation</a>
+                                            </li>
+                                            <li><a href="../Spring Intro/Start.html" class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />Start a New Spring Boot Project</a>
+                                            </li>
+                                            <li><a href="../Spring Intro/HelloWorld.html" class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />Hello World</a>
+                                            </li>
+                                            <li><a href="../Spring Intro/RestControllerAnnotations.html"
+                                                    class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />@RestController and Annotations</a>
+                                            </li>
+                                            <li><a href="../Spring Intro/Routing.html" class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />Routing</a>
+                                            </li>
+                                            <li><a href="../Spring Intro/SpringQuiz1.html" class="docs-link rounded ">
+                                                    <img src="/assets/icons/quiz.png" alt=""
+                                                        class="module-icon" />Spring Quiz 1</a>
+                                            </li>
+                                            <li><a href="../Spring Intro/DaikichiRoutes.html"
+                                                    class="docs-link rounded ">
+                                                    <img src="/assets/icons/practice.png" alt=""
+                                                        class="module-icon" />Daikichi Routes</a>
+                                            </li>
+                                            <li><a href="../Spring Intro/QueryParameters.html"
+                                                    class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />Query Parameters</a>
+                                            </li>
+                                            <li><a href="../Spring Intro/HelloHuman.html" class="docs-link rounded ">
+                                                    <img src="/assets/icons/practice.png" alt=""
+                                                        class="module-icon" />Hello Human</a>
+                                            </li>
+                                            <li><a href="../Spring Intro/URLs.html" class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />URLs & @PathVariable</a>
+                                            </li>
+                                            <li><a href="../Spring Intro/DaikichiPathVariables.html"
+                                                    class="docs-link rounded ">
+                                                    <img src="/assets/icons/core.png" alt=""
+                                                        class="module-icon" />Daikichi Path Variables</a>
+                                            </li>
+                                            <li><a href="../Spring Intro/JavaServerPages.html"
+                                                    class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />Java Server Pages</a>
+                                            </li>
+                                            <li><a href="../Spring Intro/JSTLTags.html" class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />JSTL Tags</a>
+                                            </li>
+
+                                            <li><a href="../Spring Intro/Rendering.html" class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />Rendering with @Controller</a>
+                                            </li>
+                                            <li><a href="../Spring Intro/MoreOnRenderingData.html"
+                                                    class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />More On Rendering Data</a>
+                                            </li>
+                                            <li><a href="../Spring Intro/SpringQuiz2.html" class="docs-link rounded ">
+                                                    <img src="/assets/icons/quiz.png" alt=""
+                                                        class="module-icon" />Spring Quiz 2</a>
+                                            </li>
+                                            <li><a href="../Spring Intro/HopperReceipt.html" class="docs-link rounded ">
+                                                    <img src="/assets/icons/practice.png" alt=""
+                                                        class="module-icon" />Hopper's Receipt</a>
+                                            </li>
+                                            <li><a href="../Spring Intro/AddingStatic.html" class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />Adding Static Content (CSS & JS)</a>
+                                            </li>
+                                            <li><a href="../Spring Intro/Bootstrap.html" class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />Bootstrap</a>
+                                            </li>
+                                            <li><a href="../Spring Intro/DisplayDate.html" class="docs-link rounded ">
+                                                    <img src="/assets/icons/option.png" alt=""
+                                                        class="module-icon" />Display Date</a>
+                                            </li>
+                                            <li><a href="../Spring Intro/JSTLLoops.html" class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />JSTL Loops and You</a>
+                                            </li>
+                                            <li><a href="../Spring Intro/ConditionalJSTLTags.html"
+                                                    class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />Conditional JSTL Tags</a>
+                                            </li>
+                                            <li><a href="../Spring Intro/FruityLoops.html" class="docs-link rounded ">
+                                                    <img src="/assets/icons/core.png" alt=""
+                                                        class="module-icon" />Fruity Loops</a>
+                                            </li>
+                                            <li><a href="../Spring Intro/Session.html" class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />Session </a>
+                                            </li>
+                                            <li><a href="../Spring Intro/SessioninJava.html" class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />Session in Java</a>
+                                            </li>
+
+                                            <li><a href="../Spring Intro/SpringQuiz3.html" class="docs-link rounded ">
+                                                    <img src="/assets/icons/quiz.png" alt=""
+                                                        class="module-icon" />Spring Quiz 3</a>
+                                            </li>
+                                            <li><a href="../Spring Intro/Counter.html" class="docs-link rounded ">
+                                                    <img src="/assets/icons/practice.png" alt=""
+                                                        class="module-icon" />Counter</a>
+                                            </li>
+                                            <li><a href="../Spring Intro/FormSubmission.html"
+                                                    class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />Form Submission</a>
+                                            </li>
+                                            <li><a href="../Spring Intro/GETvsPOST.html" class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt="" class="module-icon" />GET
+                                                    vs. POST</a>
+                                            </li>
+                                            <li><a href="../Spring Intro/POSTandRedirecting.html"
+                                                    class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />POST and Redirecting</a>
+                                            </li>
+                                            <li><a href="../Spring Intro/SpringQuiz4.html" class="docs-link rounded ">
+                                                    <img src="/assets/icons/quiz.png" alt=""
+                                                        class="module-icon" />Spring Quiz 4</a>
+                                            </li>
+                                            <li><a href="../Spring Intro/OmikujiForm.html" class="docs-link rounded ">
+                                                    <img src="/assets/icons/core.png" alt=""
+                                                        class="module-icon" />Omikuji Form</a>
+                                            </li>
+                                            <li><a href="../Spring Intro/FlashData.html" class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />Flash Data</a>
+                                            </li>
+                                            <li><a href="../Spring Intro/NinjaGoldGame.html" class="docs-link rounded ">
+                                                    <img src="/assets/icons/practice.png" alt=""
+                                                        class="module-icon" />Ninja Gold Game</a>
+                                            </li>
+                                            <li><a href="../Spring Intro/DependencyInjection.html"
+                                                    class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />Dependency Injection</a>
+                                            </li>
+
+
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li class="mb-1">
+                                    <button id="sidebtn"
+                                        class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed"
+                                        data-bs-toggle="collapse" data-bs-target="#SpringMVC-collapse"
+                                        aria-expanded="false">
+                                        Spring MVC
+                                    </button>
+                                    <div class="collapse" id="SpringMVC-collapse">
+                                        <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                                            <li><a href="../Spring MVC/MySQLWorkbenchIntroduction.html"
+                                                    class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />MySQL Workbench Introduction</a>
+                                            </li>
+                                            <li><a href="../Spring MVC/Mac.html" class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />(Mac) MySQL Server Installation</a>
+                                            </li>
+                                            <li><a href="../Spring MVC/Windows.html" class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />(Windows) MySQL Server Installation</a>
+                                            </li>
+                                            <li><a href="../Spring MVC/MVCDesignPattern.html"
+                                                    class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt="" class="module-icon" />MVC
+                                                    Design Pattern</a>
+                                            </li>
+                                            <li><a href="../Spring MVC/MVCLayers.html" class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt="" class="module-icon" />MVC
+                                                    Layers in Spring</a>
+                                            </li>
+                                            <li><a href="../Spring MVC/JPA.html" class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />JPA</a>
+                                            </li>
+                                            <li><a href="../Spring MVC/ConnectingtoMySQL.html"
+                                                    class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />Connecting to MySQL</a>
+                                            </li>
+                                            <li><a href="../Spring MVC/DomainModel.html" class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />Domain Model and Validation
+                                                    Annotations</a>
+                                            </li>
+                                            <li><a href="../Spring MVC/Repositories.html" class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />Repositories</a>
+                                            </li>
+                                            <li><a href="../Spring MVC/Services.html" class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />Services</a>
+                                            </li>
+                                            <li><a href="../Spring MVC/NotNull.html" class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />@NotNull</a>
+                                            </li>
+                                            <li><a href="../Spring MVC/MVCQuiz1.html" class="docs-link rounded ">
+                                                    <img src="/assets/icons/quiz.png" alt="" class="module-icon" />MVC
+                                                    Quiz 1</a>
+                                            </li>
+                                            <li><a href="../Spring MVC/BooksAPI.html" class="docs-link rounded ">
+                                                    <img src="/assets/icons/practice.png" alt=""
+                                                        class="module-icon" />Books API</a>
+                                            </li>
+                                            <li><a href="../Spring MVC/AddingViews.html" class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />Adding Views - Goodbye API</a>
+                                            </li>
+                                            <li><a href="../Spring MVC/RenderingBooks.html" class="docs-link rounded ">
+                                                    <img src="/assets/icons/practice.png" alt=""
+                                                        class="module-icon" />Rendering Books</a>
+                                            </li>
+                                            <li><a href="../Spring MVC/AllBooks.html" class="docs-link rounded ">
+                                                    <img src="/assets/icons/practice.png" alt=""
+                                                        class="module-icon" />All Books</a>
+                                            </li>
+                                            <li><a href="../Spring MVC/AddingaCreateForm.html"
+                                                    class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />Adding a Create Form</a>
+                                            </li>
+                                            <li><a href="../Spring MVC/ModelAttribute.html" class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />@ModelAttribute & Data Binding</a>
+                                            </li>
+
+                                            <li><a href="../Spring MVC/MVCQuiz2.html" class="docs-link rounded ">
+                                                    <img src="/assets/icons/quiz.png" alt="" class="module-icon" />MVC
+                                                    Quiz 2</a>
+                                            </li>
+                                            <li><a href="../Spring MVC/BurgerTracker1.html" class="docs-link rounded ">
+                                                    <img src="/assets/icons/practice.png" alt=""
+                                                        class="module-icon" />Burger Tracker 1</a>
+                                            </li>
+                                            <li><a href="../Spring MVC/EditandUpdate.html" class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />Edit and Update</a>
+                                            </li>
+                                            <li><a href="../Spring MVC/BurgerTracker2.html" class="docs-link rounded ">
+                                                    <img src="/assets/icons/practice.png" alt=""
+                                                        class="module-icon" />Burger Tracker 2</a>
+                                            </li>
+                                            <li><a href="../Spring MVC/Delete.html" class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />Delete</a>
+                                            </li>
+                                            <li><a href="../Spring MVC/SaveTravels.html" class="docs-link rounded ">
+                                                    <img src="/assets/icons/core.png" alt="" class="module-icon" />Save
+                                                    Travels</a>
+                                            </li>
+                                            <li><a href="../Spring MVC/Lookify.html" class="docs-link rounded ">
+                                                    <img src="/assets/icons/option.png" alt=""
+                                                        class="module-icon" />Lookify</a>
+                                            </li>
+                                            <li><a href="../Spring MVC/Appendix.html" class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />Appendix</a>
+                                            </li>
+
+
+
+
+
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li class="mb-1">
+                                    <button id="sidebtn"
+                                        class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed"
+                                        data-bs-toggle="collapse" data-bs-target="#Adding-collapse"
+                                        aria-expanded="false">
+                                        Adding One-to-Many
+                                    </button>
+                                    <div class="collapse" id="Adding-collapse">
+                                        <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                                            <li><a href="../Adding One-to-Many/Relationships.html"
+                                                    class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />Relationships</a>
+                                            </li>
+                                            <li><a href="../Adding One-to-Many/CaseStudy.html"
+                                                    class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />Case Study: Driver's License</a>
+                                            </li>
+                                            <li><a href="../Adding One-to-Many/OnetoMany.html"
+                                                    class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt="" class="module-icon" />One
+                                                    to Many</a>
+                                            </li>
+                                            <li><a href="../Adding One-to-Many/PotentialData.html"
+                                                    class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />Potential Data Binding Issues</a>
+                                            </li>
+                                            <li><a href="../Adding One-to-Many/OneToManyQuiz.html"
+                                                    class="docs-link rounded ">
+                                                    <img src="/assets/icons/quiz.png" alt="" class="module-icon" />One
+                                                    To Many Quiz</a>
+                                            </li>
+                                            <li><a href="../Adding One-to-Many/DojoandNinjas.html"
+                                                    class="docs-link rounded ">
+                                                    <img src="/assets/icons/core.png" alt="" class="module-icon" />Dojo
+                                                    and Ninjas</a>
+                                            </li>
+                                            <li><a href="../Adding One-to-Many/StudentRoster1n.html"
+                                                    class="docs-link rounded ">
+                                                    <img src="/assets/icons/option.png" alt=""
+                                                        class="module-icon" />Student Roster 1:n</a>
+                                            </li>
+                                            <li><a href="../Adding One-to-Many/MVCReview.html"
+                                                    class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />Full MVC Review </a>
+                                            </li>
+
+
+
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li class="mb-1">
+                                    <button id="sidebtn"
+                                        class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed"
+                                        data-bs-toggle="collapse" data-bs-target="#FullSpring-collapse"
+                                        aria-expanded="false">
+                                        Full Spring
+                                    </button>
+                                    <div class="collapse" id="FullSpring-collapse">
+                                        <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                                            <li><a href="../Full Spring/Overview.html" class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />Overview</a>
+                                            </li>
+                                            <li><a href="../Full Spring/ProjectSetup.html" class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />Project Setup</a>
+                                            </li>
+                                            <li><a href="../Full Spring/UserandLoginUser.html"
+                                                    class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />User and LoginUser</a>
+                                            </li>
+                                            <li><a href="../Full Spring/Login Page.html" class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />Login Page: Controller and View</a>
+                                            </li>
+                                            <li><a href="../Full Spring/PasswordSecurity.html"
+                                                    class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />Password Security</a>
+                                            </li>
+                                            <li><a href="../Full Spring/RepositoryandService.html"
+                                                    class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />Repository and Service</a>
+                                            </li>
+                                            <li><a href="../Full Spring/Authentication.html" class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />Authentication & Validation Logic</a>
+                                            </li>
+                                            <li><a href="../Full Spring/AuthQuiz.html" class="docs-link rounded ">
+                                                    <img src="/assets/icons/quiz.png" alt="" class="module-icon" />Auth
+                                                    Quiz</a>
+                                            </li>
+                                            <li><a href="../Full Spring/LoginandRegistration.html"
+                                                    class="docs-link rounded ">
+                                                    <img src="/assets/icons/core.png" alt="" class="module-icon" />Login
+                                                    and Registration</a>
+                                            </li>
+                                            <li><a href="../Full Spring/BookClub.html" class="docs-link rounded ">
+                                                    <img src="/assets/icons/core.png" alt="" class="module-icon" />Book
+                                                    Club</a>
+                                            </li>
+                                            <li><a href="../Full Spring/Multiple.html" class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />Multiple One-to-Many</a>
+                                            </li>
+                                            <li><a href="../Full Spring/BookBroker.html" class="docs-link rounded ">
+                                                    <img src="/assets/icons/option.png" alt=""
+                                                        class="module-icon" />Book Broker</a>
+                                            </li>
+                                            <li><a href="../Full Spring/Many-to-Many.html" class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />Many-to-Many</a>
+                                            </li>
+                                            <li><a href="../Full Spring/Creating.html" class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />Creating Many-to-Many Relationships</a>
+                                            </li>
+                                            <li><a href="../Full Spring/CascadeType.html" class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />CascadeType</a>
+                                            </li>
+                                            <li><a href="../Full Spring/ManyToManyQuiz.html" class="docs-link rounded ">
+                                                    <img src="/assets/icons/quiz.png" alt="" class="module-icon" />Many
+                                                    To Many Quiz</a>
+                                            </li>
+                                            <li><a href="../Full Spring/ProductsandCategories.html"
+                                                    class="docs-link rounded ">
+                                                    <img src="/assets/icons/option.png" alt=""
+                                                        class="module-icon" />Products and Categories</a>
+                                            </li>
+                                            <li><a href="../Full Spring/DojoOverflow.html" class="docs-link rounded ">
+                                                    <img src="/assets/icons/option.png" alt=""
+                                                        class="module-icon" />Dojo Overflow</a>
+                                            </li>
+                                            <li><a href="../Full Spring/StudentRoster.html" class="docs-link rounded ">
+                                                    <img src="/assets/icons/option.png" alt=""
+                                                        class="module-icon" />Student Roster n:m</a>
+                                            </li>
+                                            <li><a href="../Full Spring/BeltExamRubric.html" class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />Belt Exam Rubric</a>
+                                            </li>
+                                            <li><a href="../Full Spring/ProjectManager.html" class="docs-link rounded ">
+                                                    <img src="/assets/icons/option.png" alt=""
+                                                        class="module-icon" />Project Manager Extra Belt Review</a>
+                                            </li>
+
+
+
+
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li class="mb-1">
+                                    <button id="sidebtn"
+                                        class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed"
+                                        data-bs-toggle="collapse" data-bs-target="#SpringSecurity-collapse"
+                                        aria-expanded="true">
+                                        Spring Security
+                                    </button>
+                                    <div class="collapse show" id="SpringSecurity-collapse">
+                                        <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                                            <li><a href="../Spring Security/Auth.html" class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />Auth</a>
+                                            </li>
+                                            <li><a href="../Spring Security/SpringSecurityOverview.html"
+                                                    class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />Spring Security Overview</a>
+                                            </li>
+                                            <li><a href="../Spring Security/DataModels.html" class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />Data Models and Repositories</a>
+                                            </li>
+                                            <li><a href="../Spring Security/WebSecurity.html"
+                                                    class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt="" class="module-icon" />Web
+                                                    Security Configuration</a>
+                                            </li>
+                                            <li><a href="../Spring Security/BcryptRegistration.html"
+                                                    class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />Bcrypt Registration</a>
+                                            </li>
+                                            <li><a href="../Spring Security/UserDetailsService.html"
+                                                    class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />UserDetailsService</a>
+                                            </li>
+                                            <li><a href="../Spring Security/Log.html" class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt="" class="module-icon" />Log
+                                                    In & Log Out</a>
+                                            </li>
+                                            <li><a href="../Spring Security/Validations.html"
+                                                    class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />Validations</a>
+                                            </li>
+                                            <li><a href="../Spring Security/Authorization.html"
+                                                    class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />Authorization</a>
+                                            </li>
+                                            <li><a href="../Spring Security/SpringSecurityQuiz.html"
+                                                    class="docs-link rounded active">
+                                                    <img src="/assets/icons/quiz.png" alt=""
+                                                        class="module-icon" />Spring Security Quiz</a>
+                                            </li>
+                                            <li><a href="../Spring Security/AdminDashboard.html"
+                                                    class="docs-link rounded ">
+                                                    <img src="/assets/icons/option.png" alt=""
+                                                        class="module-icon" />Admin Dashboard</a>
+                                            </li>
+
+
+
+
+
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li class="mb-1">
+                                    <button id="sidebtn"
+                                        class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed"
+                                        data-bs-toggle="collapse" data-bs-target="#AdvancedQueries-collapse"
+                                        aria-expanded="false">
+                                        Advanced Queries
+                                    </button>
+                                    <div class="collapse" id="AdvancedQueries-collapse">
+                                        <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                                            <li><a href="../Advanced Queries/AdvancedQueries.html"
+                                                    class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />Advanced Queries</a>
+                                            </li>
+                                            <li><a href="../Advanced Queries/Joins.html" class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />Joins</a>
+                                            </li>
+                                            <li><a href="../Advanced Queries/QueriesandJoins.html"
+                                                    class="docs-link rounded ">
+                                                    <img src="/assets/icons/option.png" alt=""
+                                                        class="module-icon" />Queries and Joins</a>
+                                            </li>
+                                            <li><a href="../Advanced Queries/SelfJoins.html" class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />Self Joins</a>
+                                            </li>
+                                            <li><a href="../Advanced Queries/EmployeesandManagers.html"
+                                                    class="docs-link rounded ">
+                                                    <img src="/assets/icons/option.png" alt=""
+                                                        class="module-icon" />Employees and Managers</a>
+                                            </li>
+                                            <li><a href="../Advanced Queries/OptionalPaginationAndSorting.html"
+                                                    class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />Optional - Pagination And Sorting</a>
+                                            </li>
+                                            <li><a href="../Advanced Queries/PaginationandSorting.html"
+                                                    class="docs-link rounded ">
+                                                    <img src="/assets/icons/option.png" alt=""
+                                                        class="module-icon" />Pagination and Sorting</a>
+                                            </li>
+
+
+
+
+
+
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li class="mb-1">
+                                    <button id="sidebtn"
+                                        class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed"
+                                        data-bs-toggle="collapse" data-bs-target="#SpringExtras-collapse"
+                                        aria-expanded="false">
+                                        Spring Extras (Optional)
+                                    </button>
+                                    <div class="collapse" id="SpringExtras-collapse">
+                                        <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                                            <li><a href="../Spring Extras (Optional)/Introduction.html"
+                                                    class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />Introduction</a>
+                                            </li>
+                                            <li><a href="../Spring Extras (Optional)/JUnitIntroduction.html"
+                                                    class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />JUnit Introduction</a>
+                                            </li>
+                                            <li><a href="../Spring Extras (Optional)/Testing.html"
+                                                    class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />Testing</a>
+                                            </li>
+                                            <li><a href="../Spring Extras (Optional)/Assertions.html"
+                                                    class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />Assertions</a>
+                                            </li>
+                                            <li><a href="../Spring Extras (Optional)/JUnitSinglyLinkedList.html"
+                                                    class="docs-link rounded ">
+                                                    <img src="/assets/icons/option.png" alt=""
+                                                        class="module-icon" />JUnit Singly Linked List</a>
+                                            </li>
+                                            <li><a href="../Spring Extras (Optional)/JUnitwithSpring.html"
+                                                    class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />JUnit with Spring</a>
+                                            </li>
+                                            <li><a href="../Spring Extras (Optional)/TestingModelValidations.html"
+                                                    class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />Testing Model Validations</a>
+                                            </li>
+                                            <li><a href="../Spring Extras (Optional)/ModelTest.html"
+                                                    class="docs-link rounded ">
+                                                    <img src="/assets/icons/option.png" alt=""
+                                                        class="module-icon" />Model Test</a>
+                                            </li>
+
+
+
+
+
+
+
+                                        </ul>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+
+                    </main>
+
+                </div>
+                <div class="docs-content col-lg-11 col-xl-9 " id="lesson_content">
+
+                    <main data-bs-spy="scroll" data-bs-target="#TableOfContents" data-bs-offset="0" tabindex="0" id="lesson_content">
+                        <div id="quiz_description">
+                            <h1>Spring Security Quiz</h1>
+                            <h3><img src="/assets/icons/General visual.png"
+                                    style="width: 80px; height: 80px;" width="80" height="80" alt="''"
+                                    title="''">Learning Objectives:</h3>
+                            <ul>
+                                <li>Flex your comprehension with a flash review of the latest modules</li>
+                                <li>Identify and clarify any concepts you didn't quite understand</li>
+                                <li>Identify any specific material to review</li>
+                                <li>Bring up new questions for further research!</li>
+                            </ul>
+                            <div id="quiz-container">
+  
+
+                            
+                                <form id="quiz-form">
+                                    <div class="question">
+                                        <p>1. The process of determining the current user is called:</p>
+                                        <ul class="options">
+                                            <li class="option">
+                                                <div class="custom-radio">
+                                                    <input type="radio" id="q1a" name="q1" value="Authentication">
+                                                    <label for="q1a">Authentication</label>
+                                                </div>
+                                            </li>
+                                            <li class="option">
+                                                <div class="custom-radio">
+                                                    <input type="radio" id="q1b" name="q1" value="Authorization">
+                                                    <label for="q1b">Authorization</label>
+                                                </div>
+                                            </li>
+                                           
+                                        </ul>
+                                    </div>
+    
+                                    <div class="question">
+                                        <p>2. The process of determining what resources a specific user can access is called:</p>
+                                        <ul class="options">
+                                            <li class="option">
+                                                <div class="custom-radio">
+                                                    <input type="radio" id="q2a" name="q2" value="Authentication">
+                                                    <label for="q2a">Authentication</label>
+                                                </div>
+                                            </li>
+                                            <li class="option">
+                                                <div class="custom-radio">
+                                                    <input type="radio" id="q2b" name="q2" value="Authorization">
+                                                    <label for="q2b">Authorization</label>
+                                                </div>
+                                            </li>
+                              
+                                            
+                                     
+                                        </ul>
+                                    </div>
+    
+                                   
+                                    <div class="question">
+                                        <p>3. Spring Security does not protect against cross-site request forgery (CSRF).</p>
+                                        <ul class="options">
+                                            <li class="option">
+                                                <div class="custom-radio">
+                                                    <input type="radio" id="q3a" name="q3" value="True">
+                                                    <label for="q3a">True</label>
+                                                </div>
+                                            </li>
+                                            <li class="option">
+                                                <div class="custom-radio">
+                                                    <input type="radio" id="q3b" name="q3" value="False">
+                                                    <label for="q3b">False</label>
+                                                </div>
+                                            </li>
+                                           
+                                     
+                                        </ul>
+                                    </div>
+    
+                                    
+    
+                                    <div class="question">
+                                        <p>4. CSRF tokens prevent clients from submitting information to a Spring application without using the appropriate forms.</p>
+                                        <ul class="options">
+                                            <li class="option">
+                                                <div class="custom-radio">
+                                                    <input type="radio" id="q4a" name="q4" value="True">
+                                                    <label for="q4a">True</label>
+                                                </div>
+                                            </li>
+                                            <li class="option">
+                                                <div class="custom-radio">
+                                                    <input type="radio" id="q4b" name="q4" value="False">
+                                                    <label for="q4b">False</label>
+                                                </div>
+                                            </li>
+                              
+                                     
+                                        </ul>
+                                    </div>
+                                    <div class="question">
+                                        <p>5. CSRF tokens can be passed using a hidden input in our form.</p>
+                                        <ul class="options">
+                                            <li class="option">
+                                                <div class="custom-radio">
+                                                    <input type="radio" id="q5a" name="q5" value="True">
+                                                    <label for="q5a">True</label>
+                                                </div>
+                                            </li>
+                                            <li class="option">
+                                                <div class="custom-radio">
+                                                    <input type="radio" id="q5b" name="q5" value="False">
+                                                    <label for="q5b">False</label>
+                                                </div>
+                                            </li>
+                                            
+                         
+                                     
+                                        </ul>
+                                    </div>
+                                    <div class="question">
+                                        <p>6. The UserDetailsService interface is automatically created when we start a new Spring Boot project.</p>
+                                        <ul class="options">
+                                            <li class="option">
+                                                <div class="custom-radio">
+                                                    <input type="radio" id="q6a" name="q6" value="True">
+                                                    <label for="q6a">True</label>
+                                                </div>
+                                            </li>
+                                            <li class="option">
+                                                <div class="custom-radio">
+                                                    <input type="radio" id="q6b" name="q6" value="False">
+                                                    <label for="q6b">False</label>
+                                                </div>
+                                            </li>
+                                            
+                         
+                                     
+                                        </ul>
+                                    </div>
+                                    <div class="question">
+                                        <p>7. Spring Security automates the login process, meaning we do not have to create a 'POST' method for logging in.</p>
+                                        <ul class="options">
+                                            <li class="option">
+                                                <div class="custom-radio">
+                                                    <input type="radio" id="q7a" name="q7" value="True">
+                                                    <label for="q7a">True</label>
+                                                </div>
+                                            </li>
+                                            <li class="option">
+                                                <div class="custom-radio">
+                                                    <input type="radio" id="q7b" name="q7" value="False">
+                                                    <label for="q7b">False</label>
+                                                </div>
+                                            </li>
+                                            
+                         
+                                     
+                                        </ul>
+                                    </div>
+                                    <div class="question">
+                                        <p>8. The SecurityContextHolder is used to store the details of the present security context of the application.</p>
+                                        <ul class="options">
+                                            <li class="option">
+                                                <div class="custom-radio">
+                                                    <input type="radio" id="q8a" name="q8" value="True">
+                                                    <label for="q8a">True</label>
+                                                </div>
+                                            </li>
+                                            <li class="option">
+                                                <div class="custom-radio">
+                                                    <input type="radio" id="q8b" name="q8" value="False">
+                                                    <label for="q8b">False</label>
+                                                </div>
+                                            </li>
+                                            
+                         
+                                     
+                                        </ul>
+                                    </div>
+                                    <div class="question">
+                                        <p>9. We can store all of our Domain model messages in the messages.properties file.</p>
+                                        <ul class="options">
+                                            <li class="option">
+                                                <div class="custom-radio">
+                                                    <input type="radio" id="q9a" name="q9" value="True">
+                                                    <label for="q9a">True</label>
+                                                </div>
+                                            </li>
+                                            <li class="option">
+                                                <div class="custom-radio">
+                                                    <input type="radio" id="q9b" name="q9" value="False">
+                                                    <label for="q9b">False</label>
+                                                </div>
+                                            </li>
+                                            
+                         
+                                     
+                                        </ul>
+                                    </div>
+                                    <div class="question">
+                                        <p>10. We must make changes to our WebSecurityConfig class in order to add authorization.</p>
+                                        <ul class="options">
+                                            <li class="option">
+                                                <div class="custom-radio">
+                                                    <input type="radio" id="q10a" name="q10" value="True">
+                                                    <label for="q10a">True</label>
+                                                </div>
+                                            </li>
+                                            <li class="option">
+                                                <div class="custom-radio">
+                                                    <input type="radio" id="q10b" name="q10" value="False">
+                                                    <label for="q10b">False</label>
+                                                </div>
+                                            </li>
+                                            
+                         
+                                     
+                                        </ul>
+                                    </div>
+    
+                                    <button type="button" onclick="submitQuiz('SpringSecurityQuiz')">See Results</button>
+                                </form>
+                            </div>
+                        </div>
+                        <script>
+                            // search in the DB
+                            function fetchResults(quizId) {
+                                fetch(`/get-results/${quizId}`)
+                                    .then(response => response.json())
+                                    .then(existingResults => {
+                                        // If user has already answered, redirect to the result page
+                                        if (existingResults.success != false) {
+                                            console.log('User has already answered the quiz. Redirecting to results page.');
+                                            window.location.href = 'SpringSecurityQuizResult.html';
+                                        }
+                                    })
+                            }
+
+                            // submit 
+                            function submitQuiz(quizId) {
+                                const answers = {
+                                    q1: document.querySelector('input[name="q1"]:checked').value,
+                                    q2: document.querySelector('input[name="q2"]:checked').value,
+                                    q3: document.querySelector('input[name="q3"]:checked').value,
+                                    q4: document.querySelector('input[name="q4"]:checked').value,
+                                    q5: document.querySelector('input[name="q5"]:checked').value,
+                                    q6: document.querySelector('input[name="q6"]:checked').value,
+                                    q7: document.querySelector('input[name="q7"]:checked').value,
+                                    q8: document.querySelector('input[name="q8"]:checked').value,
+                                    q9: document.querySelector('input[name="q9"]:checked').value,
+                                    q10: document.querySelector('input[name="q10"]:checked').value,
+                                    // Add more answers for additional questions
+                                };
+
+                                fetch(`/store-results/${quizId}`, {
+                                    method: 'POST',
+                                    headers: {
+                                        'Content-Type': 'application/json',
+                                    },
+                                    body: JSON.stringify(answers),
+                                })
+                                    .then(response => response.json())
+                                    .then(data => {
+                                        console.log('Results stored:', data);
+                                        window.location.href = 'SpringSecurityQuizResult.html';
+                                    })
+                                    .catch(error => {
+                                        console.error('Error storing results:', error);
+                                    });
+                            }
+
+                            // Call fetchResults with the appropriate quizId
+                            fetchResults('SpringSecurityQuiz');
+                        </script>
+                        <br><br><br>
+
+
+
+                        <div class="d-flex justify-content-between " id="navigation">
+                            <a href="../Spring Security/Authorization.html" class="previous_page">&laquo;
+                                Previous</a>
+                            <a href="../Spring Security/AdminDashboard.html" class="next_page">Next &raquo;</a>
+
+                        </div>
+
+
+
+
+
+
+
+
+
+
+
+                    </main>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <!-- Include jQuery and Bootstrap JS (CDN) -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script src="/assets/js/color-modes.js"></script>
+    <script src="/assets/js/search.js"></script>
+    <script src="/assets/js/main.js"></script>
+
+
+    <!-- <script src="https://cdn.jsdelivr.net/npm/prismjs@1.28.0/prism.min.js"></script>
+  <script>
+    Prism.highlightAll();
+  </script> -->
+
+
+
+    <script>
+        // Initialize Prism.js
+        Prism.highlightAll();
+    </script>
+
+</body>
+
+</html>

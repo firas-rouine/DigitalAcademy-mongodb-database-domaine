@@ -1,0 +1,482 @@
+<!doctype html>
+<html lang="en" data-bs-theme="light">
+
+<head>
+    <!-- <script src="/assets/js/color-modes.js"></script> -->
+
+    <meta charset="utf-8">
+    <link rel="icon" type="image/png" href="../../../../assets/icons/circle-logo.png">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.118.2">
+    <title>Digital-Academy</title>
+
+    <!-- Custom style -->
+    <link href="/assets/styles/sidebar.css" rel="stylesheet">
+    <link rel="stylesheet" href="/assets/styles/styles.css">
+    <link rel="stylesheet" href="/assets/styles/styles2.css">
+    <!-- bootstrap style -->
+
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous"> -->
+
+
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/prismjs@1.28.0/themes/prism.min.css"> -->
+
+
+
+    <!-- Include the Prism.js library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.25.0/themes/prism.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.25.0/prism.min.js"></script>
+
+    <!-- Include the Okaidia theme -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.25.0/themes/prism-okaidia.min.css">
+
+
+</head>
+
+<body class="single home " data-bs-spy="scroll" data-bs-target="#TableOfContents" data-bs-root-margin="0px 0px -60%"
+    data-bs-smooth-scroll="true" tabindex="0" cz-shortcut-listen="true">
+    <div class="sticky-top">
+        <header class="navbar navbar-expand-lg g-nav m">
+            <div class="container-lg"><a class="navbar-brand me-auto me-lg-3" href="#"> <img
+                        src="/assets/icons/logo.png" alt="logo" style="width: 70px; height: 50px;">
+                </a>
+                <a id="home" href="/home.html">HOME</a>
+                <button class="btn btn-link d-lg-none" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasNavSection" aria-controls="offcanvasNavSection"
+                    aria-label="Open section navigation menu"><svg xmlns="http://www.w3.org/2000/svg"
+                        class="icon icon-tabler icon-tabler-dots-vertical" width="24" height="24" viewBox="0 0 24 24"
+                        stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                        <path d="M12 12m-1 0a1 1 0 102 0 1 1 0 10-2 0"></path>
+                        <path d="M12 19m-1 0a1 1 0 102 0 1 1 0 10-2 0"></path>
+                        <path d="M12 5m-1 0a1 1 0 102 0 1 1 0 10-2 0"></path>
+                    </svg></button>
+                <div class="offcanvas offcanvas-start d-lg-none" tabindex="-1" id="offcanvasNavSection"
+                    aria-labelledby="offcanvasNavSectionLabel">
+                    <div class="offcanvas-header">
+                        <img src="/assets/icons/logo.png" alt="logo" style="width: 70px; height: 50px;">
+                        <button type="button" class="btn btn-link nav-link p-0" data-bs-dismiss="offcanvas"
+                            aria-label="Close"><svg xmlns="http://www.w3.org/2000/svg"
+                                class="icon icon-tabler icon-tabler-x" width="24" height="24" viewBox="0 0 24 24"
+                                stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round"
+                                stroke-linejoin="round">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                <path d="M18 6 6 18"></path>
+                                <path d="M6 6l12 12"></path>
+                            </svg></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <aside class="doks-sidebar mt-n3">
+                            <nav id="doks-docs-nav" aria-label="Tertiary navigation">
+                                <div class="module pb-2 pt-4">
+                                    <h2 class="mod-title">Java</h2>
+                                    <div class="module pb-2">
+                                        <a href="../../../Java/MySQL/Installations/Intro.html" class="previous"
+                                            style='padding-right: 10px;'>&#8249;</a>
+                                        <img src="/assets/icons/workshop.png" alt="" class="chapter-icon" />
+                                        <span class="mod-title ">Spring Deployment</span>
+                                        <a href="../../../Java/Projects/Introduction/Objectives.html" class="next"
+                                            style='padding-left: 10px;'>&#8250;</a>
+                                    </div>
+                                </div>
+                                <ul class="list-unstyled collapsible-sidebar ">
+
+                                    <li class="mb-1">
+                                        <button id="sidebtn"
+                                            class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed"
+                                            data-bs-toggle="collapse" data-bs-target="#AWSDeployment-collapse"
+                                            aria-expanded="true">
+                                            AWS Deployment
+                                        </button>
+                                        <div class="collapse show" id="AWSDeployment-collapse">
+                                            <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                                                <li><a href="../AWS Deployment/Deploying.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />EC2
+                                                        Setup (Classic)</a>
+                                                </li>
+                                                <li><a href="../AWS Deployment/EC2.html"
+                                                        class="docs-link rounded active">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />EC2
+                                                        Setup (New)</a>
+                                                </li>
+                                                <li><a href="../AWS Deployment/Server.html" class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />MySQL and Data Export</a>
+                                                </li>
+                                                <li><a href="../AWS Deployment/ApacheSetup.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />Apache Setup</a>
+                                                </li>
+                                                <li><a href="../AWS Deployment/SpringBootSetup.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />Spring Boot Setup</a>
+                                                </li>
+                                                <li><a href="../AWS Deployment/JDKandsystemd.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />JDK
+                                                        and systemd</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </li>
+
+                                    <li class="mb-1">
+                                        <button id="sidebtn"
+                                            class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed"
+                                            data-bs-toggle="collapse" data-bs-target="#BeltReviewer-collapse"
+                                            aria-expanded="false">
+                                            Belt Reviewer
+                                        </button>
+                                        <div class="collapse" id="BeltReviewer-collapse">
+                                            <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                                                <li><a href="../Belt Reviewer/Events.html" class="docs-link rounded ">
+                                                        <img src="/assets/icons/option.png" alt=""
+                                                            class="module-icon" />Events</a>
+                                                </li>
+                                                <li><a href="../Belt Reviewer/WaterBnB.html" class="docs-link rounded ">
+                                                        <img src="/assets/icons/option.png" alt=""
+                                                            class="module-icon" />WaterBnB</a>
+                                                </li>
+                                                <li><a href="../Belt Reviewer/BeltExam.html" class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />Belt Exam</a>
+                                                </li>
+
+                                            </ul>
+                                        </div>
+                                    </li>
+
+
+
+
+
+                                </ul>
+                            </nav>
+                        </aside>
+                    </div>
+                </div><button class="btn btn-link nav-link mx-2 order-3 d-lg-none" type="button"
+                    data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavMain" aria-controls="offcanvasNavMain"
+                    aria-label="Open main navigation menu"><svg xmlns="http://www.w3.org/2000/svg"
+                        class="icon icon-tabler icon-tabler-menu" width="24" height="24" viewBox="0 0 24 24"
+                        stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                        <line x1="4" y1="8" x2="20" y2="8"></line>
+                        <line x1="4" y1="16" x2="20" y2="16"></line>
+                    </svg></button>
+                <div class="offcanvas offcanvas-end h-auto" tabindex="-1" id="offcanvasNavMain"
+                    aria-labelledby="offcanvasNavMainLabel">
+                    <div class="offcanvas-header">
+                        <img src="/assets/icons/logo.png" alt="logo" style="width: 70px; height: 50px;">
+                        <button type="button" class="btn btn-link nav-link p-0" data-bs-dismiss="offcanvas"
+                            aria-label="Close"><svg xmlns="http://www.w3.org/2000/svg"
+                                class="icon icon-tabler icon-tabler-x" width="24" height="24" viewBox="0 0 24 24"
+                                stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round"
+                                stroke-linejoin="round">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                <path d="M18 6 6 18"></path>
+                                <path d="M6 6l12 12"></path>
+                            </svg></button>
+                    </div>
+                    <div class="offcanvas-body d-flex flex-column flex-lg-row justify-content-between">
+                        <!-- <ul class="navbar-nav flex-grow-1">
+              <li class="nav-item"><a class="nav-link active" href="index.html" aria-current="true">Docs</a></li>
+              <li class="nav-item"><a class="nav-link" href="/blog/">Blog</a></li>
+            </ul> -->
+
+                        <!-- this section is for the search bar and results -->
+                        <form class="navbar-form my-auto flex-grow-1 ">
+                            <input id="searchInput" class="form-control is-search ms-auto me-5" type="search"
+                                placeholder="Search ." aria-label="Search docs." autocomplete="off">
+                            <div id="suggestions" class="shadow rounded position-absolute d-none">
+                                <ul id="searchResults" class="list-unstyled m-auto"></ul>
+                            </div>
+                        </form>
+
+
+                        <button id="buttonColorMode" class="btn btn-link mx-auto nav-link p-0 ms-lg-2 me-lg-1"
+                            type="button" aria-label="Toggle theme"><svg data-bs-theme-value="dark"
+                                xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-moon" width="24"
+                                height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentcolor" fill="none"
+                                stroke-linecap="round" stroke-linejoin="round">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                <path d="M12 3c.132.0.263.0.393.0a7.5 7.5.0 007.92 12.446A9 9 0 1112 2.992z"></path>
+                            </svg><svg data-bs-theme-value="light" xmlns="http://www.w3.org/2000/svg"
+                                class="icon icon-tabler icon-tabler-sun" width="24" height="24" viewBox="0 0 24 24"
+                                stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round"
+                                stroke-linejoin="round">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                <path
+                                    d="M12 12m-4 0a4 4 0 108 0 4 4 0 10-8 0m-5 0h1m8-9v1m8 8h1m-9 8v1M5.6 5.6l.7.7m12.1-.7-.7.7m0 11.4.7.7m-12.1-.7-.7.7">
+                                </path>
+                            </svg></button>
+                        <ul id="socialMenu" class="nav mx-auto flex-row order-lg-4">
+
+
+                            <li class="nav-item"><a class="nav-link social-link"
+                                    href="https://github.com/DigitalAcademyTn"><svg xmlns="http://www.w3.org/2000/svg"
+                                        class="icon icon-tabler icon-tabler-brand-github" width="24" height="24"
+                                        viewBox="0 0 24 24" stroke-width="2" stroke="currentcolor" fill="none"
+                                        stroke-linecap="round" stroke-linejoin="round">
+                                        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                        <path
+                                            d="M9 19c-4.3 1.4-4.3-2.5-6-3m12 5v-3.5c0-1 .1-1.4-.5-2 2.8-.3 5.5-1.4 5.5-6a4.6 4.6.0 00-1.3-3.2 4.2 4.2.0 00-.1-3.2s-1.1-.3-3.5 1.3a12.3 12.3.0 00-6.2.0C6.5 2.8 5.4 3.1 5.4 3.1a4.2 4.2.0 00-.1 3.2A4.6 4.6.0 004 9.5c0 4.6 2.7 5.7 5.5 6-.6.6-.6 1.2-.5 2V21">
+                                        </path>
+                                                  </svg><small class="ms-2 visually-hidden">GitHub</small></a></li>
+                  <a id="upgrade" href="../../../upgrade.html">UPGRADE</a>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </header>
+    </div>
+
+
+
+
+    <div class="wrap container-fluid " role="document">
+        <div class="content">
+            <div class="row  d-flex justify-content-center">
+                <div class=" docs-sidebar d-none d-lg-block   ">
+                    <main class="">
+                        <div class="flex-shrink-0 pt-4 ">
+
+                            <div class="module pb-2">
+                                <h2 class="mod-title">Java</h2>
+                            </div>
+                            <div class="module pb-2">
+                                <a href="../../../Java/MySQL/Installations/Intro.html" class="previous"
+                                    style='padding-right: 10px;'>&#8249;</a>
+                                <img src="/assets/icons/workshop.png" alt="" class="chapter-icon" />
+                                <span class="mod-title ">Spring Deployment</span>
+                                <a href="../../../Java/Projects/Introduction/Objectives.html" class="next"
+                                    style='padding-left: 10px;'>&#8250;</a>
+                            </div>
+
+
+
+
+
+                            <ul class=" list-unstyled px-3 overflow-scroll">
+
+                                <li class="mb-1">
+                                    <button id="sidebtn"
+                                        class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed"
+                                        data-bs-toggle="collapse" data-bs-target="#AWSDeployment-collapse"
+                                        aria-expanded="true">
+                                        AWS Deployment
+                                    </button>
+                                    <div class="collapse show" id="AWSDeployment-collapse">
+                                        <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                                            <li><a href="../AWS Deployment/Deploying.html" class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt="" class="module-icon" />EC2
+                                                    Setup (Classic)</a>
+                                            </li>
+                                            <li><a href="../AWS Deployment/EC2.html" class="docs-link rounded active">
+                                                    <img src="/assets/icons/module.png" alt="" class="module-icon" />EC2
+                                                    Setup (New)</a>
+                                            </li>
+                                            <li><a href="../AWS Deployment/Server.html" class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />MySQL and Data Export</a>
+                                            </li>
+                                            <li><a href="../AWS Deployment/ApacheSetup.html" class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />Apache Setup</a>
+                                            </li>
+                                            <li><a href="../AWS Deployment/SpringBootSetup.html"
+                                                    class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />Spring Boot Setup</a>
+                                            </li>
+                                            <li><a href="../AWS Deployment/JDKandsystemd.html"
+                                                    class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt="" class="module-icon" />JDK
+                                                    and systemd</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </li>
+
+                                <li class="mb-1">
+                                    <button id="sidebtn"
+                                        class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed"
+                                        data-bs-toggle="collapse" data-bs-target="#BeltReviewer-collapse"
+                                        aria-expanded="false">
+                                        Belt Reviewer
+                                    </button>
+                                    <div class="collapse" id="BeltReviewer-collapse">
+                                        <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                                            <li><a href="../Belt Reviewer/Events.html" class="docs-link rounded ">
+                                                    <img src="/assets/icons/option.png" alt=""
+                                                        class="module-icon" />Events</a>
+                                            </li>
+                                            <li><a href="../Belt Reviewer/WaterBnB.html" class="docs-link rounded ">
+                                                    <img src="/assets/icons/option.png" alt=""
+                                                        class="module-icon" />WaterBnB</a>
+                                            </li>
+                                            <li><a href="../Belt Reviewer/BeltExam.html" class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />Belt Exam</a>
+                                            </li>
+
+                                        </ul>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+
+                    </main>
+
+                </div>
+                <div class="docs-content col-lg-11 col-xl-9 " id="lesson_content">
+
+                    <main data-bs-spy="scroll" data-bs-target="#TableOfContents" data-bs-offset="0" tabindex="0">
+                        <div id="lesson_content">
+                            <h1>Deploying your Spring Boot to Amazon (New)</h1>
+                            <h3><img src="/assets/icons/General visual.png"
+                                    style="width: 80px; height: 80px;" width="80" height="80" alt="''"
+                                    title="''">Learning Objective:</h3>
+                            <ul>
+                                <li>Deploy a Spring application using Amazon Web Services (AWS)</li>
+                            </ul>
+                            <hr>
+                            <h2>Set up your server instance on AWS (New)</h2>
+                            <p><a href="https://console.aws.amazon.com/ec2/v2/home#Instances:sort=instanceId"
+                                    target="_blank">Login to AWS</a> and search EC2 to get to your instances. Go to your
+                                running instances and select <strong>Launch Instance</strong></p>
+                            <figure><img
+                                    src="/assets/img/step1.png">
+                            </figure>
+                            <p>Name your instance after your project.</p>
+                            <figure><img
+                                    src="/assets/img/step3.png">
+                            </figure>
+                            <p>Select the image we want on our instance. This is the operating system that will be
+                                installed on our virtual machine. We want <strong>Ubuntu</strong> at the <strong>highest
+                                    version</strong> that's still <strong>Free tier eligible</strong>. Just make sure
+                                you always pick <strong>Free tier eligible</strong> if you don't want to end up paying
+                                Amazon fees!</p>
+                            <figure><img
+                                    src="/assets/img/step4.png">
+                            </figure>
+                            <p>Select our instance type. <strong>t2.micro</strong> is the largest instance that is still
+                                <strong>Free tier eligible</strong>. Again, we want to pick the smallest server
+                                possible, so we don't get charged.</p>
+                            <figure><img
+                                    src="/assets/img/step5.png">
+                            </figure>
+                            <p>Configure keypair. This will allow you to connect to your instance as an admin. This key
+                                cannot be shared. Never upload your PEM key to a git repo or put it on a public place on
+                                the internet. This is a literal key to access our instance. Misplacing it, can
+                                potentially allow bad actors to install malicious software. <strong>Always store your
+                                    PEM keys in a safe local folder!</strong></p>
+                            <p>Name your key pair, ideally after your project, set the types to RSA and .pem</p>
+                            <figure><img
+                                    src="/assets/img/step6.png">
+                            </figure>
+                            <p>Configure our security group. We want to limit the number of computers that can access
+                                our server through SSH, so it is recommended you set your SSH traffic to <strong>My
+                                    IP</strong>. <strong style="color: red">If you are on public wifi or you change
+                                    locations regularly, your IP address will change. If you are having trouble using
+                                    SSH, confirm this IP address is yours!</strong></p>
+                            <p>We also want to enable all HTTPS and HTTP traffic. This is a server after all!</p>
+                            <figure><img
+                                    src="/assets/img/step7better.png">
+                            </figure>
+                            <p>Configure storage. We want to make sure we stay in <strong>Free tier eligible</strong>.
+                            </p>
+                            <figure><img
+                                    src="/assets/img/step8.png">
+                            </figure>
+                            <p>You should be able to launch your instance and return to your dashboard now.</p>
+                            <p>Select your instance and hit the "connect" button. The commands in the window that pops
+                                up should allow you to SSH (secure shell) your way onto the server.</p>
+                            <p>In your terminal, cd into the directory that contains you pem key. Once there, run the
+                                commands from the modal on the EC2 dashboard. The first command will properly set the
+                                permissions for a key name keyname.pem. The second will SSH into your AWS server
+                                instance.</p>
+                                <div class="highlight">
+                                    <div class="clipboard"><button class="btn btn-clipboard blankkk"
+                                            aria-label="Clipboard button"></button></div>
+<pre>chmod 400 keyname.pem
+ssh -i "keyname.pem" ubuntu@ec2-XXX-XXX-XXX-XXX.compute-1.amazonaws.com</pre>
+                                </div>
+                            <p><strong>Note:</strong> In Windows CMD you do not need to run the chmod command</p>
+                            <p>You should now be connected to your server instance.</p>
+                            <p>Finally, run these two commands to make sure that our system is up to date: </p>
+                            <div class="highlight">
+                                <div class="clipboard"><button class="btn btn-clipboard blankkk"
+                                        aria-label="Clipboard button"></button></div>
+<pre>sudo apt-get update
+sudo apt-get -y upgrade</pre>
+                            </div>
+                            <p>If you see a pink screen to update <strong>menu.lst</strong>, choose the default option
+                                to <strong>keep the local version currently installed</strong>.<br></p>
+                        </div>
+                        <br><br><br>
+
+
+
+                        <div class="d-flex justify-content-between " id="navigation">
+                            <a href="../AWS Deployment/Deploying.html" class=" previous_page">&laquo;
+                                Previous</a>
+                            <a href="../AWS Deployment/Server.html" class="next_page">Next
+                                &raquo;</a>
+
+                        </div>
+
+
+
+
+
+
+
+
+
+
+
+                    </main>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <!-- Include jQuery and Bootstrap JS (CDN) -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script src="/assets/js/color-modes.js"></script>
+    <script src="/assets/js/search.js"></script>
+    <script src="/assets/js/main.js"></script>
+
+
+    <!-- <script src="https://cdn.jsdelivr.net/npm/prismjs@1.28.0/prism.min.js"></script>
+  <script>
+    Prism.highlightAll();
+  </script> -->
+
+
+
+    <script>
+        // Initialize Prism.js
+        Prism.highlightAll();
+    </script>
+
+</body>
+
+</html>

@@ -1,0 +1,332 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+}
+
+.section {
+    padding: 1rem 0;
+}
+
+.section-title {
+    font-size: 2rem;
+    text-align: center;
+    color: #343a40;
+}
+
+.section-description {
+    margin-bottom: 1rem;
+    text-align: center;
+    color: #6c757d;
+}
+
+.plans {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    flex-wrap: wrap; /* Allow flex items to wrap to a new line */
+}
+
+.mb-3 span {
+    color: red;
+}
+
+.plan {
+    flex: 1;
+    min-width: 280px; /* Ensure the plan boxes have a minimum width */
+    padding: 1.5rem;
+    border: 1px solid #dee2e6;
+    border-radius: 0.5rem;
+    background-color: #ffffff;
+    box-shadow: 1rem 1rem 0.25rem rgba(165, 160, 160, 0.175);
+    transition: transform 0.3s ease;
+    margin: 1rem;
+}
+
+.plan:hover {
+    transform: translateY(-5px);
+}
+
+.plan-title {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+    color: #007bff;
+}
+
+.plan-price {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+    color: #28a745;
+}
+.plan-name {
+    font-size: large;  
+    font-weight: bold;
+  }
+  
+
+.plan-features {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+    color: #6c757d;
+}
+.plan-features img{
+    margin-bottom: 0!important;
+}
+.plan-button {
+    display: inline-block;
+    padding: 0.5rem 1.5rem;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #007bff;
+    border-radius: 25px;
+    transition: background-color 0.3s ease;
+    text-decoration: none !important;
+    cursor: default;
+}
+
+.plan-button:hover {
+    background-color: #0056b3;
+}
+
+.modal-content {
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+}
+
+.modal-header {
+    border-bottom: none;
+}
+
+.form-label {
+    font-weight: bold;
+    color: #343a40;
+}
+
+.form-control {
+    border-radius: 0.25rem;
+}
+
+.btn-primary {
+    background-color: #0058ff;
+    border-color: #0058ff;
+    transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+}
+
+.invalid-feedback {
+    font-size: 0.875rem;
+    color: #dc3545;
+}
+
+.modal-header {
+    background-color: #007bff;
+    
+    border-bottom: 1px solid #dee2e6;
+}
+
+.modal-title {
+    margin: 0 auto;
+    color: white;
+}
+
+.modal-body {
+    padding: 1.5rem;
+}
+
+.modal-content {
+    border-radius: 0.5rem;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+}
+
+.form-label {
+    font-weight: bold;
+    margin: 7px;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+    color: white;
+}
+.btn-primary1 {
+    background-color: #007bff;
+    border-color: #007bff;
+    color: white;
+}
+.btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #004085;
+}
+
+.invalid-feedback {
+    display: block;
+}
+
+.send-button {
+    margin-top: 20px;
+    display: inline-block;
+    padding: 0.5rem 1.5rem;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #007bff;
+    border-radius: 25px;
+    border-color: #007bff !important;
+    text-align: center;
+    transition: background-color 0.3s ease;
+}
+
+.invalid-feedback {
+    margin-top: 5px;
+}
+
+.icon {
+    height: 30px;
+    width: 20px;
+    margin-right: 10px;
+}
+
+.center {
+    text-align: center;
+}
+
+/* Responsive styling */
+@media (max-width: 768px) {
+    .section-title {
+        font-size: 1.5rem;
+    }
+
+    .plan {
+        min-width: 200px;
+        padding: 1rem;
+    }
+
+    .plan-title {
+        font-size: 1.5rem;
+    }
+
+    .plan-price {
+        font-size: 1.2rem;
+    }
+
+    .plan-features {
+        font-size: 0.9rem;
+    }
+
+    .plan-button {
+        padding: 0.5rem 1rem;
+        font-size: 0.9rem;
+    }
+
+    .modal-header {
+        padding: 1rem;
+    }
+
+    .modal-title {
+        padding-left: 0;
+        text-align: center;
+    }
+
+    .modal-body {
+        padding: 1rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .section-title {
+        font-size: 1.2rem;
+    }
+
+    .plan {
+        min-width: 150px;
+        padding: 0.75rem;
+    }
+
+    .plan-title {
+        font-size: 1.2rem;
+    }
+
+    .plan-price {
+        font-size: 1rem;
+    }
+
+    .plan-features {
+        font-size: 0.8rem;
+    }
+
+    .plan-button {
+        padding: 0.5rem 0.75rem;
+        font-size: 0.8rem;
+    }
+
+    .modal-header {
+        padding: 0.5rem;
+    }
+
+    .modal-title {
+        padding-left: 0;
+        text-align: center;
+    }
+
+    .modal-body {
+        padding: 0.5rem;
+    }
+}
+/* Adjust select box styles */
+#pack_select {
+    width: 100%;
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Style for the options dropdown */
+#pack_select option {
+    font-size: 16px;
+    background-color: #fff;
+    color: #333;
+}
+
+/* Remove default styling for select box arrow */
+#pack_select::-ms-expand {
+    display: none;
+}
+
+/* Adjust overall form styles */
+#contact_form {
+    padding: 10px;
+}
+
+/* Optional: Add margin to bottom of each form element */
+#contact_form .mb-3 {
+    margin-bottom: 5px;
+}
+/* Styles for success and error popups */
+.popup {
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    background-color: #bfe7de;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    z-index: 1000;
+    text-align: center;
+}
+
+.popup p {
+    margin-bottom: 10px;
+}
+
+.popup.success {
+    border: 2px solid #28a745;
+}
+
+.popup.error {
+    border: 2px solid #dc3545;
+}

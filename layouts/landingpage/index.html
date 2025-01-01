@@ -1,0 +1,520 @@
+<!doctype html>
+<html lang="en">
+
+  <head>
+    <title>Digital-Academy</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="icon" type="image/png" href="../../../../assets/icons/circle-logo.png">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="fonts/icomoon/style.css">
+    <link rel="stylesheet" href="fonts/brand/style.css">
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap-datepicker.css">
+    <link rel="stylesheet" href="css/jquery.fancybox.min.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/aos.css">
+    <link rel="stylesheet" href="/assets/styles/upgrade.css">
+
+    <!-- MAIN CSS -->
+    <link rel="stylesheet" href="css/style.css">
+
+  </head>
+
+  <body>
+
+    
+    <div class="site-wrap" id="home-section">
+
+      <div class="site-mobile-menu site-navbar-target">
+        <div class="site-mobile-menu-header">
+          <div class="site-mobile-menu-close mt-3">
+            <span class="icon-close2 js-menu-toggle"></span>
+          </div>
+        </div>
+        <div class="site-mobile-menu-body"></div>
+      </div>
+
+      <header class="site-navbar light site-navbar-target" role="banner">
+
+        <div class="container">
+          <div class="row align-items-center position-relative">
+
+            <div class="col-3">
+              <div class="site-logo">
+                <a href="index.html"><strong>DigitalAcademy</strong></a>
+              </div>
+            </div>
+
+            <div class="col-9  text-right">
+              
+              <span class="d-inline-block d-lg-none"><a href="#" class=" site-menu-toggle js-menu-toggle py-5 "><span class="icon-menu h3 text-black"></span></a></span>
+
+              <nav class="site-navigation text-right ml-auto d-none d-lg-block" role="navigation">
+                <ul class="site-menu main-menu js-clone-nav ml-auto ">
+                  <li class="active"><a href="/" class="nav-link">Home</a></li>
+                  <li ><a href="../home.html" class="nav-link">Courses</a></li>
+                  <li><a href="/about" class="nav-link">About</a></li>
+                  <li><a href="/contact" class="nav-link">Contact</a></li>
+                  <li><a href="../upgrade.html" class="nav-link">Pricing</a></li>
+                  <li><a href="/" class="nav-link">Sign In</a></li>
+                </ul>
+              </nav>
+            </div>
+
+            
+          </div>
+        </div>
+
+      </header>
+
+      
+      <div class="site-section-cover overlay" style="background-image: url('../../assets/img/swiper-slide-3.jpg');">
+        <div class="container">
+            <!-- Text Content -->
+            <div class="row align-items-center justify-content">
+              <div class="col-lg-10 ">
+                <h1>High-Quality Education </h1>
+                <h2 class="blue">Any Successful Career Starts <br> <span class="text-italic font-weight-bold">With Good Education</span>
+                </h2>
+                <button type="button" class="btn btn-primary mt-4" data-bs-toggle="modal" data-bs-target="#loginModal">
+                    Login
+                </button>
+            </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Login Modal (initially open) -->
+    <div class="modal fade show" id="loginModal" tabindex="-1" aria-labelledby="loginModalLabel" aria-hidden="true" style="display: block;">
+        <div class="modal-dialog modal-dialog-centered"> <!-- Centering the modal -->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="loginModalLabel">Sign In</h5>
+                    <!-- <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button> -->
+                </div>
+                <div class="modal-body">
+                    <form id="loginForm">
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Email address</label>
+                            <input type="email" class="form-control" id="email" placeholder="Enter email">
+                        </div>
+                        <div class="mb-3">
+                            <label for="password" class="form-label">Password</label>
+                            <input type="password" name="password" class="form-control" id="password" placeholder="Password">
+                        </div>
+                        <div id="error" aria-live="assertive"></div>
+                        <button type="submit" class="btn btn-primary1 w-100">Login</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="site-section">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <div class="heading mb-4">
+                        
+                        <h2>Our Courses</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row align-items-stretch">
+                <div class="col-lg-2 ">
+                    <a href="../home.html" class="course">
+                      <img src="/assets/icons/html.png" alt="html">
+                        <h3>HTML</h3>
+                    </a>
+                </div>
+                <div class="col-lg-2">
+                    <a href="../home.html" class="course">
+                      <img src="/assets/icons/css.png" alt="css">
+                        <h3>CSS</h3>
+                    </a>
+                </div>
+                <div class="col-lg-2">
+                  <a href="../home.html" class="course">
+                    <img src="/assets/icons/js.png" alt="css">
+                      <h3>Java Script</h3>
+                  </a>
+              </div>
+              <div class="col-lg-2">
+                <a href="../home.html" class="course">
+                  <img src="/assets/icons/JavaFundamentals.png" alt="css">
+                    <h3>JAVA </h3>
+                </a>
+            </div>
+              <div class="col-lg-2">
+                <a href="../home.html" class="course">
+                  <img src="/assets/icons/Spring_Boot.png" alt="css">
+                    <h3>Spring Boot</h3>
+                </a>
+            </div>
+            <div class="col-lg-2">
+              <a href="../home.html" class="course">
+                <img src="/assets/icons/mysql.png" alt="css">
+                  <h3>MYSQL</h3>
+              </a>
+          </div>
+          
+      
+        
+          
+           
+            </div>
+            <div class="row align-items-center mt-5 justify-content-center">
+              <div class="col-lg-2">
+                  <a href="../home.html" class="course">
+                    <img src="/assets/icons/reaact_logo_(1).png" alt="reaact">
+                      <h3>React</h3>
+                  </a>
+              </div>
+              <div class="col-lg-2">
+                  <a href="../home.html" class="course">
+                    <img src="/assets/icons/express.png" alt="express">
+                      <h3>Express</h3>
+                  </a>
+              </div>
+              <div class="col-lg-2">
+                <a href="../home.html" class="course">
+                  <img src="/assets/icons/mongo_(1).png" alt="mongo">
+                    <h3>Mongo DB</h3>
+                </a>
+            </div>
+            <div class="col-lg-2">
+              <a href="../home.html" class="course">
+                <img src="/assets/icons/node.png" alt="node">
+                  <h3>Node Js</h3>
+              </a>
+          </div>
+        
+    
+      
+        
+         
+          </div>
+        </div>
+    </div>
+    
+    <!-- Include Bootstrap JS (if not already included) -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"></script>
+    
+    <style>
+        .modal-content {
+            border-radius: 8px;
+        }
+    </style>
+    
+    <script>
+        // Automatically show the modal when the page loads
+        window.onload = function() {
+            var modal = new bootstrap.Modal(document.getElementById('loginModal'));
+            modal.show();
+        };
+    </script>
+    
+
+              
+  
+     
+      <section class="section section-lg bg-light">
+        <div class="container">
+          <div class="row row-50 justify-content-center justify-content-lg-between">
+            <div class="col">
+              <div class="heading mb-4">
+                  
+                  <h2>A Few Words About Us</h2>
+              </div>
+          </div>
+            <div class="col-12">
+             
+            </div>
+            <div class="col-md-6  wow fadeIn" style="visibility: visible; animation-name: fadeIn;">
+              <p>Digital Academy is a professional development training center dedicated to equipping individuals with advanced skills in full-stack web development.
+
+                Our comprehensive curriculum covers both front-end and back-end technologies, empowering learners to become versatile developers capable of building dynamic and scalable web applications.
+                
+                We provide hands-on training, mentorship, and industry-relevant projects to ensure that students acquire the essential skills for success in today’s rapidly evolving tech landscape.
+                
+                Our mission is to bridge the digital skills gap and foster innovation within the tech industry by empowering the next generation of developers and engineers.</p><a class="button button-primary-gradient" href="about.html"><span>read more</span></a>
+            </div>
+      
+            <div class="col-xl-4 wow fadeIn" data-wow-delay=".4s" style="visibility: visible; animation-delay: 0.4s; animation-name: fadeIn;"><img class="img-rounded" src="../../assets/img/swiper-slide-2.jpg" alt=""></div>
+          </div>
+        </div>
+      </section>
+      <div class="site-section bg-gray-100">
+        <div class="container">
+          <h2 class="section-title">Pricing Plans</h2>
+          <p class="section-description">Choose your pack</p>
+          <div class="plans">
+              <div class="plan">
+                  <div class="center">
+                  <p class="plan-title">Pack 1</p>
+                  <p class="plan-name">Web Fundamental</p>
+                  <p class="plan-price">Free (10 days) </p>
+              </div>
+              <p class="plan-features">
+                <img src="../assets/icons/ok.svg" class="icon">  Pre-Bootcamp <br>
+                <img src="../assets/icons/ok.svg" class="icon">
+                HTML, CSS, Bootstrap<br>
+                <img src="../assets/icons/ok.svg" class="icon">  GitHub<br>
+                <img src="../assets/icons/ok.svg" class="icon"> Algorithms<br>
+                <img src="../assets/icons/milker_X_icon.svg" class="icon">  Java (Fundamentals + OOP) <br>
+                <img src="../assets/icons/milker_X_icon.svg" class="icon">  Spring Boot <br>
+                <img src="../assets/icons/milker_X_icon.svg" class="icon">  Database (MYSQL) <br>
+                <img src="../assets/icons/milker_X_icon.svg" class="icon">  React <br>
+                <img src="../assets/icons/milker_X_icon.svg" class="icon">  Express <br>
+                <img src="../assets/icons/milker_X_icon.svg" class="icon">  NodeJS <br>
+                <img src="../assets/icons/milker_X_icon.svg" class="icon">  MongoDB<br>
+                <img src="../assets/icons/milker_X_icon.svg" class="icon">  MERN Auth <br>
+                <img src="../assets/icons/milker_X_icon.svg" class="icon">  Full Stack MERN<br>
+                <img src="../assets/icons/milker_X_icon.svg" class="icon">  Exam + Certification <br>
+                <img src="../assets/icons/milker_X_icon.svg" class="icon">  Lesson record (Tunisian Videos) <br>
+                <img src="../assets/icons/milker_X_icon.svg" class="icon">  Project Certify <br>
+            </p>
+                  
+                  <div class="center">  
+                  <a  class="plan-button" style="color: white;">Reserve a spot</a></div>
+              </div>
+              <div class="plan">
+                  <div class="center">
+                  <p class="plan-title">Pack 2</p>
+                  <p class="plan-name">Java</p>
+                  <p class="plan-price">799 DT</p>
+              </div>
+              <p class="plan-features">
+                <img src="../assets/icons/ok.svg" class="icon">  Pre-Bootcamp <br>
+                <img src="../assets/icons/ok.svg" class="icon">
+                HTML, CSS, Bootstrap<br>
+                <img src="../assets/icons/ok.svg" class="icon">  GitHub<br>
+                <img src="../assets/icons/ok.svg" class="icon">  Algorithms<br>
+                <img src="../assets/icons/ok.svg" class="icon">  Java (Fundamentals + OOP) <br>
+                <img src="../assets/icons/ok.svg" class="icon">  Spring Boot <br>
+                <img src="../assets/icons/ok.svg" class="icon">  Database (MYSQL) <br>
+                <img src="../assets/icons/milker_X_icon.svg" class="icon">  React <br>
+                <img src="../assets/icons/milker_X_icon.svg" class="icon">  Express <br>
+                <img src="../assets/icons/milker_X_icon.svg" class="icon">  NodeJS <br>
+                <img src="../assets/icons/milker_X_icon.svg" class="icon">  MongoDB<br>
+                <img src="../assets/icons/milker_X_icon.svg" class="icon">  MERN Auth <br>
+                <img src="../assets/icons/milker_X_icon.svg" class="icon">  Full Stack MERN<br>
+                <img src="../assets/icons/ok.svg" class="icon">  Exam + Certification <br>
+                <img src="../assets/icons/ok.svg" class="icon">  Lesson record (Tunisian Videos) <br>
+                <img src="../assets/icons/ok.svg" class="icon">  Project Certify <br>
+            </p>
+                  
+                  <div class="center">
+                  <a  class="plan-button"style="color: white;" data-bs-toggle="modal" data-bs-target="#popupModal">Reserve a spot</a></div>
+              </div>
+              <div class="plan">
+                  <div class="center">
+                  <p class="plan-title">Pack 3</p>
+                  <p class="plan-name">Java + Mern</p>
+                  <p class="plan-price">1199 DT</p>
+              </div>
+              <p class="plan-features">
+                <img src="../assets/icons/ok.svg" class="icon">  Pre-Bootcamp <br>
+                <img src="../assets/icons/ok.svg" class="icon">
+                HTML, CSS, Bootstrap<br>
+                <img src="../assets/icons/ok.svg" class="icon">  GitHub<br>
+                <img src="../assets/icons/ok.svg" class="icon">  Algorithms<br>
+                <img src="../assets/icons/ok.svg" class="icon">  Java (Fundamentals + OOP) <br>
+                <img src="../assets/icons/ok.svg" class="icon">  Spring Boot <br>
+                <img src="../assets/icons/ok.svg" class="icon">  Database (MYSQL) <br>
+                <img src="../assets/icons/ok.svg" class="icon">  React <br>
+                <img src="../assets/icons/ok.svg" class="icon">  Express <br>
+                <img src="../assets/icons/ok.svg" class="icon">  NodeJS <br>
+                <img src="../assets/icons/ok.svg" class="icon">  MongoDB<br>
+                <img src="../assets/icons/ok.svg" class="icon">  MERN Auth <br>
+                <img src="../assets/icons/ok.svg" class="icon">  Full Stack MERN<br>
+                <img src="../assets/icons/ok.svg" class="icon">  Exam + Certification <br>
+                <img src="../assets/icons/ok.svg" class="icon">  Lesson record (Tunisian Videos) <br>
+                <img src="../assets/icons/ok.svg" class="icon">  Project Certify <br>
+            </p>
+                  
+                  <div class="center">
+                  <a  class="plan-button "style="color: white;"  data-bs-toggle="modal" data-bs-target="#popupModal" >Reserve a spot</a></div>
+              </div>
+   
+          </div>
+      </div>
+      <div class="modal fade" id="popupModal" tabindex="-1" aria-labelledby="popupModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="popupModalLabel">Contact Us</h5>
+                    <!-- <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button> -->
+                </div>
+                <div class="modal-body">
+                    <form id="contact_form">
+                        <div class="mb-3">
+                            <label for="email_addr" class="form-label">Email <span>*</span></label>
+                            <input type="email" maxlength="50" class="form-control" id="email_addr" name="email">
+                            <div id="email_error" class="invalid-feedback"></div>
+                        </div>
+                        <div class="mb-3">
+                            <label for="name_input" class="form-label">Name <span>*</span></label>
+                            <input type="text" maxlength="50" class="form-control" id="name_input" name="name">
+                            <div id="name_error" class="invalid-feedback"></div>
+                        </div>
+                        <div class="mb-3">
+                            <label for="phone_input" class="form-label">Phone <span>*</span></label>
+                            <input type="tel" maxlength="8" class="form-control" id="phone_input" name="phone">
+                            <div id="phone_error" class="invalid-feedback"></div>
+                        </div>
+                        <div class="mb-3">
+                            <label for="pack_select" class="form-label">Select Pack <span>*</span></label>
+                            <select class="form-select" id="pack_select" name="pack">
+                                <option value="pack 2">Pack 2</option>
+                                <option value="pack 3">Pack 3</option>
+                            </select>
+                        </div>
+                        <div class="mb-3">
+                          <label for="coupon_input" class="form-label">Coupon code </label>
+                          <input type="tel" maxlength="8" class="form-control" id="coupon_input" name="coupon">
+                        
+                      </div>
+                        <div class="mb-3">
+                            <label for="message" class="form-label">Message</label>
+                            <textarea class="form-control" id="message" name="message" rows="3"></textarea>
+                        </div>
+                        <button type="button" onclick="validateAndSend()" class="send-button">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div id="success-popup" class="popup">
+            <p>Message sent successfully!</p>
+        </div>
+        
+        <div id="error-popup" class="popup">
+            <p>Failed to send message. Please try again later.</p>
+        </div>
+        
+    </div>
+     
+    </div>
+      
+      
+    <footer class="section footer-classic bg-gray-950">
+      <div class="footer-classic-main">
+        <div class="container"> 
+          <div class="row row-30 " >
+            <div class="col-lg">
+              <div class="row row-30 row-xl-40">
+                <div class="col-6 col-md-3 col-lg-12">
+                  <article class="counter-minimal">
+                    <div class="counter-minimal-counter">
+                      <div class="counter animated">97</div><span class="counter-postfix">%</span>
+                    </div>
+                
+                  </article>
+                </div>
+                <div class="col-12 col-md-3 col-lg-12">
+                  <article class="counter-minimal">
+                   
+                    <p class="counter-minimal-title">Graduates</p>
+                  </article>
+                </div>
+                <div class="col-6 col-md-3 col-lg-12">
+                  <article class="counter-minimal">
+                    <div class="counter-minimal-counter">
+                      <div class="counter animated">30</div><span class="counter-postfix">+</span>
+                    </div>
+                
+                  </article>
+                </div>
+                <div class="col-12 col-md-3 col-lg-12">
+                  <article class="counter-minimal">
+                   
+                    <p class="counter-minimal-title">Student Campuses</p>
+                  </article>
+                </div>
+                <div class="col-6 col-md-3 col-lg-12">
+                  <article class="counter-minimal">
+                    <div class="counter-minimal-counter">
+                      <div class="counter animated">200</div><span class="counter-postfix">+</span>
+                    </div>
+                
+                  </article>
+                </div>
+                <div class="col-12 col-md-3 col-lg-12">
+                  <article class="counter-minimal">
+                   
+                    <p class="counter-minimal-title">Students</p>
+                  </article>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-3 col-lg-4 col-xl-2">
+              <h3 class="orange">Quick Links</h3>
+              <ul class="list-unstyled">
+                <li><a href="/">Home</a></li>
+                <li><a href="../home.html">Courses</a></li>
+                <li><a href="/about">About Us</a></li>
+                <li><a href="/contact">Contact Us</a></li>
+                <li><a href="../upgrade.html">Pricing</a></li>
+              </ul>
+            </div>
+            <div class="col-sm-6 col-lg-8 col-xl-4">
+              <div class="row row-50 row-xl-70">
+                <div class="col-12">
+                  <h3 class="orange">About Us</h3>
+                  <p>Digital Academy provides full-stack web development training, equipping learners with the skills to build scalable web applications. Our mission is to bridge the digital skills gap in the tech industry.</p>
+     
+                
+                </div>
+          
+              </div>
+            </div>
+            <div class="col-sm-9 col-lg-3 col-xl-3 ml-3 ">
+              <h3 class="orange">Company</h3>
+              <h6>academy.digital.info@gmail.com</h6>
+              <h6>Av El Mourouj Hiboun 5111 Mahdia</h6>
+              <h6>(+216) 24909710</h6>
+              <ul class="list-unstyled social">
+                <li><a href="mailto:academy.digital.info@gmail.com"><span class="icon-envelope"></span></a></li>
+                <li><a href="https://github.com/DigitalAcademyTn
+                  "><span class="icon-github"></span></a></li>
+                <li><a href="https://www.facebook.com/people/Digital-Academy/61551398147207/?mibextid=LQQJ4d"><span class="icon-facebook"></span></a></li>
+                <li><a><span class="icon-instagram"></span></a></li>
+            </ul>
+            </div>
+      
+          </div>
+        </div>
+      </div>
+      <div class="footer-classic-aside">
+        <div class="container">
+          <!-- Rights-->
+          <p class="rights"><span>©&nbsp;</span><span class="copyright-year">2024</span><span>&nbsp;</span><span>All Rights Reserved.</span><span>&nbsp;</span><br class="d-sm-none"><a >Terms of Use</a><span> and</span><span>&nbsp;</span><a >Privacy Policy</a>.</p>
+        </div>
+      </div>
+    </footer>
+
+    </div>
+    <script src="../assets/js/login.js"></script>
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/jquery.sticky.js"></script>
+    <script src="js/jquery.waypoints.min.js"></script>
+    <script src="js/jquery.animateNumber.min.js"></script>
+    <script src="js/jquery.fancybox.min.js"></script>
+    <script src="js/jquery.easing.1.3.js"></script>
+    <script src="js/bootstrap-datepicker.min.js"></script>
+    <script src="js/aos.js"></script>
+
+    <script src="js/main.js"></script>
+
+  </body>
+
+</html>
+

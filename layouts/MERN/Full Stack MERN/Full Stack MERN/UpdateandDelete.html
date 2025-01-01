@@ -1,0 +1,761 @@
+<!doctype html>
+<html lang="en" data-bs-theme="light">
+
+<head>
+    <!-- <script src="/assets/js/color-modes.js"></script> -->
+
+    <meta charset="utf-8">
+    <link rel="icon" type="image/png" href="../../../../assets/icons/circle-logo.png">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.118.2">
+    <title>Digital-Academy</title>
+
+    <!-- Custom style -->
+    <link href="/assets/styles/sidebar.css" rel="stylesheet">
+    <link rel="stylesheet" href="/assets/styles/styles.css">
+    <link rel="stylesheet" href="/assets/styles/styles2.css">
+    <!-- bootstrap style -->
+
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous"> -->
+
+
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/prismjs@1.28.0/themes/prism.min.css"> -->
+
+
+
+    <!-- Include the Prism.js library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.25.0/themes/prism.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.25.0/prism.min.js"></script>
+
+    <!-- Include the Okaidia theme -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.25.0/themes/prism-okaidia.min.css">
+
+
+</head>
+
+<body class="single home " data-bs-spy="scroll" data-bs-target="#TableOfContents" data-bs-root-margin="0px 0px -60%"
+    data-bs-smooth-scroll="true" tabindex="0" cz-shortcut-listen="true">
+    <div class="sticky-top">
+        <header class="navbar navbar-expand-lg g-nav">
+            <div class="container-lg"><a class="navbar-brand me-auto me-lg-3" href="#"> <img
+                        src="/assets/icons/logo.png" alt="logo" style="width: 70px; height: 50px;">
+                </a>
+                <a id="home" href="/home.html">HOME</a>
+                <button class="btn btn-link d-lg-none" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasNavSection" aria-controls="offcanvasNavSection"
+                    aria-label="Open section navigation menu"><svg xmlns="http://www.w3.org/2000/svg"
+                        class="icon icon-tabler icon-tabler-dots-vertical" width="24" height="24" viewBox="0 0 24 24"
+                        stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                        <path d="M12 12m-1 0a1 1 0 102 0 1 1 0 10-2 0"></path>
+                        <path d="M12 19m-1 0a1 1 0 102 0 1 1 0 10-2 0"></path>
+                        <path d="M12 5m-1 0a1 1 0 102 0 1 1 0 10-2 0"></path>
+                    </svg></button>
+                <div class="offcanvas offcanvas-start d-lg-none" tabindex="-1" id="offcanvasNavSection"
+                    aria-labelledby="offcanvasNavSectionLabel">
+                    <div class="offcanvas-header">
+                        <img src="/assets/icons/logo.png" alt="logo" style="width: 70px; height: 50px;">
+                        <button type="button" class="btn btn-link nav-link p-0" data-bs-dismiss="offcanvas"
+                            aria-label="Close"><svg xmlns="http://www.w3.org/2000/svg"
+                                class="icon icon-tabler icon-tabler-x" width="24" height="24" viewBox="0 0 24 24"
+                                stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round"
+                                stroke-linejoin="round">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                <path d="M18 6 6 18"></path>
+                                <path d="M6 6l12 12"></path>
+                            </svg></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <aside class="doks-sidebar mt-n3">
+                            <nav id="doks-docs-nav" aria-label="Tertiary navigation">
+                                <div class="module pb-2 pt-4">
+                                    <h2 class="mod-title">MERN</h2>
+                                    <div class="module pb-2">
+                                        <a href="../../../MERN/MongoDB/Overview.html" class="previous p-0">&#8249;</a>
+                                        <img src="/assets/icons/MERN.png" alt="" class="chapter-icon " />
+                                        <span class="mod-title p-2">Full Stack MERN</span>
+                                        <a href="../../../../MERN/MERN Deployment/MERNSetup.html" class="next p-0">&#8250;</a>
+                                    </div>
+                                </div>
+                                <ul class="list-unstyled collapsible-sidebar">
+
+                                    <li class="mb-1">
+                                        <button id="sidebtn"
+                                            class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed"
+                                            data-bs-toggle="collapse" data-bs-target="#FullStackMERN-collapse"
+                                            aria-expanded="true">
+                                            Full Stack MERN
+                                        </button>
+                                        <div class="collapse show" id="FullStackMERN-collapse">
+                                            <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                                                <li><a href="../Full Stack MERN/Intro.html" class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />Introduction</a>
+                                                </li>
+                                                <li><a href="../Full Stack MERN/SettingupMERN.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />Setting up MERN</a>
+                                                </li>
+                                                <li><a href="../Full Stack MERN/HelloWorld.html"
+                                                        class="docs-link rounded  ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />Hello World</a>
+                                                </li>
+                                                <li><a href="../Full Stack MERN/CreatePartI.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />Create (Part I)</a>
+                                                </li>
+                                                <li><a href="../Full Stack MERN/CreatePartII.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/practice.png" alt=""
+                                                            class="module-icon" />Create (Part II)</a>
+                                                </li>
+                                                <li><a href="../Full Stack MERN/ProductManagerPartI.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />Product Manager (Part I)</a>
+                                                </li>
+                                                <li><a href="../Full Stack MERN/ListandDetail.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />List and Detail</a>
+                                                </li>
+                                                <li><a href="../Full Stack MERN/ProductManagerPartII.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/core.png" alt=""
+                                                            class="module-icon" />Product Manager (Part II)</a>
+                                                </li>
+                                                <li><a href="../Full Stack MERN/UpdateandDelete.html"
+                                                        class="docs-link rounded active">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />Update and Delete</a>
+                                                </li>
+                                                <li><a href="../Full Stack MERN/ProductManagerPartIII.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/core.png" alt=""
+                                                            class="module-icon" />Product Manager (Part III)</a>
+                                                </li>
+                                                <li><a href="../Full Stack MERN/LookingAhead.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />Looking Ahead</a>
+                                                </li>
+
+
+
+
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li class="mb-1">
+                                        <button id="sidebtn"
+                                            class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed"
+                                            data-bs-toggle="collapse" data-bs-target="#AdvancedMERN-collapse"
+                                            aria-expanded="false">
+                                            Advanced MERN
+                                        </button>
+                                        <div class="collapse " id="AdvancedMERN-collapse">
+                                            <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                                                <li><a href="../../Full Stack MERN/Advanced MERN/Overview.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />Overview</a>
+                                                </li>
+                                                <li><a href="../../Full Stack MERN/Advanced MERN/ReusingComponents.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />Reusing Components</a>
+                                                </li>
+                                                <li><a href="../../Full Stack MERN/Advanced MERN/ReusingComponentsPartII.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />Reusing Components (Part II)</a>
+                                                </li>
+                                                <li><a href="../../Full Stack MERN/Advanced MERN/PresentationalvsContainer.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />Presentational vs Container</a>
+                                                </li>
+                                                <li><a href="../../Full Stack MERN/Advanced MERN/Refactor.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/option.png" alt=""
+                                                            class="module-icon" />Refactor, Reuse, Recycle</a>
+                                                </li>
+                                                <li><a href="../../Full Stack MERN/Advanced MERN/MaterialUI.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />Material-UI</a>
+                                                </li>
+                                                <li><a href="../../Full Stack MERN/Advanced MERN/Validations.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />Validations</a>
+                                                </li>
+                                                <li><a href="../../Full Stack MERN/Advanced MERN/Authors.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/core.png" alt=""
+                                                            class="module-icon" />Authors</a>
+                                                </li>
+                                                <li><a href="../../Full Stack MERN/Advanced MERN/TeamManager.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/practice.png" alt=""
+                                                            class="module-icon" />Team Manager</a>
+                                                </li>
+                                                <li><a href="../../Full Stack MERN/Advanced MERN/BeltExamRubric.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />Belt Exam Rubric</a>
+                                                </li>
+                                                <li><a href="../../Full Stack MERN/Advanced MERN/SportsDemo.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />Sports Demo</a>
+                                                </li>
+    
+    
+    
+    
+                                            </ul>
+                                        </div>
+                                    </li>
+
+                                </ul>
+                            </nav>
+                        </aside>
+                    </div>
+                </div><button class="btn btn-link nav-link mx-2 order-3 d-lg-none" type="button"
+                    data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavMain" aria-controls="offcanvasNavMain"
+                    aria-label="Open main navigation menu"><svg xmlns="http://www.w3.org/2000/svg"
+                        class="icon icon-tabler icon-tabler-menu" width="24" height="24" viewBox="0 0 24 24"
+                        stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                        <line x1="4" y1="8" x2="20" y2="8"></line>
+                        <line x1="4" y1="16" x2="20" y2="16"></line>
+                    </svg></button>
+                <div class="offcanvas offcanvas-end h-auto" tabindex="-1" id="offcanvasNavMain"
+                    aria-labelledby="offcanvasNavMainLabel">
+                    <div class="offcanvas-header">
+                        <img src="/assets/icons/logo.png" alt="logo" style="width: 70px; height: 50px;">
+                        <button type="button" class="btn btn-link nav-link p-0" data-bs-dismiss="offcanvas"
+                            aria-label="Close"><svg xmlns="http://www.w3.org/2000/svg"
+                                class="icon icon-tabler icon-tabler-x" width="24" height="24" viewBox="0 0 24 24"
+                                stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round"
+                                stroke-linejoin="round">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                <path d="M18 6 6 18"></path>
+                                <path d="M6 6l12 12"></path>
+                            </svg></button>
+                    </div>
+                    <div class="offcanvas-body d-flex flex-column flex-lg-row justify-content-between">
+                        <!-- <ul class="navbar-nav flex-grow-1">
+              <li class="nav-item"><a class="nav-link active" href="index.html" aria-current="true">Docs</a></li>
+              <li class="nav-item"><a class="nav-link" href="/blog/">Blog</a></li>
+            </ul> -->
+
+                        <!-- this section is for the search bar and results -->
+                        <form class="navbar-form my-auto flex-grow-1 ">
+                            <input id="searchInput" class="form-control is-search ms-auto me-5" type="search"
+                                placeholder="Search ." aria-label="Search docs." autocomplete="off">
+                            <div id="suggestions" class="shadow rounded position-absolute d-none">
+                                <ul id="searchResults" class="list-unstyled m-auto"></ul>
+                            </div>
+                        </form>
+
+
+                        <button id="buttonColorMode" class="btn btn-link mx-auto nav-link p-0 ms-lg-2 me-lg-1"
+                            type="button" aria-label="Toggle theme"><svg data-bs-theme-value="dark"
+                                xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-moon" width="24"
+                                height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentcolor" fill="none"
+                                stroke-linecap="round" stroke-linejoin="round">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                <path d="M12 3c.132.0.263.0.393.0a7.5 7.5.0 007.92 12.446A9 9 0 1112 2.992z"></path>
+                            </svg><svg data-bs-theme-value="light" xmlns="http://www.w3.org/2000/svg"
+                                class="icon icon-tabler icon-tabler-sun" width="24" height="24" viewBox="0 0 24 24"
+                                stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round"
+                                stroke-linejoin="round">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                <path
+                                    d="M12 12m-4 0a4 4 0 108 0 4 4 0 10-8 0m-5 0h1m8-9v1m8 8h1m-9 8v1M5.6 5.6l.7.7m12.1-.7-.7.7m0 11.4.7.7m-12.1-.7-.7.7">
+                                </path>
+                            </svg></button>
+                        <ul id="socialMenu" class="nav mx-auto flex-row order-lg-4">
+
+
+                            <li class="nav-item"><a class="nav-link social-link"
+                                    href="https://github.com/DigitalAcademyTn"><svg xmlns="http://www.w3.org/2000/svg"
+                                        class="icon icon-tabler icon-tabler-brand-github" width="24" height="24"
+                                        viewBox="0 0 24 24" stroke-width="2" stroke="currentcolor" fill="none"
+                                        stroke-linecap="round" stroke-linejoin="round">
+                                        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                        <path
+                                            d="M9 19c-4.3 1.4-4.3-2.5-6-3m12 5v-3.5c0-1 .1-1.4-.5-2 2.8-.3 5.5-1.4 5.5-6a4.6 4.6.0 00-1.3-3.2 4.2 4.2.0 00-.1-3.2s-1.1-.3-3.5 1.3a12.3 12.3.0 00-6.2.0C6.5 2.8 5.4 3.1 5.4 3.1a4.2 4.2.0 00-.1 3.2A4.6 4.6.0 004 9.5c0 4.6 2.7 5.7 5.5 6-.6.6-.6 1.2-.5 2V21">
+                                        </path>
+                                    </svg><small class="ms-2 visually-hidden">GitHub</small></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </header>
+    </div>
+
+
+
+
+    <div class="wrap container-fluid " role="document">
+        <div class="content">
+            <div class="row  d-flex justify-content-center">
+                <div class=" docs-sidebar d-none d-lg-block   ">
+                    <main class="">
+                        <div class="flex-shrink-0 pt-4 ">
+
+                            <div class="module pb-2">
+                                <h2 class="mod-title">MERN</h2>
+                            </div>
+                            <div class="module pb-2">
+                                <a href="../../../MERN/MongoDB/Overview.html" class="previous p-0">&#8249;</a>
+                                <img src="/assets/icons/MERN.png" alt="" class="chapter-icon " />
+                                <span class="mod-title p-2">Full Stack MERN</span>
+                                <a href="../../../MERN/MERN Deployment/MERNSetup.html" class="next p-0">&#8250;</a>
+                            </div>
+
+
+
+
+
+                            <ul class=" list-unstyled px-3 overflow-scroll">
+
+
+                                <li class="mb-1">
+                                    <button id="sidebtn"
+                                        class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed"
+                                        data-bs-toggle="collapse" data-bs-target="#FullStackMERN-collapse"
+                                        aria-expanded="true">
+                                        Full Stack MERN
+                                    </button>
+                                    <div class="collapse show" id="FullStackMERN-collapse">
+                                        <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                                            <li><a href="../Full Stack MERN/Intro.html" class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />Introduction</a>
+                                            </li>
+                                            <li><a href="../Full Stack MERN/SettingupMERN.html"
+                                                    class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />Setting up MERN</a>
+                                            </li>
+                                            <li><a href="../Full Stack MERN/HelloWorld.html" class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />Hello World</a>
+                                            </li>
+                                            <li><a href="../Full Stack MERN/CreatePartI.html"
+                                                    class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />Create (Part I)</a>
+                                            </li>
+                                            <li><a href="../Full Stack MERN/CreatePartII.html"
+                                                    class="docs-link rounded ">
+                                                    <img src="/assets/icons/practice.png" alt=""
+                                                        class="module-icon" />Create (Part II)</a>
+                                            </li>
+                                            <li><a href="../Full Stack MERN/ProductManagerPartI.html"
+                                                    class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />Product Manager (Part I)</a>
+                                            </li>
+                                            <li><a href="../Full Stack MERN/ListandDetail.html"
+                                                    class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />List and Detail</a>
+                                            </li>
+                                            <li><a href="../Full Stack MERN/ProductManagerPartII.html"
+                                                    class="docs-link rounded ">
+                                                    <img src="/assets/icons/core.png" alt=""
+                                                        class="module-icon" />Product Manager (Part II)</a>
+                                            </li>
+                                            <li><a href="../Full Stack MERN/UpdateandDelete.html"
+                                                    class="docs-link rounded active">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />Update and Delete</a>
+                                            </li>
+                                            <li><a href="../Full Stack MERN/ProductManagerPartIII.html"
+                                                    class="docs-link rounded ">
+                                                    <img src="/assets/icons/core.png" alt=""
+                                                        class="module-icon" />Product Manager (Part III)</a>
+                                            </li>
+                                            <li><a href="../Full Stack MERN/LookingAhead.html"
+                                                    class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />Looking Ahead</a>
+                                            </li>
+
+
+
+
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li class="mb-1">
+                                    <button id="sidebtn"
+                                        class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed"
+                                        data-bs-toggle="collapse" data-bs-target="#AdvancedMERN-collapse"
+                                        aria-expanded="false">
+                                        Advanced MERN
+                                    </button>
+                                    <div class="collapse " id="AdvancedMERN-collapse">
+                                        <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                                            <li><a href="../../Full Stack MERN/Advanced MERN/Overview.html"
+                                                    class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />Overview</a>
+                                            </li>
+                                            <li><a href="../../Full Stack MERN/Advanced MERN/ReusingComponents.html"
+                                                    class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />Reusing Components</a>
+                                            </li>
+                                            <li><a href="../../Full Stack MERN/Advanced MERN/ReusingComponentsPartII.html"
+                                                    class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />Reusing Components (Part II)</a>
+                                            </li>
+                                            <li><a href="../../Full Stack MERN/Advanced MERN/PresentationalvsContainer.html"
+                                                    class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />Presentational vs Container</a>
+                                            </li>
+                                            <li><a href="../../Full Stack MERN/Advanced MERN/Refactor.html"
+                                                    class="docs-link rounded ">
+                                                    <img src="/assets/icons/option.png" alt=""
+                                                        class="module-icon" />Refactor, Reuse, Recycle</a>
+                                            </li>
+                                            <li><a href="../../Full Stack MERN/Advanced MERN/MaterialUI.html"
+                                                    class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />Material-UI</a>
+                                            </li>
+                                            <li><a href="../../Full Stack MERN/Advanced MERN/Validations.html"
+                                                    class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />Validations</a>
+                                            </li>
+                                            <li><a href="../../Full Stack MERN/Advanced MERN/Authors.html"
+                                                    class="docs-link rounded ">
+                                                    <img src="/assets/icons/core.png" alt=""
+                                                        class="module-icon" />Authors</a>
+                                            </li>
+                                            <li><a href="../../Full Stack MERN/Advanced MERN/TeamManager.html"
+                                                    class="docs-link rounded ">
+                                                    <img src="/assets/icons/practice.png" alt=""
+                                                        class="module-icon" />Team Manager</a>
+                                            </li>
+                                            <li><a href="../../Full Stack MERN/Advanced MERN/BeltExamRubric.html"
+                                                    class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />Belt Exam Rubric</a>
+                                            </li>
+                                            <li><a href="../../Full Stack MERN/Advanced MERN/SportsDemo.html"
+                                                    class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />Sports Demo</a>
+                                            </li>
+
+
+
+
+                                        </ul>
+                                    </div>
+                                </li>
+
+                            </ul>
+                        </div>
+
+                    </main>
+
+                </div>
+                <div class="docs-content col-lg-11 col-xl-9 " id="lesson_content">
+
+                    <main data-bs-spy="scroll" data-bs-target="#TableOfContents" data-bs-offset="0" tabindex="0">
+                        <div id="lesson_content">
+                            <h1>Update and Delete</h1>
+                            <h2>Update</h2>
+                            <p>Let's look at how we can update items in our database.
+                                First, let's set up our API endpoint.
+                                Let's add a route:</p>
+                              <div class="highlight">
+                                        <div class="clipboard"><button class="btn btn-clipboard blankkk"
+                                                aria-label="Clipboard button"></button></div>
+    <pre data-language="javascript">app.<span class="function call">patch</span>(<span class="string">'/api/people/:id'</span>, PersonController.updatePerson);
+</pre>
+                              </div>
+                            <p>And then add a new method to the controller:</p>
+                              <div class="highlight">
+                                        <div class="clipboard"><button class="btn btn-clipboard blankkk"
+                                                aria-label="Clipboard button"></button></div>
+<pre data-language="javascript">module.exports.updatePerson <span class="keyword operator">=</span> (request, response) <span class="storage type function arrow">=&gt;</span> {
+    Person.<span class="function call">findOneAndUpdate</span>({_id: request.params.id}, request.body, {<span class="keyword">new</span>:<span class="constant language">true</span>})
+        .<span class="function call">then</span>(updatedPerson <span class="storage type function arrow">=&gt;</span> response.<span class="function call">json</span>(updatedPerson))
+        .<span class="keyword">catch</span>(err <span class="storage type function arrow">=&gt;</span> response.<span class="function call">json</span>(err))
+}
+</pre>
+                              </div>
+                            <p>Next, let's look at how we can implement this in React:
+                                We will need to add a new view:</p>
+                            <p><strong>views/Update.js</strong></p>
+                              <div class="highlight">
+                                        <div class="clipboard"><button class="btn btn-clipboard blankkk"
+                    aria-label="Clipboard button"></button></div>
+<pre data-language="javascript"><span class="keyword">import</span> React, { useEffect, useState } <span class="keyword">from</span> <span class="string">'react'</span>
+<span class="keyword">import</span> axios <span class="keyword">from</span> <span class="string">'axios'</span>;
+<span class="keyword">import</span> { useParams } <span class="keyword">from</span> <span class="string">"react-router-dom"</span>;
+    
+<span class="storage type">const</span> Update <span class="keyword operator">=</span> (props) <span class="storage type function arrow">=&gt;</span> {
+    <span class="storage type">const</span> { id } <span class="keyword operator">=</span> <span class="function call">useParams</span>();
+    <span class="storage type">const</span> [firstName, setFirstName] <span class="keyword operator">=</span> <span class="function call">useState</span>(<span class="string">''</span>);
+    <span class="storage type">const</span> [lastName, setLastName] <span class="keyword operator">=</span> <span class="function call">useState</span>(<span class="string">''</span>);
+    
+    <span class="function call">useEffect</span>(() <span class="storage type function arrow">=&gt;</span> {
+        axios.<span class="function call">get</span>(<span class="string">'http://localhost:8000/api/people/'</span> <span class="keyword operator">+</span> id)
+            .<span class="function call">then</span>(res <span class="storage type function arrow">=&gt;</span> {
+                <span class="function call">setFirstName</span>(res.data.firstName);
+                <span class="function call">setLastName</span>(res.data.lastName);
+            })
+    }, []);
+    
+    <span class="storage type">const</span> updatePerson <span class="keyword operator">=</span> e <span class="storage type function arrow">=&gt;</span> {
+        e.<span class="function call">preventDefault</span>();
+        axios.<span class="function call">patch</span>(<span class="string">'http://localhost:8000/api/people/'</span> <span class="keyword operator">+</span> id, {
+            firstName,
+            lastName
+        })
+            .<span class="function call">then</span>(res <span class="storage type function arrow">=&gt;</span> console.<span class="function call">log</span>(res))
+            .<span class="keyword">catch</span>(err <span class="storage type function arrow">=&gt;</span> console.<span class="function call">error</span>(err));
+    }
+    
+    <span class="keyword">return</span> (
+        <span class="keyword operator">&lt;</span>div<span class="keyword operator">&gt;</span>
+            <span class="keyword operator">&lt;</span>h1<span class="keyword operator">&gt;</span>Update a Person<span class="keyword operator">&lt;</span>/h1<span class="keyword operator">&gt;</span>
+            <span class="keyword operator">&lt;</span>form onSubmit<span class="keyword operator">=</span>{updatePerson}<span class="keyword operator">&gt;</span>
+                <span class="keyword operator">&lt;</span>p<span class="keyword operator">&gt;</span>
+                    <span class="keyword operator">&lt;</span>label<span class="keyword operator">&gt;</span>First Name<span class="keyword operator">&lt;</span><span class="string regexp"><span class="string regexp open">/</span>label&gt;&lt;br <span class="string regexp close">/</span></span><span class="keyword operator">&gt;</span>
+                    <span class="keyword operator">&lt;</span>input type<span class="keyword operator">=</span><span class="string">"text"</span> 
+                    name<span class="keyword operator">=</span><span class="string">"firstName"</span> 
+                    value<span class="keyword operator">=</span>{firstName} 
+                    onChange<span class="keyword operator">=</span>{(e) <span class="storage type function arrow">=&gt;</span> { <span class="function call">setFirstName</span>(e.target.value) }} /<span class="keyword operator">&gt;</span>
+                <span class="keyword operator">&lt;</span>/p<span class="keyword operator">&gt;</span>
+                <span class="keyword operator">&lt;</span>p<span class="keyword operator">&gt;</span>
+                    <span class="keyword operator">&lt;</span>label<span class="keyword operator">&gt;</span>Last Name<span class="keyword operator">&lt;</span><span class="string regexp"><span class="string regexp open">/</span>label&gt;&lt;br <span class="string regexp close">/</span></span><span class="keyword operator">&gt;</span>
+                    <span class="keyword operator">&lt;</span>input type<span class="keyword operator">=</span><span class="string">"text"</span> 
+                    name<span class="keyword operator">=</span><span class="string">"lastName"</span>
+                    value<span class="keyword operator">=</span>{lastName} 
+                    onChange<span class="keyword operator">=</span>{(e) <span class="storage type function arrow">=&gt;</span> { <span class="function call">setLastName</span>(e.target.value) }} /<span class="keyword operator">&gt;</span>
+                <span class="keyword operator">&lt;</span>/p<span class="keyword operator">&gt;</span>
+                <span class="keyword operator">&lt;</span>input type<span class="keyword operator">=</span><span class="string">"submit"</span> /<span class="keyword operator">&gt;</span>
+            <span class="keyword operator">&lt;</span>/form<span class="keyword operator">&gt;</span>
+        <span class="keyword operator">&lt;</span>/div<span class="keyword operator">&gt;</span>
+    )
+}
+    
+<span class="keyword">export</span> <span class="keyword">default</span> Update;
+</pre>
+                              </div>
+                            <p>Let's talk about what we are doing here.
+                                First, we are making a request to our server to get the person with <code>id</code>
+                                equal to the one in the url.
+                                When this request resolves, we set our states to the response.
+                                We have defined an <code>updatePerson</code> method.
+                                This will send a PATCH request to update the instance in the database.</p>
+                            <p>Now, we can update our <code>App.js</code> in order to include another route.</p>
+                            <div class="highlight">
+                                <div class="clipboard"><button class="btn btn-clipboard blankkk"
+            aria-label="Clipboard button"></button></div>         
+<pre data-language="javascript" style="position: relative;">...
+<span class="comment">// Your other paths in the app.js Routes component are here.</span>
+<span class="keyword operator">&lt;</span>Route element<span class="keyword operator">=</span>{<span class="keyword operator">&lt;</span>Update<span class="string regexp"><span class="string regexp open">/</span>&gt;} path="<span class="string regexp close">/</span></span>people<span class="string regexp"><span class="string regexp open">/</span>:id<span class="string regexp close">/</span></span>edit"/<span class="keyword operator">&gt;</span>
+...
+</pre>
+                            </div>
+                           
+                            <p>Lastly, in your <code>Detail.js</code>, you can add the following snippet in order to
+                                link to the Edit page:</p>
+                              <div class="highlight">
+                                        <div class="clipboard"><button class="btn btn-clipboard blankkk"
+                                                aria-label="Clipboard button"></button></div>
+    <pre data-language="javascript"><span class="keyword operator">&lt;</span>Link to<span class="keyword operator">=</span>{<span class="string">"/people/"</span> <span class="keyword operator">+</span> person._id <span class="keyword operator">+</span> <span class="string">"/edit"</span>}<span class="keyword operator">&gt;</span>
+    Edit
+<span class="keyword operator">&lt;</span>/Link<span class="keyword operator">&gt;</span>
+</pre>
+                              </div>
+                            <h2>Delete</h2>
+                            <p>The last part of CRUD is delete.
+                                Let's look at how to do that.</p>
+                            <p>We will add a route:</p>
+                            <div class="highlight">
+                                <div class="clipboard"><button class="btn btn-clipboard blankkk"
+                                        aria-label="Clipboard button"></button></div>
+<pre data-language="javascript">app.<span class="keyword">delete</span>(<span class="string">'/api/people/:id'</span>, PersonController.deletePerson);
+</pre>
+                              </div>
+                            <p>And then a method to our controller:</p>
+                              <div class="highlight">
+                                        <div class="clipboard"><button class="btn btn-clipboard blankkk"
+                                                aria-label="Clipboard button"></button></div>
+<pre data-language="javascript">module.exports.deletePerson <span class="keyword operator">=</span> (request, response) <span class="storage type function arrow">=&gt;</span> {
+    Person.<span class="function call">deleteOne</span>({ _id: request.params.id })
+        .<span class="function call">then</span>(deleteConfirmation <span class="storage type function arrow">=&gt;</span>&nbsp;response.<span class="function call">json</span>(deleteConfirmation))
+        .<span class="keyword">catch</span>(err <span class="storage type function arrow">=&gt;</span>&nbsp;response.<span class="function call">json</span>(err))
+}
+</pre>
+                              </div>
+                            <p>Let's now add the functionality to our front end.
+                                With axios, we can simply make an <code>onClick</code> event for a delete button.
+                                Let's add this method to our <code>PersonList.js</code>:</p>
+                            <p><strong>components/PersonList.js</strong></p>
+                              <div class="highlight">
+                                        <div class="clipboard"><button class="btn btn-clipboard blankkk"
+                                                aria-label="Clipboard button"></button></div>
+<pre data-language="javascript"><span class="keyword">import</span> React <span class="keyword">from</span> <span class="string">'react'</span>;
+<span class="keyword">import</span> axios <span class="keyword">from</span> <span class="string">'axios'</span>;
+<span class="keyword">import</span> { Link } <span class="keyword">from</span> <span class="string">'react-router-dom'</span>;
+    
+<span class="storage type">const</span> PersonList <span class="keyword operator">=</span> (props) <span class="storage type function arrow">=&gt;</span> {
+    <span class="storage type">const</span> { removeFromDom } <span class="keyword operator">=</span> props;
+    
+    <span class="storage type">const</span> deletePerson <span class="keyword operator">=</span> (personId) <span class="storage type function arrow">=&gt;</span> {
+        axios.<span class="keyword">delete</span>(<span class="string">'http://localhost:8000/api/people/'</span> <span class="keyword operator">+</span> personId)
+            .<span class="function call">then</span>(res <span class="storage type function arrow">=&gt;</span> {
+                <span class="function call">removeFromDom</span>(personId)
+            })
+            .<span class="keyword">catch</span>(err <span class="storage type function arrow">=&gt;</span> console.<span class="function call">error</span>(err));
+    }
+    
+    <span class="keyword">return</span> (
+        <span class="keyword operator">&lt;</span>div<span class="keyword operator">&gt;</span>
+            {props.people.<span class="function call">map</span>((person, idx) <span class="storage type function arrow">=&gt;</span> {
+                <span class="keyword">return</span> <span class="keyword operator">&lt;</span>p key<span class="keyword operator">=</span>{idx}<span class="keyword operator">&gt;</span>
+                    <span class="keyword operator">&lt;</span>Link to<span class="keyword operator">=</span>{<span class="string">"/"</span> <span class="keyword operator">+</span> person._id}<span class="keyword operator">&gt;</span>
+                        {person.lastName}, {person.firstName}
+                    <span class="keyword operator">&lt;</span>/Link<span class="keyword operator">&gt;</span>
+                    <span class="keyword operator">|</span>
+                    <span class="keyword operator">&lt;</span>button onClick<span class="keyword operator">=</span>{(e)<span class="storage type function arrow">=&gt;</span>{<span class="function call">deletePerson</span>(person._id)}}<span class="keyword operator">&gt;</span>
+                        <span class="keyword">Delete</span>
+                    <span class="keyword operator">&lt;</span>/button<span class="keyword operator">&gt;</span>
+                <span class="keyword operator">&lt;</span>/p<span class="keyword operator">&gt;</span>
+            })}
+        <span class="keyword operator">&lt;</span>/div<span class="keyword operator">&gt;</span>
+    )
+}
+    
+<span class="keyword">export</span> <span class="keyword">default</span> PersonList;
+</pre>
+                              </div>
+                            <p>What are we doing here?
+                                We are sending a request to our api to actually delete our person.
+                                However, we will also need to remove the person from the DOM.
+                                At this point, we are simply sending the method as a callback.
+                                We will add this logic in our <code>Main.js</code>, so that we can change the
+                                <code>people</code> state.
+                            </p>
+                            <p><strong>views/Main.js</strong></p>
+                              <div class="highlight">
+                                        <div class="clipboard"><button class="btn btn-clipboard blankkk"
+                                                aria-label="Clipboard button"></button></div>
+<pre data-language="javascript"><span class="keyword">import</span> React, { useEffect, useState } <span class="keyword">from</span> <span class="string">'react'</span>
+<span class="keyword">import</span> axios <span class="keyword">from</span> <span class="string">'axios'</span>;
+<span class="keyword">import</span> PersonForm <span class="keyword">from</span> <span class="string">'../components/PersonForm'</span>;
+<span class="keyword">import</span> PersonList <span class="keyword">from</span> <span class="string">'../components/PersonList'</span>;
+    
+<span class="storage type">const</span> Main <span class="keyword operator">=</span> (props) <span class="storage type function arrow">=&gt;</span> {
+    <span class="storage type">const</span> [people, setPeople] <span class="keyword operator">=</span> <span class="function call">useState</span>([]);
+    <span class="storage type">const</span> [loaded, setLoaded] <span class="keyword operator">=</span> <span class="function call">useState</span>(<span class="constant language">false</span>);
+    
+    <span class="function call">useEffect</span>(()<span class="storage type function arrow">=&gt;</span>{
+        axios.<span class="function call">get</span>(<span class="string">'http://localhost:8000/api/people'</span>)
+            .<span class="function call">then</span>(res<span class="storage type function arrow">=&gt;</span>{
+                <span class="function call">setPeople</span>(res.data);
+                <span class="function call">setLoaded</span>(<span class="constant language">true</span>);
+            })
+            .<span class="keyword">catch</span>(err <span class="storage type function arrow">=&gt;</span> console.<span class="function call">error</span>(err));
+    },[]);
+    
+    <span class="storage type">const</span> removeFromDom <span class="keyword operator">=</span> personId <span class="storage type function arrow">=&gt;</span> {
+        <span class="function call">setPeople</span>(people.<span class="function call">filter</span>(person <span class="storage type function arrow">=&gt;</span> person._id <span class="keyword operator">!</span><span class="keyword operator">=</span> personId));
+    }
+    
+    <span class="keyword">return</span> (
+        <span class="keyword operator">&lt;</span>div<span class="keyword operator">&gt;</span>
+            <span class="keyword operator">&lt;</span>PersonForm/<span class="keyword operator">&gt;</span>
+            <span class="keyword operator">&lt;</span>hr/<span class="keyword operator">&gt;</span>
+            {loaded <span class="keyword operator">&amp;</span><span class="keyword operator">&amp;</span> <span class="keyword operator">&lt;</span>PersonList people<span class="keyword operator">=</span>{people} removeFromDom<span class="keyword operator">=</span>{removeFromDom}/<span class="keyword operator">&gt;</span>}
+        <span class="keyword operator">&lt;</span>/div<span class="keyword operator">&gt;</span>
+    );
+}
+    
+<span class="keyword">export</span> <span class="keyword">default</span> Main;
+</pre>
+                              </div>
+
+
+
+                        </div>
+                        <br><br><br>
+
+
+
+                        <div class="d-flex justify-content-between " id="navigation">
+                            <a href="../Full Stack MERN/ProductManagerPartII.html" class="previous_page">&laquo;
+                                Previous</a>
+                            <a href="../Full Stack MERN/ProductManagerPartIII.html" class="next_page ">Next &raquo;</a>
+
+                        </div>
+
+
+
+
+
+
+
+
+
+
+
+                    </main>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <!-- Include jQuery and Bootstrap JS (CDN) -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script src="/assets/js/color-modes.js"></script>
+    <script src="/assets/js/search.js"></script>
+    <script src="/assets/js/main.js"></script>
+
+
+    <!-- <script src="https://cdn.jsdelivr.net/npm/prismjs@1.28.0/prism.min.js"></script>
+  <script>
+    Prism.highlightAll();
+  </script> -->
+
+
+
+    <script>
+        // Initialize Prism.js
+        Prism.highlightAll();
+    </script>
+
+</body>
+
+</html>

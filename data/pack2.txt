@@ -1,0 +1,170 @@
+<li>
+        <h5 role="button">PRE-BOOTCAMP WEB DEVELOPMENT</h5>
+        <ul class="list-unstyled courses_list">
+          <li class="course_item">
+            <a href="PRE-BOOTCAMP WEB DEVELOPMENT/Start Here/Let's Get Started/Welcome.html">
+              <img src="/assets/icons/trial.png" alt="Start Here!">
+              <span>Start Here!</span>
+            </a>
+          </li>
+          <li class="course_item">
+            <a href="PRE-BOOTCAMP WEB DEVELOPMENT/Intro to Programming/Intro to HTML/PartsofanApp.html">
+              <img src="/assets/icons/workshop.png" alt="Intro to Programming">
+              <span>Intro to Programming</span>
+            </a>
+          </li>
+          <li class="course_item">
+            <a href="PRE-BOOTCAMP WEB DEVELOPMENT/Introduction to Web Development/Start Here/Whatisafullstack.html">
+              <img src="/assets/icons/workshop.png" alt="Introduction to Web Development">
+              <span>Introduction to Web Development</span>
+            </a>
+          </li>
+        </ul>
+      </li>
+      <li>
+        <h5 role="button">WEB FUNDAMENTALS</h5>
+        <ul class="list-unstyled courses_list">
+          <li class="course_item">
+            <a href="WEB FUNDAMENTALS/HTML/HowToCode/introduction.html">
+              <img src="/assets/icons/html.png" alt="HTML">
+              <span>HTML</span>
+            </a>
+          </li>
+          <li class="course_item">
+            <a href="WEB FUNDAMENTALS/Web Development - CSS/Selectors/SettingUpProjects.html">
+              <img src="/assets/icons/css.png" alt="Web Development - CSS">
+              <span>Web Development - CSS</span>
+            </a>
+          </li>
+          <li class="course_item">
+            <a href="WEB FUNDAMENTALS/JS/Language Fundamentals/Introduction.html">
+              <img src="/assets/icons/js.png" alt="JS">
+              <span>JS</span>
+            </a>
+          </li>
+          <li class="course_item">
+            <a href="WEB FUNDAMENTALS/Algorithms/Week1Day2.html">
+              <img src="/assets/icons/default.png" alt="Algorithms">
+              <span>Algorithms</span>
+            </a>
+          </li>
+          <li class="course_item">
+            <a href="examWeb.html">
+              <img src="/assets/icons/exam.png" alt="exam">
+              <span>Exam</span>
+            </a>
+          </li>
+        </ul>
+      </li>
+     <li>
+        <h5 role="button">JAVA</h5>
+      <ul class="list-unstyled courses_list">
+          <li class="course_item "> <a href="Java/Java Fundamentals/Setup/CourseOverview.html">
+              <img src="/assets/icons/JavaFundamentals.png" alt="Java Fundamentals">
+              <span>Java Fundamentals</span>
+
+            </a>
+          </li>
+
+          <li class="course_item ">
+            <a href="Java/Java OOP/Java OOP/Overview.html">
+              <img src="/assets/icons/workshop.png" alt="Java OOP">
+              <span>Java OOP</span>
+
+            </a>     
+          </li>
+
+          <li class="course_item "> <a href="Java/Java Spring/Spring Intro/Overview.html">
+              <img src="/assets/icons/workshop.png" alt="Java Spring">
+              <span>Java Spring</span>
+
+            </a>  </li>
+          <li class="course_item ">  <a href="Java/MySQL/Installations/Intro.html">
+            <img src="/assets/icons/mysql.png" alt="MySQL">
+            <span>MySQL</span>
+
+          </a>  </li>
+          <li class="course_item ">  <a href="Java/Java Spring Deployment/AWS Deployment/Deploying.html">
+            <img src="/assets/icons/workshop.png" alt="Java Spring Deployment">
+            <span>Java Spring Deployment</span>
+
+          </a> 
+          </li>
+                <li class="course_item">
+            <a href="examJava.html">
+              <img src="/assets/icons/exam.png" alt="exam">
+              <span>Exam</span>
+            </a>
+          </li>
+           </li>
+          <li class="course_item ">  <a href="Java/Projects/Introduction/Objectives.html">
+            <img src="/assets/icons/trial.png" alt="Projects">
+            <span>Projects</span>
+
+          </a>  
+        </ul>
+       <li>
+      <h5 role="button">MERN</h5>
+        <ul class="list-unstyled courses_list">
+          <li class="course_item">
+            <a href="/upgrade.html">
+              <img src="/assets/icons/javascript_(3).png" alt="HTML">
+              <span>Javascript</span>
+            </a>
+          </li>
+          <li class="course_item">
+            <a href="/upgrade.html">
+              <img src="/assets/icons/reaact_logo_(1).png" alt="Web Development - CSS">
+              <span>React</span>
+            </a>
+          </li>
+          <li class="course_item">
+            <a href="/upgrade.html">
+              <img src="/assets/icons/express.png" alt="JS">
+              <span>Express</span>
+            </a>
+          </li>
+          <li class="course_item">
+            <a href="/upgrade.html">
+              <img src="/assets/icons/mongo_(1).png" alt="Algorithms">
+              <span>MongoDB</span>
+            </a>
+          </li>
+          <li class="course_item">
+            <a href="/upgrade.html">
+              <img src="/assets/icons/MERN.png" alt="Algorithms">
+              <span>Full Stack <br> MERN</span>
+            </a>
+          </li>
+          <li class="course_item">
+            <a href="/upgrade.html">
+              <img src="/assets/icons/deployment.png" alt="Algorithms">
+              <span>MERN <br> Deployment </span>
+            </a>
+          </li>
+          <li class="course_item">
+            <a href="/upgrade.html">
+              <img src="/assets/icons/socketIO_logo_(1).png" alt="Algorithms">
+              <span>Sockets</span>
+            </a>
+          </li>
+          <li class="course_item">
+            <a href="/upgrade.html">
+              <img src="/assets/icons/default.png" alt="Algorithms">
+              <span>MERN Auth</span>
+            </a>
+          </li>
+          <li class="course_item">
+            <a href="/upgrade.html">
+              <img src="/assets/icons/trial.png" alt="Algorithms">
+              <span>Projects</span>
+            </a>
+          </li>
+          <li class="course_item">
+            <a href="/upgrade.html">
+              <img src="/assets/icons/exam.png" alt="exam">
+              <span>Exam</span>
+            </a>
+          </li>
+        </ul>
+     </li>

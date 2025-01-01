@@ -1,0 +1,782 @@
+<!doctype html>
+<html lang="en" data-bs-theme="light">
+
+<head>
+    <!-- <script src="/assets/js/color-modes.js"></script> -->
+
+    <meta charset="utf-8">
+    <link rel="icon" type="image/png" href="../../../../assets/icons/circle-logo.png">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.118.2">
+    <title>Digital-Academy</title>
+
+    <!-- Custom style -->
+    <link href="/assets/styles/sidebar.css" rel="stylesheet">
+    <link rel="stylesheet" href="/assets/styles/styles.css">
+    <link rel="stylesheet" href="/assets/styles/styles2.css">
+    <!-- bootstrap style -->
+
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous"> -->
+
+
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/prismjs@1.28.0/themes/prism.min.css"> -->
+
+
+
+    <!-- Include the Prism.js library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.25.0/themes/prism.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.25.0/prism.min.js"></script>
+
+    <!-- Include the Okaidia theme -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.25.0/themes/prism-okaidia.min.css">
+
+
+</head>
+
+<body class="single home " data-bs-spy="scroll" data-bs-target="#TableOfContents" data-bs-root-margin="0px 0px -60%"
+    data-bs-smooth-scroll="true" tabindex="0" cz-shortcut-listen="true">
+    <div class="sticky-top">
+        <header class="navbar navbar-expand-lg g-nav">
+            <div class="container-lg"><a class="navbar-brand me-auto me-lg-3" href="#"> <img
+                        src="/assets/icons/logo.png" alt="logo" style="width: 70px; height: 50px;">
+                </a>
+                <a id="home" href="/home.html">HOME</a>
+                <button class="btn btn-link d-lg-none" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasNavSection" aria-controls="offcanvasNavSection"
+                    aria-label="Open section navigation menu"><svg xmlns="http://www.w3.org/2000/svg"
+                        class="icon icon-tabler icon-tabler-dots-vertical" width="24" height="24" viewBox="0 0 24 24"
+                        stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                        <path d="M12 12m-1 0a1 1 0 102 0 1 1 0 10-2 0"></path>
+                        <path d="M12 19m-1 0a1 1 0 102 0 1 1 0 10-2 0"></path>
+                        <path d="M12 5m-1 0a1 1 0 102 0 1 1 0 10-2 0"></path>
+                    </svg></button>
+                <div class="offcanvas offcanvas-start d-lg-none" tabindex="-1" id="offcanvasNavSection"
+                    aria-labelledby="offcanvasNavSectionLabel">
+                    <div class="offcanvas-header">
+                        <img src="/assets/icons/logo.png" alt="logo" style="width: 70px; height: 50px;">
+                        <button type="button" class="btn btn-link nav-link p-0" data-bs-dismiss="offcanvas"
+                            aria-label="Close"><svg xmlns="http://www.w3.org/2000/svg"
+                                class="icon icon-tabler icon-tabler-x" width="24" height="24" viewBox="0 0 24 24"
+                                stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round"
+                                stroke-linejoin="round">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                <path d="M18 6 6 18"></path>
+                                <path d="M6 6l12 12"></path>
+                            </svg></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <aside class="doks-sidebar mt-n3">
+                            <nav id="doks-docs-nav" aria-label="Tertiary navigation">
+                                <div class="module pb-2 pt-4">
+                                    <h2 class="mod-title">MERN</h2>
+                                    <div class="module pb-2">
+                                        <a href="../../MERN/Express/WhatisanAPI.html" class="previous">&#8249;</a>
+                                        <img src="/assets/icons/mongo_(1).png" alt="" class="chapter-icon" />
+                                        <span class="mod-title">Express</span>
+                                        <a href="../../MERN/Full Stack MERN/Intro.html" class="next">&#8250;</a>
+                                    </div>
+                                </div>
+                                <ul class="list-unstyled collapsible-sidebar">
+
+                                    <li class="mb-1">
+                                        <button id="sidebtn"
+                                            class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed"
+                                            data-bs-toggle="collapse" data-bs-target="#MongoDB-collapse"
+                                            aria-expanded="false">
+                                            MongoDB
+                                        </button>
+                                        <div class="collapse" id="MongoDB-collapse">
+                                            <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                                                <li><a href="../MongoDB/Overview.html" class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />Overview</a>
+                                                </li>
+                                                <li><a href="../MongoDB/MongoDBAtlas.html" class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />MongoDB Atlas Setup</a>
+                                                </li>
+                                                <li><a href="../MongoDB/InstallingLocally.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />Installing Locally (Optional)</a>
+                                                </li>
+                                                <li><a href="../MongoDB/Basics.html" class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />Basics</a>
+                                                </li>
+                                                <li><a href="../MongoDB/QuizI.html" class="docs-link rounded  ">
+                                                        <img src="/assets/icons/quiz.png" alt=""
+                                                            class="module-icon" />Quiz
+                                                        I</a>
+                                                </li>
+                                                <li><a href="../MongoDB/Commands.html" class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />Commands</a>
+                                                </li>
+                                                <li><a href="../MongoDB/Operators.html" class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />Operators</a>
+                                                </li>
+                                                <li><a href="../MongoDB/QuizII.html" class="docs-link rounded ">
+                                                        <img src="/assets/icons/quiz.png" alt=""
+                                                            class="module-icon" />Quiz
+                                                        II</a>
+                                                </li>
+                                                <li><a href="../MongoDB/UsingMongoDB.html" class="docs-link rounded ">
+                                                        <img src="/assets/icons/practice.png" alt=""
+                                                            class="module-icon" />Using MongoDB</a>
+                                                </li>
+
+
+
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li class="mb-1">
+                                        <button id="sidebtn"
+                                            class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed"
+                                            data-bs-toggle="collapse" data-bs-target="#Mongoose-collapse"
+                                            aria-expanded="true">
+                                            Mongoose
+                                        </button>
+                                        <div class="collapse show" id="Mongoose-collapse">
+                                            <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                                                <li><a href="../Mongoose/ExpressMongoose.html"
+                                                        class="docs-link rounded active">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />Express + Mongoose</a>
+                                                </li>
+                                                <li><a href="../Mongoose/MongooseCommands.html"
+                                                        class="docs-link rounded">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />Mongoose Commands</a>
+                                                </li>
+                                                <li><a href="../Mongoose/Validations.html" class="docs-link rounded">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />Validations</a>
+                                                </li>
+                                                <li><a href="../Mongoose/QuizI.html" class="docs-link rounded">
+                                                        <img src="/assets/icons/quiz.png" alt=""
+                                                            class="module-icon" />Quiz I</a>
+                                                </li>
+                                                <li><a href="../Mongoose/JokesAPI.html" class="docs-link rounded">
+                                                        <img src="/assets/icons/core.png" alt=""
+                                                            class="module-icon" />Jokes API</a>
+                                                </li>
+                                                <li><a href="../Mongoose/Nested Documents.html"
+                                                        class="docs-link rounded">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />Nested Documents</a>
+                                                </li>
+
+
+
+                                            </ul>
+                                        </div>
+                                    </li>
+
+                                </ul>
+                            </nav>
+                        </aside>
+                    </div>
+                </div><button class="btn btn-link nav-link mx-2 order-3 d-lg-none" type="button"
+                    data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavMain" aria-controls="offcanvasNavMain"
+                    aria-label="Open main navigation menu"><svg xmlns="http://www.w3.org/2000/svg"
+                        class="icon icon-tabler icon-tabler-menu" width="24" height="24" viewBox="0 0 24 24"
+                        stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                        <line x1="4" y1="8" x2="20" y2="8"></line>
+                        <line x1="4" y1="16" x2="20" y2="16"></line>
+                    </svg></button>
+                <div class="offcanvas offcanvas-end h-auto" tabindex="-1" id="offcanvasNavMain"
+                    aria-labelledby="offcanvasNavMainLabel">
+                    <div class="offcanvas-header">
+                        <img src="/assets/icons/logo.png" alt="logo" style="width: 70px; height: 50px;">
+                        <button type="button" class="btn btn-link nav-link p-0" data-bs-dismiss="offcanvas"
+                            aria-label="Close"><svg xmlns="http://www.w3.org/2000/svg"
+                                class="icon icon-tabler icon-tabler-x" width="24" height="24" viewBox="0 0 24 24"
+                                stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round"
+                                stroke-linejoin="round">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                <path d="M18 6 6 18"></path>
+                                <path d="M6 6l12 12"></path>
+                            </svg></button>
+                    </div>
+                    <div class="offcanvas-body d-flex flex-column flex-lg-row justify-content-between">
+                        <!-- <ul class="navbar-nav flex-grow-1">
+              <li class="nav-item"><a class="nav-link active" href="index.html" aria-current="true">Docs</a></li>
+              <li class="nav-item"><a class="nav-link" href="/blog/">Blog</a></li>
+            </ul> -->
+
+                        <!-- this section is for the search bar and results -->
+                        <form class="navbar-form my-auto flex-grow-1 ">
+                            <input id="searchInput" class="form-control is-search ms-auto me-5" type="search"
+                                placeholder="Search ." aria-label="Search docs." autocomplete="off">
+                            <div id="suggestions" class="shadow rounded position-absolute d-none">
+                                <ul id="searchResults" class="list-unstyled m-auto"></ul>
+                            </div>
+                        </form>
+
+
+                        <button id="buttonColorMode" class="btn btn-link mx-auto nav-link p-0 ms-lg-2 me-lg-1"
+                            type="button" aria-label="Toggle theme"><svg data-bs-theme-value="dark"
+                                xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-moon" width="24"
+                                height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentcolor" fill="none"
+                                stroke-linecap="round" stroke-linejoin="round">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                <path d="M12 3c.132.0.263.0.393.0a7.5 7.5.0 007.92 12.446A9 9 0 1112 2.992z"></path>
+                            </svg><svg data-bs-theme-value="light" xmlns="http://www.w3.org/2000/svg"
+                                class="icon icon-tabler icon-tabler-sun" width="24" height="24" viewBox="0 0 24 24"
+                                stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round"
+                                stroke-linejoin="round">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                <path
+                                    d="M12 12m-4 0a4 4 0 108 0 4 4 0 10-8 0m-5 0h1m8-9v1m8 8h1m-9 8v1M5.6 5.6l.7.7m12.1-.7-.7.7m0 11.4.7.7m-12.1-.7-.7.7">
+                                </path>
+                            </svg></button>
+                        <ul id="socialMenu" class="nav mx-auto flex-row order-lg-4">
+
+
+                            <li class="nav-item"><a class="nav-link social-link"
+                                    href="https://github.com/DigitalAcademyTn"><svg xmlns="http://www.w3.org/2000/svg"
+                                        class="icon icon-tabler icon-tabler-brand-github" width="24" height="24"
+                                        viewBox="0 0 24 24" stroke-width="2" stroke="currentcolor" fill="none"
+                                        stroke-linecap="round" stroke-linejoin="round">
+                                        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                        <path
+                                            d="M9 19c-4.3 1.4-4.3-2.5-6-3m12 5v-3.5c0-1 .1-1.4-.5-2 2.8-.3 5.5-1.4 5.5-6a4.6 4.6.0 00-1.3-3.2 4.2 4.2.0 00-.1-3.2s-1.1-.3-3.5 1.3a12.3 12.3.0 00-6.2.0C6.5 2.8 5.4 3.1 5.4 3.1a4.2 4.2.0 00-.1 3.2A4.6 4.6.0 004 9.5c0 4.6 2.7 5.7 5.5 6-.6.6-.6 1.2-.5 2V21">
+                                        </path>
+                                    </svg><small class="ms-2 visually-hidden">GitHub</small></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </header>
+    </div>
+
+
+
+
+    <div class="wrap container-fluid " role="document">
+        <div class="content">
+            <div class="row  d-flex justify-content-center">
+                <div class=" docs-sidebar d-none d-lg-block   ">
+                    <main class="">
+                        <div class="flex-shrink-0 pt-4 ">
+
+                            <div class="module pb-2">
+                                <h2 class="mod-title">MERN</h2>
+                            </div>
+                            <div class="module pb-2">
+                                <a href="../../MERN/Express/WhatisanAPI.html" class="previous">&#8249;</a>
+                                <img src="/assets/icons/mongo_(1).png" alt="" class="chapter-icon" />
+                                <span class="mod-title">MongoDB </span>
+                                <a href="../../MERN/Full Stack MERN/Intro.html" class="next">&#8250;</a>
+                            </div>
+
+
+
+
+
+                            <ul class=" list-unstyled px-3 overflow-scroll">
+
+
+                                <li class="mb-1">
+                                    <button id="sidebtn"
+                                        class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed"
+                                        data-bs-toggle="collapse" data-bs-target="#MongoDB-collapse"
+                                        aria-expanded="false">
+                                        MongoDB
+                                    </button>
+                                    <div class="collapse " id="MongoDB-collapse">
+                                        <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                                            <li><a href="../MongoDB/Overview.html" class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />Overview</a>
+                                            </li>
+                                            <li><a href="../MongoDB/MongoDBAtlas.html" class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />MongoDB Atlas Setup</a>
+                                            </li>
+                                            <li><a href="../MongoDB/InstallingLocally.html" class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />Installing Locally (Optional)</a>
+                                            </li>
+                                            <li><a href="../MongoDB/Basics.html" class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />Basics</a>
+                                            </li>
+                                            <li><a href="../MongoDB/QuizI.html" class="docs-link rounded ">
+                                                    <img src="/assets/icons/quiz.png" alt="" class="module-icon" />Quiz
+                                                    I</a>
+                                            </li>
+                                            <li><a href="../MongoDB/Commands.html" class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />Commands</a>
+                                            </li>
+                                            <li><a href="../MongoDB/Operators.html" class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />Operators</a>
+                                            </li>
+                                            <li><a href="../MongoDB/QuizII.html" class="docs-link rounded ">
+                                                    <img src="/assets/icons/quiz.png" alt="" class="module-icon" />Quiz
+                                                    II</a>
+                                            </li>
+                                            <li><a href="../MongoDB/UsingMongoDB.html" class="docs-link rounded ">
+                                                    <img src="/assets/icons/practice.png" alt=""
+                                                        class="module-icon" />Using MongoDB</a>
+                                            </li>
+
+
+
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li class="mb-1">
+                                    <button id="sidebtn"
+                                        class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed"
+                                        data-bs-toggle="collapse" data-bs-target="#Mongoose-collapse"
+                                        aria-expanded="true">
+                                        Mongoose
+                                    </button>
+                                    <div class="collapse show" id="Mongoose-collapse">
+                                        <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                                            <li><a href="../Mongoose/ExpressMongoose.html" class="docs-link rounded active">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />Express + Mongoose</a>
+                                            </li>
+                                            <li><a href="../Mongoose/MongooseCommands.html" class="docs-link rounded">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />Mongoose Commands</a>
+                                            </li>
+                                            <li><a href="../Mongoose/Validations.html" class="docs-link rounded">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />Validations</a>
+                                            </li>
+                                            <li><a href="../Mongoose/QuizI.html" class="docs-link rounded">
+                                                    <img src="/assets/icons/quiz.png" alt="" class="module-icon" />Quiz
+                                                    I</a>
+                                            </li>
+                                            <li><a href="../Mongoose/JokesAPI.html" class="docs-link rounded">
+                                                    <img src="/assets/icons/core.png" alt="" class="module-icon" />Jokes
+                                                    API</a>
+                                            </li>
+                                            <li><a href="../Mongoose/Nested Documents.html" class="docs-link rounded">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />Nested Documents</a>
+                                            </li>
+
+
+
+                                        </ul>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+
+                    </main>
+
+                </div>
+                <div class="docs-content col-lg-11 col-xl-9 " id="lesson_content">
+
+                    <main data-bs-spy="scroll" data-bs-target="#TableOfContents" data-bs-offset="0" tabindex="0">
+                        <div id="lesson_content">
+                            <h1 class="text-center">Express + Mongoose</h1>
+                            <h3>Learning Objectives:</h3>
+                            <ul>
+                                <li>Learning what Mongoose is</li>
+                                <li>Learning how to Install mongoose with npm</li>
+                                <li>Learning how to connect mongoose to a database</li>
+                                <li>Learning how to create a Mongoose Schema and Model</li>
+                                <li>Learning how to execute basic queries with Mongoose objects</li>
+                                <li>Understanding the basic syntax for writing promises with Mongoose methods</li>
+                            </ul>
+                            <h2 id="mongoose">Mongoose</h2>
+                            <p>Now that we understand our MongoDB basics, let's connect it to a project and see it in
+                                action. The most popular way of using MongoDB with Node and Express is with a library
+                                called <strong><dfn>Mongoose</dfn></strong>. Mongoose simplifies making MongoDB queries
+                                with its own library of methods. This means that we can connect mongoose directly to a
+                                MongoDB database and it will allow us to give more structure to our data with the
+                                addition of models and schemas. <br></p>
+                            <p>Mongoose will act as a layer between our application and our database enabling us to do
+                                things like validate and run complex queries more effectively.<br></p>
+                            <h2>1. Installing Mongoose</h2>
+                            <p>Start by creating a folder for your project (labeled as <code>server</code> in the image
+                                below) and create both the <code>server.js</code> file and the following folder
+                                structure inside of it:</p>
+                            <p><img
+                                    src="/assets/img/Mongoose1.png">
+                            </p>
+                            <p>
+                            </p>
+                            <ul>
+                                <li>server - This is your backend server / project folder and will hold all server
+                                    related files
+                                    <ul>
+                                        <li>config - will handle the database configuration and connection</li>
+                                        <li>controllers - will hold all logic for each model (i.e creating, updating,
+                                            etc...)</li>
+                                        <li>models - will hold all the schemas</li>
+                                        <li>routes - will handle all of our routes for each model</li>
+                                        <li>.env - will store our secret keys</li>
+                                        <li>server.js - will handle all the server logic with express</li>
+                                    </ul>
+                                </li>
+                            </ul>
+                            <p>Once you have created the <code>server.js</code> file and the folders, open a new
+                                terminal window and navigate into your project folder (labeled as <code>server</code> in
+                                the image above) and install the server dependencies by running:</p>
+<pre>npm init -y
+npm install mongoose express dotenv</pre>
+                            <p>Go into <code>server.js</code> and add the new line of code below near the top of the
+                                file:</p>
+                                <div class="highlight">
+                                    <div class="clipboard"><button class="btn btn-clipboard blankkk"
+                                            aria-label="Clipboard button"></button></div>
+<pre data-language="javascript"><span class="function call">require</span>(<span class="string">'dotenv'</span>).<span class="function call">config</span>();
+</pre>
+                                </div>
+                            <p>Connecting to our Mongo Atlas account required us to pass a username and a password. For
+                                a larger application like this, we need a special place to put our secret information,
+                                and that place is a <code>.env</code> file!
+                            </p>
+                            <h2>NOTE: Require Mongoose</h2>
+                            <p>In any file that will use the Mongoose library, you will need to be sure to
+                                <code>require</code> it at the top of the file similar to this:</p>
+                                <div class="highlight">
+                                    <div class="clipboard"><button class="btn btn-clipboard blankkk"
+                                            aria-label="Clipboard button"></button></div>
+<pre
+    data-language="javascript"><span class="storage type">const</span> mongoose <span class="keyword operator">=</span> <span class="function call">require</span>(<span class="string">'mongoose'</span>);
+</pre>
+                                </div>
+                            <h2 id="3-connect-mongoose-to-mongodb">2. Connecting to MongoDB with Mongoose</h2>
+                            <p>In vs-code, navigate to the config folder where you will need to create the
+                                <code>mongoose.config.js</code> file. This is where we use Mongoose to connect to our
+                                database. Before we begin, we need our connection string from Mongo Atlas. Navigate to
+                                your Atlas account and connect to your cluster.</p>
+                            <p><img
+                                    src="/assets/img/connect1.png"><br>
+                                <br></p>
+                            <p>We want <strong>Connect your application</strong>. This will give us a connection string
+                                we can use to connect to the Atlas cluster we set up earlier!</p>
+                            <p> <img
+                                    src="/assets/img/connect2.png"><br>
+                                <br></p>
+                            <p>Using this connection string, let's finally give <code>update mongoose.config.js</code>!
+                            </p>
+                            <div class="highlight">
+                                <div class="clipboard"><button class="btn btn-clipboard blankkk"
+                                        aria-label="Clipboard button"></button></div>
+<pre>const mongoose = require('mongoose');
+const dbName = process.env.DB;
+const username = process.env.ATLAS_USERNAME;
+const pw = process.env.ATLAS_PASSWORD;
+const uri = `mongodb+srv://${username}:${pw}@YOUR_CONNECTION_STRING_HERE/${dbName}?retryWrites=true&amp;w=majority`;
+mongoose.connect(uri)
+    .then(() =&gt; console.log("Established a connection to the database"))
+    .catch(err =&gt; console.log("Something went wrong when connecting to the database", err));</pre>
+                            </div>
+                            <p>We will also need the username and password we set up for our Atlas account. However, it
+                                is not secure for us to just write the password openly into our code for potentially the
+                                whole world to see! That's why we created a <code>.env</code> file earlier, to store
+                                some of our private information. Let's update our <code>.env</code> file now!</p>
+                                <div class="highlight">
+                                    <div class="clipboard"><button class="btn btn-clipboard blankkk"
+                                            aria-label="Clipboard button"></button></div>
+<pre>PORT=8000
+DB=my_db
+# mongo atlas connection
+ATLAS_USERNAME=YOUR_ATLAS_USERNAME
+ATLAS_PASSWORD=YOUR_ATLAS_PASSWORD
+</pre>
+                                </div>
+                            <p>Inside an <code>.env</code> we have variable names on the left and their values on the
+                                right. For example, <code>PORT=8080</code> is declaring we have an environmental
+                                variable called <code>PORT</code> with the value of 8000. Using this convention, update
+                                your username and password to match the information you created in your Atlas security
+                                settings. Remember this isn't your account username, but the one you made for your
+                                security group!</p>
+                            <h2 id="4-create-your-mongoose-schemas">3. Create your Mongoose Schema and Model</h2>
+                            <p>Mongoose provides more structure to MongoDB by adding schemas that we can create that
+                                turn into models for our collections. These models specify keys, types, and even
+                                validations for documents in a specific collection. Mongoose also handles appropriate
+                                naming for us when it communicates with MongoDB!
+                            </p>
+                            <p>In vs-code, navigate your way to the models folder and create the
+                                <code>user.model.js</code> file in the models folder where we create a User collection
+                                using mongoose. Remember, we need to import mongoose using the require statement at the
+                                top of the file.<br></p>
+                                <div class="highlight">
+                                    <div class="clipboard"><button class="btn btn-clipboard blankkk"
+                                            aria-label="Clipboard button"></button></div>
+<pre
+    data-language="javascript"><span class="storage type">const</span> mongoose <span class="keyword operator">=</span> <span class="function call">require</span>(<span class="string">'mongoose'</span>);
+    
+<span class="storage type">const</span> UserSchema <span class="keyword operator">=</span> <span class="keyword">new</span> <span class="variable type">mongoose.Schema</span>({
+    name: {
+        type: <span class="keyword">String</span>
+    },
+    age: {
+        type: Number
+    }
+});
+    
+<span class="storage type">const</span> User <span class="keyword operator">=</span> mongoose.<span class="function call">model</span>(<span class="string">'User'</span>, UserSchema);
+    
+module.exports <span class="keyword operator">=</span> User;
+</pre>
+                                </div>
+                            <p>Let's break it down. The <strong>mongoose.model()</strong> method is the most important
+                                in this case. Its job is to take a blueprint object and, in turn, create the necessary
+                                database collection out of the model. We get this blueprint by making a new schema
+                                instance from the mongoose.Schema() object constructor. Notice how the
+                                <strong>mongoose.Schema()</strong> method takes an object as its parameter? The
+                                structure of that object is how each new document put into the collection will be
+                                formatted. You can learn more about the other Schema Types <a
+                                    href="http://mongoosejs.com/docs/schematypes.html" target="_blank">here</a>. </p>
+                            <p>We then create a User variable to export and set it to the returned value of the
+                                <strong>mongoose.model()</strong> function: a model object is created using the singular
+                                version of the collection name (<code>'User'</code>) and the mongoose schema
+                                (<code>UserSchema</code>). This model will be used to enable all our needed CRUD
+                                functionality. Exporting the User variable will allow us to import and use the User
+                                model in any file we choose.</p>
+                            <p>NOTE: After we create our first document using this model, we will find a lowercase,
+                                plural version of the collection name in our database. In this case, "users"</p>
+                            <h2>4. Use the Mongoose Models to Create / Retrieve / Update / Destroy</h2>
+                            <p>Navigate your way into the controllers folder where you will create the
+                                <code>user.controller.js</code> file that will house all of our logic for creating,
+                                retrieving, updating, and deleting users. Notice at the top of the file, we do not have
+                                a <code>require("mongoose")</code> statement. Instead we have a
+                                <code>require("../models/user.model")</code> statement which is importing the User
+                                variable that we exported from the <code>user.model.js</code> file. In our controller
+                                file, we export different functions that perform the basic CRUD operations using our
+                                User model.</p>
+                                <div class="highlight">
+                                    <div class="clipboard"><button class="btn btn-clipboard blankkk"
+                                            aria-label="Clipboard button"></button></div>
+<pre data-language="javascript"><span class="storage type">const</span> User <span class="keyword operator">=</span> <span class="function call">require</span>(<span class="string">'../models/user.model'</span>);
+    
+module.exports.findAllUsers <span class="keyword operator">=</span> (req, res) <span class="storage type function arrow">=&gt;</span> {
+    User.<span class="function call">find</span>()
+        .<span class="function call">then</span>((allDaUsers) <span class="storage type function arrow">=&gt;</span> {
+            res.<span class="function call">json</span>({ users: allDaUsers })
+        })
+        .<span class="keyword">catch</span>((err) <span class="storage type function arrow">=&gt;</span> {
+            res.<span class="function call">json</span>(err)
+        });
+}
+    
+module.exports.findOneSingleUser <span class="keyword operator">=</span> (req, res) <span class="storage type function arrow">=&gt;</span> {
+    User.<span class="function call">findOne</span>({ _id: req.params.id })
+        .<span class="function call">then</span>(oneSingleUser <span class="storage type function arrow">=&gt;</span> {
+            res.<span class="function call">json</span>({ user: oneSingleUser })
+        })
+        .<span class="keyword">catch</span>((err) <span class="storage type function arrow">=&gt;</span> {
+            res.<span class="function call">json</span>(err)
+        });}
+    
+module.exports.createNewUser <span class="keyword operator">=</span> (req, res) <span class="storage type function arrow">=&gt;</span> {
+    User.<span class="function call">create</span>(req.body)
+        .<span class="function call">then</span>(newlyCreatedUser <span class="storage type function arrow">=&gt;</span> {
+            res.<span class="function call">json</span>({ user: newlyCreatedUser })
+        })
+        .<span class="keyword">catch</span>((err) <span class="storage type function arrow">=&gt;</span> {
+            res.<span class="function call">json</span>(err)
+        });}
+    
+module.exports.updateExistingUser <span class="keyword operator">=</span> (req, res) <span class="storage type function arrow">=&gt;</span> {
+    User.<span class="function call">findOneAndUpdate</span>(
+        { _id: req.params.id },
+        req.body,
+        { <span class="keyword">new</span>: <span class="constant language">true</span>, runValidators: <span class="constant language">true</span> }
+    )
+        .<span class="function call">then</span>(updatedUser <span class="storage type function arrow">=&gt;</span> {
+            res.<span class="function call">json</span>({ user: updatedUser })
+        })
+        .<span class="keyword">catch</span>((err) <span class="storage type function arrow">=&gt;</span> {
+            res.<span class="function call">json</span>(err)
+        });}
+    
+module.exports.deleteAnExistingUser <span class="keyword operator">=</span> (req, res) <span class="storage type function arrow">=&gt;</span> {
+    User.<span class="function call">deleteOne</span>({ _id: req.params.id })
+        .<span class="function call">then</span>(result <span class="storage type function arrow">=&gt;</span> {
+            res.<span class="function call">json</span>({ result: result })
+        })
+        .<span class="keyword">catch</span>((err) <span class="storage type function arrow">=&gt;</span> {
+            res.<span class="function call">json</span>(err)
+        });}
+    </pre>
+                                </div>
+                            <p>A couple key points:</p>
+                            <ul>
+                                <li>User is a constructor function which can create new user objects and also has other
+                                    methods that will talk to the database!<ul>
+                                        <li>the .then() will only execute upon successfully inserting data in the
+                                            database</li>
+                                        <li>the .catch() will execute only if there is an error.</li>
+                                    </ul>
+                                </li>
+                            </ul>
+                            <h2>5. Routing</h2>
+                            <p>Navigate your way into the routes folder where you will create the
+                                <code>user.routes.js</code> file that will be responsible for all of our routes dealing
+                                with the user model. Notice at the top of the file, this time, we have a
+                                <code>require("../controllers/user.controller")</code> statement which is importing
+                                everything we exported from the controller file.</p>
+                                <div class="highlight">
+                                    <div class="clipboard"><button class="btn btn-clipboard blankkk"
+                                            aria-label="Clipboard button"></button></div>
+<pre data-language="javascript"><span class="storage type">const</span> UserController <span class="keyword operator">=</span> <span class="function call">require</span>(<span class="string">'../controllers/user.controller'</span>);
+    
+module.exports <span class="keyword operator">=</span> app <span class="storage type function arrow">=&gt;</span> {
+    app.<span class="function call">get</span>(<span class="string">'/api/users'</span>, UserController.findAllUsers);
+    app.<span class="function call">get</span>(<span class="string">'/api/users/:id'</span>, UserController.findOneSingleUser);
+    app.<span class="function call">patch</span>(<span class="string">'/api/users/:id'</span>, UserController.updateExistingUser);
+    app.<span class="function call">post</span>(<span class="string">'/api/users'</span>, UserController.createNewUser);
+    app.<span class="keyword">delete</span>(<span class="string">'/api/users/:id'</span>, UserController.deleteAnExistingUser);
+}
+</pre>
+                                </div>
+                            <p>NOTE: The order of these routes matter! If you have a route that uses a wildcard (like
+                                <code>:id</code>) before a path with a specific name, the wildcard route will always
+                                run. Move specific routes to the top to ensure they are followed.</p>
+                            <p>For example, if you wanted to create a get route with a specific path, it would have to
+                                go before your get route for a single document. The following would never make it to the
+                                <code>allusers</code> route because the <code>:id</code> route would also match the
+                                string <code>allusers</code>:</p>
+                                <div class="highlight">
+                                    <div class="clipboard"><button class="btn btn-clipboard blankkk"
+                                            aria-label="Clipboard button"></button></div>
+<pre data-language="javascript"><span class="storage type">const</span> UserController <span class="keyword operator">=</span> <span class="function call">require</span>(<span class="string">'../controllers/user.controller'</span>);
+    
+module.exports <span class="keyword operator">=</span> app <span class="storage type function arrow">=&gt;</span> {
+    app.<span class="function call">get</span>(<span class="string">'/api/users/:id'</span>, UserController.findOneSingleUser);
+    app.<span class="function call">get</span>(<span class="string">'/api/users/allusers'</span>, UserController.findAllUsers);
+}
+</pre>
+                                </div>
+                            <h2>6. Server</h2>
+                            <p>Last but not least is our server.js file. Because we modularized our files from the
+                                start, this allows our <code>server.js</code> file to contain only a few lines of code,
+                                allows us to be able to easily expand our app, and helps us keep organized. Take a
+                                moment and look over the <code>server.js</code> file and familiarize yourself with
+                                what's happening.</p>
+                                <div class="highlight">
+                                    <div class="clipboard"><button class="btn btn-clipboard blankkk"
+                                            aria-label="Clipboard button"></button></div>
+<pre
+    data-language="javascript"><span class="storage type">const</span> express <span class="keyword operator">=</span> <span class="function call">require</span>(<span class="string">"express"</span>);
+<span class="storage type">const</span> app <span class="keyword operator">=</span> <span class="function call">express</span>();
+<span class="function call">require</span>(<span class="string">'dotenv'</span>).<span class="function call">config</span>();
+<span class="storage type">const</span> port <span class="keyword operator">=</span> process.env.PORT;
+    
+<span class="function call">require</span>(<span class="string">"./config/mongoose.config"</span>);
+    
+app.<span class="function call">use</span>(express.<span class="function call">json</span>(), express.<span class="function call">urlencoded</span>({ extended: <span class="constant language">true</span> }));
+    
+<span class="storage type">const</span> AllMyUserRoutes <span class="keyword operator">=</span> <span class="function call">require</span>(<span class="string">"./routes/user.routes"</span>);
+<span class="function call">AllMyUserRoutes</span>(app);
+    
+app.<span class="function call">listen</span>(port, () <span class="storage type function arrow">=&gt;</span> console.<span class="function call">log</span>(`Listening on port: ${port}`) );
+</pre>
+                                </div>
+                            <p>There is a lot that is happening in the code above so take a couple minutes to review and
+                                make sure that you understand everything that is going on. When you feel comfortable to
+                                move on, you can go ahead and run your server using Nodemon in your terminal:<br></p>
+                            <pre>nodemon server.js</pre>
+                            <p>NOTE: If you receive the following warning when running your server, you can safely
+                                ignore it:</p>
+                            <pre>DeprecationWarning: Listening to events on the Db class has been deprecated and will be removed in the next major version</pre>
+                            <hr>
+                            <h2>7. .gitignore</h2>
+                            <p>As a final step, let's create one more file in our <code>server</code> folder. This file
+                                will prevent us from accidently uploading things to Github that don't belong on Github!
+                                Inside your <code>server</code> folder, create a new file called <code>.gitignore</code>
+                                and update it to look like the example.</p>
+<pre>/node_modules
+.env
+</pre>
+                            <p>This tells Git to ignore a folder called <code>node_modules</code> and a file called
+                                <code>.env</code>. which is important because Node Modules can be thousands of lines of
+                                code and environmental files contain secrets like passwords!</p>
+                            <h4>Debug</h4>
+                            <p>If it didn't work make sure the following things are done:</p>
+                            <ol>
+                                <li>Make sure your post data matches the data that you are inserting into the database
+                                    (name and age)</li>
+                                <li>Make sure that your form submits a post request to <em>'/users'</em></li>
+                                <li>Make sure mongoose is actually installed</li>
+                                <li>Check the order of everything related to mongoose (require --&gt; connect --&gt;
+                                    Schema --&gt; Model --&gt; route)</li>
+                                <li>Use lots of console.log statements and follow the flow of data.</li>
+                            </ol>
+                            <p> Remember to read your error messages, they are your biggest clues for diagnosing the
+                                issue!</p>
+
+
+
+
+
+                        </div>
+                        <br><br><br>
+
+
+
+                        <div class="d-flex justify-content-between " id="navigation">
+                            <a href="../MongoDB/UsingMongoDB.html" class="previous_page">&laquo;
+                                Previous</a>
+                            <a href="../Mongoose/MongooseCommands.html" class="next_page ">Next &raquo;</a>
+
+                        </div>
+
+
+
+
+
+
+
+
+
+
+
+                    </main>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <!-- Include jQuery and Bootstrap JS (CDN) -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script src="/assets/js/color-modes.js"></script>
+    <script src="/assets/js/search.js"></script>
+    <script src="/assets/js/main.js"></script>
+
+
+    <!-- <script src="https://cdn.jsdelivr.net/npm/prismjs@1.28.0/prism.min.js"></script>
+  <script>
+    Prism.highlightAll();
+  </script> -->
+
+
+
+    <script>
+        // Initialize Prism.js
+        Prism.highlightAll();
+    </script>
+
+</body>
+
+</html>

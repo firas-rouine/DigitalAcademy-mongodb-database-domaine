@@ -1,0 +1,510 @@
+<!doctype html>
+<html lang="en" data-bs-theme="light">
+
+<head>
+    <!-- <script src="/assets/js/color-modes.js"></script> -->
+
+    <meta charset="utf-8">
+    <link rel="icon" type="image/png" href="../../../../assets/icons/circle-logo.png">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.118.2">
+    <title>Digital-Academy</title>
+
+    <!-- Custom style -->
+    <link href="/assets/styles/sidebar.css" rel="stylesheet">
+    <link rel="stylesheet" href="/assets/styles/styles.css">
+    <link rel="stylesheet" href="/assets/styles/styles2.css">
+    <!-- bootstrap style -->
+
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous"> -->
+
+
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/prismjs@1.28.0/themes/prism.min.css"> -->
+
+
+
+    <!-- Include the Prism.js library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.25.0/themes/prism.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.25.0/prism.min.js"></script>
+
+    <!-- Include the Okaidia theme -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.25.0/themes/prism-okaidia.min.css">
+
+
+</head>
+
+<body class="single home " data-bs-spy="scroll" data-bs-target="#TableOfContents" data-bs-root-margin="0px 0px -60%"
+    data-bs-smooth-scroll="true" tabindex="0" cz-shortcut-listen="true">
+    <div class="sticky-top">
+        <header class="navbar navbar-expand-lg g-nav">
+            <div class="container-lg"><a class="navbar-brand me-auto me-lg-3" href="#"> <img
+                        src="/assets/icons/logo.png" alt="logo" style="width: 70px; height: 50px;">
+                </a>
+                <a id="home" href="/home.html">HOME</a>
+                <button class="btn btn-link d-lg-none" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasNavSection" aria-controls="offcanvasNavSection"
+                    aria-label="Open section navigation menu"><svg xmlns="http://www.w3.org/2000/svg"
+                        class="icon icon-tabler icon-tabler-dots-vertical" width="24" height="24" viewBox="0 0 24 24"
+                        stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                        <path d="M12 12m-1 0a1 1 0 102 0 1 1 0 10-2 0"></path>
+                        <path d="M12 19m-1 0a1 1 0 102 0 1 1 0 10-2 0"></path>
+                        <path d="M12 5m-1 0a1 1 0 102 0 1 1 0 10-2 0"></path>
+                    </svg></button>
+                <div class="offcanvas offcanvas-start d-lg-none" tabindex="-1" id="offcanvasNavSection"
+                    aria-labelledby="offcanvasNavSectionLabel">
+                    <div class="offcanvas-header">
+                        <img src="/assets/icons/logo.png" alt="logo" style="width: 70px; height: 50px;">
+                        <button type="button" class="btn btn-link nav-link p-0" data-bs-dismiss="offcanvas"
+                            aria-label="Close"><svg xmlns="http://www.w3.org/2000/svg"
+                                class="icon icon-tabler icon-tabler-x" width="24" height="24" viewBox="0 0 24 24"
+                                stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round"
+                                stroke-linejoin="round">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                <path d="M18 6 6 18"></path>
+                                <path d="M6 6l12 12"></path>
+                            </svg></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <aside class="doks-sidebar mt-n3">
+                            <nav id="doks-docs-nav" aria-label="Tertiary navigation">
+                                <div class="module pb-2 pt-4">
+                                    <h2 class="mod-title">MERN</h2>
+                                    <div class="module pb-2">
+                                        <a href="../../MERN/Express/WhatisanAPI.html" class="previous">&#8249;</a>
+                                        <img src="/assets/icons/mongo_(1).png" alt="" class="chapter-icon" />
+                                        <span class="mod-title">Express</span>
+                                        <a href="../../MERN/Full Stack MERN/Full Stack MERN/Intro.html" class="next">&#8250;</a>
+                                    </div>
+                                </div>
+                                <ul class="list-unstyled collapsible-sidebar">
+
+                                    <li class="mb-1">
+                                        <button id="sidebtn"
+                                            class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed"
+                                            data-bs-toggle="collapse" data-bs-target="#MongoDB-collapse"
+                                            aria-expanded="true">
+                                            MongoDB
+                                        </button>
+                                        <div class="collapse show" id="MongoDB-collapse">
+                                            <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                                                <li><a href="../MongoDB/Overview.html" class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />Overview</a>
+                                                </li>
+                                                <li><a href="../MongoDB/MongoDBAtlas.html" class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />MongoDB Atlas Setup</a>
+                                                </li>
+                                                <li><a href="../MongoDB/InstallingLocally.html"
+                                                        class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />Installing Locally (Optional)</a>
+                                                </li>
+                                                <li><a href="../MongoDB/Basics.html" class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />Basics</a>
+                                                </li>
+                                                <li><a href="../MongoDB/QuizI.html" class="docs-link rounded  ">
+                                                        <img src="/assets/icons/quiz.png" alt=""
+                                                            class="module-icon" />Quiz
+                                                        I</a>
+                                                </li>
+                                                <li><a href="../MongoDB/Commands.html" class="docs-link rounded ">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />Commands</a>
+                                                </li>
+                                                <li><a href="../MongoDB/Operators.html"
+                                                        class="docs-link rounded active">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />Operators</a>
+                                                </li>
+                                                <li><a href="../MongoDB/QuizII.html" class="docs-link rounded ">
+                                                        <img src="/assets/icons/quiz.png" alt=""
+                                                            class="module-icon" />Quiz
+                                                        II</a>
+                                                </li>
+                                                <li><a href="../MongoDB/UsingMongoDB.html" class="docs-link rounded ">
+                                                        <img src="/assets/icons/practice.png" alt=""
+                                                            class="module-icon" />Using MongoDB</a>
+                                                </li>
+
+
+
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li class="mb-1">
+                                        <button id="sidebtn"
+                                            class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed"
+                                            data-bs-toggle="collapse" data-bs-target="#Mongoose-collapse"
+                                            aria-expanded="false">
+                                            Mongoose
+                                        </button>
+                                        <div class="collapse" id="Mongoose-collapse">
+                                            <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                                                <li><a href="../Mongoose/ExpressMongoose.html"
+                                                        class="docs-link rounded">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />Express + Mongoose</a>
+                                                </li>
+                                                <li><a href="../Mongoose/MongooseCommands.html"
+                                                        class="docs-link rounded">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />Mongoose Commands</a>
+                                                </li>
+                                                <li><a href="../Mongoose/Validations.html" class="docs-link rounded">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />Validations</a>
+                                                </li>
+                                                <li><a href="../Mongoose/QuizI.html" class="docs-link rounded">
+                                                        <img src="/assets/icons/quiz.png" alt=""
+                                                            class="module-icon" />Quiz I</a>
+                                                </li>
+                                                <li><a href="../Mongoose/JokesAPI.html" class="docs-link rounded">
+                                                        <img src="/assets/icons/core.png" alt=""
+                                                            class="module-icon" />Jokes API</a>
+                                                </li>
+                                                <li><a href="../Mongoose/Nested Documents.html"
+                                                        class="docs-link rounded">
+                                                        <img src="/assets/icons/module.png" alt=""
+                                                            class="module-icon" />Nested Documents</a>
+                                                </li>
+
+
+
+                                            </ul>
+                                        </div>
+                                    </li>
+
+                                </ul>
+                            </nav>
+                        </aside>
+                    </div>
+                </div><button class="btn btn-link nav-link mx-2 order-3 d-lg-none" type="button"
+                    data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavMain" aria-controls="offcanvasNavMain"
+                    aria-label="Open main navigation menu"><svg xmlns="http://www.w3.org/2000/svg"
+                        class="icon icon-tabler icon-tabler-menu" width="24" height="24" viewBox="0 0 24 24"
+                        stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                        <line x1="4" y1="8" x2="20" y2="8"></line>
+                        <line x1="4" y1="16" x2="20" y2="16"></line>
+                    </svg></button>
+                <div class="offcanvas offcanvas-end h-auto" tabindex="-1" id="offcanvasNavMain"
+                    aria-labelledby="offcanvasNavMainLabel">
+                    <div class="offcanvas-header">
+                        <img src="/assets/icons/logo.png" alt="logo" style="width: 70px; height: 50px;">
+                        <button type="button" class="btn btn-link nav-link p-0" data-bs-dismiss="offcanvas"
+                            aria-label="Close"><svg xmlns="http://www.w3.org/2000/svg"
+                                class="icon icon-tabler icon-tabler-x" width="24" height="24" viewBox="0 0 24 24"
+                                stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round"
+                                stroke-linejoin="round">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                <path d="M18 6 6 18"></path>
+                                <path d="M6 6l12 12"></path>
+                            </svg></button>
+                    </div>
+                    <div class="offcanvas-body d-flex flex-column flex-lg-row justify-content-between">
+                        <!-- <ul class="navbar-nav flex-grow-1">
+              <li class="nav-item"><a class="nav-link active" href="index.html" aria-current="true">Docs</a></li>
+              <li class="nav-item"><a class="nav-link" href="/blog/">Blog</a></li>
+            </ul> -->
+
+                        <!-- this section is for the search bar and results -->
+                        <form class="navbar-form my-auto flex-grow-1 ">
+                            <input id="searchInput" class="form-control is-search ms-auto me-5" type="search"
+                                placeholder="Search ." aria-label="Search docs." autocomplete="off">
+                            <div id="suggestions" class="shadow rounded position-absolute d-none">
+                                <ul id="searchResults" class="list-unstyled m-auto"></ul>
+                            </div>
+                        </form>
+
+
+                        <button id="buttonColorMode" class="btn btn-link mx-auto nav-link p-0 ms-lg-2 me-lg-1"
+                            type="button" aria-label="Toggle theme"><svg data-bs-theme-value="dark"
+                                xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-moon" width="24"
+                                height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentcolor" fill="none"
+                                stroke-linecap="round" stroke-linejoin="round">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                <path d="M12 3c.132.0.263.0.393.0a7.5 7.5.0 007.92 12.446A9 9 0 1112 2.992z"></path>
+                            </svg><svg data-bs-theme-value="light" xmlns="http://www.w3.org/2000/svg"
+                                class="icon icon-tabler icon-tabler-sun" width="24" height="24" viewBox="0 0 24 24"
+                                stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round"
+                                stroke-linejoin="round">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                <path
+                                    d="M12 12m-4 0a4 4 0 108 0 4 4 0 10-8 0m-5 0h1m8-9v1m8 8h1m-9 8v1M5.6 5.6l.7.7m12.1-.7-.7.7m0 11.4.7.7m-12.1-.7-.7.7">
+                                </path>
+                            </svg></button>
+                        <ul id="socialMenu" class="nav mx-auto flex-row order-lg-4">
+
+
+                            <li class="nav-item"><a class="nav-link social-link"
+                                    href="https://github.com/DigitalAcademyTn"><svg xmlns="http://www.w3.org/2000/svg"
+                                        class="icon icon-tabler icon-tabler-brand-github" width="24" height="24"
+                                        viewBox="0 0 24 24" stroke-width="2" stroke="currentcolor" fill="none"
+                                        stroke-linecap="round" stroke-linejoin="round">
+                                        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                        <path
+                                            d="M9 19c-4.3 1.4-4.3-2.5-6-3m12 5v-3.5c0-1 .1-1.4-.5-2 2.8-.3 5.5-1.4 5.5-6a4.6 4.6.0 00-1.3-3.2 4.2 4.2.0 00-.1-3.2s-1.1-.3-3.5 1.3a12.3 12.3.0 00-6.2.0C6.5 2.8 5.4 3.1 5.4 3.1a4.2 4.2.0 00-.1 3.2A4.6 4.6.0 004 9.5c0 4.6 2.7 5.7 5.5 6-.6.6-.6 1.2-.5 2V21">
+                                        </path>
+                                    </svg><small class="ms-2 visually-hidden">GitHub</small></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </header>
+    </div>
+
+
+
+
+    <div class="wrap container-fluid " role="document">
+        <div class="content">
+            <div class="row  d-flex justify-content-center">
+                <div class=" docs-sidebar d-none d-lg-block   ">
+                    <main class="">
+                        <div class="flex-shrink-0 pt-4 ">
+
+                            <div class="module pb-2">
+                                <h2 class="mod-title">MERN</h2>
+                            </div>
+                            <div class="module pb-2">
+                                <a href="../../MERN/Express/WhatisanAPI.html" class="previous">&#8249;</a>
+                                <img src="/assets/icons/mongo_(1).png" alt="" class="chapter-icon" />
+                                <span class="mod-title">MongoDB </span>
+                                <a href="../../MERN/Full Stack MERN/Full Stack MERN/Intro.html" class="next">&#8250;</a>
+                            </div>
+
+
+
+
+
+                            <ul class=" list-unstyled px-3 overflow-scroll">
+
+
+                                <li class="mb-1">
+                                    <button id="sidebtn"
+                                        class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed"
+                                        data-bs-toggle="collapse" data-bs-target="#MongoDB-collapse"
+                                        aria-expanded="true">
+                                        MongoDB
+                                    </button>
+                                    <div class="collapse show" id="MongoDB-collapse">
+                                        <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                                            <li><a href="../MongoDB/Overview.html" class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />Overview</a>
+                                            </li>
+                                            <li><a href="../MongoDB/MongoDBAtlas.html" class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />MongoDB Atlas Setup</a>
+                                            </li>
+                                            <li><a href="../MongoDB/InstallingLocally.html" class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />Installing Locally (Optional)</a>
+                                            </li>
+                                            <li><a href="../MongoDB/Basics.html" class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />Basics</a>
+                                            </li>
+                                            <li><a href="../MongoDB/QuizI.html" class="docs-link rounded ">
+                                                    <img src="/assets/icons/quiz.png" alt="" class="module-icon" />Quiz
+                                                    I</a>
+                                            </li>
+                                            <li><a href="../MongoDB/Commands.html" class="docs-link rounded ">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />Commands</a>
+                                            </li>
+                                            <li><a href="../MongoDB/Operators.html" class="docs-link rounded active">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />Operators</a>
+                                            </li>
+                                            <li><a href="../MongoDB/QuizII.html" class="docs-link rounded ">
+                                                    <img src="/assets/icons/quiz.png" alt="" class="module-icon" />Quiz
+                                                    II</a>
+                                            </li>
+                                            <li><a href="../MongoDB/UsingMongoDB.html" class="docs-link rounded ">
+                                                    <img src="/assets/icons/practice.png" alt=""
+                                                        class="module-icon" />Using MongoDB</a>
+                                            </li>
+
+
+
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li class="mb-1">
+                                    <button id="sidebtn"
+                                        class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed"
+                                        data-bs-toggle="collapse" data-bs-target="#Mongoose-collapse"
+                                        aria-expanded="false">
+                                        Mongoose
+                                    </button>
+                                    <div class="collapse" id="Mongoose-collapse">
+                                        <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                                            <li><a href="../Mongoose/ExpressMongoose.html" class="docs-link rounded">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />Express + Mongoose</a>
+                                            </li>
+                                            <li><a href="../Mongoose/MongooseCommands.html" class="docs-link rounded">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />Mongoose Commands</a>
+                                            </li>
+                                            <li><a href="../Mongoose/Validations.html" class="docs-link rounded">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />Validations</a>
+                                            </li>
+                                            <li><a href="../Mongoose/QuizI.html" class="docs-link rounded">
+                                                    <img src="/assets/icons/quiz.png" alt="" class="module-icon" />Quiz
+                                                    I</a>
+                                            </li>
+                                            <li><a href="../Mongoose/JokesAPI.html" class="docs-link rounded">
+                                                    <img src="/assets/icons/core.png" alt="" class="module-icon" />Jokes
+                                                    API</a>
+                                            </li>
+                                            <li><a href="../Mongoose/Nested Documents.html" class="docs-link rounded">
+                                                    <img src="/assets/icons/module.png" alt=""
+                                                        class="module-icon" />Nested Documents</a>
+                                            </li>
+
+
+
+                                        </ul>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+
+                    </main>
+
+                </div>
+                <div class="docs-content col-lg-11 col-xl-9 " id="lesson_content">
+
+                    <main data-bs-spy="scroll" data-bs-target="#TableOfContents" data-bs-offset="0" tabindex="0">
+
+                        <div id="lesson_content">
+                            <h1>Operators</h1>
+                            <hr>
+                            <h3>Objectives</h3>
+                            <ul>
+                                <li>Introduce using operators to modify updates and queries</li>
+                            </ul>
+                            <h2>Update Operators</h2>
+                            <p>Update Operators are tools to modify update queries to do specific different types of
+                                updates. MongoDB needs to be told explicitly that we're trying to modify an array, for
+                                example, otherwise we run the risk of overwititng data and losing information!</p>
+                            <p>Generally, the need for Update Operators is tied very closely to what it is you want to
+                                update. Updating fields in an object is pretty straight forward, but pushing and popping
+                                from an array can be a little bit more tricky. Ask yourself what the operation your
+                                trying to complete is, then it will be easy to find the Update Operator that applies to
+                                your situation!</p>
+                            <p>Below are some common update operators and their functions, and you can find a more
+                                exhaustive list <a href="https://www.mongodb.com/docs/manual/reference/operator/update/"
+                                    target="_blank">here</a>.</p>
+                            <h3><code>$currentDate</code></h3>
+                            <p><code>$currentDate</code> sets the value of a field to current date as a Timestamp.</p>
+                            <pre>db.ninjas.updateOne({_id: 1}, {$currentDate: {createdAt: true}})</pre>
+                            <h3><code>$inc</code></h3>
+                            <p><code>$inc</code> increments the value of the field by the specified amount.</p>
+                            <pre>db.ninjas.updateOne({_id: 1}, {$inc: {likes: 1})</pre>
+                            <h3><code>$set</code></h3>
+                            <p><code>$set</code> sets the value of a field in a document. Adds the field if it does not
+                                already exist.</p>
+                            <pre>db.ninjas.updateOne({_id: 1}, {$set: {favorite_color: "orange"})</pre>
+                            <h3><code>$push</code></h3>
+                            <p><code>$push</code> adds an item to an array.</p>
+                            <pre>db.ninjas.updateOne({_id: 1}, {$push: {fruit: "apples"}})</pre>
+                            <h3><code>$pull</code></h3>
+                            <p><code>$pull</code> removes all array elements that match a specified query.</p>
+                            <pre>db.ninjas.updateOne({_id: 1}, {$pull: {animals: "elephants"})</pre>
+                            <h3><code>$addToSet</code></h3>
+                            <p><code>$addToSet</code> adds elements to an array only if they do not already exist in the
+                                set.</p>
+                            <pre>db.ninjas.updateOne({_id: 1}, {$addToSet: {weekdays: "Sunday"})</pre>
+                            <h2>Query and Projection Operators</h2>
+                            <p>Using Query Operators, we can modify our database queries to capture more specific sets
+                                of data. Just as Update Operators, we are telling MongoDB that we want to modify what it
+                                is w are querying for. So far for many of our examples, you should notice we are
+                                querying by <code>_id</code>. In most cases, this is the best way to single out specific
+                                documents in your database.</p>
+                            <p>However, there are still situations where we might want multiple documents, or situations
+                                where we don't have access to any ids we could use to query. These queries could be
+                                slower and more computationally taxing for MongoDB to use, so in a large data set it
+                                might be better to find alternative solutions!</p>
+                            <h3><code>$gt</code></h3>
+                            <p><code>$gt</code>, or <strong>g</strong>reater <strong>t</strong>han, is used for finding
+                                documents where the value of a field is greater than a passed value.</p>
+                            <pre>db.ninjas.find({likes: {$gt: 10}})</pre>
+                            <h3><code>$not</code></h3>
+                            <p><code>$not</code> inverts a query expression and returns documents that do not match.</p>
+                            <pre>db.ninjas.find({name: {$not: "Steve"}})</pre>
+                            <p>We can also combine <code>$not</code> with other operators.</p>
+                            <h3><code>$exists</code></h3>
+                            <p><code>$exists</code> finds all documents that include a specific field.</p>
+                            <pre>db.ninjas.find({admin: {$exists: true}})</pre>
+                            <p>Many of these can be combined with other operators to create even more specific queries!
+                                You can find more update operators <a
+                                    href="https://www.mongodb.com/docs/manual/reference/operator/query/"
+                                    target="_blank">here</a>.</p>
+                        </div>
+                        <br><br><br>
+
+
+
+                        <div class="d-flex justify-content-between " id="navigation">
+                            <a href="../MongoDB/Commands.html" class="previous_page">&laquo;
+                                Previous</a>
+                            <a href="../MongoDB/QuizII.html" class="next_page ">Next &raquo;</a>
+
+                        </div>
+
+
+
+
+
+
+
+
+
+
+
+                    </main>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <!-- Include jQuery and Bootstrap JS (CDN) -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script src="/assets/js/color-modes.js"></script>
+    <script src="/assets/js/search.js"></script>
+    <script src="/assets/js/main.js"></script>
+
+
+    <!-- <script src="https://cdn.jsdelivr.net/npm/prismjs@1.28.0/prism.min.js"></script>
+  <script>
+    Prism.highlightAll();
+  </script> -->
+
+
+
+    <script>
+        // Initialize Prism.js
+        Prism.highlightAll();
+    </script>
+
+</body>
+
+</html>

@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="icon" type="image/png" href="../../../../assets/icons/circle-logo.png">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="/assets/styles/styles.css">
+  <link rel="stylesheet" href="/assets/styles/styles2.css">
+
+  <!-- Bootstrap CSS -->
+  <!-- <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet"> -->
+
+  <title>Document</title>
+</head>
+
+<body>
+  <div class="sticky-top">
+    <header class="navbar navbar-expand-lg g-nav">
+      <div class="container-lg"><a class="navbar-brand me-auto me-lg-3" href="#"> <img src="/assets/icons/logo.png"
+            alt="logo" style="width: 70px; height: 50px;">
+        </a>
+
+        <button class="btn btn-link nav-link mx-2 order-3 d-lg-none" type="button" data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvasNavMain" aria-controls="offcanvasNavMain"
+          aria-label="Open main navigation menu"><svg xmlns="http://www.w3.org/2000/svg"
+            class="icon icon-tabler icon-tabler-menu" width="24" height="24" viewBox="0 0 24 24" stroke-width="2"
+            stroke="currentcolor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+            <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+            <line x1="4" y1="8" x2="20" y2="8"></line>
+            <line x1="4" y1="16" x2="20" y2="16"></line>
+          </svg></button>
+        <div class="offcanvas offcanvas-end h-auto" tabindex="-1" id="offcanvasNavMain"
+          aria-labelledby="offcanvasNavMainLabel">
+          <div class="offcanvas-header">
+            <img src="/assets/icons/logo.png" alt="logo" style="width: 70px; height: 50px;">
+            <button type="button" class="btn btn-link nav-link p-0" data-bs-dismiss="offcanvas" aria-label="Close"><svg
+                xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-x" width="24" height="24"
+                viewBox="0 0 24 24" stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round"
+                stroke-linejoin="round">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                <path d="M18 6 6 18"></path>
+                <path d="M6 6l12 12"></path>
+              </svg></button>
+          </div>
+          <div class="offcanvas-body d-flex flex-column flex-lg-row justify-content-between">
+            <!-- <ul class="navbar-nav flex-grow-1">
+                <li class="nav-item"><a class="nav-link active" href="index.html" aria-current="true">Docs</a></li>
+                <li class="nav-item"><a class="nav-link" href="/blog/">Blog</a></li>
+              </ul> -->
+
+            <!-- this section is for the search bar and results -->
+            <form class="navbar-form my-auto flex-grow-1 ">
+              <input id="searchInput" class="form-control is-search ms-auto me-5" type="search" placeholder="Search ."
+                aria-label="Search docs." autocomplete="off">
+              <div id="suggestions" class="shadow rounded position-absolute d-none">
+                <ul id="searchResults" class="list-unstyled m-auto"></ul>
+              </div>
+            </form>
+
+
+            <button id="buttonColorMode" class="btn btn-link mx-auto nav-link p-0 ms-lg-2 me-lg-1" type="button"
+              aria-label="Toggle theme"><svg data-bs-theme-value="dark" xmlns="http://www.w3.org/2000/svg"
+                class="icon icon-tabler icon-tabler-moon" width="24" height="24" viewBox="0 0 24 24" stroke-width="2"
+                stroke="currentcolor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                <path d="M12 3c.132.0.263.0.393.0a7.5 7.5.0 007.92 12.446A9 9 0 1112 2.992z"></path>
+              </svg><svg data-bs-theme-value="light" xmlns="http://www.w3.org/2000/svg"
+                class="icon icon-tabler icon-tabler-sun" width="24" height="24" viewBox="0 0 24 24" stroke-width="2"
+                stroke="currentcolor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                <path
+                  d="M12 12m-4 0a4 4 0 108 0 4 4 0 10-8 0m-5 0h1m8-9v1m8 8h1m-9 8v1M5.6 5.6l.7.7m12.1-.7-.7.7m0 11.4.7.7m-12.1-.7-.7.7">
+                </path>
+              </svg></button>
+            <ul id="socialMenu" class="nav mx-auto flex-row order-lg-4">
+
+
+              <li class="nav-item"><a class="nav-link social-link" href="https://github.com/DigitalAcademyTn"><svg
+                    xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-github" width="24"
+                    height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentcolor" fill="none"
+                    stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                    <path
+                      d="M9 19c-4.3 1.4-4.3-2.5-6-3m12 5v-3.5c0-1 .1-1.4-.5-2 2.8-.3 5.5-1.4 5.5-6a4.6 4.6.0 00-1.3-3.2 4.2 4.2.0 00-.1-3.2s-1.1-.3-3.5 1.3a12.3 12.3.0 00-6.2.0C6.5 2.8 5.4 3.1 5.4 3.1a4.2 4.2.0 00-.1 3.2A4.6 4.6.0 004 9.5c0 4.6 2.7 5.7 5.5 6-.6.6-.6 1.2-.5 2V21">
+                    </path>
+                  </svg><small class="ms-2 visually-hidden">GitHub</small></a></li>
+              <a id="upgrade" href="../upgrade.html">UPGRADE</a>
+
+
+            </ul>
+
+          </div>
+        </div>
+      </div>
+    </header>
+  </div>
+
+</head>
+
+<body>
+
+
+
+    <div id="exam_description_container" class="container">
+
+        <h1>Pirate Crew Exam</h1>
+        <br>
+        <p>Create a pirate management app where users can create, read, update, and delete pirates.
+        </p>
+        <p><br></p>
+        <figure> <img src="../../assets/img/exams/PirateCrew.png" alt="Wireframe" width="90%"></figure>
+        <h2></h2>
+        <p></p>
+        <h2></h2>
+        <h2>For a red belt:</h2>
+        <ul>
+            <li>Dashboard: Display all pirates</li>
+            <li>Users can create new pirates</li>
+            <li>Users can remove pirates</li>
+            <li>validations:</li>
+            <ul>
+                <li>All fields are required</li>
+                <li>Display  errors</li>
+            </ul>
+        </ul>            
+        <h2>For a black belt:</h2>
+        <ul>
+            <li>Login and Registration - the user must login or register to use the rest of the app</li>
+            <li>Only one pirate is permitted to be captain (at a time)</li>
+            <li>Buttons that allow for editing: eye-patch, peg-leg, and hook-hand</li>
+            <li>Use front-end validations in addition to the back-end validations</li>
+            <li>Pirates on the dashboard should be sorted by name alphabetically</li>
+        </ul>
+        
+        <p><br></p>
+        <h2>General Guidelines</h2>
+        <ul>
+            <li>Do everything the prompts ask for. Ask your instructor if you are not sure.</li>
+            <li>Download the wireframe here:&nbsp;<a href="../../assets/img/exams/PirateCrew.png" target="_blank">
+              PirateCrew</a></li>
+        </ul>
+        <p><br></p>
+
+        <p>Best of luck with your exam!</p>
+    </div>
+
+
+
+
+</body>
+
+
+
+<script src="/assets/js/color-modes.js"></script>
+
+
+</html>
